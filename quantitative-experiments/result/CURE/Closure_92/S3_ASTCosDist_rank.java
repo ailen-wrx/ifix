@@ -1,0 +1,66 @@
+1.1102230246251565e-16: int indexOfDot = namespace.lastIndexOf( '.') ;
+0.002844955978168029: int indexOfDot = namespace.indexOf( namespace , '.') ;
+0.004312223625973277: int indexOfDot = namespace.indexOf( '.'+ namespace.indexOf( '.') ) ;
+0.005808374398079907: int indexOfDot = namespace.lastIndexOf( '.') ; ;
+0.007843258350778592: int indexOfDot = namespace.indexOf( Node.IS_NAMESPACE , '.') ;
+0.009319867815919536: int indexOfDot = namespace.indexOf( namespace.indexOf( '.') ) ;
+0.009319867815919536: int indexOfDot = namespace.indexOf( Integer.toString( '.') ) ;
+0.013936397299125214: int indexOfDot = namespace.indexOf( '.', '.') ;
+0.013936397299125214: int indexOfDot = namespace.lastIndexOf( '.', '.') ;
+0.014549115694672987: int indexOfDot = namespace.toString( ).lastIndexOf( '.') ;
+0.014549115694672987: int indexOfDot = namespace.trim( ).lastIndexOf( '.') ;
+0.014861992201124163: int indexOfDot = namespace.indexOf( '.', namespace.length( ) ) ;
+0.01510126906159448: int indexOfDot = this.namespace.indexOf( namespace , '.') ;
+0.016316143991664145: int indexOfDot = namespace.indexOf( '.', namespace.length( ) -1) ;
+0.01739263111896494: final int indexOfDot = namespace.lastIndexOf( '.') ;
+0.018977056824054706: int indexOfDot = this.namespace.lastIndexOf( '.') ;
+0.018977056824054706: int indexOfDot = namespace.indexOf( namespace + '.') ;
+0.018977056824054706: int indexOfDot = namespace.indexOf( '.'+ namespace ) ;
+0.020876170553818185: int index =0; int indexOfDot = namespace.lastIndexOf( '.') ;
+0.024501284285365243: int indexOfDot = namespace.indexOf( namespace.length( ) ) ;
+0.026035795433423825: final int indexOfDot = namespace.indexOf( '.', '.') ;
+0.027694414671753487: int indexOfDot = namespace.indexOf( '.'+ '.') ;
+0.027694414671753487: int indexOfDot = namespace.indexOf( '.'- '.') ;
+0.030336526032225586: int indexOfDot = this.namespace.indexOf( '.', '.') ;
+0.030336526032225586: int indexOfDot = namespace.indexOf( Node.IS_NAMESPACE ) ;
+0.030336526032225586: int indexOfDot = namespace.indexOf( Token.NAME ) ;
+0.030336526032225586: int indexOfDot = namespace.indexOf( Token.VAR ) ;
+0.030336526032225586: int indexOfDot = namespace.indexOf( Integer.MAX_VALUE ) ;
+0.03111315322463759: int indexOfDot = namespace.indexOf( Integer.toString( namespace.length( ) ) ) ;
+0.031177998067461687: int indexOfDot = namespace.indexOf( '.'+1) ;
+0.031177998067461687: int indexOfDot = namespace.indexOf( '.'-1) ;
+0.031177998067461687: int indexOfDot = namespace.indexOf( '.'+2) ;
+0.031177998067461687: int indexOfDot = namespace.indexOf( '.'-2) ;
+0.031335100093077384: int indexOfDot = namespace.indexOf( '.'+ namespace.substring(0,1) ) ;
+0.031335100093077495: int indexOfDot = this.namespace.indexOf( '.'+ '.') ;
+0.031335100093077495: int indexOfDot = this.namespace.indexOf( '.'- '.') ;
+0.03571428571428581: int indexOfDot = namespace.indexOf(1) ;
+0.03571428571428581: int indexOfDot = namespace.indexOf(2) ;
+0.03571428571428581: int indexOfDot = namespace.indexOf(2006) ;
+0.03571428571428581: int indexOfDot = namespace.indexOf(0) ;
+0.036593927513324354: int indexOfDot = namespace.length( ) - namespace.length( ) -1;
+0.03770045819232293: int indexOfDot = this.namespace.indexOf( '.'+1) ;
+0.04035508267539978: int index = namespace.indexOf( '.') ; int indexOfDot = -1;
+0.041685152500090195: final int indexOfDot = namespace.indexOf( '.'+ '.') ;
+0.04529673021753333: int indexOfDot = namespace.indexOf( '.', '.'+ '.') ;
+0.04529673021753333: int indexOfDot = namespace.indexOf( '.'+ '.', '.') ;
+0.04961807337701707: int indexOfDot = namespace.indexOf( -1) ;
+0.04963402379830295: int indexOfDot = namespace.indexOf( namespace +0) ;
+0.04963402379830295: int indexOfDot = this.namespace.indexOf(1) ;
+0.05262703862190021: int indexOfDot = namespace.indexOf( '.'+ '.'+ namespace ) ;
+0.05262703862190021: int indexOfDot = namespace.indexOf( namespace + '.'+ '.') ;
+0.06794535099819998: int indexOfDot = namespace.indexOf( '.'+ -1) ;
+0.07369782776584499: int indexOfDot = namespace.indexOf( '.'+ '.'+1) ;
+0.07369782776584499: int indexOfDot = namespace.indexOf( '.'+ '.'+0) ;
+0.07648580692077978: int indexOfDot = namespace.indexOf(0) ; if( indexOfDot == -1)
+0.07648580692077978: int indexOfDot = namespace.indexOf(1) ; if( indexOfDot == -1)
+0.07648580692077978: int indexOfDot = namespace.indexOf(2) ; if( indexOfDot == -1)
+0.07648580692077978: int indexOfDot = namespace.indexOf(2006) ; if( indexOfDot == -1)
+0.08831538832289643: int indexOfDot = namespace.indexOf( '.'+ '.'+ '.') ;
+0.09850212828958238: final int indexOfDot = namespace.indexOf( '.'+ '.'+ '.') ;
+0.15630416612470932: int indexOfDot = namespace.indexOf( '.'+ '.'+ '.'+ '.') ;
+0.17624552895208623: int indexOfDot =( int ) -1;
+0.26529195025006913: int indexOfDot = -1; if( indexOfDot == -1)
+0.27475933237715777: int indexOfDot =0; indexOfDot = -1;
+0.2818675012824683: int index =0; int indexOfDot = -1;
+0.33184689521893906: int indexOfDot = -1;

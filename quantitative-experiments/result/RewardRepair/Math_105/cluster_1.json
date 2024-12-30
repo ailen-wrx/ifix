@@ -1,0 +1,24 @@
+{
+    "cluster_1": [
+        {
+            "code": "return Math.abs(sumYY - sumXY * sumXY / sumXX);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return Math.abs(sumYY - sumXY * sumXY / sumXX);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return Math.max(0, sumYY - sumXY * sumXY / sumXX);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return Math.abs( sumYY - sumXY * sumXY / sumXX);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return Math.abs(this.sumYY - sumXY * sumXY / sumXX);",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "patch": "if ( upper > str.length() ) { lower = str.length(); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( upper > str.length()) { upper = str.length(); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (upper >= str.length()) { lower = str.length(); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (upper == -1 || lower == lower) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( lower > str.length() ) { lower = str.length(); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (upper > str.length()) { lower = str.length(); }",
+        "correctness": "plausible"
+    }
+]

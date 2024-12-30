@@ -1,0 +1,42 @@
+[
+    {
+        "patch": "} else if (offsetLocal >= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; } else if (offsetLocal >= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final double offsetPrev = 0; } else if (offsetLocal >= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; } else if (offsetLocal > -1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "} else if (offsetLocal > -1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "} else if (offsetLocal!= -1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; } else if (offsetLocal > -1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; } else if (offsetLocal!= -1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "} else if (offsetLocal > -1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "} else if ( offsetLocal >= 0) {",
+        "correctness": "plausible"
+    }
+]

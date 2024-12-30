@@ -1,0 +1,30 @@
+{
+    "cluster_1": {
+        "code": "if( dataset == null ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_6": {
+        "code": "if(( index == -1) ||( index == -1) ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_2": {
+        "code": "if( ! dataset.equals( this.plot.getDataset( index ) ) ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_3": {
+        "code": "if(( index <0) ||( index <0) ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_4": {
+        "code": "if( dataset == null && SortOrder.ASCENDING.equals( SortOrder.ASCENDING ) ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_7": {
+        "code": "if( dataset == null ) { result.add( null ) ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_5": {
+        "code": "if( SortOrder.ASCENDING != SortOrder.ASCENDING ) {",
+        "test_case": "0/1/0"
+    }
+}

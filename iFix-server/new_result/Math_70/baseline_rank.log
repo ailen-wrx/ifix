@@ -1,0 +1,12 @@
+return solve( f , min , max ) ;
+return solve( f , initial , max ) ;
+return solve( f ,1, max ) ;
+return solve( f ,2, max ) ;
+return this.solve( f , min , max ) ;
+return solve( f , min , max + max ) ;
+return solve( f , min , max + initial ) ;
+return solve( f , min ,6) ;
+return( solve( f , min , max ) ) ;
+return solve( f , initial ,6) ;
+return solve( f ,( double ) min , max ) ;
+return( double ) solve( f , min , max ) ;

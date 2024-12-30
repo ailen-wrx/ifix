@@ -1,0 +1,38 @@
+[
+    {
+        "code": "return getPct((Comparable<?>)v);"
+    },
+    {
+        "code": "return getPct((Comparable)v);"
+    },
+    {
+        "code": "return this.getPct((Comparable<?>)v);"
+    },
+    {
+        "code": "return getPct((Comparable<?>)v.hashCode());"
+    },
+    {
+        "code": "return getPct((Comparable)v.hashCode());"
+    },
+    {
+        "code": "return getPct((Comparable<MathRuntimeException>)v);"
+    },
+    {
+        "code": "return getPct((Comparable<StatUtils>)v);"
+    },
+    {
+        "code": "return getPct((Comparable<Iterator>)v);"
+    },
+    {
+        "code": "return getPct((Comparable<Frequency>)v);"
+    },
+    {
+        "code": "return getPct((Comparable<Comparator>)v);"
+    },
+    {
+        "code": "return getPct((Comparable<TreeMap>)v);"
+    },
+    {
+        "code": "return getPct((Comparable<NaturalComparator>)v);"
+    }
+]

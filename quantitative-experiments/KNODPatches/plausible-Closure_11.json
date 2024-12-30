@@ -1,0 +1,500 @@
+[
+    {
+        "code": "false"
+    },
+    {
+        "code": "n.getJSType() != null && parent.isEmpty()"
+    },
+    {
+        "code": "n.getJSType() != null && parent.isFunction()"
+    },
+    {
+        "code": "n.getJSType() != null && parent.isVar()"
+    },
+    {
+        "code": "n.getJSType() != null && parent.isString()"
+    },
+    {
+        "code": "n.getJSType() != null && parent.isBlock()"
+    },
+    {
+        "code": "n.isEmpty() && parent.isAssign()"
+    },
+    {
+        "code": "n.isName() && parent.isAssign()"
+    },
+    {
+        "code": "n.isFunction() && parent.isAssign()"
+    },
+    {
+        "code": "n.isVar() && parent.isAssign()"
+    },
+    {
+        "code": "n.isCall() && parent.isAssign()"
+    },
+    {
+        "code": "n.isString() && parent.isAssign()"
+    },
+    {
+        "code": "n.isExprResult() && parent.isAssign()"
+    },
+    {
+        "code": "n.isBlock() && parent.isAssign()"
+    },
+    {
+        "code": "n.getJSType() != null && n.isAssign()"
+    },
+    {
+        "code": "n.getNext() != null && parent.isAssign()"
+    },
+    {
+        "code": "n.isEmpty() && parent.isEmpty()"
+    },
+    {
+        "code": "n.isName() && parent.isName()"
+    },
+    {
+        "code": "n.isFunction() && parent.isFunction()"
+    },
+    {
+        "code": "n.isVar() && parent.isVar()"
+    },
+    {
+        "code": "n.isCall() && parent.isCall()"
+    },
+    {
+        "code": "n.isString() && parent.isString()"
+    },
+    {
+        "code": "n.isExprResult() && parent.isExprResult()"
+    },
+    {
+        "code": "n.isBlock() && parent.isBlock()"
+    },
+    {
+        "code": "n.getFirstChild() != null && parent.isEmpty()"
+    },
+    {
+        "code": "n.getFirstChild() != null && parent.isFunction()"
+    },
+    {
+        "code": "n.getFirstChild() != null && parent.isVar()"
+    },
+    {
+        "code": "n.getFirstChild() != null && parent.isString()"
+    },
+    {
+        "code": "n.getFirstChild() != null && parent.isBlock()"
+    },
+    {
+        "code": "n.getJSType() != null && inExterns"
+    },
+    {
+        "code": "n.getJSType() != null && n.isEmpty()"
+    },
+    {
+        "code": "n.getJSType() != null && n.isName()"
+    },
+    {
+        "code": "n.getJSType() != null && n.isFunction()"
+    },
+    {
+        "code": "n.getJSType() != null && n.isVar()"
+    },
+    {
+        "code": "n.getJSType() != null && n.isCall()"
+    },
+    {
+        "code": "n.getJSType() != null && n.isString()"
+    },
+    {
+        "code": "n.getJSType() != null && n.isExprResult()"
+    },
+    {
+        "code": "n.getJSType() != null && n.isBlock()"
+    },
+    {
+        "code": "n.getJSType() == null"
+    },
+    {
+        "code": "n.getJSType() != null && objNode.isAssign()"
+    },
+    {
+        "code": "n.isEmpty() && !parent.isAssign()"
+    },
+    {
+        "code": "n.isName() && !parent.isAssign()"
+    },
+    {
+        "code": "n.isFunction() && !parent.isAssign()"
+    },
+    {
+        "code": "n.isVar() && !parent.isAssign()"
+    },
+    {
+        "code": "n.isCall() && !parent.isAssign()"
+    },
+    {
+        "code": "n.isString() && !parent.isAssign()"
+    },
+    {
+        "code": "n.isExprResult() && !parent.isAssign()"
+    },
+    {
+        "code": "n.isBlock() && !parent.isAssign()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isAssign()"
+    },
+    {
+        "code": "compiler == null && parent.isAssign()"
+    },
+    {
+        "code": "typeRegistry == null && parent.isAssign()"
+    },
+    {
+        "code": "validator == null && parent.isAssign()"
+    },
+    {
+        "code": "topScope == null && parent.isAssign()"
+    },
+    {
+        "code": "scopeCreator == null && parent.isAssign()"
+    },
+    {
+        "code": "reverseInterpreter == null && parent.isAssign()"
+    },
+    {
+        "code": "WRONG_ARGUMENT_COUNT == null && parent.isAssign()"
+    },
+    {
+        "code": "reportMissingOverride == null && parent.isAssign()"
+    },
+    {
+        "code": "reportUnknownTypes == null && parent.isAssign()"
+    },
+    {
+        "code": "n.isEmpty() && !parent.isEmpty()"
+    },
+    {
+        "code": "n.isName() && !parent.isName()"
+    },
+    {
+        "code": "n.isFunction() && !parent.isFunction()"
+    },
+    {
+        "code": "n.isVar() && !parent.isVar()"
+    },
+    {
+        "code": "n.isCall() && !parent.isCall()"
+    },
+    {
+        "code": "n.isString() && !parent.isString()"
+    },
+    {
+        "code": "n.hasChildren() && !parent.hasChildren()"
+    },
+    {
+        "code": "n.isExprResult() && !parent.isExprResult()"
+    },
+    {
+        "code": "n.isBlock() && !parent.isBlock()"
+    },
+    {
+        "code": "n != null && parent.isEmpty()"
+    },
+    {
+        "code": "n != null && parent.isFunction()"
+    },
+    {
+        "code": "n != null && parent.isVar()"
+    },
+    {
+        "code": "n != null && parent.isString()"
+    },
+    {
+        "code": "n != null && parent.isBlock()"
+    },
+    {
+        "code": "n.getJSType() != null && objNode.isEmpty()"
+    },
+    {
+        "code": "n.getJSType() != null && objNode.isFunction()"
+    },
+    {
+        "code": "n.getJSType() != null && objNode.isVar()"
+    },
+    {
+        "code": "n.getJSType() != null && objNode.isString()"
+    },
+    {
+        "code": "n.getJSType() != null && objNode.isExprResult()"
+    },
+    {
+        "code": "n.getJSType() != null && objNode.isBlock()"
+    },
+    {
+        "code": "n != null && n.isAssign()"
+    },
+    {
+        "code": "n.isEmpty() && n.isAssign()"
+    },
+    {
+        "code": "n.isName() && n.isAssign()"
+    },
+    {
+        "code": "n.isFunction() && n.isAssign()"
+    },
+    {
+        "code": "n.isGetProp() && n.isAssign()"
+    },
+    {
+        "code": "n.isVar() && n.isAssign()"
+    },
+    {
+        "code": "n.isCall() && n.isAssign()"
+    },
+    {
+        "code": "n.isString() && n.isAssign()"
+    },
+    {
+        "code": "n.hasChildren() && n.isAssign()"
+    },
+    {
+        "code": "n.isExprResult() && n.isAssign()"
+    },
+    {
+        "code": "n.isBlock() && n.isAssign()"
+    },
+    {
+        "code": "inExterns && parent.isAssign()"
+    },
+    {
+        "code": "compiler != null && parent.isEmpty()"
+    },
+    {
+        "code": "compiler != null && parent.isFunction()"
+    },
+    {
+        "code": "compiler != null && parent.isVar()"
+    },
+    {
+        "code": "compiler != null && parent.isString()"
+    },
+    {
+        "code": "compiler != null && parent.isBlock()"
+    },
+    {
+        "code": "n.isEmpty() && n.isEmpty()"
+    },
+    {
+        "code": "n.isName() && n.isName()"
+    },
+    {
+        "code": "n.isFunction() && n.isFunction()"
+    },
+    {
+        "code": "n.isVar() && n.isVar()"
+    },
+    {
+        "code": "n.isCall() && n.isCall()"
+    },
+    {
+        "code": "n.isString() && n.isString()"
+    },
+    {
+        "code": "n.isExprResult() && n.isExprResult()"
+    },
+    {
+        "code": "n.isBlock() && n.isBlock()"
+    },
+    {
+        "code": "n.getJSType() != null && property.isAssign()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isEmpty()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isName()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isFunction()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isGetProp()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isVar()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isCall()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isString()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.hasChildren()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isExprResult()"
+    },
+    {
+        "code": "n.getJSType() == null && parent.isBlock()"
+    },
+    {
+        "code": "!(n.getJSType() != null)"
+    },
+    {
+        "code": "n.getJSType() != null && childType.isInterface()"
+    },
+    {
+        "code": "compiler != null && n.isAssign()"
+    },
+    {
+        "code": "typeRegistry != null && n.isAssign()"
+    },
+    {
+        "code": "validator != null && n.isAssign()"
+    },
+    {
+        "code": "topScope != null && n.isAssign()"
+    },
+    {
+        "code": "scopeCreator != null && n.isAssign()"
+    },
+    {
+        "code": "reverseInterpreter != null && n.isAssign()"
+    },
+    {
+        "code": "WRONG_ARGUMENT_COUNT != null && n.isAssign()"
+    },
+    {
+        "code": "reportMissingOverride != null && n.isAssign()"
+    },
+    {
+        "code": "reportUnknownTypes != null && n.isAssign()"
+    },
+    {
+        "code": "objNode != null && parent.isEmpty()"
+    },
+    {
+        "code": "objNode != null && parent.isFunction()"
+    },
+    {
+        "code": "objNode != null && parent.isVar()"
+    },
+    {
+        "code": "objNode != null && parent.isString()"
+    },
+    {
+        "code": "objNode != null && parent.isBlock()"
+    },
+    {
+        "code": "this != null && n.isAssign()"
+    },
+    {
+        "code": "n.getFirstChild() != null && n.isEmpty()"
+    },
+    {
+        "code": "n.getFirstChild() != null && n.isName()"
+    },
+    {
+        "code": "n.getFirstChild() != null && n.isFunction()"
+    },
+    {
+        "code": "n.getFirstChild() != null && n.isVar()"
+    },
+    {
+        "code": "n.getFirstChild() != null && n.isCall()"
+    },
+    {
+        "code": "n.getFirstChild() != null && n.isString()"
+    },
+    {
+        "code": "n.getFirstChild() != null && n.isExprResult()"
+    },
+    {
+        "code": "n.getFirstChild() != null && n.isBlock()"
+    },
+    {
+        "code": "n.getFirstChild() != null && n.isAssign()"
+    },
+    {
+        "code": "n.toString() != null && n.isAssign()"
+    },
+    {
+        "code": "n.getNext() != null && n.isAssign()"
+    },
+    {
+        "code": "n.getParent() != null && n.isAssign()"
+    },
+    {
+        "code": "objNode != null && n.isAssign()"
+    },
+    {
+        "code": "n == null && parent.isAssign()"
+    },
+    {
+        "code": "n.getJSType() == null && n.isAssign()"
+    },
+    {
+        "code": "n.isEmpty() && parent.isEquivalentTo(parent)"
+    },
+    {
+        "code": "n.isName() && parent.isEquivalentTo(parent)"
+    },
+    {
+        "code": "n.isFunction() && parent.isEquivalentTo(parent)"
+    },
+    {
+        "code": "n.isEmpty() && parent.isEquivalentToTyped(parent)"
+    },
+    {
+        "code": "n.isEmpty() && parent.hasChild(parent)"
+    },
+    {
+        "code": "n.isName() && parent.isEquivalentToTyped(parent)"
+    },
+    {
+        "code": "n.isName() && parent.hasChild(parent)"
+    },
+    {
+        "code": "n.isVar() && parent.isEquivalentTo(parent)"
+    },
+    {
+        "code": "n.isFunction() && parent.isEquivalentToTyped(parent)"
+    },
+    {
+        "code": "n.getJSType() == null || parent.isEmpty()"
+    },
+    {
+        "code": "n.getJSType() == null || parent.isFunction()"
+    },
+    {
+        "code": "n.getJSType() == null || parent.isVar()"
+    },
+    {
+        "code": "n.getJSType() == null || parent.isString()"
+    },
+    {
+        "code": "n.getJSType() == null || parent.isBlock()"
+    },
+    {
+        "code": "parent != null && parent.isEmpty()"
+    },
+    {
+        "code": "parent != null && parent.isFunction()"
+    },
+    {
+        "code": "parent != null && parent.isVar()"
+    },
+    {
+        "code": "parent != null && parent.isString()"
+    },
+    {
+        "code": "parent != null && parent.isBlock()"
+    },
+    {
+        "code": "parent != null && n.isAssign()"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "code": "pos += Character.charCount(Character.codePointAt(input,pt));"
+    },
+    {
+        "code": "pos += Character.charCount(Character.codePointAt(input,0));"
+    }
+]

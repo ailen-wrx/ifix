@@ -1,0 +1,18 @@
+[
+    {
+        "patch": "if (count == -1) return new String(charBuf);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (count < 0) return new String(charBuf);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (count == -1) return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (count < 0) return null;",
+        "correctness": "plausible"
+    }
+]

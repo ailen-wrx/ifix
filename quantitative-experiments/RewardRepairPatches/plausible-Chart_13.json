@@ -1,0 +1,174 @@
+[
+    {
+        "patch": "new Range(0.0, constraint.getWidth() - w[3]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, constraint.getWidth() - w[4]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, constraint.getHeight() - w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[3] - h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, constraint.getWidth() - w[1]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, constraint.getWidth() + w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[3] - w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[3] - h[3]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, constraint.getWidth() - w[0]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[2] - w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, constraint.getWidth()),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[3] - w[3]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, (h[2] - h[2])),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, (h[2] - w[2])),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[3] - h[4]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0, h[2] - w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[3] + h[3]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[2] - h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[4]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, (short) w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, (int) w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[3]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0, w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0, h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(1.0, constraint.getWidth()),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, (int) h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(1.0, h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, (short) h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, ++w[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, (short)h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, w[4]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, w[3]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, (int)h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, 0),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, w[1]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, h[1]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(2.0, h[2]),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0, 0),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, 2),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, 1),",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "new Range(0.0, 4),",
+        "correctness": "plausible"
+    }
+]

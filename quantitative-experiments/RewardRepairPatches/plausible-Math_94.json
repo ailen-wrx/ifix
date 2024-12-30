@@ -1,0 +1,54 @@
+[
+    {
+        "patch": "if ((u == 0) || (v == 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((v == 0) || (u == 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( (u == 0) || (v == 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (u == 0 || v == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((u == 0)||(v == 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (u == 0 || v == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((u==0) || (v == 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((u==0) || (v == 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((u == 0) ||(v == 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((double) u * v == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (v == 0 || u == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (v == 0 || u == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((double) u * v == 0) {",
+        "correctness": "plausible"
+    }
+]

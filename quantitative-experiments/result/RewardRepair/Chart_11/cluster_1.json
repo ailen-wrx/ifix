@@ -1,0 +1,16 @@
+{
+    "cluster_1": [
+        {
+            "code": "PathIterator iterator2 = p2.getPathIterator(null);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "PathIterator iterator2 = p2.getPathIterator(null);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "PathIterator iterator2 = p2.getPathIterator( null);",
+            "test_case": "0/0"
+        }
+    ]
+}

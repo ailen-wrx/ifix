@@ -1,0 +1,18 @@
+[
+    {
+        "patch": "if (!removeGlobals) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!removeGlobals) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!removeGlobals) return;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!removeGlobals) return;",
+        "correctness": "plausible"
+    }
+]

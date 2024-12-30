@@ -1,0 +1,14 @@
+[
+    {
+        "patch": "return compute(args[0].compute(context), args[1].compute(context))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return compute(args[0].compute(context), args[1].computeValue(context))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return compute(args[0].compute(context), args[1])",
+        "correctness": "plausible"
+    }
+]

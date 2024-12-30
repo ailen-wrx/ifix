@@ -1,0 +1,14 @@
+[
+    {
+        "code": "cfa.createEdge(fromNode,Branch.ON_EX,finallyNode);"
+    },
+    {
+        "code": "cfa.createEdge(fromNode,Branch.UNCOND,node.getFirstChild());"
+    },
+    {
+        "code": "cfa.createEdge(fromNode,Branch.UNCOND,node.getLastChild());"
+    },
+    {
+        "code": "if (mayThrowException(fromNode) ){\nreturn parent;\n}"
+    }
+]

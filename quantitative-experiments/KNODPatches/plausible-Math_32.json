@@ -1,0 +1,467 @@
+[
+    {
+        "code": "tree.getAttribute() instanceof Boolean"
+    },
+    {
+        "code": "tree.getAttribute() == Boolean.TRUE"
+    },
+    {
+        "code": "tree.getAttribute() == Boolean.FALSE"
+    },
+    {
+        "code": "tree.getAttribute() == vertices"
+    },
+    {
+        "code": "tree.getAttribute() == null"
+    },
+    {
+        "code": "Boolean.class.equals(tree.getAttribute())"
+    },
+    {
+        "code": "v.length < 0"
+    },
+    {
+        "code": "tree == null"
+    },
+    {
+        "code": "vertices == null"
+    },
+    {
+        "code": "tree.getAttribute().equals(0)"
+    },
+    {
+        "code": "tree.getAttribute().equals(v.length)"
+    },
+    {
+        "code": "tree.getAttribute().equals(Vector2D.ZERO)"
+    },
+    {
+        "code": "tree.getAttribute().equals(Vector2D.NEGATIVE_INFINITY)"
+    },
+    {
+        "code": "v.length > 0"
+    },
+    {
+        "code": "v.length != 0"
+    },
+    {
+        "code": "tree.getAttribute().equals(Boolean.FALSE)"
+    },
+    {
+        "code": "tree.getAttribute() == Vector2D.ZERO"
+    },
+    {
+        "code": "tree.getAttribute() == Vector2D.NEGATIVE_INFINITY"
+    },
+    {
+        "code": "tree == tree.getAttribute()"
+    },
+    {
+        "code": "tree.getAttribute().equals(Boolean.TRUE)"
+    },
+    {
+        "code": "tree.getAttribute() instanceof Vector2D"
+    },
+    {
+        "code": "tree.getAttribute().equals(vertices.length)"
+    },
+    {
+        "code": "tree.getAttribute() instanceof Euclidean2D"
+    },
+    {
+        "code": "tree.getAttribute() == v"
+    },
+    {
+        "code": "tree.getAttribute().equals(\"\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(\"0\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(\"\\0\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(\"\\\\0\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(\"\\\\000\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(\">;\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(\"th\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(\"null\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(1)"
+    },
+    {
+        "code": "tree.getAttribute() != tree.getAttribute()"
+    },
+    {
+        "code": "v.length == 1"
+    },
+    {
+        "code": "tree.getAttribute() instanceof FastMath"
+    },
+    {
+        "code": "tree.getAttribute() instanceof List"
+    },
+    {
+        "code": "tree.getAttribute() instanceof Line"
+    },
+    {
+        "code": "tree.getAttribute() instanceof ArrayList"
+    },
+    {
+        "code": "tree.getAttribute() instanceof Vector1D"
+    },
+    {
+        "code": "tree.getAttribute() instanceof SubHyperplane"
+    },
+    {
+        "code": "tree.getAttribute() instanceof SubLine"
+    },
+    {
+        "code": "tree.getAttribute() instanceof Euclidean1D"
+    },
+    {
+        "code": "tree.getAttribute() instanceof Collection"
+    },
+    {
+        "code": "tree.getAttribute() instanceof PolygonsSet"
+    },
+    {
+        "code": "Boolean.class.equals(\"\")"
+    },
+    {
+        "code": "Boolean.class.equals(\"0\")"
+    },
+    {
+        "code": "Boolean.class.equals(\"\\0\")"
+    },
+    {
+        "code": "Boolean.class.equals(\"\\\\0\")"
+    },
+    {
+        "code": "Boolean.class.equals(\"\\\\000\")"
+    },
+    {
+        "code": "Boolean.class.equals(\">;\")"
+    },
+    {
+        "code": "Boolean.class.equals(\"th\")"
+    },
+    {
+        "code": "Boolean.class.equals(\"null\")"
+    },
+    {
+        "code": "Vector2D.class.equals(tree.getAttribute())"
+    },
+    {
+        "code": "tree.getAttribute() == vertices.toString()"
+    },
+    {
+        "code": "tree.equals(Vector2D.ZERO)"
+    },
+    {
+        "code": "tree.equals(Vector2D.NEGATIVE_INFINITY)"
+    },
+    {
+        "code": "tree.getAttribute() == Vector2D.POSITIVE_INFINITY"
+    },
+    {
+        "code": "Boolean.class.equals(Boolean.TRUE)"
+    },
+    {
+        "code": "v.length < v.length"
+    },
+    {
+        "code": "tree.getAttribute().equals(tree)"
+    },
+    {
+        "code": "vertices.equals(tree.getAttribute())"
+    },
+    {
+        "code": "Boolean.class.equals(Boolean.FALSE)"
+    },
+    {
+        "code": "v == null"
+    },
+    {
+        "code": "vertices == tree.getAttribute()"
+    },
+    {
+        "code": "Boolean.class.equals(\"\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(\"\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(2)"
+    },
+    {
+        "code": "tree.getAttribute() instanceof BSPTree"
+    },
+    {
+        "code": "tree.getAttribute() == Vector2D.NaN"
+    },
+    {
+        "code": "tree.getAttribute().equals(3)"
+    },
+    {
+        "code": "tree.getAttribute().equals(v)"
+    },
+    {
+        "code": "tree.getAttribute().equals('/')"
+    },
+    {
+        "code": "v.length > 1"
+    },
+    {
+        "code": "tree.getAttribute().equals(null)"
+    },
+    {
+        "code": "Boolean.class.getName().isEmpty()"
+    },
+    {
+        "code": "buildNew(tree) == null"
+    },
+    {
+        "code": "Boolean.class.equals(v)"
+    },
+    {
+        "code": "tree.getAttribute() instanceof Integer"
+    },
+    {
+        "code": "!(tree.getAttribute() != null)"
+    },
+    {
+        "code": "tree.getAttribute().equals(getVertices())"
+    },
+    {
+        "code": "tree.getAttribute().equals(false)"
+    },
+    {
+        "code": "tree.equals(tree.getAttribute())"
+    },
+    {
+        "code": "tree.getAttribute().equals('.')"
+    },
+    {
+        "code": "tree.getAttribute().equals('\\0')"
+    },
+    {
+        "code": "Boolean.class.equals(false)"
+    },
+    {
+        "code": "null == tree.getAttribute()"
+    },
+    {
+        "code": "v == tree.getAttribute()"
+    },
+    {
+        "code": "Integer.class.equals(tree)"
+    },
+    {
+        "code": "getVertices() == null"
+    },
+    {
+        "code": "tree.getAttribute().equals('.')"
+    },
+    {
+        "code": "tree.getAttribute() instanceof String"
+    },
+    {
+        "code": "tree.equals(\"\")"
+    },
+    {
+        "code": "tree.equals(\"0\")"
+    },
+    {
+        "code": "tree.equals(\"\\0\")"
+    },
+    {
+        "code": "tree.equals(\"\\\\0\")"
+    },
+    {
+        "code": "tree.equals(\"\\\\000\")"
+    },
+    {
+        "code": "tree.equals(\">;\")"
+    },
+    {
+        "code": "tree.equals(\"th\")"
+    },
+    {
+        "code": "tree.equals(\"null\")"
+    },
+    {
+        "code": "tree.getAttribute().equals(\"/\")"
+    },
+    {
+        "code": "tree.getAttribute().equals('-')"
+    },
+    {
+        "code": "v.length == tree.getAttribute()"
+    },
+    {
+        "code": "tree.getAttribute().equals(':')"
+    },
+    {
+        "code": "Vector2D.class.equals(tree)"
+    },
+    {
+        "code": "tree.getAttribute() == this"
+    },
+    {
+        "code": "Boolean.class.equals(null)"
+    },
+    {
+        "code": "tree.getAttribute().equals(4)"
+    },
+    {
+        "code": "Boolean.class.equals(0)"
+    },
+    {
+        "code": "v == vertices"
+    },
+    {
+        "code": "tree instanceof List"
+    },
+    {
+        "code": "tree instanceof SubHyperplane"
+    },
+    {
+        "code": "tree instanceof Collection"
+    },
+    {
+        "code": "Boolean.valueOf(Boolean.FALSE)"
+    },
+    {
+        "code": "vertices.equals(Vector2D.ZERO)"
+    },
+    {
+        "code": "vertices.equals(Vector2D.NEGATIVE_INFINITY)"
+    },
+    {
+        "code": "tree.getAttribute() instanceof Number"
+    },
+    {
+        "code": "null instanceof Boolean"
+    },
+    {
+        "code": "tree.getAttribute() instanceof Long"
+    },
+    {
+        "code": "tree.equals(v)"
+    },
+    {
+        "code": "vertices.length == 1"
+    },
+    {
+        "code": "tree.getAttribute() == \"\""
+    },
+    {
+        "code": "tree.getAttribute() == \"0\""
+    },
+    {
+        "code": "tree.getAttribute() == \"\\0\""
+    },
+    {
+        "code": "tree.getAttribute() == \"\\\\0\""
+    },
+    {
+        "code": "tree.getAttribute() == \"\\\\000\""
+    },
+    {
+        "code": "tree.getAttribute() == \">;\""
+    },
+    {
+        "code": "tree.getAttribute() == \"th\""
+    },
+    {
+        "code": "tree.getAttribute() == \"null\""
+    },
+    {
+        "code": "null == tree"
+    },
+    {
+        "code": "(Boolean)Boolean.FALSE"
+    },
+    {
+        "code": "tree.equals(Double.POSITIVE_INFINITY)"
+    },
+    {
+        "code": "vertices != vertices"
+    },
+    {
+        "code": "tree.equals(Double.NaN)"
+    },
+    {
+        "code": "tree.equals(Boolean.TRUE)"
+    },
+    {
+        "code": "tree.equals(0)"
+    },
+    {
+        "code": "vertices.equals(\"\")"
+    },
+    {
+        "code": "vertices.equals(\"0\")"
+    },
+    {
+        "code": "vertices.equals(\"\\0\")"
+    },
+    {
+        "code": "vertices.equals(\"\\\\0\")"
+    },
+    {
+        "code": "vertices.equals(\"\\\\000\")"
+    },
+    {
+        "code": "vertices.equals(\">;\")"
+    },
+    {
+        "code": "vertices.equals(\"th\")"
+    },
+    {
+        "code": "vertices.equals(\"null\")"
+    },
+    {
+        "code": "tree.equals(1)"
+    },
+    {
+        "code": "tree.equals(\"\")"
+    },
+    {
+        "code": "tree.equals('/')"
+    },
+    {
+        "code": "vertices.equals(tree.getAttribute())"
+    },
+    {
+        "code": "vertices.length != 0"
+    },
+    {
+        "code": "tree.equals(null)"
+    },
+    {
+        "code": "!tree.equals(tree)"
+    },
+    {
+        "code": "tree.equals('.')"
+    },
+    {
+        "code": "tree.equals('\\0')"
+    },
+    {
+        "code": "vertices.equals(tree)"
+    },
+    {
+        "code": "tree.getAttribute().equals(this)"
+    }
+]

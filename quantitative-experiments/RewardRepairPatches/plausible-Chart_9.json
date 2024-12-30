@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "if (endIndex < startIndex) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (endIndex < startIndex) {",
+        "correctness": "plausible"
+    }
+]

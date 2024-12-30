@@ -1,0 +1,90 @@
+[
+    {
+        "patch": "for (int i = begin; i < begin + length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; ++i) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; for (int i = begin; i < begin + length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin+length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; (i < begin + length); i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "var = 1.0; for (int i = begin; i < begin + length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; i++ ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for ( int i = begin; i < begin + length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin ; i < begin + length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; i++) { var = 1.0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "/* */ for (int i = begin; i < begin + length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; i++) { var = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length ; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; i++) { var = dev;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; i ++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; ++i) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; i+=1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for(int i = begin; i < begin + length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i= begin; i < begin + length; i++) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for (int i = begin; i < begin + length; i++) { var = 0.0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "for ( int i = begin; i < begin + length; i++ ) {",
+        "correctness": "plausible"
+    }
+]

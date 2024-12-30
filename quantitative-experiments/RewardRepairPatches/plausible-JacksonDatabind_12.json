@@ -1,0 +1,62 @@
+[
+    {
+        "patch": "boolean isCachable = _valueTypeDeserializer!= null; return isCachable",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object result = _valueTypeDeserializer == null; return (result == null)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean result = false; return (_valueTypeDeserializer!= null)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean result = false; return!(_valueTypeDeserializer == null)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_valueTypeDeserializer == null) { return false; } return true",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object value = _valueTypeDeserializer == null; return (value == null)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (_valueTypeDeserializer!= null)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object result = _valueTypeDeserializer == null; return result == null",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_valueTypeDeserializer == null) return false; return true",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object value = _valueTypeDeserializer == null; return value == null",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_valueTypeDeserializer == null) return false; else return true",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return!(_valueTypeDeserializer == null)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isCachable = false; return (isCachable)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isCachable = false; return isCachable",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; return (_valueTypeDeserializer!= null)",
+        "correctness": "plausible"
+    }
+]

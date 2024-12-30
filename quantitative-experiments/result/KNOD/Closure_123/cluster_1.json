@@ -1,0 +1,20 @@
+{
+    "cluster_1": [
+        {
+            "code": "Context rhsContext = getContextForNoInOperator(context);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "final Context rhsContext = Context.IN_FOR_INIT_CLAUSE;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Context rhsContext = context.IN_FOR_INIT_CLAUSE;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Context rhsContext = Context.IN_FOR_INIT_CLAUSE;",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "cluster_1": [
+        {
+            "code": "return (double) (getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize()));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "double sampleSize = getSampleSize(); return (sampleSize * getNumberOfSuccesses()) / (double) getPopulationSize();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Double sampleSize = (double) getSampleSize() * getNumberOfSuccesses(); return sampleSize / (double) getPopulationSize();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (double) getSampleSize() * getNumberOfSuccesses() / (double) getPopulationSize();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (double) getSampleSize() * getNumberOfSuccesses() / getPopulationSize();",
+            "test_case": "0/0"
+        }
+    ]
+}

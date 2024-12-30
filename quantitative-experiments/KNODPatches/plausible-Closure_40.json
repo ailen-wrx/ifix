@@ -1,0 +1,17 @@
+[
+    {
+        "code": "JsName name = getName(ns.name,true);"
+    },
+    {
+        "code": "JsName name = getName(ns.name,removeUnreferenced);"
+    },
+    {
+        "code": "JsName name = getName(ns.name,true);"
+    },
+    {
+        "code": "JsName name = getName(ns.name,ns.onlyAffectsClassDef);"
+    },
+    {
+        "code": "JsName name = getName(ns.name,removeUnreferenced);"
+    }
+]

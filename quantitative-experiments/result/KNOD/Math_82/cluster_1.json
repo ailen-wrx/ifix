@@ -1,0 +1,88 @@
+{
+    "cluster_2": [
+        {
+            "code": "MathUtils.compareTo(entry,0,epsilon) > 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,0,0) >= 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,epsilon,DEFAULT_EPSILON) >= 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,0,epsilon) >= DEFAULT_EPSILON",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,0,0) > 0",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "if (entry < 0 ){\ncontinue  ;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,epsilon,epsilon) >= 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (entry <= 0 ){\ncontinue  ;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,epsilon,epsilon) > 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,epsilon,0) >= 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,DEFAULT_EPSILON,epsilon) >= 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (entry < 0 )continue  ;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,0,epsilon) >= 1",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,epsilon,0) > 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,epsilon,epsilon) >= DEFAULT_EPSILON",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,0,epsilon) >= epsilon",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,0,(int)epsilon) >= 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (entry == 0 ){\nreturn minRatioPos;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "MathUtils.compareTo(entry,DEFAULT_EPSILON,DEFAULT_EPSILON) >= 0",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "MathUtils.compareTo(entry,0,entry) == 0",
+            "test_case": "0/0"
+        }
+    ]
+}

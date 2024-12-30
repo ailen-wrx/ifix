@@ -1,0 +1,282 @@
+[
+    {
+        "patch": "// n.getJSType()!= null && parent.isAssign()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// (n.getJSType()!= null && parent.isAssign())) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// (n.getJSType()!= null) && parent.isAssign()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// if (n.getJSType() == null && parent.isAssign()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "assert(n.getJSType()!= null && parent.isAssign());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (n.getJSType()!= null && parent.isAssign())",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// && parent!= null && parent.isAssign()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// if (n.getJSType()!= null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// if (n!= null && parent.isAssign()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (n.getJSType() == null) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType parentType = getJSType(objNode);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "objNode = n.getFirstChild();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType parentType = getJSType(n.getFirstChild());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (childType == null) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// && parent.isAssign()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (n.getJSType()!= null) return;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType JSType = getJSType(objNode);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType parentType = n.getJSType();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (objNode == null) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (n.getJSType()!= null) { }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType type = getJSType(objNode);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType JSType = n.getJSType();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (n == null) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent = objNode.getFirstChild();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Node parentNode = n.getFirstChild();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Node node = n.getFirstChild();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType type = n.getJSType();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType JSType = parent.getJSType();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "objNode = objNode;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (parent.isAssign()) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (parent == null) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType parentType = parent.getJSType();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent.isAssign();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType jType = n.getJSType();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!parent.isAssign()) return;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType j = n.getJSType();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType parentType = getJSType(n);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType type = parent.getJSType();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "n.setJSType(n.getJSType());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent = n.getFirstChild();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "try { } catch (Exception e) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// n.getJSType()!= null",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType JSType = getJSType(n);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (n!= null) { }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent = parent.getFirstChild();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (childType == null) return;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType type = property.getJSType();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "//$NON-NLS-1$",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent = objNode;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType type = getJSType(n);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isAssign = false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "IllegalStateException e = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// && parent.isAssign()",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "ensureTyped(t, n);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "objNode = n;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "objNode = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent = parent.getParent();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent.isAssign();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "/* FIXME*/",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "JSType parentType = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "/* FIXME */",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "n = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "// FIXME",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent = n;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "n = n;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "t = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent = parent;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "n = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "n = n;",
+        "correctness": "plausible"
+    }
+]

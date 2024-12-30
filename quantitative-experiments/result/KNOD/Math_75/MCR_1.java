@@ -1,0 +1,12 @@
+cluster_1: return getPct((Comparable<?>)v);
+cluster_1: return getPct((Comparable<MathRuntimeException>)v);
+cluster_1: return getPct((Comparable<StatUtils>)v);
+cluster_1: return getPct((Comparable<Iterator>)v);
+cluster_1: return getPct((Comparable<Frequency>)v);
+cluster_1: return getPct((Comparable<Comparator>)v);
+cluster_1: return getPct((Comparable<TreeMap>)v);
+cluster_1: return getPct((Comparable<NaturalComparator>)v);
+cluster_1: return this.getPct((Comparable<?>)v);
+cluster_1: return getPct((Comparable)v);
+cluster_1: return getPct((Comparable<?>)v.hashCode());
+cluster_1: return getPct((Comparable)v.hashCode());

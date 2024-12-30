@@ -1,0 +1,136 @@
+{
+    "cluster_1": [
+        {
+            "code": "if (x < 1 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 1 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < Integer.MAX_VALUE && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x == x && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x!= '-' && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 2 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x == x && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x!= -1 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < (10) && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 10 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < + 1 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 2 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 1.0 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < (10) && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 3 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 0.01 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < prev && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < (1) && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 100 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 10 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 1000 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 0.5 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 4 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 5 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < + 1 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 1.0 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 3 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 1000 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 4 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 100 && prev == '-') {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (x < 5 && prev == '-') {",
+            "test_case": "0/0"
+        }
+    ]
+}

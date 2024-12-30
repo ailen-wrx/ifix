@@ -1,0 +1,16 @@
+{
+    "cluster_1": [
+        {
+            "code": "actualTypeArgument != typeParameter",
+            "test_case": "0/0"
+        },
+        {
+            "code": "typeParameter != actualTypeArgument",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!actualTypeArgument.equals(typeParameter)",
+            "test_case": "0/0"
+        }
+    ]
+}

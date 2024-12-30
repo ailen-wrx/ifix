@@ -1,0 +1,38 @@
+{
+    "cluster_8": {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >0) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_7": {
+        "code": "if( entry >=0&& MathUtils.compareTo( entry ,0, epsilon ) >=0) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_3": {
+        "code": "if( Math.min( entry , epsilon ) >=0) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_1": {
+        "code": "if( MathUtils.compareTo(0, entry , epsilon ) <0) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_4": {
+        "code": "if( entry >=0) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_5": {
+        "code": "if( entry >=0&& Math.abs( entry ) >=0) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_9": {
+        "code": "if( tableau.getEntry( i , col ) >=0) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_2": {
+        "code": "if( !( entry <0) ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_6": {
+        "code": "if( entry <0) { } else {",
+        "test_case": "0/1/0"
+    }
+}

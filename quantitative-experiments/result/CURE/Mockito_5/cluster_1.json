@@ -1,0 +1,28 @@
+{
+    "cluster_1": [
+        {
+            "code": "catch( AssertionError e ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "catch( AssertionError e ) { error = null ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "catch( AssertionError e ) { error = e ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "catch( AssertionError e ) { error = error ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "catch( AssertionError e ) { error =",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "catch( final AssertionError e ) {",
+            "test_case": "0/1/0"
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+cluster_3: if( fa >=0.0) {
+cluster_2: if( fa *fb >=0.0) { if( fa >=0.0)
+cluster_1: if( fa >=0.0) { fa = function.value( b ) ;

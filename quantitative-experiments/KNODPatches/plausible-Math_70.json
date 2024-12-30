@@ -1,0 +1,5 @@
+[
+    {
+        "code": "return solve(f,min,max);"
+    }
+]

@@ -1,0 +1,129 @@
+{
+	"name": "ipr",
+	"displayName": "IPR",
+	"description": "Interactive program repair.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": {
+			"properties": {
+				"ipr.enabled": {
+					"type": "boolean",
+					"default": false
+				}
+			}
+		},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "ipr_sidebar",
+					"title": "iFix",
+					"icon": "media/bug.svg"
+				}
+			],
+			"panel": [
+				{
+					"id": "ipr_panel",
+					"title": "iFix",
+					"icon": "media/bug.svg"
+				}
+			]
+		},
+		"views": {
+			"ipr_sidebar": [
+				{
+					"id": "iprFailedTests",
+					"name": "Failed Tests",
+					"contextualTitle": "Interactive Program Repair"
+				},
+				{
+					"type": "webview",
+					"id": "iprVariables",
+					"name": "Variables"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "ipr.enable",
+				"title": "Enable IPR",
+				"category": "IPR"
+			},
+			{
+				"command": "ipr.disable",
+				"title": "Disable IPR",
+				"category": "IPR"
+			},
+			{
+				"command": "ipr.initTables",
+				"title": "Init Mockup Table",
+				"category": "IPR"
+			},
+			{
+				"command": "iprFailedTests.rerunEntry",
+				"title": "Rerun",
+				"icon": {
+					"light": "resources/light/refresh.svg",
+					"dark": "resources/dark/refresh.svg"
+				}
+			},
+			{
+				"command": "iprFailedTests.addEntry",
+				"title": "Add"
+			}
+		],
+		"menus": {
+			"view/title": [
+				{
+					"command": "iprFailedTests.addEntry",
+					"when": "view == iprFailedTests"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "iprFailedTests.rerunEntry",
+					"when": "view == iprFailedTests && viewItem == failedTest",
+					"group": "inline"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile && yarn run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.4",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "14.x",
+		"@types/vscode": "^1.67.0",
+		"@typescript-eslint/eslint-plugin": "^5.1.0",
+		"@typescript-eslint/parser": "^5.1.0",
+		"@vscode/test-electron": "^1.6.2",
+		"eslint": "^8.1.0",
+		"glob": "^7.1.7",
+		"mocha": "^9.1.3",
+		"typescript": "^4.4.4",
+		"vscode-webview": "^1.0.1-beta.1"
+	},
+	"dependencies": {
+		"@bendera/vscode-webview-elements": "^0.7.0",
+		"@types/blueimp-md5": "^2.18.0",
+		"@vscode/webview-ui-toolkit": "^1.0.1",
+		"axios": "^0.25.0",
+		"blueimp-md5": "^2.19.0"
+	}
+}

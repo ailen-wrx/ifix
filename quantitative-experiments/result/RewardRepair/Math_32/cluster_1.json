@@ -1,0 +1,182 @@
+{
+    "cluster_3": [
+        {
+            "code": "if (tree.getAttribute() instanceof Boolean) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Boolean.TRUE)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Boolean.FALSE)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute() == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute() instanceof Boolean) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Boolean.TRUE)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Boolean.FALSE)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Boolean.class)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Vector2D.NaN)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Boolean.TYPE)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Boolean.class)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute() == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Vector2D.NaN)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Boolean.TYPE)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(null)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.equals(Boolean.valueOf(true))) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.equals(Boolean.valueOf(false))) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute().equals(Object.class)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute()==null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute() instanceof Boolean) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.equals(Vector2D.NaN)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.getAttribute()==null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.equals(Boolean.TRUE)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree.equals(Boolean.class)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (getTree(false) == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree==null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree==null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (false) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (false) {",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "if (tree == null && (Boolean) tree.getAttribute()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (tree == null && (Boolean) tree.getAttribute()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (false && (Boolean) tree.getAttribute()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (false && (Boolean) tree.getAttribute()) {",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_5": [
+        {
+            "code": "if (Boolean.valueOf(tree.getAttribute().toString())) {",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "if (Boolean.TRUE.equals(tree.getAttribute())) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (Boolean.TRUE.equals(tree.getAttribute())) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (Boolean.FALSE.equals(tree.getAttribute())) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (Vector2D.NaN.equals(tree.getAttribute())) {",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_6": [
+        {
+            "code": "if (tree.getAttribute().toString().length() == 0) {",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "if ((Boolean) (tree.getAttribute() == null)) {",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass ) {",
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( options.dependencyOptions.needsManagement( ) ) || options.closurePass ) {",
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass == true ) {",
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && true || options.closurePass ) {",
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.processCommonJSModules ) {",
+        "test_case": "0/1/0"
+    }
+]

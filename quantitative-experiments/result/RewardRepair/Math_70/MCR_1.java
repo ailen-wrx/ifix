@@ -1,0 +1,14 @@
+cluster_1: return solve(f, min, max);
+cluster_1: return solve(f, min, max);
+cluster_1: return solve(f, min,max);
+cluster_1: return solve(f,min,max);
+cluster_1: return solve(f, min,max);
+cluster_1: return solve(f,min, max);
+cluster_1: ; return solve(f, min, max);
+cluster_1: solve(f, min, max); return result;
+cluster_1: result = solve(f, min, max); return result;
+cluster_1: Double result = solve(f, min, max); return result;
+cluster_1: double result = solve(f, min, max); return result;
+cluster_1: double result = solve(f, min, max); return result;
+cluster_1: double value = solve(f, min, max); return value;
+cluster_1: Double value = solve(f, min, max); return value;

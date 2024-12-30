@@ -1,0 +1,26 @@
+[
+    {
+        "patch": "int sum = -1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "float sum = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "double sum = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "double sum = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "float sum = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int sum = -1;",
+        "correctness": "plausible"
+    }
+]

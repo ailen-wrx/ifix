@@ -1,0 +1,14 @@
+[
+    {
+        "patch": "return Collections.unmodifiableCollection(chromosomes).iterator();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return Collections.unmodifiableList(chromosomes).iterator();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getChromosomes().iterator();",
+        "correctness": "plausible"
+    }
+]

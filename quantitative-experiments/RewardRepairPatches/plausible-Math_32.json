@@ -1,0 +1,170 @@
+[
+    {
+        "patch": "if (tree.getAttribute() instanceof Boolean) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Boolean.TRUE)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Boolean.FALSE)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree == null && (Boolean) tree.getAttribute()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute() == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute() instanceof Boolean) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Boolean.valueOf(tree.getAttribute().toString())) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Boolean.TRUE)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Boolean.FALSE)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Boolean.class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree == null && (Boolean) tree.getAttribute()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Boolean.TRUE.equals(tree.getAttribute())) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false && (Boolean) tree.getAttribute()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Boolean.TRUE.equals(tree.getAttribute())) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Vector2D.NaN)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Boolean.TYPE)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Boolean.class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false && (Boolean) tree.getAttribute()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute() == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Vector2D.NaN)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Boolean.TYPE)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Boolean.FALSE.equals(tree.getAttribute())) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Vector2D.NaN.equals(tree.getAttribute())) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(null)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().toString().length() == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((Boolean) (tree.getAttribute() == null)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.equals(Boolean.valueOf(true))) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.equals(Boolean.valueOf(false))) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute().equals(Object.class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute()==null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute() instanceof Boolean) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.equals(Vector2D.NaN)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.getAttribute()==null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.equals(Boolean.TRUE)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree.equals(Boolean.class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getTree(false) == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree==null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (tree==null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false) {",
+        "correctness": "plausible"
+    }
+]

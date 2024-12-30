@@ -1,0 +1,11 @@
+8.749178521335125: return mayBeStringHelper( n ) ? true : false ;
+8.421245962381363: return( mayBeString( n , false ) ) ;
+8.104119330644608: return mayBeString( n ,( boolean ) false ) ;
+7.856751695275307: return( recurse && mayBeStringHelper( n ) ) ;
+7.813502848148346: return mayBeStringHelper(( Node ) n ) ;
+7.456787332892418: return( mayBeStringHelper( n ) && recurse ) ;
+6.66392707824707: return( mayBeStringHelper( n ) ) ;
+6.573104798793793: return anyResultsMatch( n , MAY_BE_STRING_PREDICATE ) ;
+6.379808634519577: return mayBeString( n , false ) ;
+5.747093692421913: return recurse && mayBeStringHelper( n ) ;
+4.784057527780533: return mayBeStringHelper( n ) ;

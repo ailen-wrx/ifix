@@ -1,0 +1,491 @@
+[
+    {
+        "code": "offsetLocal >= 0"
+    },
+    {
+        "code": "serialVersionUID > 0"
+    },
+    {
+        "code": "offsetLocal >= offsetLocal"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted != 0"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted != serialVersionUID"
+    },
+    {
+        "code": "instantLocal > 0"
+    },
+    {
+        "code": "instantAdjusted > 0"
+    },
+    {
+        "code": "offsetLocal - 0 != instantAdjusted"
+    },
+    {
+        "code": "offsetLocal - offsetAdjusted <= 0"
+    },
+    {
+        "code": "offsetLocal >= offsetLocal - 1"
+    },
+    {
+        "code": "offsetLocal - offsetAdjusted == 0"
+    },
+    {
+        "code": "offsetLocal >= offsetAdjusted"
+    },
+    {
+        "code": "offsetLocal - offsetLocal <= 0"
+    },
+    {
+        "code": "(serialVersionUID & serialVersionUID) > 0"
+    },
+    {
+        "code": "offsetLocal + 1 > 0"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted <= 0"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted != 1"
+    },
+    {
+        "code": "instantLocal >= 0"
+    },
+    {
+        "code": "offsetLocal - serialVersionUID <= 0"
+    },
+    {
+        "code": "offsetLocal - offsetLocal == 0"
+    },
+    {
+        "code": "offsetLocal - serialVersionUID != 0"
+    },
+    {
+        "code": "offsetLocal > offsetLocal - 1"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted != instantAdjusted"
+    },
+    {
+        "code": "offsetLocal + serialVersionUID > 0"
+    },
+    {
+        "code": "offsetLocal - 0 != serialVersionUID"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted < 0"
+    },
+    {
+        "code": "offsetLocal - serialVersionUID <= serialVersionUID"
+    },
+    {
+        "code": "instantAdjusted >= 0"
+    },
+    {
+        "code": "offsetLocal - offsetLocal >= 0"
+    },
+    {
+        "code": "offsetLocal - 0 >= 0"
+    },
+    {
+        "code": "offsetLocal - offsetAdjusted != serialVersionUID"
+    },
+    {
+        "code": "offsetLocal - 1 != 0"
+    },
+    {
+        "code": "offsetLocal - offsetAdjusted >= 0"
+    },
+    {
+        "code": "offsetLocal - 0 <= instantAdjusted"
+    },
+    {
+        "code": "offsetLocal + instantAdjusted > 0"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted <= serialVersionUID"
+    },
+    {
+        "code": "serialVersionUID > offsetLocal"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted <= instantAdjusted"
+    },
+    {
+        "code": "offsetAdjusted >= 0"
+    },
+    {
+        "code": "serialVersionUID > offsetAdjusted"
+    },
+    {
+        "code": "offsetLocal + 1 >= 0"
+    },
+    {
+        "code": "offsetLocal - instantLocal <= 0"
+    },
+    {
+        "code": "offsetLocal - 0 != 1"
+    },
+    {
+        "code": "offsetLocal >= offsetAdjusted - 1"
+    },
+    {
+        "code": "offsetLocal - instantLocal != 0"
+    },
+    {
+        "code": "offsetLocal > offsetLocal - serialVersionUID"
+    },
+    {
+        "code": "offsetLocal - serialVersionUID <= instantAdjusted"
+    },
+    {
+        "code": "serialVersionUID >= 0"
+    },
+    {
+        "code": "offsetLocal - serialVersionUID < 0"
+    },
+    {
+        "code": "offsetLocal - offsetLocal != serialVersionUID"
+    },
+    {
+        "code": "offsetLocal + 0 >= 0"
+    },
+    {
+        "code": "offsetLocal <= offsetAdjusted"
+    },
+    {
+        "code": "instantLocal - offsetAdjusted > 0"
+    },
+    {
+        "code": "offsetLocal - instantLocal < 0"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted != offsetAdjusted"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted < instantAdjusted"
+    },
+    {
+        "code": "offsetLocal >= offsetLocal - serialVersionUID"
+    },
+    {
+        "code": "offsetLocal <= offsetLocal"
+    },
+    {
+        "code": "offsetLocal < serialVersionUID"
+    },
+    {
+        "code": "offsetLocal <= serialVersionUID"
+    },
+    {
+        "code": "offsetLocal > offsetAdjusted - instantAdjusted"
+    },
+    {
+        "code": "instantAdjusted - 0 != 0"
+    },
+    {
+        "code": "offsetLocal > offsetAdjusted - 1"
+    },
+    {
+        "code": "offsetLocal > offsetLocal - instantAdjusted"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted < serialVersionUID"
+    },
+    {
+        "code": "instantLocal - 0 > 0"
+    },
+    {
+        "code": "instantAdjusted - 1 > 0"
+    },
+    {
+        "code": "instantAdjusted - offsetLocal > 0"
+    },
+    {
+        "code": "offsetLocal - offsetAdjusted != 1"
+    },
+    {
+        "code": "offsetLocal + offsetLocal >= 0"
+    },
+    {
+        "code": "instantAdjusted - offsetAdjusted > 0"
+    },
+    {
+        "code": "serialVersionUID / serialVersionUID > 0"
+    },
+    {
+        "code": "offsetLocal - 0 < instantAdjusted"
+    },
+    {
+        "code": "instantLocal - offsetLocal > 0"
+    },
+    {
+        "code": "instantLocal - 0 != 0"
+    },
+    {
+        "code": "serialVersionUID > instantAdjusted"
+    },
+    {
+        "code": "instantAdjusted > offsetLocal"
+    },
+    {
+        "code": "instantAdjusted - instantAdjusted <= 0"
+    },
+    {
+        "code": "serialVersionUID - 1 > 0"
+    },
+    {
+        "code": "offsetLocal - serialVersionUID < serialVersionUID"
+    },
+    {
+        "code": "instantAdjusted > offsetAdjusted"
+    },
+    {
+        "code": "instantAdjusted - 0 > 0"
+    },
+    {
+        "code": "offsetLocal - offsetAdjusted != instantAdjusted"
+    },
+    {
+        "code": "serialVersionUID != 0"
+    },
+    {
+        "code": "offsetLocal >= instantLocal - instantAdjusted"
+    },
+    {
+        "code": "offsetLocal >= serialVersionUID - serialVersionUID"
+    },
+    {
+        "code": "offsetLocal > offsetAdjusted - instantLocal"
+    },
+    {
+        "code": "offsetLocal - offsetLocal < serialVersionUID"
+    },
+    {
+        "code": "offsetLocal != 1"
+    },
+    {
+        "code": "offsetLocal > instantAdjusted - serialVersionUID"
+    },
+    {
+        "code": "instantLocal > offsetAdjusted"
+    },
+    {
+        "code": "instantLocal > offsetLocal"
+    },
+    {
+        "code": "offsetLocal > offsetLocal - instantLocal"
+    },
+    {
+        "code": "offsetLocal == offsetAdjusted"
+    },
+    {
+        "code": "offsetLocal >= instantAdjusted - serialVersionUID"
+    },
+    {
+        "code": "offsetLocal + 1 != 0"
+    },
+    {
+        "code": "offsetLocal != serialVersionUID"
+    },
+    {
+        "code": "offsetLocal >= offsetAdjusted - offsetLocal"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted != offsetLocal"
+    },
+    {
+        "code": "(serialVersionUID | serialVersionUID) > 0"
+    },
+    {
+        "code": "offsetLocal >= offsetLocal - offsetLocal"
+    },
+    {
+        "code": "serialVersionUID > instantLocal"
+    },
+    {
+        "code": "offsetLocal - offsetAdjusted <= instantAdjusted"
+    },
+    {
+        "code": "offsetLocal == offsetLocal"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted <= offsetAdjusted"
+    },
+    {
+        "code": "offsetLocal - offsetLocal != 1"
+    },
+    {
+        "code": "offsetLocal > offsetAdjusted - serialVersionUID"
+    },
+    {
+        "code": "instantLocal - offsetAdjusted != 0"
+    },
+    {
+        "code": "offsetLocal + instantAdjusted >= 0"
+    },
+    {
+        "code": "offsetLocal >= (int)offsetLocal"
+    },
+    {
+        "code": "offsetLocal - instantLocal != serialVersionUID"
+    },
+    {
+        "code": "offsetLocal - offsetLocal <= serialVersionUID"
+    },
+    {
+        "code": "offsetLocal - 1 != instantAdjusted"
+    },
+    {
+        "code": "serialVersionUID > 1"
+    },
+    {
+        "code": "offsetLocal - 0 != hashCode()"
+    },
+    {
+        "code": "offsetLocal >= (int)offsetAdjusted"
+    },
+    {
+        "code": "offsetLocal - offsetAdjusted <= serialVersionUID"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted != instantLocal"
+    },
+    {
+        "code": "serialVersionUID + 1 > 0"
+    },
+    {
+        "code": "serialVersionUID >= offsetLocal"
+    },
+    {
+        "code": "offsetLocal - 0 <= serialVersionUID"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted != hashCode()"
+    },
+    {
+        "code": "instantLocal - 1 > 0"
+    },
+    {
+        "code": "cAvailableIDs.size() > 0"
+    },
+    {
+        "code": "instantAdjusted - instantAdjusted != serialVersionUID"
+    },
+    {
+        "code": "serialVersionUID >= offsetAdjusted"
+    },
+    {
+        "code": "offsetLocal < instantAdjusted"
+    },
+    {
+        "code": "serialVersionUID - offsetLocal > 0"
+    },
+    {
+        "code": "offsetLocal + offsetAdjusted >= 0"
+    },
+    {
+        "code": "offsetLocal + instantAdjusted != 0"
+    },
+    {
+        "code": "offsetLocal - offsetLocal <= instantAdjusted"
+    },
+    {
+        "code": "offsetLocal - 0 != instantLocal"
+    },
+    {
+        "code": "offsetLocal >= offsetAdjusted - offsetAdjusted"
+    },
+    {
+        "code": "offsetLocal >= offsetAdjusted - serialVersionUID"
+    },
+    {
+        "code": "offsetLocal - offsetLocal != instantAdjusted"
+    },
+    {
+        "code": "instantLocal - offsetLocal != 0"
+    },
+    {
+        "code": "offsetLocal >= instantLocal - instantLocal"
+    },
+    {
+        "code": "serialVersionUID >= serialVersionUID"
+    },
+    {
+        "code": "instantAdjusted - offsetAdjusted != 0"
+    },
+    {
+        "code": "offsetLocal <= instantAdjusted"
+    },
+    {
+        "code": "offsetLocal - serialVersionUID < instantAdjusted"
+    },
+    {
+        "code": "serialVersionUID >>> serialVersionUID > 0"
+    },
+    {
+        "code": "offsetLocal >= offsetLocal - offsetAdjusted"
+    },
+    {
+        "code": "offsetLocal - offsetLocal < 1"
+    },
+    {
+        "code": "(serialVersionUID & 2) > 0"
+    },
+    {
+        "code": "offsetLocal - offsetAdjusted < instantAdjusted"
+    },
+    {
+        "code": "!(offsetLocal < 0)"
+    },
+    {
+        "code": "instantAdjusted - 1 >= 0"
+    },
+    {
+        "code": "offsetAdjusted - offsetAdjusted <= 0"
+    },
+    {
+        "code": "offsetLocal - instantAdjusted < offsetAdjusted"
+    },
+    {
+        "code": "instantLocal != 0"
+    },
+    {
+        "code": "offsetLocal < instantLocal - offsetLocal"
+    },
+    {
+        "code": "offsetLocal - 0 <= offsetAdjusted"
+    },
+    {
+        "code": "instantAdjusted != 0"
+    },
+    {
+        "code": "offsetLocal - 1 < offsetLocal"
+    },
+    {
+        "code": "offsetLocal + 1 > offsetLocal"
+    },
+    {
+        "code": "instantLocal > 1"
+    },
+    {
+        "code": "instantLocal - instantAdjusted != serialVersionUID"
+    },
+    {
+        "code": "offsetLocal != instantAdjusted"
+    },
+    {
+        "code": "instantAdjusted + 1 > 0"
+    },
+    {
+        "code": "offsetLocal - offsetLocal <= 1"
+    },
+    {
+        "code": "instantAdjusted + serialVersionUID > 0"
+    },
+    {
+        "code": "offsetLocal >= offsetAdjusted - instantAdjusted"
+    }
+]

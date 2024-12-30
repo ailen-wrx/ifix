@@ -1,0 +1,23 @@
+[
+    {
+        "code": "return getChromosomes().iterator();"
+    },
+    {
+        "code": "synchronized(chromosomes){\nreturn getChromosomes().iterator();\n}"
+    },
+    {
+        "code": "return chromosomes == null ? null : getChromosomes().iterator();"
+    },
+    {
+        "code": "return Collections.unmodifiableList(chromosomes).iterator();"
+    },
+    {
+        "code": "return Collections.unmodifiableCollection(chromosomes).iterator();"
+    },
+    {
+        "code": "chromosomes = getChromosomes();"
+    },
+    {
+        "code": "return (Iterator<Chromosome>)getChromosomes().iterator();"
+    }
+]

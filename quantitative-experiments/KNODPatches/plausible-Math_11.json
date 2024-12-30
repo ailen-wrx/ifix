@@ -1,0 +1,5 @@
+[
+    {
+        "code": "FastMath.pow(2 * FastMath.PI,-dim / 2.0)"
+    }
+]

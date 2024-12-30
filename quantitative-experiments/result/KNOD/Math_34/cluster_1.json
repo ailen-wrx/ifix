@@ -1,0 +1,32 @@
+{
+    "cluster_1": [
+        {
+            "code": "return getChromosomes().iterator();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "synchronized(chromosomes){\nreturn getChromosomes().iterator();\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return chromosomes == null ? null : getChromosomes().iterator();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return Collections.unmodifiableList(chromosomes).iterator();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return Collections.unmodifiableCollection(chromosomes).iterator();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "chromosomes = getChromosomes();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (Iterator<Chromosome>)getChromosomes().iterator();",
+            "test_case": "0/0"
+        }
+    ]
+}

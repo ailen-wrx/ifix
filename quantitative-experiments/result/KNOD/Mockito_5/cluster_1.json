@@ -1,0 +1,12 @@
+{
+    "cluster_1": [
+        {
+            "code": "AssertionError e",
+            "test_case": "0/0"
+        },
+        {
+            "code": "AssertionError e",
+            "test_case": "0/0"
+        }
+    ]
+}

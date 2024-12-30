@@ -1,0 +1,20 @@
+{
+    "cluster_1": [
+        {
+            "code": "if (!removeGlobals) { return; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!removeGlobals) { return; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!removeGlobals) return;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!removeGlobals) return;",
+            "test_case": "0/0"
+        }
+    ]
+}

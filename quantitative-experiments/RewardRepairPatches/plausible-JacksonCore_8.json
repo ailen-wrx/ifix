@@ -1,0 +1,62 @@
+[
+    {
+        "patch": "if (_hasSegments &&!_hasSegments) return _currentSegment;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "_hasSegments = false; if (_hasSegments) return _currentSegment;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (_hasSegments &&!_hasSegments) return _currentSegment;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_hasSegments && _currentSegment == null) return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_resultString!= null) return _resultString.toCharArray();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false &&!_hasSegments) return _currentSegment;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_hasSegments && _currentSegment == null) return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false &&!_hasSegments) return _currentSegment;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_resultArray!= null) return _resultArray;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "/* if (!_hasSegments) return _currentSegment;*/",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false) return _currentSegment;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false) return _currentSegment;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "_hasSegments = false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "hashCode();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": ";",
+        "correctness": "plausible"
+    }
+]

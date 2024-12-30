@@ -1,0 +1,5 @@
+cluster_1: double sum =0;
+cluster_3: int sum = -1;
+cluster_2: int sum =0; sum -- ;
+cluster_4: int sum = -1; int max =0;
+cluster_5: int sum = -1; sum +=0.0;

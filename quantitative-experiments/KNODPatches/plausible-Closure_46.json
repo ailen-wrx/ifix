@@ -1,0 +1,245 @@
+[
+    {
+        "code": "if (true ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isInterface() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that != null ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.differsFrom(that) ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isConstructor() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isUnknownType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isString() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isInterface() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isUnionType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isNumber() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isFunctionPrototypeType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.matchesNumberContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isFunctionType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!matchesNumberContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!matchesStringContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!isNativeObjectType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!canBeCalled() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!hasReferenceName() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !that.isConstructor() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !that.isUnknownType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !that.isString() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !that.isInterface() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !that.isUnionType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !that.isNumber() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !that.isFunctionPrototypeType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !that.matchesNumberContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !that.isFunctionType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!properties.isEmpty() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || that.matchesObjectContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.isRecordType() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.restrictByNotNullOrUndefined() != null ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.getJSDocInfo() == null ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.matchesObjectContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!getImplicitPrototype().isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (properties != null ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || matchesObjectContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || hasCachedValues() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || isPrettyPrint() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!(that instanceof Map) ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!(that instanceof Set) ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isConstructor() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isUnknownType() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isString() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isInterface() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isUnionType() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isNumber() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isFunctionPrototypeType() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.matchesNumberContext() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isFunctionType() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!matchesNumberContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!matchesStringContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!isNativeObjectType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!canBeCalled() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!hasReferenceName() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that != null )return super.getLeastSupertype(that);"
+    },
+    {
+        "code": "if (!that.isRecordType() || !properties.isEmpty() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isInterface() && !that.isInterface() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (matchesObjectContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (isPrettyPrint() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (matchesObjectContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (hasCachedValues() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (isPrettyPrint() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (isFrozen || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.isRecordType() || !that.isInterface() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that == that ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.autoboxesTo() != that ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.unboxesTo() != that ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (registry != null ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (isRecordType() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.matchesObjectContext() || !that.isRecordType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.hashCode() != 0 ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isInterface() || !that.isInterface() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (that.hashCode() != serialVersionUID ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (properties.size() > 0 ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !matchesNumberContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !matchesStringContext() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !isNativeObjectType() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !canBeCalled() ){\nreturn super.getLeastSupertype(that);\n}"
+    },
+    {
+        "code": "if (!that.isRecordType() || !hasReferenceName() ){\nreturn super.getLeastSupertype(that);\n}"
+    }
+]

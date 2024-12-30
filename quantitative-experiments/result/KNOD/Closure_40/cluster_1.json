@@ -1,0 +1,24 @@
+{
+    "cluster_1": [
+        {
+            "code": "JsName name = getName(ns.name,true);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JsName name = getName(ns.name,removeUnreferenced);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JsName name = getName(ns.name,true);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JsName name = getName(ns.name,ns.onlyAffectsClassDef);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JsName name = getName(ns.name,removeUnreferenced);",
+            "test_case": "0/0"
+        }
+    ]
+}

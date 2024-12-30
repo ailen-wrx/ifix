@@ -1,0 +1,4 @@
+cluster_3: return anyResultsMatch( n , MAY_BE_STRING_PREDICATE ) ;
+cluster_2: return mayBeStringHelper( n ) ;
+cluster_1: return mayBeString( n , false ) ;
+cluster_4: return mayBeStringHelper( n ) ? true : false ;

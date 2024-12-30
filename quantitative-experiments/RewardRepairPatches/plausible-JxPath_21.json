@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "if (getBaseValue()!= null) return ValueUtils.getLength(getBaseValue()); else return 1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getBaseValue()!=null) return ValueUtils.getLength(getBaseValue()); else return 1;",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,122 @@
+{
+    "cluster_3": [
+        {
+            "code": "if( endIndex <0|| endIndex < startIndex ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( startIndex <0|| endIndex < startIndex ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_16": [
+        {
+            "code": "if( endIndex < -( getIndex( start ) +1) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_15": [
+        {
+            "code": "if( endIndex < startIndex ) { endIndex = -1;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_5": [
+        {
+            "code": "if( endIndex >= endIndex && endIndex < startIndex ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "if( endIndex <=0&& endIndex < startIndex ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( endIndex <= startIndex && endIndex < startIndex ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "if( endIndex < startIndex ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( endIndex +0< startIndex ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( endIndex -0< startIndex ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_6": [
+        {
+            "code": "if( endIndex <0|| startIndex ==1) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "if( startIndex ==( endIndex +1) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( startIndex == endIndex +1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( startIndex >=( endIndex +1) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_7": [
+        {
+            "code": "if( endIndex == startIndex -1) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_8": [
+        {
+            "code": "if( endIndex < startIndex && endIndex >= endIndex ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_9": [
+        {
+            "code": "if( endIndex < startIndex || endIndex <0) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_10": [
+        {
+            "code": "if( endIndex < startIndex ) { emptyRange = true ;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_11": [
+        {
+            "code": "if( endIndex +1== startIndex ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_12": [
+        {
+            "code": "if( endIndex - startIndex <0) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_13": [
+        {
+            "code": "if( startIndex > endIndex ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_14": [
+        {
+            "code": "if( startIndex >=0&& endIndex < startIndex ) {",
+            "test_case": "0/1/0"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "patch": "final Object readResolve() {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object readResolve() {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "synchronized Object readResolve() {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object readResolve() {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final Object readResolve() {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object readResolve() throws Exception {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "public Object readResolve() {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "public final Object readResolve() {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object readResolve() throws Throwable {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object readResolve () {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final Object readResolve() { ;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object readResolve( ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Object readResolve() { ;",
+        "correctness": "plausible"
+    }
+]

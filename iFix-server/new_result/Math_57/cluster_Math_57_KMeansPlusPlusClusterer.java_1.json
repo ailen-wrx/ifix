@@ -1,0 +1,152 @@
+{
+    "cluster_3": [
+        {
+            "code": "int sum = -1;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "double sum =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "float sum =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "double sum =0; sum =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum =0; sum = -1;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "float sum =0; sum =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; sum = -1;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; int max =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; sum +=0.0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; int max = -1;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum =0; sum -- ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; final int max =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1+0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; int min = -1;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; long max =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; float max =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "double sum ; sum =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; int l =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "double sum = sum =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "double sum =0+0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum =0; -- sum ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "float sum = sum =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; int min =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "float sum ; sum =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; int start =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "double sum = -0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "long sum = -1;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "int sum = -1; if( sum ==0) continue ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; if( sum == -1)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; if( sum <0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; while( sum <0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; if( sum !=0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; if( sum <=0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int sum = -1; if( sum <1)",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "int start =0; double sum =0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "int start =0; float sum =0;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

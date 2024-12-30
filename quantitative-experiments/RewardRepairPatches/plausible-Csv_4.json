@@ -1,0 +1,18 @@
+[
+    {
+        "patch": "Map < String, Integer> headerMapMap = new LinkedHashMap < String, Integer>(); return headerMap;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Map < String, Integer> headerMapMap = new LinkedHashMap < String, Integer>(); return headerMap;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Map < String, Integer> headerMap = this.headerMap; return headerMap;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this.headerMap;",
+        "correctness": "plausible"
+    }
+]

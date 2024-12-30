@@ -1,0 +1,12 @@
+cluster_1: final double n1n2prod = n1 * n2;
+cluster_1: final long n1n2prod = n1 * n2;
+cluster_1: final double n1n2prod = n1 * n2;
+cluster_1: final float n1n2prod = n1 * n2;
+cluster_1: final long n1n2prod = n1 * n2;
+cluster_1: double n1n2prod = n1 * n2;
+cluster_1: long n1n2prod = n1 * n2;
+cluster_1: float n1n2prod = n1 * n2;
+cluster_1: double n1n2prod = n1 * n2;
+cluster_1: float n1n2prod = n1 * n2;
+cluster_1: long n1n2prod = n1 * n2;
+cluster_1: final double n1n2prod = n2 * n1;

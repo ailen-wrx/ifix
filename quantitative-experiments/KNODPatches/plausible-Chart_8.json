@@ -1,0 +1,11 @@
+[
+    {
+        "code": "this(time,zone,Locale.getDefault());"
+    },
+    {
+        "code": "this(time,zone,Locale.getDefault().getDefault());"
+    },
+    {
+        "code": "this(time,zone,Locale.getDefault());"
+    }
+]

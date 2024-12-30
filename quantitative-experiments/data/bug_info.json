@@ -1,0 +1,188 @@
+[
+    {
+        "BUG_ID": "Chart_1",
+        "FILE_NAME": "AbstractCategoryItemRenderer.java",
+        "BUGGY_LINE": "if (dataset != null) {",
+        "LINE_NUMBER": 1797
+    },
+    {
+        "BUG_ID": "Chart_9",
+        "FILE_NAME": "TimeSeries.java",
+        "BUGGY_LINE": "if (endIndex < 0) {",
+        "LINE_NUMBER": 944
+    },
+    {
+        "BUG_ID": "Chart_11",
+        "FILE_NAME": "ShapeUtilities.java",
+        "BUGGY_LINE": "PathIterator iterator2 = p1.getPathIterator(null);",
+        "LINE_NUMBER": 275
+    },
+    {
+        "BUG_ID": "Chart_17",
+        "FILE_NAME": "TimeSeries.java",
+        "BUGGY_LINE": "Object clone = createCopy(0, getItemCount() - 1);",
+        "LINE_NUMBER": 857
+    },
+    {
+        "BUG_ID": "Closure_10",
+        "FILE_NAME": "NodeUtil.java",
+        "BUGGY_LINE": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);",
+        "LINE_NUMBER": 1417
+    },
+    {
+        "BUG_ID": "Closure_18",
+        "FILE_NAME": "Compiler.java",
+        "BUGGY_LINE": "if (options.dependencyOptions.needsManagement() && options.closurePass) {",
+        "LINE_NUMBER": 1288
+    },
+    {
+        "BUG_ID": "Closure_62",
+        "FILE_NAME": "LightweightMessageFormatter.java",
+        "BUGGY_LINE": "&& 0 <= charno && charno < sourceExcerpt.length()) {",
+        "LINE_NUMBER": 98
+    },
+    {
+        "BUG_ID": "Closure_92",
+        "FILE_NAME": "ProcessClosurePrimitives.java",
+        "BUGGY_LINE": "int indexOfDot = namespace.indexOf('.');",
+        "LINE_NUMBER": 789
+    },
+    {
+        "BUG_ID": "Lang_6",
+        "FILE_NAME": "CharSequenceTranslator.java",
+        "BUGGY_LINE": "pos += Character.charCount(Character.codePointAt(input, pos));",
+        "LINE_NUMBER": 95
+    },
+    {
+        "BUG_ID": "Lang_26",
+        "FILE_NAME": "FastDateFormat.java",
+        "BUGGY_LINE": "Calendar c = new GregorianCalendar(mTimeZone);",
+        "LINE_NUMBER": 820
+    },
+    {
+        "BUG_ID": "Lang_33",
+        "FILE_NAME": "ClassUtils.java",
+        "BUGGY_LINE": "classes[i] = array[i].getClass();",
+        "LINE_NUMBER": 910
+    },
+    {
+        "BUG_ID": "Lang_57",
+        "FILE_NAME": "LocaleUtils.java",
+        "BUGGY_LINE": "return cAvailableLocaleSet.contains(locale);",
+        "LINE_NUMBER": 223
+    },
+    {
+        "BUG_ID": "Lang_59",
+        "FILE_NAME": "StrBuilder.java",
+        "BUGGY_LINE": "str.getChars(0, strLen, buffer, size);",
+        "LINE_NUMBER": 884
+    },
+    {
+        "BUG_ID": "Lang_61",
+        "FILE_NAME": "StrBuilder.java",
+        "BUGGY_LINE": "int len = thisBuf.length - strLen;",
+        "LINE_NUMBER": 1776
+    },
+    {
+        "BUG_ID": "Math_2",
+        "FILE_NAME": "HypergeometricDistribution.java",
+        "BUGGY_LINE": "return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();",
+        "LINE_NUMBER": 268
+    },
+    {
+        "BUG_ID": "Math_27",
+        "FILE_NAME": "Fraction.java",
+        "BUGGY_LINE": "return multiply(100).doubleValue();",
+        "LINE_NUMBER": 597
+    },
+    {
+        "BUG_ID": "Math_30",
+        "FILE_NAME": "MannWhitneyUTest.java",
+        "BUGGY_LINE": "final int n1n2prod = n1 * n2;",
+        "LINE_NUMBER": 173
+    },
+    {
+        "BUG_ID": "Math_34",
+        "FILE_NAME": "ListPopulation.java",
+        "BUGGY_LINE": "return chromosomes.iterator();",
+        "LINE_NUMBER": 209
+    },
+    {
+        "BUG_ID": "Math_41",
+        "FILE_NAME": "Variance.java",
+        "BUGGY_LINE": "for (int i = 0; i < weights.length; i++) {",
+        "LINE_NUMBER": 520
+    },
+    {
+        "BUG_ID": "Math_57",
+        "FILE_NAME": "KMeansPlusPlusClusterer.java",
+        "BUGGY_LINE": "int sum = 0;",
+        "LINE_NUMBER": 175
+    },
+    {
+        "BUG_ID": "Math_58",
+        "FILE_NAME": "GaussianFitter.java",
+        "BUGGY_LINE": "return fit(new Gaussian.Parametric(), guess);",
+        "LINE_NUMBER": 121
+    },
+    {
+        "BUG_ID": "Math_59",
+        "FILE_NAME": "FastMath.java",
+        "BUGGY_LINE": "return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);",
+        "LINE_NUMBER": 3482
+    },
+    {
+        "BUG_ID": "Math_70",
+        "FILE_NAME": "BisectionSolver.java",
+        "BUGGY_LINE": "return solve(min, max);",
+        "LINE_NUMBER": 72
+    },
+    {
+        "BUG_ID": "Math_75",
+        "FILE_NAME": "Frequency.java",
+        "BUGGY_LINE": "return getCumPct((Comparable<?>) v);",
+        "LINE_NUMBER": 303
+    },
+    {
+        "BUG_ID": "Math_80",
+        "FILE_NAME": "EigenDecompositionImpl.java",
+        "BUGGY_LINE": "int j = 4 * n - 1;",
+        "LINE_NUMBER": 1135
+    },
+    {
+        "BUG_ID": "Math_82",
+        "FILE_NAME": "SimplexSolver.java",
+        "BUGGY_LINE": "if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {",
+        "LINE_NUMBER": 82
+    },
+    {
+        "BUG_ID": "Math_85",
+        "FILE_NAME": "UnivariateRealSolverUtils.java",
+        "BUGGY_LINE": "if (fa * fb >= 0.0 ) {",
+        "LINE_NUMBER": 198
+    },
+    {
+        "BUG_ID": "Math_94",
+        "FILE_NAME": "MathUtils.java",
+        "BUGGY_LINE": "if (u * v == 0) {",
+        "LINE_NUMBER": 412
+    },
+    {
+        "BUG_ID": "Mockito_5",
+        "FILE_NAME": "VerificationOverTimeImpl.java",
+        "BUGGY_LINE": "catch (org.mockito.exceptions.verification.junit.ArgumentsAreDifferent e) {",
+        "LINE_NUMBER": 91
+    },
+    {
+        "BUG_ID": "Time_4",
+        "FILE_NAME": "Partial.java",
+        "BUGGY_LINE": "Partial newPartial = new Partial(iChronology, newTypes, newValues);",
+        "LINE_NUMBER": 464
+    },
+    {
+        "BUG_ID": "Time_19",
+        "FILE_NAME": "DateTimeZone.java",
+        "BUGGY_LINE": "} else if (offsetLocal > 0) {",
+        "LINE_NUMBER": 900
+    }
+]

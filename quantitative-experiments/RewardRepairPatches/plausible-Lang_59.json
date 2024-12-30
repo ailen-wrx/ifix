@@ -1,0 +1,22 @@
+[
+    {
+        "patch": "str.getChars(0, width, buffer, size);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "str.getChars(0, width - 0, buffer, size);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "str.getChars(0, width, buffer, size);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "str.getChars(0, width, buffer, size);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "str.getChars(0, width + 0, buffer, size);",
+        "correctness": "plausible"
+    }
+]

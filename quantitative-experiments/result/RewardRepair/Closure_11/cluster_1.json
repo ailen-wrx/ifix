@@ -1,0 +1,294 @@
+{
+    "cluster_2": [
+        {
+            "code": "// n.getJSType()!= null && parent.isAssign()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// (n.getJSType()!= null && parent.isAssign())) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// (n.getJSType()!= null) && parent.isAssign()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// if (n.getJSType() == null && parent.isAssign()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// && parent!= null && parent.isAssign()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// if (n.getJSType()!= null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// if (n!= null && parent.isAssign()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType parentType = getJSType(objNode);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "objNode = n.getFirstChild();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType parentType = getJSType(n.getFirstChild());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// && parent.isAssign()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType JSType = getJSType(objNode);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType parentType = n.getJSType();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType type = getJSType(objNode);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType JSType = n.getJSType();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent = objNode.getFirstChild();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Node parentNode = n.getFirstChild();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Node node = n.getFirstChild();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType type = n.getJSType();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType JSType = parent.getJSType();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "objNode = objNode;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType parentType = parent.getJSType();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent.isAssign();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType jType = n.getJSType();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType j = n.getJSType();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType parentType = getJSType(n);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType type = parent.getJSType();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent = n.getFirstChild();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// n.getJSType()!= null",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType JSType = getJSType(n);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent = parent.getFirstChild();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType type = property.getJSType();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "//$NON-NLS-1$",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent = objNode;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType type = getJSType(n);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isAssign = false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "IllegalStateException e = null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// && parent.isAssign()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "objNode = n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "objNode = null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent = parent.getParent();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent.isAssign();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "/* FIXME*/",
+            "test_case": "0/0"
+        },
+        {
+            "code": "JSType parentType = null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "/* FIXME */",
+            "test_case": "0/0"
+        },
+        {
+            "code": "n = null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent = null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "// FIXME",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent = n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "n = n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "t = null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent = parent;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "n = null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "n = n;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "assert(n.getJSType()!= null && parent.isAssign());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n.getJSType()!= null && parent.isAssign())",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "if (n.getJSType() == null) { return; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (childType == null) { return; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n.getJSType()!= null) return;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (objNode == null) { return; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n.getJSType()!= null) { }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n == null) { return; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (parent.isAssign()) { return; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (parent == null) { return; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!parent.isAssign()) return;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n!= null) { }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (childType == null) return;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "n.setJSType(n.getJSType());",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_6": [
+        {
+            "code": "try { } catch (Exception e) { return; }",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_5": [
+        {
+            "code": "ensureTyped(t, n);",
+            "test_case": "0/0"
+        }
+    ]
+}

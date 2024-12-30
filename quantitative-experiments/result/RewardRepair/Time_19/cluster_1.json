@@ -1,0 +1,44 @@
+{
+    "cluster_1": [
+        {
+            "code": "} else if (offsetLocal >= 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "; } else if (offsetLocal >= 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "final double offsetPrev = 0; } else if (offsetLocal >= 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "; } else if (offsetLocal > -1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "} else if (offsetLocal > -1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "} else if (offsetLocal!= -1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "; } else if (offsetLocal > -1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "; } else if (offsetLocal!= -1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "} else if (offsetLocal > -1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "} else if ( offsetLocal >= 0) {",
+            "test_case": "0/0"
+        }
+    ]
+}

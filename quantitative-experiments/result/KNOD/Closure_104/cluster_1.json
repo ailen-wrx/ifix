@@ -1,0 +1,20 @@
+{
+    "cluster_1": [
+        {
+            "code": "!(result instanceof FunctionType)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!result.isConstructor()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!result.canBeCalled()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!result.isNoType()",
+            "test_case": "0/0"
+        }
+    ]
+}

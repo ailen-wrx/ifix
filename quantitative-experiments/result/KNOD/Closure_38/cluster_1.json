@@ -1,0 +1,122 @@
+{
+    "cluster_1": [
+        {
+            "code": "x <= 0 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "continueProcessing() && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!statementNeedsEnded && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!sawFunction && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < 1 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "statementStarted && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < '-' && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < 2 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < 100 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < 10 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x <= x && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < 3 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < prev && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < 4 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < x || prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!shouldPreserveExtraBlocks() && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "prev < 0 || prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < 5 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < 8 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "statementNeedsEnded || prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x <= 1 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x < 6 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "x >= x && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "prev > 0 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "prev >= 0 && prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "(int)prev == '-'",
+            "test_case": "0/0"
+        },
+        {
+            "code": "true && prev == '-'",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "Math.abs(prev) == '-'",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "cluster_1": [
+        {
+            "code": "return solve(f, min, max);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Double result = solve(f, min, max); return result;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "double result = solve(f, min, max); return result;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "result = solve(f, min, max); return result;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return solve(f, min, max);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "double result = solve(f, min, max); return result;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return solve(f, min,max);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "double value = solve(f, min, max); return value;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Double value = solve(f, min, max); return value;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return solve(f,min,max);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "; return solve(f, min, max);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "solve(f, min, max); return result;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return solve(f, min,max);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return solve(f,min, max);",
+            "test_case": "0/0"
+        }
+    ]
+}

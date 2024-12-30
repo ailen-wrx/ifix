@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "if (typeAdapter!= null) { typeAdapter = typeAdapter.nullSafe(); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(typeAdapter!= null) { typeAdapter = typeAdapter.nullSafe(); }",
+        "correctness": "plausible"
+    }
+]

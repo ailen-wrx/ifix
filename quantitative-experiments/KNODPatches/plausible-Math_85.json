@@ -1,0 +1,935 @@
+[
+    {
+        "code": "fa * fb > 0.0"
+    },
+    {
+        "code": "fa >= 0.0"
+    },
+    {
+        "code": "fa * fb >= 3"
+    },
+    {
+        "code": "fa * fb >= 2"
+    },
+    {
+        "code": "fa * fb >= 1"
+    },
+    {
+        "code": "fa * fb >= 1.0"
+    },
+    {
+        "code": "fa * fb >= upperBound"
+    },
+    {
+        "code": "fa * fb > 0"
+    },
+    {
+        "code": "fa * fb >= initial"
+    },
+    {
+        "code": "fa >= fb"
+    },
+    {
+        "code": "fa * (fb + 1) >= 0.0"
+    },
+    {
+        "code": "fa - fb >= 0.0"
+    },
+    {
+        "code": "fa * fb >= 5"
+    },
+    {
+        "code": "fa * fb >= 4"
+    },
+    {
+        "code": "fa * fb >= 6"
+    },
+    {
+        "code": "fa * fb >= b"
+    },
+    {
+        "code": "fa * fb >= 8"
+    },
+    {
+        "code": "fa * fb >= maximumIterations"
+    },
+    {
+        "code": "fa - fb >= 0"
+    },
+    {
+        "code": "fa * upperBound >= 0.0"
+    },
+    {
+        "code": "fa * fb >= 10"
+    },
+    {
+        "code": "fa * fb / 0.0 >= 0.0"
+    },
+    {
+        "code": "fa - fb > 0.0"
+    },
+    {
+        "code": "fa * maximumIterations >= 0.0"
+    },
+    {
+        "code": "fa * fb >= fb / 0.0"
+    },
+    {
+        "code": "fa * fb > fb"
+    },
+    {
+        "code": "fa * fb >= numIterations"
+    },
+    {
+        "code": "fa >= fb + 0.0"
+    },
+    {
+        "code": "fa * fb >= 12"
+    },
+    {
+        "code": "fa >= fb - 0.0"
+    },
+    {
+        "code": "fa * (fb + 1.0) >= 0.0"
+    },
+    {
+        "code": "fa * fb >= 9"
+    },
+    {
+        "code": "fa * fb % 0.0 >= 0.0"
+    },
+    {
+        "code": "fa - fb >= fb"
+    },
+    {
+        "code": "fa * fb > upperBound"
+    },
+    {
+        "code": "fa / fb >= 0.0"
+    },
+    {
+        "code": "fa * fb + 0.0 > 0.0"
+    },
+    {
+        "code": "fa * fb > 0L"
+    },
+    {
+        "code": "fa * (fb + 2) >= 0.0"
+    },
+    {
+        "code": "fa * fb >= Double.MAX_VALUE"
+    },
+    {
+        "code": "fa - fb + 0.0 >= 0.0"
+    },
+    {
+        "code": "fa * b >= 0.0"
+    },
+    {
+        "code": "fa >= fb * 0.0"
+    },
+    {
+        "code": "fa > 0.0"
+    },
+    {
+        "code": "fa >= 0"
+    },
+    {
+        "code": "fa >= fb * fb"
+    },
+    {
+        "code": "fa * fb > initial"
+    },
+    {
+        "code": "fa * fb >= 31"
+    },
+    {
+        "code": "fa * fb >= fb + 1"
+    },
+    {
+        "code": "fa * fb > 3"
+    },
+    {
+        "code": "fa * fb >= 0.5"
+    },
+    {
+        "code": "fa * fb / fb >= 0.0"
+    },
+    {
+        "code": "fa * fb >= Integer.MAX_VALUE"
+    },
+    {
+        "code": "fa * upperBound >= 0"
+    },
+    {
+        "code": "fa * fb > 2"
+    },
+    {
+        "code": "fa * Integer.MAX_VALUE >= 0.0"
+    },
+    {
+        "code": "fa * initial > 0.0"
+    },
+    {
+        "code": "fa >= fb - fb"
+    },
+    {
+        "code": "fa * fb + 0.0 >= upperBound"
+    },
+    {
+        "code": "fa * fb >= '.'"
+    },
+    {
+        "code": "fa * fb >= 50"
+    },
+    {
+        "code": "fa * fb + 0.0 >= initial"
+    },
+    {
+        "code": "fa * fb > 1"
+    },
+    {
+        "code": "fa >= fb * fb + 0.0"
+    },
+    {
+        "code": "fa - fb >= 3"
+    },
+    {
+        "code": "fa * fb > 1.0"
+    },
+    {
+        "code": "fa * (fb + upperBound) >= 0.0"
+    },
+    {
+        "code": "fa - fb > 0"
+    },
+    {
+        "code": "fa * upperBound > 0.0"
+    },
+    {
+        "code": "fa + fb >= fb"
+    },
+    {
+        "code": "fa - fb >= 2"
+    },
+    {
+        "code": "fa * Double.MAX_VALUE >= 0.0"
+    },
+    {
+        "code": "fa * upperBound >= fb"
+    },
+    {
+        "code": "fa * fb >= 18"
+    },
+    {
+        "code": "fa * numIterations >= 0.0"
+    },
+    {
+        "code": "fa - fb >= 1.0"
+    },
+    {
+        "code": "fa - (double)fb >= 0.0"
+    },
+    {
+        "code": "fa * 0.0 > 0.0"
+    },
+    {
+        "code": "fa * fb >= 100"
+    },
+    {
+        "code": "fa * fb >= Double.MIN_VALUE"
+    },
+    {
+        "code": "fa > fb - 0.0"
+    },
+    {
+        "code": "fa - fb >= upperBound"
+    },
+    {
+        "code": "fa * b >= 0"
+    },
+    {
+        "code": "fa * fb > 5"
+    },
+    {
+        "code": "fa - fb >= 1"
+    },
+    {
+        "code": "fa * (double)fb > 0.0"
+    },
+    {
+        "code": "fa * fb > 4"
+    },
+    {
+        "code": "fa * fb == upperBound"
+    },
+    {
+        "code": "fa * fb > 6"
+    },
+    {
+        "code": "fa * fb >= Float.MAX_VALUE"
+    },
+    {
+        "code": "a * fb >= 3"
+    },
+    {
+        "code": "fa * fb >= 'Z'"
+    },
+    {
+        "code": "fa - fb >= initial"
+    },
+    {
+        "code": "fa * Long.MAX_VALUE >= 0.0"
+    },
+    {
+        "code": "(double)fa * fb >= initial"
+    },
+    {
+        "code": "fa * fb == 1"
+    },
+    {
+        "code": "fa % fb > 0.0"
+    },
+    {
+        "code": "fa * fb >= 2.0"
+    },
+    {
+        "code": "fa * fb == 3"
+    },
+    {
+        "code": "(double)fa * fb >= upperBound"
+    },
+    {
+        "code": "fa % fb >= fb"
+    },
+    {
+        "code": "fa * fb == 1.0"
+    },
+    {
+        "code": "fa > fb + 0.0"
+    },
+    {
+        "code": "a * fb >= 2"
+    },
+    {
+        "code": "fa * fb == 2"
+    },
+    {
+        "code": "fa * fb >= Long.MAX_VALUE"
+    },
+    {
+        "code": "fa * fb > maximumIterations"
+    },
+    {
+        "code": "fa * Float.MAX_VALUE >= 0.0"
+    },
+    {
+        "code": "fa - fb >= 0L"
+    },
+    {
+        "code": "fa - fb >= 5"
+    },
+    {
+        "code": "(double)fa * fb > 0.0"
+    },
+    {
+        "code": "fa * 1 >= fb"
+    },
+    {
+        "code": "fa * (double)fb >= initial"
+    },
+    {
+        "code": "fa * (double)1 >= 0.0"
+    },
+    {
+        "code": "fa * maximumIterations >= 0"
+    },
+    {
+        "code": "(double)fa - fb >= 0.0"
+    },
+    {
+        "code": "fa - fb == 0.0"
+    },
+    {
+        "code": "a * fb >= 1.0"
+    },
+    {
+        "code": "fa - fb >= 4"
+    },
+    {
+        "code": "fa * fb > b"
+    },
+    {
+        "code": "fa - fb >= 6"
+    },
+    {
+        "code": "fa * upperBound >= 3"
+    },
+    {
+        "code": "fb * fb >= 3"
+    },
+    {
+        "code": "fa * (double)1 >= fb"
+    },
+    {
+        "code": "a * fb >= 1"
+    },
+    {
+        "code": "fa * 1 >= 0.0"
+    },
+    {
+        "code": "fa * b > 0.0"
+    },
+    {
+        "code": "fa >= fb * upperBound"
+    },
+    {
+        "code": "fa * upperBound >= 2"
+    },
+    {
+        "code": "fa * fb >= 'A'"
+    },
+    {
+        "code": "fa >= fb + fb"
+    },
+    {
+        "code": "fb * fb >= 2"
+    },
+    {
+        "code": "fa * maximumIterations >= fb"
+    },
+    {
+        "code": "fa * fb == b"
+    },
+    {
+        "code": "fa / fb > 0.0"
+    },
+    {
+        "code": "a * fb >= upperBound"
+    },
+    {
+        "code": "fa * maximumIterations > 0.0"
+    },
+    {
+        "code": "fb * fb >= 1.0"
+    },
+    {
+        "code": "fa - 0.0 >= 0.0"
+    },
+    {
+        "code": "fa * fb >= '\\n'"
+    },
+    {
+        "code": "fa * fb > 8"
+    },
+    {
+        "code": "fa * fb == 5"
+    },
+    {
+        "code": "fa * 2 >= fb"
+    },
+    {
+        "code": "fa * b >= fb"
+    },
+    {
+        "code": "fa / fb >= fb"
+    },
+    {
+        "code": "fa - fb >= b"
+    },
+    {
+        "code": "fa * upperBound >= 1"
+    },
+    {
+        "code": "fa * fb == 6"
+    },
+    {
+        "code": "a * fb >= 5"
+    },
+    {
+        "code": "fb * fb >= 1"
+    },
+    {
+        "code": "fa * upperBound >= 1.0"
+    },
+    {
+        "code": "fa * initial >= fb"
+    },
+    {
+        "code": "fa * numIterations > 0.0"
+    },
+    {
+        "code": "fa + fb >= 3"
+    },
+    {
+        "code": "fa * fb >= Float.MIN_VALUE"
+    },
+    {
+        "code": "a * fb >= 6"
+    },
+    {
+        "code": "a * fb >= 4"
+    },
+    {
+        "code": "fb * fb < 0.0"
+    },
+    {
+        "code": "fa * 0.0 > fb"
+    },
+    {
+        "code": "fa * Character.MAX_VALUE >= 0.0"
+    },
+    {
+        "code": "fa * fb > 10"
+    },
+    {
+        "code": "fa * upperBound >= upperBound"
+    },
+    {
+        "code": "fa / fb >= 0"
+    },
+    {
+        "code": "fa * upperBound >= initial"
+    },
+    {
+        "code": "fa * fb == 4"
+    },
+    {
+        "code": "fa + fb >= 2"
+    },
+    {
+        "code": "fa * Integer.MAX_VALUE >= fb"
+    },
+    {
+        "code": "fa * upperBound > 0"
+    },
+    {
+        "code": "fa >= fb / 0.0"
+    },
+    {
+        "code": "fa * fb >= 32"
+    },
+    {
+        "code": "initial * fb < 0.0"
+    },
+    {
+        "code": "fa * fb == maximumIterations"
+    },
+    {
+        "code": "fa + 0.0 >= 0.0"
+    },
+    {
+        "code": "fa * 3 >= fb"
+    },
+    {
+        "code": "lowerBound * fb >= upperBound"
+    },
+    {
+        "code": "fa - fb >= 8"
+    },
+    {
+        "code": "fa - fb >= maximumIterations"
+    },
+    {
+        "code": "initial * fb >= 3"
+    },
+    {
+        "code": "fa * 0.0 != 0.0"
+    },
+    {
+        "code": "fa * upperBound >= 5"
+    },
+    {
+        "code": "fa * fb > Double.MAX_VALUE"
+    },
+    {
+        "code": "fa * fb >= Byte.MAX_VALUE"
+    },
+    {
+        "code": "(double)fa >= fb"
+    },
+    {
+        "code": "fb * fb >= 5"
+    },
+    {
+        "code": "fa + fb >= 1.0"
+    },
+    {
+        "code": "lowerBound * fb >= initial"
+    },
+    {
+        "code": "fa * upperBound >= 4"
+    },
+    {
+        "code": "numIterations * fb < 0.0"
+    },
+    {
+        "code": "fa + fb >= maximumIterations"
+    },
+    {
+        "code": "fa * maximumIterations >= 3"
+    },
+    {
+        "code": "fa >= fb + 1"
+    },
+    {
+        "code": "fa - initial >= 0.0"
+    },
+    {
+        "code": "fa * upperBound >= 6"
+    },
+    {
+        "code": "fb * fb >= 4"
+    },
+    {
+        "code": "fa * Math.random() >= fb"
+    },
+    {
+        "code": "fb * fb >= 6"
+    },
+    {
+        "code": "fa + fb >= 1"
+    },
+    {
+        "code": "fa * fb == initial"
+    },
+    {
+        "code": "fa * fb >= Character.MAX_VALUE"
+    },
+    {
+        "code": "Math.min(fa,fb) >= 0.0"
+    },
+    {
+        "code": "fa * 1.0 >= 0.0"
+    },
+    {
+        "code": "fa % fb >= 3"
+    },
+    {
+        "code": "fa * fb >= Short.MAX_VALUE"
+    },
+    {
+        "code": "fa * Double.MAX_VALUE >= fb"
+    },
+    {
+        "code": "initial * fb >= upperBound"
+    },
+    {
+        "code": "fa * Float.MIN_VALUE >= 0.0"
+    },
+    {
+        "code": "fa >= (double)fb"
+    },
+    {
+        "code": "fa > fb"
+    },
+    {
+        "code": "fa >= 0.0 * fb"
+    },
+    {
+        "code": "fa * fb > Integer.MAX_VALUE"
+    },
+    {
+        "code": "fa * fa >= upperBound"
+    },
+    {
+        "code": "fa * upperBound == 0.0"
+    },
+    {
+        "code": "function.equals(fa * fb)"
+    },
+    {
+        "code": "(double)fa >= 0.0"
+    },
+    {
+        "code": "fa * fb > 0.5"
+    },
+    {
+        "code": "a * fb >= initial"
+    },
+    {
+        "code": "fa >= upperBound"
+    },
+    {
+        "code": "fa == fb"
+    },
+    {
+        "code": "fa * upperBound >= 0L"
+    },
+    {
+        "code": "b * fb >= upperBound"
+    },
+    {
+        "code": "fa - fb > upperBound"
+    },
+    {
+        "code": "fa - upperBound >= 0.0"
+    },
+    {
+        "code": "fa * fb > '.'"
+    },
+    {
+        "code": "fa * fb > '\\0'"
+    },
+    {
+        "code": "fa >= 1.0"
+    },
+    {
+        "code": "fa >= 3"
+    },
+    {
+        "code": "fa >= 2"
+    },
+    {
+        "code": "fa >= fb + 1.0"
+    },
+    {
+        "code": "fa >= 1"
+    },
+    {
+        "code": "fa * initial > 0"
+    },
+    {
+        "code": "fa - fb > fb"
+    },
+    {
+        "code": "fa >= 5"
+    },
+    {
+        "code": "maximumIterations * fb < 0.0"
+    },
+    {
+        "code": "fa >= maximumIterations"
+    },
+    {
+        "code": "fa * fb >= '0'"
+    },
+    {
+        "code": "fa >= 8"
+    },
+    {
+        "code": "upperBound * fb >= upperBound"
+    },
+    {
+        "code": "fa >= 4"
+    },
+    {
+        "code": "fa * b > 0"
+    },
+    {
+        "code": "false"
+    },
+    {
+        "code": "fa * numIterations >= 0"
+    },
+    {
+        "code": "fb * fb < 0"
+    },
+    {
+        "code": "fa * fa < 0.0"
+    },
+    {
+        "code": "fa > 0"
+    },
+    {
+        "code": "fa >= 6"
+    },
+    {
+        "code": "fa * fa == 0.0"
+    },
+    {
+        "code": "fa * 3 >= 0.0"
+    },
+    {
+        "code": "fa >= fb + upperBound"
+    },
+    {
+        "code": "fa * 1.0 >= fb"
+    },
+    {
+        "code": "fa * initial >= upperBound"
+    },
+    {
+        "code": "fa * b >= initial"
+    },
+    {
+        "code": "fb * fb >= maximumIterations"
+    },
+    {
+        "code": "fa >= initial"
+    },
+    {
+        "code": "fa >= fb * 1"
+    },
+    {
+        "code": "!(fa <= fb)"
+    },
+    {
+        "code": "fa * maximumIterations == 0.0"
+    },
+    {
+        "code": "fa == 0.0"
+    },
+    {
+        "code": "fa >= 10"
+    },
+    {
+        "code": "fa / fb == 0.0"
+    },
+    {
+        "code": "fa - fb > 0L"
+    },
+    {
+        "code": "fa * b >= upperBound"
+    },
+    {
+        "code": "!(fa < fb)"
+    },
+    {
+        "code": "fa >= numIterations"
+    },
+    {
+        "code": "fa * numIterations >= fb"
+    },
+    {
+        "code": "fa >= fb / 1"
+    },
+    {
+        "code": "fa >= fb / fb"
+    },
+    {
+        "code": "fa >= b"
+    },
+    {
+        "code": "fa * fb > Double.MIN_VALUE"
+    },
+    {
+        "code": "fa * maximumIterations > 0"
+    },
+    {
+        "code": "fa * maximumIterations >= initial"
+    },
+    {
+        "code": "function.equals(fb)"
+    },
+    {
+        "code": "fa >= 12"
+    },
+    {
+        "code": "fb < 0.0"
+    },
+    {
+        "code": "fa >= Double.MAX_VALUE"
+    },
+    {
+        "code": "fa > 1"
+    },
+    {
+        "code": "fa >= 9"
+    },
+    {
+        "code": "fa >= Integer.MAX_VALUE"
+    },
+    {
+        "code": "fa > upperBound"
+    },
+    {
+        "code": "upperBound < 0.0"
+    },
+    {
+        "code": "upperBound <= 0.0"
+    },
+    {
+        "code": "fb > fb"
+    },
+    {
+        "code": "fa >= Double.MIN_VALUE"
+    },
+    {
+        "code": "fa == 0"
+    },
+    {
+        "code": "numIterations <= fb"
+    },
+    {
+        "code": "initial < 0.0"
+    },
+    {
+        "code": "fa >= Float.MAX_VALUE"
+    },
+    {
+        "code": "fa > initial"
+    },
+    {
+        "code": "fb < fb"
+    },
+    {
+        "code": "fa >= Long.MAX_VALUE"
+    },
+    {
+        "code": "maximumIterations < 0.0"
+    },
+    {
+        "code": "fa > 3"
+    },
+    {
+        "code": "maximumIterations <= 0.0"
+    },
+    {
+        "code": "fa > 2"
+    },
+    {
+        "code": "fa >= 31"
+    },
+    {
+        "code": "fa >= 100"
+    },
+    {
+        "code": "fa >= '.'"
+    },
+    {
+        "code": "fa >= '\\0'"
+    },
+    {
+        "code": "fa >= 0L"
+    },
+    {
+        "code": "fa > fa"
+    },
+    {
+        "code": "fa > 10"
+    },
+    {
+        "code": "b < 0.0"
+    },
+    {
+        "code": "numIterations < 0.0"
+    },
+    {
+        "code": "fa == 1"
+    },
+    {
+        "code": "function.equals(fa)"
+    },
+    {
+        "code": "fa == upperBound"
+    },
+    {
+        "code": "maximumIterations == 0.0"
+    },
+    {
+        "code": "function.equals(\"invalid bracketing parameters: lower bound={0}, initial={1}, upper bound={2}\")"
+    },
+    {
+        "code": "fa >= 0.5"
+    },
+    {
+        "code": "0 > fb"
+    },
+    {
+        "code": "maximumIterations < fb"
+    },
+    {
+        "code": "maximumIterations <= fb"
+    }
+]

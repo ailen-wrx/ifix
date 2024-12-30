@@ -1,0 +1,7 @@
+pos += Character.charCount( Character.codePointAt( input , pos - pos ) ) ;
+pos += Character.charCount( Character.codePointAt( input ,0) ) ;
+pos += Character.charCount( Character.codePointAt( input , pt ) ) ;
+pos += Character.charCount( Character.codePointAt( input , pos /2) ) ;
+pos += Character.charCount( Character.codePointAt( input , pos /3) ) ;
+pos += Character.charCount( Character.codePointAt( input , pos &1) ) ;
+pos += Character.charCount( Character.codePointAt( input ,0) ) ; ;

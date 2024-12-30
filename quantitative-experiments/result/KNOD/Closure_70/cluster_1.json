@@ -1,0 +1,28 @@
+{
+    "cluster_1": [
+        {
+            "code": "defineSlot(astParameter,functionNode,jsDocParameter.getJSType(),false);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "defineSlot(astParameter,functionNode,jsDocParameter.getJSType(),functionType.isConstructor());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "defineSlot(astParameter,functionNode,jsDocParameter.getJSType(),functionType.isInterface());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "defineSlot(astParameter,functionNode,jsDocParameter.getJSType(),functionType.isInstanceType());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "defineSlot(astParameter,jsDocParameters,jsDocParameter.getJSType(),false);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "defineSlot(astParameter,astParameters,jsDocParameter.getJSType(),false);",
+            "test_case": "0/0"
+        }
+    ]
+}

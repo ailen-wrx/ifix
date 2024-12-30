@@ -1,0 +1,293 @@
+[
+    {
+        "code": "int j = 4 * n - 4;"
+    },
+    {
+        "code": "if (n > 0 ){\nreturn false;\n}"
+    },
+    {
+        "code": "int j = 4 - n - 1;"
+    },
+    {
+        "code": "int j = 4 * n - 4;"
+    },
+    {
+        "code": "int j = 4 * pingPong - 1;"
+    },
+    {
+        "code": "if (n >= 0 ){\nreturn false;\n}"
+    },
+    {
+        "code": "int j = 5 - n;"
+    },
+    {
+        "code": "if (step > 0 ){\nreturn false;\n}"
+    },
+    {
+        "code": "int j = 0 * n - 1;"
+    },
+    {
+        "code": "int j = 4 - n - 1;"
+    },
+    {
+        "code": "int j = 4 * (n - 1);"
+    },
+    {
+        "code": "int j = 4 * 1 - n;"
+    },
+    {
+        "code": "if (step >= 0 ){\nreturn false;\n}"
+    },
+    {
+        "code": "int j = 4 / n - 1;"
+    },
+    {
+        "code": "int j = 3 - n;"
+    },
+    {
+        "code": "int j = 2 - n;"
+    },
+    {
+        "code": "int j = n - n;"
+    },
+    {
+        "code": "if (n > 0 )return false;"
+    },
+    {
+        "code": "int j = n * pingPong - 1;"
+    },
+    {
+        "code": "if (n > 0 ){\nreturn true;\n}"
+    },
+    {
+        "code": "if (pingPong == 0 ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (step > 0 )return false;"
+    },
+    {
+        "code": "int j = 5 - n - 1;"
+    },
+    {
+        "code": "int j = n - n - 1;"
+    },
+    {
+        "code": "if (n >= 0 ){\nreturn true;\n}"
+    },
+    {
+        "code": "if (pingPong == 0 )return false;"
+    },
+    {
+        "code": "if (n >= 0 )return false;"
+    },
+    {
+        "code": "int j = 4 * n & 1;"
+    },
+    {
+        "code": "int j = 4 - n + 1;"
+    },
+    {
+        "code": "int j = 2 * pingPong - 1;"
+    },
+    {
+        "code": "if (step >= 0 )return false;"
+    },
+    {
+        "code": "int j = 4 * n % 1;"
+    },
+    {
+        "code": "int j = (4 >>> n) - 1;"
+    },
+    {
+        "code": "if (n > 0 )return true;"
+    },
+    {
+        "code": "int j = pingPong * n - 1;"
+    },
+    {
+        "code": "int j = 3 - n - 1;"
+    },
+    {
+        "code": "int j = 5 * pingPong - 1;"
+    },
+    {
+        "code": "int j = 2 - n - 1;"
+    },
+    {
+        "code": "int j = (int)n - n;"
+    },
+    {
+        "code": "int j = 4 * n & 2;"
+    },
+    {
+        "code": "int j = 4 - n - n;"
+    },
+    {
+        "code": "int j = (4 >> n) - 1;"
+    },
+    {
+        "code": "int j = (int) (4 - n);"
+    },
+    {
+        "code": "int j = 4 * 1 - step;"
+    },
+    {
+        "code": "int j = 1 - n;"
+    },
+    {
+        "code": "int j = 6 - n;"
+    },
+    {
+        "code": "int j = n * 1 - n;"
+    },
+    {
+        "code": "int j = 1 * pingPong - 1;"
+    },
+    {
+        "code": "int j = (int)4 - n;"
+    },
+    {
+        "code": "int j = 4 * (n - n);"
+    },
+    {
+        "code": "int j = 4 - n * 1;"
+    },
+    {
+        "code": "int j = 0 * n;"
+    },
+    {
+        "code": "int j = 3 * pingPong - 1;"
+    },
+    {
+        "code": "int j = 4 * n - 100;"
+    },
+    {
+        "code": "int j = n / n - 1;"
+    },
+    {
+        "code": "int j = n * n / 2;"
+    },
+    {
+        "code": "int j = 5 - n - 1;"
+    },
+    {
+        "code": "int j = n * pingPong;"
+    },
+    {
+        "code": "int j = 4 / n;"
+    },
+    {
+        "code": "int j = 3 - 1;"
+    },
+    {
+        "code": "int j = 2 * 1;"
+    },
+    {
+        "code": "int j = main.length - n;"
+    },
+    {
+        "code": "int j = realEigenvalues.length - n;"
+    },
+    {
+        "code": "int j = secondary.length - n;"
+    },
+    {
+        "code": "int j = 4 * pingPong;"
+    },
+    {
+        "code": "int j = 8 - n - 1;"
+    },
+    {
+        "code": "int j = 8 * pingPong - 1;"
+    },
+    {
+        "code": "int j = step * 1;"
+    },
+    {
+        "code": "int j = 5 * 1 - n;"
+    },
+    {
+        "code": "int j = 4 * secondary.length;"
+    },
+    {
+        "code": "int j = n - work.length;"
+    },
+    {
+        "code": "int j = 0 - n;"
+    },
+    {
+        "code": "int j = 0;"
+    },
+    {
+        "code": "int j = 4 * n & 3;"
+    },
+    {
+        "code": "int j = Integer.MIN_VALUE * 1;"
+    },
+    {
+        "code": "int j = 4 - work.length;"
+    },
+    {
+        "code": "int j = 5 / n - 1;"
+    },
+    {
+        "code": "int j = 4 * n & 0;"
+    },
+    {
+        "code": "int j = 5 - n + 1;"
+    },
+    {
+        "code": "int j = 1 - 1;"
+    },
+    {
+        "code": "int j = 4 - n - step;"
+    },
+    {
+        "code": "int j = 2 - n - 1;"
+    },
+    {
+        "code": "int j = goodStep(4 * n,0);"
+    },
+    {
+        "code": "int j = 10 * pingPong - 1;"
+    },
+    {
+        "code": "int j = 6 - n - 1;"
+    },
+    {
+        "code": "int j = 4 - 2;"
+    },
+    {
+        "code": "int j = 3 - n - 1;"
+    },
+    {
+        "code": "int j = 4 * pingPong - 2;"
+    },
+    {
+        "code": "int j = 4 >> n;"
+    },
+    {
+        "code": "int j = n % 1;"
+    },
+    {
+        "code": "int j = 10 - n - 1;"
+    },
+    {
+        "code": "int j = n * 0;"
+    },
+    {
+        "code": "int j = 2 * n % 1;"
+    },
+    {
+        "code": "int j = '\\0' * n - 1;"
+    },
+    {
+        "code": "int j = 4 - step;"
+    },
+    {
+        "code": "int j = n - n - 1;"
+    },
+    {
+        "code": "int j = 1 * n - n;"
+    }
+]

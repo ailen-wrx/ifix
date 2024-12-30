@@ -1,0 +1,218 @@
+[
+    {
+        "patch": "uri = attr.getValue(); return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "uri = attr.getValue();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return ((Element) aNode).getNodeValue();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "aNode = attr.getParentNode(); return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr!= null) return null; return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return ((Element) aNode).getNamespaceURI();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "((Element) aNode).getNodeValue();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr == null) return null; return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr == null) return null; return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "uri = attr!= null? uri : null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr == null) { return null; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return aNode.getNodeValue();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return uri!= null? uri : null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr!= null) return null; return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return attr.getFirstChild().getNamespaceURI();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String value = attr.getValue(); return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr!= null) { return uri; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String value = attr.getValue(); return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "uri = attr.getNodeValue();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return attr.getPrefix();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "uri = attr.getNamespaceURI();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "aNode = aNode.getParentNode();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr!= null) { return null; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr!= null) return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return uri == null? null : uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "uri = attr.getValue(); break;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return aNode.getNamespaceURI();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr == null) return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (attr!= null) return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "node = attr.getParentNode();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return node.getNodeValue();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "node = aNode.getParentNode();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return element.getNamespaceURI();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getPrefix(attr);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return node.getNamespaceURI();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "uri = attr.getPrefix();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "uri = element.getNamespaceURI();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "attr = attr;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "node = attr;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; return null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "uri = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return uri;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return prefix;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return null ;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": ";",
+        "correctness": "plausible"
+    },
+    {
+        "patch": ";",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "break;",
+        "correctness": "plausible"
+    }
+]

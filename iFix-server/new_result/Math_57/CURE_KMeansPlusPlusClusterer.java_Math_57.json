@@ -1,0 +1,182 @@
+[
+    {
+        "code": "int sum = -1; if( sum ==0) continue ;",
+        "score": 99.30947265625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; sum = -1;",
+        "score": 99.2248026529948,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; int max =0;",
+        "score": 99.21839396158855,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; sum +=0.0;",
+        "score": 99.2125995342548,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; if( sum == -1)",
+        "score": 99.20976039341518,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; int max = -1;",
+        "score": 99.20474008413461,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum =0; sum = -1;",
+        "score": 99.19969593394886,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; final int max =0;",
+        "score": 99.19559420072116,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int start =0; double sum =0;",
+        "score": 99.18489213423295,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; if( sum <0)",
+        "score": 99.1514141376202,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; int min = -1;",
+        "score": 99.14947040264423,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; long max =0;",
+        "score": 99.12221272786458,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; float max =0;",
+        "score": 99.11458333333333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; while( sum <0)",
+        "score": 99.11328125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1;",
+        "score": 99.11066545758929,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; int l =0;",
+        "score": 99.09902954101562,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int start =0; float sum =0;",
+        "score": 99.0723876953125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; if( sum !=0)",
+        "score": 99.07096041165866,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; int min =0;",
+        "score": 99.06245930989583,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; int start =0;",
+        "score": 99.05586751302083,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; if( sum <=0)",
+        "score": 99.05025540865384,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1; if( sum <1)",
+        "score": 99.0486591045673,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double sum =0;",
+        "score": 99.04750569661458,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum =0; sum -- ;",
+        "score": 99.01234266493056,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "float sum =0;",
+        "score": 98.94624837239583,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double sum =0; sum =0;",
+        "score": 98.89649658203125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "float sum =0; sum =0;",
+        "score": 98.84508056640625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum = -1+0;",
+        "score": 98.77018229166667,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int sum =0; -- sum ;",
+        "score": 98.73479546440973,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double sum ; sum =0;",
+        "score": 98.67581939697266,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double sum = sum =0;",
+        "score": 98.64319610595703,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double sum =0+0;",
+        "score": 98.61994171142578,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "float sum = sum =0;",
+        "score": 98.60076904296875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "float sum ; sum =0;",
+        "score": 98.59033966064453,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double sum = -0;",
+        "score": 98.54261997767857,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "long sum = -1;",
+        "score": 98.49475969587054,
+        "test_case": "0/1/0"
+    }
+]

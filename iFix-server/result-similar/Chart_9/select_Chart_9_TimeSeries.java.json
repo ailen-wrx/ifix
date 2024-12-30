@@ -1,0 +1,14 @@
+{
+    "cluster_1": {
+        "code": "if( endIndex < startIndex ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_3": {
+        "code": "if( endIndex < -( getIndex( start ) +1) ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_2": {
+        "code": "if( endIndex < startIndex ) { endIndex = -1;",
+        "test_case": "0/1/0"
+    }
+}

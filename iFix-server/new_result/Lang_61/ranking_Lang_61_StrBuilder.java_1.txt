@@ -1,0 +1,9 @@
+cluster_4: int len = thisBuf.length - size - startIndex ;
+cluster_3: int len = size ;
+cluster_7: int len = Math.min( thisBuf.length , size ) ;
+cluster_6: int len = Math.max( size , strLen ) ;
+cluster_2: int len = thisBuf != null ? size -1: size ;
+cluster_5: int len = size -1; if( thisBuf != null )
+cluster_1: int len =( startIndex <0?0: size ) ;
+cluster_8: for( int len = size -1; len >=0; len -- )
+cluster_9: for( int len =0; len < size ; len ++ )

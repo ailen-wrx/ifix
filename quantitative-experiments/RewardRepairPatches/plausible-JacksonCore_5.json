@@ -1,0 +1,186 @@
+[
+    {
+        "patch": "char c = str.charAt(i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i++);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i+1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i++ + 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i++)+1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i); c++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i++).charAt(0);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt((int) i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Char c = str.charAt(i + 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt((char) i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i); return c;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i++); i--;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i) + 2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i); i = i;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "\"char c = str.charAt(i++) + \"\" \"\";\"",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i + 1); ++i;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i).charAt(0);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Character c = str.charAt(i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i) * str.length();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i+++1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i)+2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "(char) str.charAt(i++);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt((char)i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i++.trim());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; char c = str.charAt(i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i++, i + 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt((int)i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i); e--;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i++ + 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(++i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i, 10);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i/2);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "str = str.charAt(i++);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(iIndex++);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt (i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt( i++);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i) ;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i * 2);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int c = str.charAt(i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt( i);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char c = str.charAt(i);;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Char c = str.charAt (i++);",
+        "correctness": "plausible"
+    }
+]

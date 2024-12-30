@@ -1,0 +1,92 @@
+[
+    {
+        "code": "options.dependencyOptions.needsManagement()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() || options.closurePass"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && hasRegExpGlobalReferences()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && precheck()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.needsManagement()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.needsManagement() != false"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && !hasErrors()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.toString() != null"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (hasRegExpGlobalReferences() || options.closurePass)"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (precheck() || options.closurePass)"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && !options.transformAMDToCJSModules"
+    },
+    {
+        "code": "options.dependencyOptions != null && options.dependencyOptions.needsManagement()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.hashCode() != 0"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.needsManagement() && hasRegExpGlobalReferences()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.needsManagement() && precheck()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && !acceptConstKeyword()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && !hasHaltingErrors()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && !isInliningForbidden()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && !acceptEcmaScript5()"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() || options.closurePass"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || isIdeMode())"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || acceptConstKeyword())"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || hasHaltingErrors())"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || isInliningForbidden())"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || hasRegExpGlobalReferences())"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || acceptEcmaScript5())"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || precheck())"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || isTypeCheckingEnabled())"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.needsManagement() == true"
+    },
+    {
+        "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.hashCode() > 0"
+    }
+]

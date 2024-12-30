@@ -1,0 +1,737 @@
+[
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, entry ) >=0) {",
+        "score": 99.82103329613095,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >0) {",
+        "score": 99.820556640625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=1) {",
+        "score": 99.76497395833333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0,0) >=0) {",
+        "score": 99.74417550223214,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry , epsilon , epsilon ) >=0) {",
+        "score": 99.69984654017857,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >= epsilon ) {",
+        "score": 99.64703078497024,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& MathUtils.compareTo( entry ,0, epsilon ) >=0) {",
+        "score": 99.64619140625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=0&& entry >=0) {",
+        "score": 99.644541015625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon -1) >=0) {",
+        "score": 99.63387398097827,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=0&& entry >0) {",
+        "score": 99.614375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( MathUtils.compareTo( entry ,0, epsilon ) >0) ) {",
+        "score": 99.61265497622283,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon / entry ) >=0) {",
+        "score": 99.60676375679348,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >0&& MathUtils.compareTo( entry ,0, epsilon ) >=0) {",
+        "score": 99.605830078125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, -1) >=0) {",
+        "score": 99.5992764559659,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, -0) >=0) {",
+        "score": 99.59320623224431,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry , epsilon , epsilon ) >0) {",
+        "score": 99.59027390252976,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=0.1) {",
+        "score": 99.58993928328805,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=0+ epsilon ) {",
+        "score": 99.58573581861413,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) ==1) {",
+        "score": 99.58523995535714,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry , epsilon ,0) >=0) {",
+        "score": 99.58486793154762,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( MathUtils.compareTo( entry ,0,0) >=0) ) {",
+        "score": 99.57813561480978,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( MathUtils.compareTo( entry ,0, entry ) >=0) ) {",
+        "score": 99.57564113451087,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, entry -1) >=0) {",
+        "score": 99.57228685461956,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, entry ) ==0) {",
+        "score": 99.57132393973214,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0,0) >=1) {",
+        "score": 99.57112630208333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry , epsilon , epsilon ) >=1) {",
+        "score": 99.56245349702381,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0,0) >0) {",
+        "score": 99.56191871279762,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0.0) >=0.0) {",
+        "score": 99.56053402549342,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon - epsilon ) >=0) {",
+        "score": 99.56037703804348,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( MathUtils.compareTo( entry ,0, epsilon ) >=1) ) {",
+        "score": 99.55964461616848,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >= - -1) {",
+        "score": 99.54081394361413,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry , epsilon , entry ) >=0) {",
+        "score": 99.53858584449405,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, entry /1) >=0) {",
+        "score": 99.53698199728261,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, entry -0) >=0) {",
+        "score": 99.5354534646739,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=01) {",
+        "score": 99.5322598544034,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, rhs / entry ) >=0) {",
+        "score": 99.53115446671195,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0.6) >=0.0) {",
+        "score": 99.52875077097039,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0.2) >=0.0) {",
+        "score": 99.52875077097039,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, rhs -1) >=0) {",
+        "score": 99.5285007642663,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry , -0, entry ) >=0) {",
+        "score": 99.52723277698864,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( MathUtils.compareTo( entry ,0, epsilon ) <=0) ) {",
+        "score": 99.52137247721355,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( epsilon , entry ) >=0) {",
+        "score": 99.51829427083334,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon -1) >0) {",
+        "score": 99.51158075747283,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( MathUtils.compareTo( entry , epsilon , epsilon ) >=0) ) {",
+        "score": 99.50856615149456,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0,0) >= epsilon ) {",
+        "score": 99.50645228794643,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry , -0,0) >=0) {",
+        "score": 99.5063809481534,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >= - entry ) {",
+        "score": 99.50391734730114,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0,0.0) >=0) {",
+        "score": 99.49873683763587,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0.0f ) >=0.0f ) {",
+        "score": 99.49857003348214,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0.0) >=0) {",
+        "score": 99.49643123851104,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) > -0) {",
+        "score": 99.4955166903409,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, entry /6) >=0) {",
+        "score": 99.49475628396739,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, entry /2) >=0) {",
+        "score": 99.49475628396739,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon -6) >=0) {",
+        "score": 99.49338697350544,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon -2) >=0) {",
+        "score": 99.49338697350544,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo(0, entry , epsilon ) <0) {",
+        "score": 99.49180385044643,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon - epsilon ) >0) {",
+        "score": 99.49123216711956,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0,0) >= -0) {",
+        "score": 99.49067826704545,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, entry ) >= -0) {",
+        "score": 99.4862948330966,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry , -0, epsilon ) >0) {",
+        "score": 99.48291015625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon -0) >0) {",
+        "score": 99.48255986752717,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=( epsilon ) ) {",
+        "score": 99.48230511209239,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min(0, entry ) >=0) {",
+        "score": 99.48207194010416,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.max( entry ,0.0) >0.0) {",
+        "score": 99.47987124794408,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo( entry ,0, epsilon ) > epsilon ) {",
+        "score": 99.47528366815476,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry , epsilon ) >=0.0) {",
+        "score": 99.47488223805146,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry , epsilon ) >=0) {",
+        "score": 99.470849609375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0) >=0) {",
+        "score": 99.46853841145834,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo(0, entry ,0) <0) {",
+        "score": 99.46740141369048,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0.0) ==0.0) {",
+        "score": 99.46368729440789,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.compareTo(0, epsilon , entry ) >=0) {",
+        "score": 99.45831008184524,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( MathUtils.equals( entry ,0, entry ) ) {",
+        "score": 99.45686609604779,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( epsilon , entry ) >=0.0) {",
+        "score": 99.45246438419117,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0.6) >=0) {",
+        "score": 99.44796932444854,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0.2) >=0) {",
+        "score": 99.44796932444854,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,1.0) >=0) {",
+        "score": 99.43549661075367,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.max( entry , new Double( entry ) ) >=0) {",
+        "score": 99.43129368832237,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.max(0, entry ) >0) {",
+        "score": 99.4182861328125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry , entry ) >=0.0) {",
+        "score": 99.41613051470588,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.floor( entry ) >=0.0) {",
+        "score": 99.4130859375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.max( entry ,0.0) >= epsilon ) {",
+        "score": 99.40713321461396,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.max( entry , entry ) >=0) {",
+        "score": 99.40411783854167,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.max( entry ,0.0) >0) {",
+        "score": 99.40115176930146,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( tableau.getEntry( i , col ) >=0) {",
+        "score": 99.39761173023896,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.max( entry ,0) >0) {",
+        "score": 99.39405110677083,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry , entry ) >=0) {",
+        "score": 99.39290364583333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,0) >=0.0) {",
+        "score": 99.38788200827206,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& Math.abs( entry ) >=0) {",
+        "score": 99.38112505744485,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( epsilon , entry ) >0) {",
+        "score": 99.36583658854167,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry ,1) >=0) {",
+        "score": 99.36217447916667,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( entry >=0) &&( entry >=0) ) {",
+        "score": 99.35354614257812,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.max( entry , -1) >=0) {",
+        "score": 99.35308837890625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0.0&& entry >0.0) {",
+        "score": 99.34881591796875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0.0&& entry >=0.0) {",
+        "score": 99.34709167480469,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.max( entry ,0) >= epsilon ) {",
+        "score": 99.3386474609375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( entry >=0) &&( entry >0) ) {",
+        "score": 99.3369140625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.floor( entry ) >=0) {",
+        "score": 99.32386192908653,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min(0, entry ) ==0) {",
+        "score": 99.32285970052084,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.ceil( entry ) >=0.6) {",
+        "score": 99.31586100260417,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.ceil( entry ) >=0.2) {",
+        "score": 99.31586100260417,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( entry >=0) ||( entry >=0) ) {",
+        "score": 99.30776977539062,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry , epsilon ) >= epsilon ) {",
+        "score": 99.30099283854166,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.ceil( entry ) >0) {",
+        "score": 99.29995492788461,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0.0|| entry >=0.0) {",
+        "score": 99.29505157470703,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0.0|| entry >0.0) {",
+        "score": 99.29492950439453,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( entry >=0) ||( entry >0) ) {",
+        "score": 99.28741455078125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Math.min( entry , entry ) >= epsilon ) {",
+        "score": 99.28710123697917,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& entry >0) {",
+        "score": 99.27779134114583,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( entry >0) &&( entry >=0) ) {",
+        "score": 99.27484130859375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0.0&& epsilon >0.0) {",
+        "score": 99.27153778076172,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( entry >0) &&( entry >0) ) {",
+        "score": 99.26464080810547,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& entry >=0) {",
+        "score": 99.25621541341145,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0.0) {",
+        "score": 99.23333129882812,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0) {",
+        "score": 99.2091293334961,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&&( entry >=0) ) {",
+        "score": 99.20425851004464,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0|| entry >0) {",
+        "score": 99.2024637858073,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& epsilon < minRatio ) {",
+        "score": 99.20061383928571,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&&( entry >0) ) {",
+        "score": 99.19772774832589,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0|| entry >=0) {",
+        "score": 99.1914774576823,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& epsilon >0) {",
+        "score": 99.17465209960938,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry !=0&& entry >0) {",
+        "score": 99.14980061848958,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >0&& entry >0) {",
+        "score": 99.1455586751302,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0|| entry ==0) {",
+        "score": 99.13590494791667,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& entry !=0) {",
+        "score": 99.13027954101562,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >0&& entry >=0) {",
+        "score": 99.1259765625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry !=0&& entry >=0) {",
+        "score": 99.12256876627605,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& epsilon >=0) {",
+        "score": 99.11263020833333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& epsilon !=0) {",
+        "score": 99.100341796875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if((( double ) entry ) >=0) {",
+        "score": 99.10003192608173,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >0.0) {",
+        "score": 99.09821166992188,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry ==0|| entry >=0) {",
+        "score": 99.09767659505208,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& epsilon == epsilon ) {",
+        "score": 99.08345540364583,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0|| epsilon <0) {",
+        "score": 99.08062744140625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&&0< epsilon ) {",
+        "score": 99.07372029622395,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >0|| entry >0) {",
+        "score": 99.0687255859375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0|| entry >= epsilon ) {",
+        "score": 99.06093343098958,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >0|| entry >=0) {",
+        "score": 99.05410766601562,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry ==0|| entry >0) {",
+        "score": 99.04897054036458,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( entry <=0) ) {",
+        "score": 99.0470858487216,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry <0) { } else {",
+        "score": 99.0415371981534,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >0&& epsilon >0) {",
+        "score": 99.03969319661458,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >0&& epsilon >=0) {",
+        "score": 99.03570556640625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& entry >= epsilon ) {",
+        "score": 99.02503458658855,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >0) {",
+        "score": 99.00493621826172,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( entry <0) ) {",
+        "score": 98.99579412286931,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( entry >=0&& epsilon >= epsilon ) {",
+        "score": 98.96256510416667,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( double ) entry >=0) {",
+        "score": 98.84858842329545,
+        "test_case": "0/1/0"
+    }
+]

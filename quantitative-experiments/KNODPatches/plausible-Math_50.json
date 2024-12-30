@@ -1,0 +1,884 @@
+[
+    {
+        "code": ""
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,x1));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * FastMath.abs(x1)));\nx0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - fx);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - rtol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),x1));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(x0 * FastMath.abs(atol)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.abs(rtol - FastMath.abs(atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * x1;\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.abs(rtol - FastMath.max(atol,atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(x1 * FastMath.abs(atol)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - fx);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nx0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - rtol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * FastMath.max(x0,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol * FastMath.abs(x1)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol - FastMath.max(atol,x1)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(rtol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "while (x == x1)\n{\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * FastMath.abs(x1)));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nf0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol - FastMath.abs(atol)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nf0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(x0);\nf0 = fx;\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 * x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * x1));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - (double)rtol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nx0 = computeObjectiveValue(x0);\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.abs(rtol * FastMath.max(atol,atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(x0);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nx0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.abs(rtol * FastMath.abs(atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + FastMath.abs(rtol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.max(rtol * x1,x0);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.max(x0 * x1,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * FastMath.abs(rtol * FastMath.abs(atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 * x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - fx);\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + FastMath.abs(rtol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * FastMath.abs(x1)));\nf0 = fx;\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 2.0 * (x0 + x1 - FastMath.abs(rtol * FastMath.abs(atol)));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - fx);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.max(rtol * x1,x1);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * (rtol + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(DEFAULT_ABSOLUTE_ACCURACY * FastMath.abs(atol)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol - FastMath.max(atol,f0)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.abs(atol - FastMath.abs(atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - 1);\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.max(rtol - fx,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol - FastMath.abs(rtol - FastMath.max(atol,atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - rtol);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * FastMath.max(x1,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nx0 = computeObjectiveValue(x0);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - rtol);\nf0 = computeObjectiveValue(rtol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - FastMath.max(atol,x1));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nf0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nf0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x0 == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,x1));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - x0);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - fx);\nf0 = computeObjectiveValue(rtol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - 0);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - DEFAULT_ABSOLUTE_ACCURACY);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.max(atol,x1));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * x1;\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 + x0 + x1 - FastMath.max(atol,atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 * x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * FastMath.max(x1,x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - 1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - x1);\nf0 = computeObjectiveValue(rtol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - fx);\nf0 = computeObjectiveValue(x0);\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - 1);\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - x1);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 1 * (x0 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - fx);\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = x1;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - f0);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1 * FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nf0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - FastMath.abs(rtol * FastMath.abs(atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(rtol * fx,x1));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x0 * x1 * FastMath.max(x1,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - f1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 * x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - 0.0);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - DEFAULT_ABSOLUTE_ACCURACY);\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.max(rtol - rtol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(FastMath.max(atol,x1));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * FastMath.max(x0,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 + x0 + x1 - FastMath.abs(rtol - FastMath.abs(atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 + x0 + x1 - FastMath.max(atol,atol);\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x0 == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol - FastMath.abs(atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * (rtol + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * FastMath.max(atol,atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - rtol * FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 1 * (x0 + x1 - FastMath.abs(rtol - FastMath.abs(atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 1.0 * (x0 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + FastMath.abs(rtol - FastMath.max(atol,atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * x1;\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 * x1 - x1);\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - FastMath.abs(rtol - FastMath.abs(atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0 * (x0 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nx0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - ftol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - fx);\nf0 = computeObjectiveValue(x0);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - x1);\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = x0 + x1 - rtol + x1 - FastMath.max(atol,atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * x1;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 * x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(fx);\n}"
+    },
+    {
+        "code": "if (x == DEFAULT_ABSOLUTE_ACCURACY ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (f1 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * FastMath.abs(rtol * FastMath.max(x1,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x0 * x1 * FastMath.max(x0,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - rtol + x1 - fx);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 + x0 + x1 - x1;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + rtol - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 * x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,x1));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == FastMath.PI ){\nx0 = 0.5 * x1;\nf0 = 0.5 * x1;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == FastMath.E ){\nx0 = 0.5 * x1;\nf0 = 0.5 * x1;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - fx);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - x);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 * x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - rtol - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(f1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - computeObjectiveValue(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 100 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,x1));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * rtol * FastMath.max(atol,atol);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nf0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(f0,atol));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 5 * (x0 + x1 - fx);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,x1));\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol - FastMath.abs(rtol * FastMath.max(atol,atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(FastMath.abs(atol)));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.abs(atol * FastMath.abs(atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 5 * (x0 + x1 - rtol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == 0.0 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(x1));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - rtol * FastMath.abs(atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 1.0 * (x0 + x1 - FastMath.abs(rtol - FastMath.abs(atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 2.0 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.max(atol,FastMath.max(atol,atol)));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(f1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 1 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * FastMath.max(x1,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nf0 = 0.5 * (x0 + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - rtol);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - rtol);\nf0 = computeObjectiveValue(rtol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * rtol * FastMath.abs(rtol - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 + x0 + x1 - FastMath.max(atol,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * x1));\nx0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x1;\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1) * FastMath.max(x1,atol);\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 *= computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x0 == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (DEFAULT_ABSOLUTE_ACCURACY == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nf0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 - x0 + x1 - FastMath.max(atol,atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(rtol * x1));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x0 * FastMath.max(x0,x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(x1,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.max(x1 * x1,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == DEFAULT_ABSOLUTE_ACCURACY ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(fx);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - 1);\nf0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 += 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 2.0 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (f1 == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(f0);\n}"
+    },
+    {
+        "code": "x0 = 0.5 * (x0 + x0 - FastMath.max(atol,atol));"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = x0 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 + FastMath.max(atol,atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x1;\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.max(atol,rtol));\n}"
+    },
+    {
+        "code": "if (x == DEFAULT_ABSOLUTE_ACCURACY ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x + x1 == x1 ){\nx0 = 0.5 * x1;\nx0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x1 * x1;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nf0 = 0.5 * (x0 + x1 - FastMath.max(x1,atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x0 * FastMath.max(x1,atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x0 * x1;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == FastMath.PI ){\nx0 = 0.5 * x1;\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == FastMath.E ){\nx0 = 0.5 * x1;\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (f1 == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 += 0.5 * (x0 + x1 - FastMath.max(atol,atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.max(atol,x1);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 + x0 + x1 - FastMath.abs(rtol * FastMath.abs(atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 += 0.5 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nx0 = computeObjectiveValue(DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == DEFAULT_ABSOLUTE_ACCURACY ){\nx0 = 0.5 * x1;\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * x1;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol - x1);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 - x0 + x1 - FastMath.abs(rtol * FastMath.abs(atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + 0.5 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 - x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = rtol * (x0 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - FastMath.abs(atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = x0 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 )x0 = 0.5 * (x0 + x1 - x1);"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = x0;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (DEFAULT_ABSOLUTE_ACCURACY + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x1;\nx0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == 0.0 ){\nx0 = 0.5 * (x0 + x1 - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = (x0 + x1) * (rtol - FastMath.max(atol,atol));\n}"
+    },
+    {
+        "code": "while (x == x1)\n{\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol + x1 - x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - rtol - f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * rtol * FastMath.max(atol,atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.abs(rtol * FastMath.max(x1,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - rtol - fx);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - f0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - FastMath.abs(atol));\nf0 = fx;\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x1 - x1);\nx0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol - FastMath.max(atol,x1));\n}"
+    },
+    {
+        "code": "if (x == DEFAULT_ABSOLUTE_ACCURACY ){\nx0 = 0.5 * x1;\nf0 = computeObjectiveValue(atol);\nf0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * computeObjectiveValue(atol);\nf0 = computeObjectiveValue(x1);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = rtol * (x0 + x1) * FastMath.max(x1,atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 += 0.5;\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.max(x0,x0);\nf0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x1;\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x0 * FastMath.max(rtol * x1,atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (x == x1 )x0 = 0.5 * x1;"
+    },
+    {
+        "code": "if (x == DEFAULT_ABSOLUTE_ACCURACY ){\nx0 = 0.5 * (x0 + x1 - DEFAULT_ABSOLUTE_ACCURACY);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * rtol * FastMath.abs(rtol * FastMath.abs(atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.abs(x1 * FastMath.max(x1,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = DEFAULT_ABSOLUTE_ACCURACY;\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - fx);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 - (x0 + x1) * FastMath.max(x1,atol);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5;\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.abs(rtol * FastMath.max(x0,atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (x0 + x0 - rtol);\n}"
+    },
+    {
+        "code": "if (x == x1 )x0 = 0.5 * (x0 + x1 - f0);"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * (rtol - FastMath.abs(atol));\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * x1;\nx0 = 0.5 * x1;\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nbreak;\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = 0.5 * FastMath.max(atol,x1);\n}"
+    },
+    {
+        "code": "if (x0 == x1 ){\nx0 = 0.5 * x1;\n}"
+    },
+    {
+        "code": "if (x == x1 ){\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (x0 == x1 ){\nx0 = 0.5 * rtol * x1;\n}"
+    },
+    {
+        "code": "x0 = x0;"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = x1;\nx0 = computeObjectiveValue(x0);\n}"
+    },
+    {
+        "code": "if (x == x1 ){\nx0 = x1;\nx0 = computeObjectiveValue(atol);\n}"
+    },
+    {
+        "code": "if (rtol == x1 ){\nx0 = 0.5 * x1;\n}"
+    },
+    {
+        "code": "if (f1 == x1 ){\nx0 = 0.5 * x1;\n}"
+    },
+    {
+        "code": "if (x == DEFAULT_ABSOLUTE_ACCURACY ){\nx0 = 0.5 * x1;\n}"
+    }
+]

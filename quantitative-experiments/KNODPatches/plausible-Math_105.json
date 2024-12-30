@@ -1,0 +1,5 @@
+[
+    {
+        "code": "return Math.abs(sumYY - sumXY * sumXY / sumXX);"
+    }
+]

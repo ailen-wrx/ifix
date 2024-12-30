@@ -1,0 +1,126 @@
+[
+    {
+        "patch": "int j = 4 * (n - 1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n - 1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 *(n - 1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4*(n - 1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 *(n - 1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n-1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4* (n - 1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Integer j = 4 * (n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n -1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j =4 * (n - 1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4*(n - 1) + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n - 1) * pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * n - 4 + pingPong;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n - 1 + pingPong);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = n - 4 * n;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * n - 4;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n - 1) + 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Integer j = 4 * (n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Integer j = 4 * (n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 *(n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; int j = 4 * (n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4*(n - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 * (n >> 4);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 4 - n;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int j = -1;",
+        "correctness": "plausible"
+    }
+]

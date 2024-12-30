@@ -1,0 +1,197 @@
+[
+    {
+        "code": "for( int len = size -1; len >=0; len -- )",
+        "score": 99.4700066061581,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "int len = thisBuf != null ? size -1: -1;",
+        "score": 99.45588953354779,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "int len =( startIndex <0?0: size ) ;",
+        "score": 99.44740295410156,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = thisBuf != null ? size -1: size ;",
+        "score": 99.43264770507812,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "int len = thisBuf != null ? size : thisBuf.length ;",
+        "score": 99.43147786458333,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = thisBuf.length - size - startIndex ;",
+        "score": 99.4268798828125,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "for( int len =0; len < size ; len ++ )",
+        "score": 99.4258544921875,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "int len =( startIndex <0) ?0: size ;",
+        "score": 99.41578674316406,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = Math.min( thisBuf.length , size ) ;",
+        "score": 99.40790153952206,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len =( startIndex <0?1: size ) ;",
+        "score": 99.39180755615234,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = thisBuf == null ? -1: size ;",
+        "score": 99.3775146484375,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size -( strLen - strLen ) ;",
+        "score": 99.36695098876953,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size -1; if( thisBuf != null )",
+        "score": 99.35174560546875,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "int len = size - strLen + strLen ;",
+        "score": 99.35121372767857,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size -( startIndex - strLen ) ;",
+        "score": 99.28829956054688,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size( ) ;",
+        "score": 99.27742004394531,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size -( strLen - startIndex ) ;",
+        "score": 99.272216796875,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size( ) -1;",
+        "score": 99.26809692382812,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "int len = size - startIndex + strLen ;",
+        "score": 99.25438581194196,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = strLen + size - strLen ;",
+        "score": 99.20622035435268,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = Math.max( size , strLen ) ;",
+        "score": 99.19834798177084,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size -( strLen -1) ;",
+        "score": 99.18398611886161,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "int len = size -1;",
+        "score": 99.17452239990234,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "int len = size - strLen +1;",
+        "score": 99.17331949869792,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "int len = size - startIndex +1;",
+        "score": 99.17263793945312,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = thisBuf == null ?0: size ;",
+        "score": 99.15793282645089,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = thisBuf != null ? size :0;",
+        "score": 99.13469587053571,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = this.size( ) ;",
+        "score": 99.08424072265625,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size -0;",
+        "score": 99.060302734375,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = startIndex + size ;",
+        "score": 98.97703247070312,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = length( ) ;",
+        "score": 98.97501373291016,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len =31- startIndex ;",
+        "score": 98.968408203125,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size ;",
+        "score": 98.94654337565105,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = size( ) -0;",
+        "score": 98.85973510742187,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "int len = this.size ;",
+        "score": 98.8283462524414,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "final int len = size -1;",
+        "score": 98.81896294487848,
+        "test_case": "0/2/0"
+    },
+    {
+        "code": "long len = size( ) ;",
+        "score": 98.66602325439453,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "final int len = size ;",
+        "score": 98.50499616350446,
+        "test_case": "1/2/0"
+    },
+    {
+        "code": "long len = size ;",
+        "score": 98.21615600585938,
+        "test_case": "1/2/0"
+    }
+]

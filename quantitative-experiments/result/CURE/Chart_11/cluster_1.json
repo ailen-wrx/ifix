@@ -1,0 +1,32 @@
+{
+    "cluster_1": [
+        {
+            "code": "PathIterator iterator2= p2.getPathIterator( null ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "PathIterator iterator2= p1== null ? null : p2.getPathIterator( null ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "PathIterator iterator2=( PathIterator ) p2.getPathIterator( null ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "final PathIterator iterator2= p2.getPathIterator( null ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "PathIterator iterator2= p2.getPathIterator( null ) ; ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "PathIterator iterator2=( p2.getPathIterator( null ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "; PathIterator iterator2= p2.getPathIterator( null ) ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

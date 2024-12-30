@@ -1,0 +1,57 @@
+[
+    {
+        "code": "return mayBeStringHelper( n ) ;",
+        "score": 99.68951885516827,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return mayBeString( n , false ) ;",
+        "score": 99.46006422776442,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return anyResultsMatch( n , MAY_BE_STRING_PREDICATE ) ;",
+        "score": 99.44474712171052,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( mayBeStringHelper( n ) ) ;",
+        "score": 99.4325927734375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return mayBeStringHelper( n ) ? true : false ;",
+        "score": 99.32215073529412,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( recurse && mayBeStringHelper( n ) ) ;",
+        "score": 99.27874396829044,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( mayBeStringHelper( n ) && recurse ) ;",
+        "score": 99.26506491268383,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return mayBeString( n ,( boolean ) false ) ;",
+        "score": 99.26177978515625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return mayBeStringHelper(( Node ) n ) ;",
+        "score": 99.23724365234375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( mayBeString( n , false ) ) ;",
+        "score": 99.22477213541667,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return recurse && mayBeStringHelper( n ) ;",
+        "score": 99.21845703125,
+        "test_case": "0/1/0"
+    }
+]

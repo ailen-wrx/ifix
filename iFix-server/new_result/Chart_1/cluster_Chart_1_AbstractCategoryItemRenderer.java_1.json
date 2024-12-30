@@ -1,0 +1,1176 @@
+{
+    "cluster_1": [
+        {
+            "code": "if( dataset != null && dataset.equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getRowRenderingOrder( ) != SortOrder.ASCENDING ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset == null ) &&( dataset != null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&( index !=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&( index >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && !( dataset != null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( dataset == null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null &&( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&( index <0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&( index == -1) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && plot.getDataset( index ) == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && ! dataset.equals( dataset ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null &&( dataset != null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && !( dataset != null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&( dataset.equals( SortOrder.ASCENDING ) ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) if( dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&( dataset instanceof LegendItemCollection ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.equals( \"Null 'hotspot' argument.\") ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index >= dataset.getRowCount( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset == null ) && dataset != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.equals( null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset == null ) &&( index != -1) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null &&( dataset.getRowCount( ) ==0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && dataset.getRowCount( ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getRowRenderingOrder( ).equals( null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getRowRenderingOrder( ) == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( dataset != null && dataset != null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset instanceof LegendItemCollection ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && dataset != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && plot.getIndexOf( this ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getRowRenderingOrder( ).equals( \"Null 'hotspot' argument.\") ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) !=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) if( dataset != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) == -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) <1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && result.equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null &&( dataset != dataset ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&( index != index ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getColumnCount( ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset == null ) &&( index >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && dataset.getRowCount( ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( plot.getRowRenderingOrder( ) != null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getColumnCount( ) >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null &&( dataset.equals( SortOrder.ASCENDING ) ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && plot.getDataset( index ) != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) >2) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) >4) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) >11) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) >13) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) >3) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null &&( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&( false ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.equals( this.plot ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.getRowCount( ) ==0) { ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot != null && dataset.equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) if( dataset.getRowCount( ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) && null == dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset == null ) ||( index <0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) return null ; if( dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( index != -1) &&( index !=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null || !( dataset != null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset == null ) &&( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( dataset != null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.equals( this ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && !( dataset.equals( dataset ) ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset.getRowCount( ) -1) !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( dataset.getRowCount( ) >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && !( dataset == dataset ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null || dataset.getRowCount( ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null &&( dataset instanceof LegendItemCollection ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null &&( index == -1) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( index <0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( index == -1)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) &&(0>0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) { if( dataset != null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && plot.getIndexOf( this ) !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) { if( dataset == null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index < getRowCount( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ||( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null || dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && !( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && dataset.getRowCount( ) !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null || dataset.equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && plot.getDataset( ) == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.equals( SortOrder.ASCENDING ) && dataset != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && getRowCount( ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset == null ) ||( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && SortOrder.ASCENDING.equals( dataset ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index == -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && this.plot.getDataset( index ) != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( ! dataset.equals( dataset ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(0!=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && plot.getRowRenderingOrder( ) == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null &&( index >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null || index == -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this.plot.getRowRenderingOrder( ) == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.equals( \"Null 'hotspot' argument.\") ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getRowRenderingOrder( ).equals( this.plot ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( \"Null 'hotspot' argument.\".isEmpty( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && plot.getIndexOf( this ) >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset != dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( \"Null 'hotspot' argument.\".equals( dataset ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(0!=0&& dataset != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this == null && dataset != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.equals( result ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getRowRenderingOrder( ).equals( this ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset.equals( plot ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this.plot.getRowRenderingOrder( ).equals( null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null &&( index <0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getDataset( index ) == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index < this.rowCount ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( null == dataset )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( index >0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != this.plot.getDataset( index ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if(2==0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if(4==0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if(11==0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if(13==0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if(3==0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getIndexOf( this ) !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( \"Null 'hotspot' argument.\".length( ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.equals( null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getDataset( index ).equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( dataset.equals( SortOrder.ASCENDING ) )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getColumnRenderingOrder( ) != SortOrder.ASCENDING ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this != null ) { if( dataset == null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) !=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( dataset.getRowCount( ) ==0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset instanceof LegendItemCollection ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != dataset && dataset != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null &&0!=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getIndexOf( this ) == -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getDataset( index ) instanceof LegendItemCollection ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(0!=0) { if( dataset != null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getRowRenderingOrder( ).equals( dataset ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this != null && dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( this.plot == null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) { if( dataset != null ) { }",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getColumnCount( ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot != null &&( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( ! isSeriesVisibleInLegend( index ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( dataset != dataset )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( index !=0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(0!=0) { if( dataset == null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if(0!=0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getOrientation( ).equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(0!=0&& dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( null != dataset && dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( ! ! !( dataset != null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( ! ! dataset.equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) { dataset = null ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( false && dataset != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( ! !( dataset instanceof LegendItemCollection ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( !( dataset != null ) )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) == -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getIndexOf( this ) <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset.equals( SortOrder.ASCENDING ) ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset instanceof LegendItemCollection ) { if( dataset != null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( result.equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if(( dataset == null ) )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this.plot.getDataset( index ) == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this.plot == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( SortOrder.ASCENDING.equals( dataset ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && dataset != dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( dataset.equals( null ) )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getIndexOf( this ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && null == dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( dataset != null ) { } else",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) { case0:",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( dataset instanceof LegendItemCollection )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && null != dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset instanceof LegendItemCollection && dataset != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) >2) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) >4) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) >11) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) >13) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) >3) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.equals( this.plot ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getColumnCount( ) >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null || dataset != dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( index >= dataset.getRowCount( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) ==2) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) ==4) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) ==11) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) ==13) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) ==3) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.getRowCount( ) <1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getDataset( ) == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset instanceof LegendItemCollection ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getIndexOf( this ) != index ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( dataset != null ) ) { if( dataset != null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( getRowCount( ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && this.plot == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this.plot.getIndexOf( this ) !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( dataset.equals( \"Null 'hotspot' argument.\") )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != dataset && dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset != null ) ) { if( dataset == null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( plot == null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && ! false ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( index !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && this.plot == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( false && dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( null == dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && ! true ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && false ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getParent( ) != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) { if( dataset == null ) { }",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( index >=1)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index >=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && dataset == dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && index !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null || index <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if((0!=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( ! isSeriesVisible( index ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { if( result == null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index != index ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && plot == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && this.plot != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(1==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( getRowCount( ) !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot != null && dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null ) { case1:",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(2==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(4==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(11==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(13==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(3==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( dataset instanceof CategoryDataset ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( dataset ) == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset instanceof LegendItem ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getDatasetCount( ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( columnCount !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && dataset == result ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( false || dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( false ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.equals( this ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset instanceof LegendItemCollection ) { ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( index == -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot.getDataset( index ) != dataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.equals( plot ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( index !=0) { if( dataset != null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset.equals( result ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null || false ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index >=2) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index >=4) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index >=11) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index >=13) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && index >=3) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { while( dataset == null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( ! !( dataset == null ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( null instanceof LegendItemCollection ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( plot instanceof CategoryDataset ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null && result == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && plot != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "while( dataset == null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( dataset != null ) ) { ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( index >0) { if( dataset != null )",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { } else {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( index == -1) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset == null && result != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( dataset != null ) { while( index >0)",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( index <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( plot != null ) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_6": [
+        {
+            "code": "if(( index == -1) ||( index == -1) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "if( ! dataset.equals( this.plot.getDataset( index ) ) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "if(( index <0) ||( index <0) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "if( dataset == null && SortOrder.ASCENDING.equals( SortOrder.ASCENDING ) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_7": [
+        {
+            "code": "if( dataset == null ) { result.add( null ) ;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_5": [
+        {
+            "code": "if( SortOrder.ASCENDING != SortOrder.ASCENDING ) {",
+            "test_case": "0/1/0"
+        }
+    ]
+}

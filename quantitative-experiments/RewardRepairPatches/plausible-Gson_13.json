@@ -1,0 +1,26 @@
+[
+    {
+        "patch": "if (last == NUMBER_CHAR_DIGIT && fitsInLong &&!(value!= Long.MIN_VALUE && negative)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (last == NUMBER_CHAR_DIGIT && fitsInLong && ((value & Long.MIN_VALUE)!= 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (last == NUMBER_CHAR_DIGIT && fitsInLong && (!(value!= Long.MIN_VALUE && negative))) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (last == NUMBER_CHAR_DIGIT && fitsInLong && (value!= Long.MIN_VALUE || negative) && pos > 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (last == NUMBER_CHAR_DIGIT && fitsInLong && (value == Long.MIN_VALUE ||!negative)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (last == NUMBER_CHAR_DIGIT && fitsInLong &&!(value!= Long.MIN_VALUE && negative)) {",
+        "correctness": "plausible"
+    }
+]

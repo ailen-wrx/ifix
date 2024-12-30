@@ -1,0 +1,22 @@
+[
+    {
+        "code": "if( endIndex < startIndex ) {",
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex +0< startIndex ) {",
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex -0< startIndex ) {",
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex >= endIndex && endIndex < startIndex ) {",
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex <0|| startIndex ==1) {",
+        "test_case": "0/1/0"
+    }
+]

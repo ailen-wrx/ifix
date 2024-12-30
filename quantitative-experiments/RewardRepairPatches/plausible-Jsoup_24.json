@@ -1,0 +1,34 @@
+[
+    {
+        "patch": "t.tagPending.appendTagName(name);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (r == null) { return; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "/*r.advance()*/;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "t.appropriateEndTagName();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "//$NON-NLS-1$",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "t.toString();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "r.toString();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "r = r;",
+        "correctness": "plausible"
+    }
+]

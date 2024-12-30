@@ -1,0 +1,20 @@
+{
+    "cluster_1": [
+        {
+            "code": "return anyResultsMatch(n,MAY_BE_STRING_PREDICATE);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return NodeUtil.anyResultsMatch(n,MAY_BE_STRING_PREDICATE);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return has(n,MAY_BE_STRING_PREDICATE,MAY_BE_STRING_PREDICATE);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return NodeUtil.has(n,MAY_BE_STRING_PREDICATE,MAY_BE_STRING_PREDICATE);",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+[
+    {
+        "code": "try{\nclasses[i] = array[i].getClass();\n}\ncatch ( Exception e) {\n}"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "patch": "while (currentByte!= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (currentByte > 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (currentByte == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (currentByte < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (currentByte < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (currentByte < end) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (currentByte >= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (currentByte < length) {",
+        "correctness": "plausible"
+    }
+]

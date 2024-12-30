@@ -1,0 +1,446 @@
+[
+    {
+        "patch": "if (i < input.length) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o == input[i]) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i >= input[i]) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i > input[i]) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i!= input.length) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { i--; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == 0) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < input.length) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < input.length) { i--; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(i < input.length) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (input!= null) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o == input[i]) return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < input.length) { continue; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == input.length - 1) return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < end) { i += input.length; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < input.length) { return true; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < end) { i++; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o >= input[i]) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o == input[i]) { return true; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < input.length) return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; if (i < end) { i++; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < end) { i = i + 1; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o < input.length) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o == input[i]) { continue; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i + 1 < end) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i-- < input.length) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < end) { i++; i++; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < end) { i++; ++i; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { i += 2; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < input.length) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(o == input[i]) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < end) { i += 1; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == input.length - 1) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { continue; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == input.length-1) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += input.length; i += input.length;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < i + 1) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; if (i < end) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o!= input.length) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; i--; i--;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == input.length - 1) { continue; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < input.length) { break; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o == input[i]) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { i += 3; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == i) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o == input[i]) { break; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += input.length; i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i >= input[i]) { continue; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o < i) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < end) { i += 2; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < i + 2) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i >= input[i]) return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i--; i--; ++i;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; i++; i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { break; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == 0) { continue; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i==0) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { i--; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(i < end) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { return true; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o < end) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i--;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i -= input[i];",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < end) { ++i; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 1) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < input.length) { continue; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (i < end) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = i + 1; i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (true) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = i + 2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = i + 3;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 2) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = input.length; i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = i - 1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < input.length) continue;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; i++; i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < end) { continue; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; ++i;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i -= input[i];",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 1; i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 2; i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i -= input.length;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = i + 2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = i - 1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = i + 4;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i--;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = i + 3;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 3;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 4;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i -= 1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; ++i;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 3;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 4;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = -1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += end;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 8;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 5;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i -= 1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 6;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 8;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += end;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 5;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i += 6;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i = end;",
+        "correctness": "plausible"
+    }
+]

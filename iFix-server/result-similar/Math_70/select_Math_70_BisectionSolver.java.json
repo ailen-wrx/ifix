@@ -1,0 +1,14 @@
+{
+    "cluster_1": {
+        "code": "return solve( f , min , max ) ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_2": {
+        "code": "return solve( f ,( double ) min , max ) ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_3": {
+        "code": "return( double ) solve( f , min , max ) ;",
+        "test_case": "0/1/0"
+    }
+}

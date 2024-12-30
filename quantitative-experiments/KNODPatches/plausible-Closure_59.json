@@ -1,0 +1,8 @@
+[
+    {
+        "code": "options.checkGlobalThisLevel.isOn() && !isTypeCheckingEnabled()"
+    },
+    {
+        "code": "!isTypeCheckingEnabled() && options.checkGlobalThisLevel.isOn()"
+    }
+]

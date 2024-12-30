@@ -1,0 +1,26 @@
+[
+  {
+    "id": "Closure92",
+    "file_name": "ProcessClosurePrimitives.java",
+    "line_number": 789,
+    "model_output": "Closure_92_1000_validation.json"
+  },
+  {
+    "id": "Lang57",
+    "file_name": "LocaleUtils.java",
+    "line_number": 223,
+    "model_output": "Lang_57_1000_validation.json"
+  },
+  {
+    "id": "Math80",
+    "file_name": "EigenDecompositionImpl.java",
+    "line_number": 1135,
+    "model_output": "Math_80_1000_validation.json"
+  },
+  {
+    "id": "Math94",
+    "file_name": "MathUtils.java",
+    "line_number": 412,
+    "model_output": "Math_94_1000_validation.json"
+  }
+]

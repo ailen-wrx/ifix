@@ -1,0 +1,28 @@
+{
+    "cluster_1": [
+        {
+            "code": "if ( upper > str.length() ) { lower = str.length(); }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( upper > str.length()) { upper = str.length(); }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (upper >= str.length()) { lower = str.length(); }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (upper == -1 || lower == lower) { return false; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( lower > str.length() ) { lower = str.length(); }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (upper > str.length()) { lower = str.length(); }",
+            "test_case": "0/0"
+        }
+    ]
+}

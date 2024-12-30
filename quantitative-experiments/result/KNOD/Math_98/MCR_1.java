@@ -1,0 +1,11 @@
+cluster_1: final BigDecimal[] out = new BigDecimal[data.length];
+cluster_1: final BigDecimal[] out = new BigDecimal[data.length];
+cluster_1: final BigDecimal[] out = new BigDecimal[data.length];
+cluster_1: BigDecimal[] out = new BigDecimal[data.length];
+cluster_1: final BigDecimal[] out = new BigDecimal[3];
+cluster_1: final BigDecimal[] out = new BigDecimal[nRows];
+cluster_1: final BigDecimal[] out = new BigDecimal[getRowDimension()];
+cluster_1: final BigDecimal[] out = new BigDecimal[getData().length];
+cluster_1: BigDecimal[] out = new BigDecimal[3];
+cluster_1: BigDecimal[] out = new BigDecimal[nRows];
+cluster_1: final BigDecimal[] out = new BigDecimal[this.getRowDimension()];

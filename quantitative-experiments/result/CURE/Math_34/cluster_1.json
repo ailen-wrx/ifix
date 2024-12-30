@@ -1,0 +1,12 @@
+{
+    "cluster_1": [
+        {
+            "code": "return Collections.unmodifiableList( chromosomes ).iterator( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return Collections.unmodifiableCollection( chromosomes ).iterator( ) ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

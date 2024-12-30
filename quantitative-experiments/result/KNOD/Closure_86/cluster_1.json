@@ -1,0 +1,308 @@
+{
+    "cluster_2": [
+        {
+            "code": "return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isObjectLitKey(value,value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isLhs(value,value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isTryFinallyNode(value,value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return locals.apply(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return REGEXP_METHODS.equals(value.getParent().getNext());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return BUILTIN_FUNCTIONS_WITHOUT_SIDEEFFECTS.equals(value.getParent().getNext());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return CONSTRUCTORS_WITHOUT_SIDE_EFFECTS.equals(value.getParent().getNext());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return OBJECT_METHODS_WITHOUT_SIDEEFFECTS.equals(value.getParent().getNext());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return JSC_PROPERTY_NAME_FN.equals(value.getParent().getNext());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return STRING_REGEXP_METHODS.equals(value.getParent().getNext());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isFunction(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isName(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return mayHaveSideEffects(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isFunctionDeclaration(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isGet(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isGetProp(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isExpressionNode(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isFunctionExpression(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isAssign(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isVar(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isObjectLitKey(value.getParent(),value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isLhs(value.getParent(),value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return REGEXP_METHODS.isEmpty();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return BUILTIN_FUNCTIONS_WITHOUT_SIDEEFFECTS.isEmpty();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return CONSTRUCTORS_WITHOUT_SIDE_EFFECTS.isEmpty();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return OBJECT_METHODS_WITHOUT_SIDEEFFECTS.isEmpty();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return JSC_PROPERTY_NAME_FN.isEmpty();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return STRING_REGEXP_METHODS.isEmpty();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isNameReferenced(value.getParent(),JSC_PROPERTY_NAME_FN);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return has(value,locals,locals);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return locals.apply(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isObjectLitKey(value,value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isLhs(value,value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return locals.apply(value.getLastChild());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isFunction(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isName(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return mayHaveSideEffects(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isFunctionDeclaration(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isGet(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isGetProp(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isExpressionNode(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isFunctionExpression(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isAssign(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isVar(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return locals.apply(value.getFirstChild());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return ControlFlowGraph.isEnteringNewCfgNode(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return REGEXP_METHODS.equals(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return BUILTIN_FUNCTIONS_WITHOUT_SIDEEFFECTS.equals(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return CONSTRUCTORS_WITHOUT_SIDE_EFFECTS.equals(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return OBJECT_METHODS_WITHOUT_SIDEEFFECTS.equals(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return JSC_PROPERTY_NAME_FN.equals(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return STRING_REGEXP_METHODS.equals(value.getParent());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return value.getType() == 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return value.getFirstChild() == locals;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "if (!isFunction(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!isName(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!mayHaveSideEffects(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!isFunctionDeclaration(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!isGet(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!isGetProp(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!isExpressionNode(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!isFunctionExpression(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!isAssign(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!isVar(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (value.isEquivalentTo(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (value.checkTreeEqualsSilent(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (value.checkTreeTypeAwareEqualsSilent(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (mayHaveSideEffects(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!value.hasChild(value) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (value != null ){\nreturn false;\n}",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "if (Token.printTrees ){\nreturn locals.apply(value);\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (value.hasChildren() ){\nreturn locals.apply(value);\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (value.hasOneChild() ){\nreturn locals.apply(value);\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (value.hasSideEffects() ){\nreturn locals.apply(value);\n}",
+            "test_case": "0/0"
+        }
+    ]
+}

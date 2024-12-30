@@ -1,0 +1,20 @@
+{
+    "cluster_1": [
+        {
+            "code": "if (!result.isConstructor()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!result.isConstructor()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!result.isNoType()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!result.isNoType()) {",
+            "test_case": "0/0"
+        }
+    ]
+}

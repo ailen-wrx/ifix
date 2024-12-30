@@ -1,0 +1,12 @@
+final double n1n2prod = n1 * n2;
+final long n1n2prod = n1 * n2;
+double n1n2prod = n1 * n2;
+long n1n2prod = n1 * n2;
+float n1n2prod = n1 * n2;
+double n1n2prod = n1 * n2;
+final double n1n2prod = n1 * n2;
+float n1n2prod = n1 * n2;
+final float n1n2prod = n1 * n2;
+long n1n2prod = n1 * n2;
+final long n1n2prod = n1 * n2;
+final double n1n2prod = n2 * n1;

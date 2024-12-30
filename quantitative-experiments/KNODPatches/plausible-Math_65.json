@@ -1,0 +1,5 @@
+[
+    {
+        "code": "chiSquare += residual * residual * residualsWeights[i];"
+    }
+]

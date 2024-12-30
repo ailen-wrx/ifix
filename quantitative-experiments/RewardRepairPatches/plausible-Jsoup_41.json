@@ -1,0 +1,158 @@
+[
+    {
+        "patch": "if (this == o) return false; return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == o) return true; return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == o) return false; return o == element;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == o) return false; return this!= element;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == o) return false; else return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (this == o) || super.equals(o);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this == o || super.equals(o);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!(o instanceof Element)) return false; return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return!(this == o) || this == o;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == element) return false; return this!= o;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == o) return true; else return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!super.equals(o)) return false; return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == o) return false; return element == o;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == o) return true; return this!= element;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (this == o) || getClass()!= o;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return super.equals(o);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this == o || getClass()!= o;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == element) return false; return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == element) return false; else return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this.getClass() == o.getClass();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this!= o;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (o == null) return false; return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this == o || o == element;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this == element) return true; return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return!(this == o);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this == o || this!= element;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getClass()!= o;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean equals = true; return equals;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this.getClass()!= o;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return!(this == o);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return element == o;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return o!= null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return element.equals(o);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this!= element;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return! (this == o);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (this!= o);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return element!= null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return o == element;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return true;",
+        "correctness": "plausible"
+    }
+]

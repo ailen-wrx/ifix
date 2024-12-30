@@ -1,0 +1,89 @@
+[
+    {
+        "code": "final double n1n2prod = n1 * n2;"
+    },
+    {
+        "code": "final long n1n2prod = n1 * n2;"
+    },
+    {
+        "code": "double n1n2prod = n1 * n2;"
+    },
+    {
+        "code": "final double n1n2prod = n1 * (double)n2;"
+    },
+    {
+        "code": "final float n1n2prod = n1 * n2;"
+    },
+    {
+        "code": "long n1n2prod = n1 * n2;"
+    },
+    {
+        "code": "final double n1n2prod = (int)n1 * n2;"
+    },
+    {
+        "code": "final double n1n2prod = (int) (n1 * n2);"
+    },
+    {
+        "code": "final double n1n2prod = Math.abs(n1 * n2);"
+    },
+    {
+        "code": "final double n1n2prod = (double)n1 * n2;"
+    },
+    {
+        "code": "final double n1n2prod = Math.abs(n1 * n2);"
+    },
+    {
+        "code": "final double n1n2prod = Math.round(n1 * n2);"
+    },
+    {
+        "code": "final double n1n2prod = Math.abs(n1) * n2;"
+    },
+    {
+        "code": "final double n1n2prod = (long)n1 * n2;"
+    },
+    {
+        "code": "final double n1n2prod = n1 * (int)n2;"
+    },
+    {
+        "code": "final long n1n2prod = (long)n1 * n2;"
+    },
+    {
+        "code": "final long n1n2prod = (int) (n1 * n2);"
+    },
+    {
+        "code": "final double n1n2prod = (float)n1 * n2;"
+    },
+    {
+        "code": "final long n1n2prod = Math.abs(n1 * n2);"
+    },
+    {
+        "code": "final long n1n2prod = Math.abs(n1 * n2);"
+    },
+    {
+        "code": "final long n1n2prod = Math.round(n1 * n2);"
+    },
+    {
+        "code": "final double n1n2prod = n1 * (long)n2;"
+    },
+    {
+        "code": "final long n1n2prod = n1 * (long)n2;"
+    },
+    {
+        "code": "final long n1n2prod = (int)n1 * n2;"
+    },
+    {
+        "code": "final int n1n2prod = (short) (n1 * n2);"
+    },
+    {
+        "code": "float n1n2prod = n1 * n2;"
+    },
+    {
+        "code": "final int n1n2prod = 5 * n2;"
+    },
+    {
+        "code": "final int n1n2prod = n1 * 4;"
+    },
+    {
+        "code": "final double n1n2prod = n2 * n1;"
+    }
+]

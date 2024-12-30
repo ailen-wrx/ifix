@@ -1,0 +1,18 @@
+[
+    {
+        "patch": "nextLineTabStop = width - pos;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nextLineTabStop = width - pos;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nextLineTabStop = 1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nextLineTabStop = 1;",
+        "correctness": "plausible"
+    }
+]

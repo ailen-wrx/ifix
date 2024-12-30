@@ -1,0 +1,13 @@
+return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;
+return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;
+return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( float ) a ) ;
+return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : new Float( a ) ) ;
+return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;
+return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( a ) ) ;
+return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;
+return( a > b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;
+return( a >= b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;
+return(( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ) ;
+return a <= b ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;
+return( a <= b ) ? b :( Float.isNaN( b + b ) ? b : a ) ;
+return( a <= b ) ? b :( Float.isNaN( b ) ? b : a ) ;

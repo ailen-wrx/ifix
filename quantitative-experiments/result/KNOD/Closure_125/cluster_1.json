@@ -1,0 +1,16 @@
+{
+    "cluster_1": [
+        {
+            "code": "fnType != null && fnType.hasInstanceType()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "fnType != null && fnType.isConstructor()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "fnType != null && type.isConstructor()",
+            "test_case": "0/0"
+        }
+    ]
+}

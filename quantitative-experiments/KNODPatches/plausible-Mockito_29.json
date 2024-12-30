@@ -1,0 +1,17 @@
+[
+    {
+        "code": "description.appendText(String.valueOf(wanted));"
+    },
+    {
+        "code": "description.appendText(\"\" + wanted);"
+    },
+    {
+        "code": "if (wanted == null )return;"
+    },
+    {
+        "code": "description.appendText(wanted + \"\");"
+    },
+    {
+        "code": "description.appendText(\"\" + wanted);"
+    }
+]

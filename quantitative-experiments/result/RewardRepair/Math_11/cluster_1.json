@@ -1,0 +1,12 @@
+{
+    "cluster_1": [
+        {
+            "code": "return FastMath.pow(2 * FastMath.PI, -0.5 * dim) *",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return FastMath.pow(2 * FastMath.PI, -0.5*dim) *",
+            "test_case": "0/0"
+        }
+    ]
+}

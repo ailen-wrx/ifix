@@ -1,0 +1,302 @@
+[
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.84844207763672,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.transformAMDToCJSModules || options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.70686287715517,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { for( CompilerInput input : inputs ) { }",
+        "score": 99.70147026909723,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass && options.processCommonJSModules ) {",
+        "score": 99.6981430053711,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.68466622488839,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && true ) {",
+        "score": 99.66840955946181,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { if( hasErrors( ) ) { return null ; }",
+        "score": 99.66488752693965,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && options.closurePass == options.closurePass ) {",
+        "score": 99.65874372209821,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass ) {",
+        "score": 99.64788263494319,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.processCommonJSModules || options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.64136681189903,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass || options.processCommonJSModules ) {",
+        "score": 99.6394271850586,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.processCommonJSModules ) {",
+        "score": 99.63541353665866,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions != null && options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.63271077473958,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && ! options.tracer.isOn( ) ) {",
+        "score": 99.59935619212963,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.sourceMapOutputPath != null || options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.58887590680804,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && ! options.closurePass || options.closurePass ) {",
+        "score": 99.57042194234914,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass && options.closurePass ) {",
+        "score": 99.56529889787946,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && externsRoot != null ) {",
+        "score": 99.5649922688802,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { repartitionInputs( ) ;",
+        "score": 99.56473972486413,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { staleInputs = true ;",
+        "score": 99.5645751953125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { runSanityCheck( ) ;",
+        "score": 99.5458475748698,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { staleInputs = false ;",
+        "score": 99.53614390980114,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( externsRoot != null && options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.53302001953125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options != null && options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.52464599609375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass || options.closurePass ) {",
+        "score": 99.52451869419643,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && options.tracer != null ) {",
+        "score": 99.51929820667614,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass != options.closurePass ) {",
+        "score": 99.51708984375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "boolean needsManagement = false ; if( options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.51563561480978,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && System.currentTimeMillis( ) >0) {",
+        "score": 99.51155308314732,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { if( options.dependencyOptions.needsManagement( ) )",
+        "score": 99.51131998697916,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && true || options.closurePass ) {",
+        "score": 99.50093587239583,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( jsRoot != null && options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.48627263849431,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.closurePass || options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.48606178977273,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass == true ) {",
+        "score": 99.48587036132812,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { ;",
+        "score": 99.48555261948529,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( true && options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.48109266493056,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && ! staleInputs ) {",
+        "score": 99.46585518973214,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "boolean needsManagement = true ; if( options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.46370796535327,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) | options.closurePass ) {",
+        "score": 99.45670942826705,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( options.dependencyOptions.needsManagement( ) ) || options.closurePass ) {",
+        "score": 99.44828287760417,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( Boolean.valueOf( options.dependencyOptions.needsManagement( ) ) ) {",
+        "score": 99.44432532269022,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { tracker = null ;",
+        "score": 99.440869140625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( options.dependencyOptions.needsManagement( ) ) ) {",
+        "score": 99.43908013237848,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && ! hasErrors( ) ) {",
+        "score": 99.43864639945652,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( options.dependencyOptions.needsManagement( ) || options.closurePass ) ) {",
+        "score": 99.43400065104167,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && true && true ) {",
+        "score": 99.4321533203125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( getOptions( ).dependencyOptions.needsManagement( ) ) {",
+        "score": 99.43213500976563,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && ! false ) {",
+        "score": 99.428955078125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this.options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.42711046006944,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( staleInputs || options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.42705688476562,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( false || options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.42685275607639,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( hasErrors( ) || options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.41696999289773,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) && options != null ) {",
+        "score": 99.40843505859375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "boolean dependencyOptions = false ; if( options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.40138841711956,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( options.dependencyOptions.needsManagement( ) ) && true ) {",
+        "score": 99.40111694335937,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( options.dependencyOptions ).needsManagement( ) ) {",
+        "score": 99.39067925347223,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { assert true ;",
+        "score": 99.34810598273026,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( ! ! options.dependencyOptions.needsManagement( ) ) {",
+        "score": 99.34714762369792,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) == true ) {",
+        "score": 99.30874972873264,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { assert false ;",
+        "score": 99.30136590254934,
+        "test_case": "0/1/0"
+    }
+]

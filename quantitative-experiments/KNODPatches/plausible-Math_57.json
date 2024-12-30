@@ -1,0 +1,14 @@
+[
+    {
+        "code": "double sum = 0;"
+    },
+    {
+        "code": "float sum = 0;"
+    },
+    {
+        "code": "double sum = 0L;"
+    },
+    {
+        "code": "double sum = 0.0;"
+    }
+]

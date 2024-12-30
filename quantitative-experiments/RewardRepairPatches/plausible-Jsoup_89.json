@@ -1,0 +1,14 @@
+[
+    {
+        "patch": "String oldVal = getValue();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String oldVal = this.getValue();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String oldVal = (String) getValue();",
+        "correctness": "plausible"
+    }
+]

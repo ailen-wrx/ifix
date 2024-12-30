@@ -1,0 +1,28 @@
+{
+    "cluster_1": [
+        {
+            "code": "Calendar c = new GregorianCalendar(mTimeZone,mLocale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "GregorianCalendar c = new GregorianCalendar(mTimeZone,mLocale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Calendar c = new GregorianCalendar(mTimeZone,getLocale());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "GregorianCalendar c = new GregorianCalendar(mTimeZone,Locale.GERMANY);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "GregorianCalendar c = new GregorianCalendar(mTimeZone,Locale.FRANCE);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "GregorianCalendar c = new GregorianCalendar(mTimeZone,getLocale());",
+            "test_case": "0/0"
+        }
+    ]
+}

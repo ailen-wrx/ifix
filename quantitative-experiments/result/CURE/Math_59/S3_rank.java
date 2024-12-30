@@ -1,0 +1,13 @@
+8.0: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;
+9.0: return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;
+9.0: return( a > b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;
+9.0: return( a >= b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;
+10.004883555307947: return(( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ) ;
+10.004883555307947: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( a ) ) ;
+10.006780410282579: return a <= b ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;
+11.00680648743267: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( float ) a ) ;
+13.00094560284404: return( a <= b ) ? b :( Float.isNaN( b + b ) ? b : a ) ;
+13.003805471008455: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : new Float( a ) ) ;
+15.004420497285919: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;
+16.001236914150237: return( a <= b ) ? b :( Float.isNaN( b ) ? b : a ) ;
+16.00442049728592: return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;

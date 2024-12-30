@@ -1,0 +1,425 @@
+[
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nwasWhite = true;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(true);\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nwasWhite = true;\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(true);\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) )wasWhite = true;\nelse regex.append(\"\\\\s*+\");"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\n}\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (wasWhite ){\nwasWhite = true;\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nregex.append(c);\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nwasWhite = true;\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (!Character.isWhitespace(c) ){\nwasWhite = true;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"0\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\0\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\0\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\000\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\">;\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"th\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"null\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"0\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"\\0\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"\\\\0\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"\\\\000\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\">;\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"th\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"null\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"\\0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"\\\\0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"\\\\000\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\">;\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"th\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"null\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "wasWhite = true;\nif (!wasWhite ){\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!Character.isWhitespace(c) ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(true);\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) )wasWhite = true;"
+    },
+    {
+        "code": "if (wasWhite ){\nif (wasWhite ){\nwasWhite = true;\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (wasWhite ){\nwasWhite = true;\nregex.append(true);\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\nregex.append(1);\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nwasWhite = true;\nregex.append(\"\");\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\");\n}\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (wasWhite ){\nregex.append(\"\\\\s*+\");\nwasWhite = true;\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\000\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\">;\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"th\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"null\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(true);\ncontinue  ;\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\n}\nelse {\nregex.append(true);\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nif (!wasWhite ){\nregex.append(true);\ncontinue  ;\n}\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) )if (wasWhite ){\nwasWhite = true;\nregex.append(true);\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (wasWhite ){\nregex.append(true);\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (unquote ){\nwasWhite = true;\nregex.append(true);\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\");\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"0\");\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\0\");\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\0\");\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\000\");\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\">;\");\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"th\");\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"null\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(\"\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(\"0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(\"\\0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(\"\\\\0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(\"\\\\000\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(\">;\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(\"th\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(\"null\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(false);\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!Character.isWhitespace(c) ){\nif (Character.isWhitespace(c) ){\nwasWhite = true;\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(0) ){\nif (!wasWhite ){\nwasWhite = true;\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\nregex.append(\"\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\nregex.append(\"0\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\nregex.append(\"\\0\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\nregex.append(\"\\\\0\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\nregex.append(\"\\\\000\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\nregex.append(\">;\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\nregex.append(\"th\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\nregex.append(\"null\");\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nwasWhite = true;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(true);\nregex.append(\"0\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(true);\nregex.append(\"\\0\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(true);\nregex.append(\"\\\\0\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(true);\nregex.append(\"\\\\000\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(true);\nregex.append(\">;\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(true);\nregex.append(\"th\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(true);\nregex.append(\"null\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (unquote ){\nwasWhite = true;\nregex.append(true);\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nregex.append(true);\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (Character.isWhitespace(i) ){\nwasWhite = true;\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (!Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) && !Character.isWhitespace(c) ){\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!Character.isWhitespace(c) ){\nregex.append(\"\\\\s*+\");\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) && !Character.isWhitespace(c) ){\nwasWhite = true;\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!Character.isWhitespace(c) ){\nregex.append(\"\\\\s*+\");\nwasWhite = true;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nCharacter.isWhitespace(c);\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (wasWhite ){\nwasWhite = true;\n}\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(0);\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!wasWhite )wasWhite = true;\nif (!wasWhite ){\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\n}\n}"
+    },
+    {
+        "code": "if (!Character.isWhitespace(c) )wasWhite = true;"
+    },
+    {
+        "code": "if (wasWhite ){\nif (wasWhite ){\nwasWhite = true;\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (!unquote ){\nif (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (wasWhite ){\nregex.append(true);\nwasWhite = true;\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nif (!wasWhite ){\nregex.append(true);\n}\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nregex.append(true);\nregex.append(true);\n}\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (wasWhite ){\nCharacter.isWhitespace(c);\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\nregex.append(\"\\\\s*+\");\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (wasWhite ){\nwasWhite = true;\n}\nregex.append(true);\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (unquote ){\nif (wasWhite ){\nwasWhite = true;\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nwasWhite = true;\n}\nregex.append(\"\\\\s*+\");\n}"
+    },
+    {
+        "code": "if (unquote ){\nif (wasWhite ){\nwasWhite = true;\nregex.append(true);\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nif (!wasWhite ){\nCharacter.isWhitespace(c);\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (wasWhite ){\nwasWhite = true;\nregex.append(true);\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nregex.append(\"\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nregex.append(\"0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nregex.append(\"\\0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nregex.append(\"\\\\0\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nregex.append(\"\\\\000\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nregex.append(\">;\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nregex.append(\"th\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (!Character.isWhitespace(c) ){\nregex.append(\"null\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (wasWhite ){\nregex.append(\"\\\\s*+\");\nregex.append(\"\\\\s*+\");\ncontinue  ;\n}\n}"
+    },
+    {
+        "code": "if (!wasWhite ){\nif (unquote ){\nwasWhite = true;\nregex.append(\"\");\n}\n}"
+    },
+    {
+        "code": "if (unquote ){\nif (!wasWhite ){\nwasWhite = true;\nregex.append(\"\");\n}\n}"
+    },
+    {
+        "code": "if (Character.isWhitespace(c) ){\nif (wasWhite ){\nregex.append(true);\ncontinue  ;\n}\n}"
+    }
+]

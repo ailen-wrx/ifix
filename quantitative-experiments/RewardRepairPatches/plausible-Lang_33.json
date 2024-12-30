@@ -1,0 +1,54 @@
+[
+    {
+        "patch": "if (array[i]!= null) classes[i] = array[i].getClass();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "classes[i] = array[i] == null? null : array[i].getClass();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (array[i]!= null) { classes[i] = array[i].getClass(); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "classes[i] = array[i]!= null? array[i].getClass() : null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (array[i]!=null) classes[i] = array[i].getClass();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(array[i]!= null) classes[i] = array[i].getClass();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (array[i]!= null) { classes[i] = array[i].getClass(); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (array[i]!= null) classes[i] = array[i].getClass();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(array[i]!=null) classes[i] = array[i].getClass();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "classes[i] = array[i]!=null? array[i].getClass() : null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "classes[i] = array[i] == null? null : array[i].getClass();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "try { classes[i] = array[i].getClass(); } catch (Exception e) { }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "try { classes[i] = array[i].getClass(); } catch(Exception e) { }",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "patch": "primitiveValues.put(double.class, 0.0);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "primitiveValues.put(double.class, 0D);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "primitiveValues.put(double.class, 0d);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "primitiveValues.put(double.class, 0.000000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "primitiveValues.put(double.class, 0.0);",
+        "correctness": "plausible"
+    }
+]

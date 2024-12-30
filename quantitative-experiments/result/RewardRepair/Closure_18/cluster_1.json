@@ -1,0 +1,170 @@
+{
+    "cluster_2": [
+        {
+            "code": "if (options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() || options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() || options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() /*&& options.closurePass*/) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() /*&& options.closurePass*/) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() /* && options.closurePass*/) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() /* && options.closurePass*/) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() == true || options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement()/*&& options.closurePass*/) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() == true || options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((options.dependencyOptions.needsManagement() || options.closurePass)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((options.dependencyOptions.needsManagement() || options.closurePass)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement()|| options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement()|| options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "staleInputs = false; if (options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() || options.closurePass ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() || options.closurePass ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() || options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() || options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() && options!= null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement()||options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement()||options.closurePass) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() == true) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement() == true) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( options.dependencyOptions.needsManagement() ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( options.dependencyOptions.needsManagement() ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if(options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if(options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "; if (options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement ()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement ()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "if (options.dependencyOptions!= null && options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions!= null && options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (options.dependencyOptions == null || options.dependencyOptions.needsManagement()) {",
+            "test_case": "0/0"
+        }
+    ]
+}

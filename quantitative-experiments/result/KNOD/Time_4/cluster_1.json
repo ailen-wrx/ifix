@@ -1,0 +1,12 @@
+{
+    "cluster_1": [
+        {
+            "code": "Partial newPartial = new Partial(newTypes,newValues,iChronology);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Partial newPartial = new Partial(newTypes,newValues,null);",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "cluster_1": [
+        {
+            "code": "this(time,zone,Locale.getDefault());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "this(time,zone,Locale.getDefault().getDefault());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "this(time,zone,Locale.getDefault());",
+            "test_case": "0/0"
+        }
+    ]
+}

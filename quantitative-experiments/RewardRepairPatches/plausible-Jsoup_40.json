@@ -1,0 +1,22 @@
+[
+    {
+        "patch": "Validate.notNull(name);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Validate.notNull(name);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Validate.notNull(name, null);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Validate.notNull(baseUri);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Validate.notNull( name);",
+        "correctness": "plausible"
+    }
+]

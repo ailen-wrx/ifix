@@ -1,0 +1,26 @@
+[
+    {
+        "patch": "return (str.charAt(1) == 'E' || str.charAt(1) == 'E') && (str.charAt(2) == 'S' || str.charAt(2) == 'S'); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (str.charAt(1) == 'e' || str.charAt(1) == 'E') && (str.charAt(2) == 'S' || str.charAt(2) == 'S'); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (str.charAt(1) == 'e' || str.charAt(1) == 'E') && (str.charAt(2) == 'S' || str.charAt(2) == 'E'); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (str.charAt(1) == 'E' || str.charAt(1) == 'E') && (str.charAt(2) == 'S' || str.charAt(2) == 'E'); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (str.charAt(1) == 'e' || str.charAt(1) == 'E') && (str.charAt(2) == 'E' || str.charAt(2) == 'S'); }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (str.charAt(1) == 'E' || str.charAt(1) == 'E') && (str.charAt(2) == 'E' || str.charAt(2) == 'S'); }",
+        "correctness": "plausible"
+    }
+]

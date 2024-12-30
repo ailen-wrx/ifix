@@ -1,0 +1,26 @@
+[
+    {
+        "code": "return (double) (getSampleSize() * getSupportUpperBound()) / (double)getPopulationSize();"
+    },
+    {
+        "code": "return getSampleSize() * getSupportUpperBound() / (double)getPopulationSize();"
+    },
+    {
+        "code": "return (double) (getSampleSize() * getSupportUpperBound()) / getPopulationSize();"
+    },
+    {
+        "code": "return (short) (getSampleSize() * getNumberOfSuccesses()) / (double)getPopulationSize();"
+    },
+    {
+        "code": "return (double)getSampleSize() / getPopulationSize() * getSupportUpperBound();"
+    },
+    {
+        "code": "return (double)getSampleSize() * getNumberOfSuccesses() / (double)getPopulationSize();"
+    },
+    {
+        "code": "return (double)getSampleSize() / getPopulationSize() * getNumberOfSuccesses();"
+    },
+    {
+        "code": "return (double)getSampleSize() * getNumberOfSuccesses() / getPopulationSize();"
+    }
+]

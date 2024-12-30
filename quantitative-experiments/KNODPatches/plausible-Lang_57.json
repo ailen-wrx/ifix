@@ -1,0 +1,332 @@
+[
+    {
+        "code": "return cAvailableLocaleList.contains(locale);"
+    },
+    {
+        "code": "return cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "if (cAvailableLocaleSet == null ){\nreturn false;\n}"
+    },
+    {
+        "code": "return availableLocaleList().contains(locale);"
+    },
+    {
+        "code": "return availableLocaleSet().contains(locale);"
+    },
+    {
+        "code": "if (cAvailableLocaleSet == null )return false;"
+    },
+    {
+        "code": "if (cAvailableLocaleSet == null ){\nreturn true;\n}"
+    },
+    {
+        "code": "return cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "if (cAvailableLocaleSet == null )return true;"
+    },
+    {
+        "code": "return cAvailableLocaleList != null && cAvailableLocaleList.contains(locale);"
+    },
+    {
+        "code": "return locale == null && cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "return cAvailableLocaleSet.contains(availableLocaleSet());"
+    },
+    {
+        "code": "return cAvailableLocaleList.contains(locale) || cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "return cLanguagesByCountry.containsKey(locale);"
+    },
+    {
+        "code": "return cCountriesByLanguage.containsKey(locale);"
+    },
+    {
+        "code": "if (locale != null ){\nreturn false;\n}"
+    },
+    {
+        "code": "return cAvailableLocaleList.contains(locale) || cAvailableLocaleList.contains(locale);"
+    },
+    {
+        "code": "if (cLanguagesByCountry != null ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (cCountriesByLanguage != null ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (cAvailableLocaleList != null ){\nreturn false;\n}"
+    },
+    {
+        "code": "return LocaleUtils.availableLocaleList().contains(locale);"
+    },
+    {
+        "code": "return LocaleUtils.availableLocaleSet().contains(locale);"
+    },
+    {
+        "code": "return Collections.emptyList().contains(locale);"
+    },
+    {
+        "code": "return Collections.emptySet().contains(locale);"
+    },
+    {
+        "code": "if (locale != null ){\nreturn true;\n}"
+    },
+    {
+        "code": "if (null == cAvailableLocaleSet ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (locale == locale ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (null != locale ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (cAvailableLocaleSet == null )return false;\nelse return false;"
+    },
+    {
+        "code": "return cAvailableLocaleList.contains(locale) && cAvailableLocaleList.contains(locale);"
+    },
+    {
+        "code": "return null != cAvailableLocaleSet && cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "if (cLanguagesByCountry != null ){\nreturn true;\n}"
+    },
+    {
+        "code": "if (cCountriesByLanguage != null ){\nreturn true;\n}"
+    },
+    {
+        "code": "if (cAvailableLocaleList != null ){\nreturn true;\n}"
+    },
+    {
+        "code": "return cAvailableLocaleSet != null && !cAvailableLocaleSet.isEmpty();"
+    },
+    {
+        "code": "if (locale != null )return false;"
+    },
+    {
+        "code": "if (locale.equals(locale) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (locale == locale ){\nreturn true;\n}"
+    },
+    {
+        "code": "if (locale == locale )return false;"
+    },
+    {
+        "code": "if (null == cAvailableLocaleSet ){\nreturn true;\n}"
+    },
+    {
+        "code": "return cLanguagesByCountry.keySet().contains(locale);"
+    },
+    {
+        "code": "return cCountriesByLanguage.keySet().contains(locale);"
+    },
+    {
+        "code": "if (locale == null )return false;\nreturn false;"
+    },
+    {
+        "code": "if (null != locale ){\nreturn true;\n}"
+    },
+    {
+        "code": "if (cAvailableLocaleSet == null )return false;\nelse return true;"
+    },
+    {
+        "code": "if (locale == null )return false;\nelse return false;"
+    },
+    {
+        "code": "return cAvailableLocaleSet != null && isAvailableLocale(locale);"
+    },
+    {
+        "code": "return localeLookupList(locale).contains(locale);"
+    },
+    {
+        "code": "return cLanguagesByCountry.get(locale) == locale;"
+    },
+    {
+        "code": "return cCountriesByLanguage.get(locale) == locale;"
+    },
+    {
+        "code": "if (!cAvailableLocaleList.contains(locale) )return false;\nreturn false;"
+    },
+    {
+        "code": "if (null == cAvailableLocaleSet )return false;"
+    },
+    {
+        "code": "if (locale != null )return true;"
+    },
+    {
+        "code": "return cAvailableLocaleList.contains(locale) || cAvailableLocaleList.equals(locale);"
+    },
+    {
+        "code": "cAvailableLocaleList.contains(locale);\nreturn cAvailableLocaleList.contains(locale);"
+    },
+    {
+        "code": "if (null != locale )return false;"
+    },
+    {
+        "code": "if (cAvailableLocaleSet == null )return false;\nreturn false;"
+    },
+    {
+        "code": "if (locale.equals(locale) ){\nreturn true;\n}"
+    },
+    {
+        "code": "availableLocaleSet().contains(locale);\nreturn cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "if (!locale.hasExtensions() ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (cAvailableLocaleSet == null )return true;\nelse return false;"
+    },
+    {
+        "code": "return cAvailableLocaleList.contains(locale) && !cAvailableLocaleList.isEmpty();"
+    },
+    {
+        "code": "if (cAvailableLocaleList.contains(locale) )return false;\nreturn false;"
+    },
+    {
+        "code": "return cLanguagesByCountry.equals(locale) && cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "return cCountriesByLanguage.equals(locale) && cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "return cAvailableLocaleList.equals(locale) && cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "return availableLocaleList().contains(locale.toString());"
+    },
+    {
+        "code": "return availableLocaleSet().contains(locale.toString());"
+    },
+    {
+        "code": "return availableLocaleList().contains(locale.clone());"
+    },
+    {
+        "code": "return availableLocaleSet().contains(locale.clone());"
+    },
+    {
+        "code": "return availableLocaleList().contains(locale.getDefault());"
+    },
+    {
+        "code": "return availableLocaleSet().contains(locale.getDefault());"
+    },
+    {
+        "code": "return availableLocaleList().contains(locale.getVariant());"
+    },
+    {
+        "code": "return availableLocaleList().contains(locale.getCountry());"
+    },
+    {
+        "code": "return cAvailableLocaleList.isEmpty() && cAvailableLocaleSet.contains(locale);"
+    },
+    {
+        "code": "availableLocaleSet();"
+    },
+    {
+        "code": "if (cLanguagesByCountry.containsKey(locale) )return false;\nreturn false;"
+    },
+    {
+        "code": "if (cCountriesByLanguage.containsKey(locale) )return false;\nreturn false;"
+    },
+    {
+        "code": "return availableLocaleList().contains(availableLocaleList());"
+    },
+    {
+        "code": "return availableLocaleList().contains(availableLocaleSet());"
+    },
+    {
+        "code": "return availableLocaleSet().contains(availableLocaleList());"
+    },
+    {
+        "code": "return availableLocaleSet().contains(availableLocaleSet());"
+    },
+    {
+        "code": "if (cLanguagesByCountry == null )return false;\nreturn false;"
+    },
+    {
+        "code": "if (cCountriesByLanguage == null )return false;\nreturn false;"
+    },
+    {
+        "code": "if (cAvailableLocaleList == null )return false;\nreturn false;"
+    },
+    {
+        "code": "return cAvailableLocaleList.contains(cAvailableLocaleSet);"
+    },
+    {
+        "code": "return !availableLocaleList().contains(locale);"
+    },
+    {
+        "code": "return !availableLocaleSet().contains(locale);"
+    },
+    {
+        "code": "return cLanguagesByCountry.get(locale) != null;"
+    },
+    {
+        "code": "return cCountriesByLanguage.get(locale) != null;"
+    },
+    {
+        "code": "return cLanguagesByCountry.equals(locale);"
+    },
+    {
+        "code": "return cCountriesByLanguage.equals(locale);"
+    },
+    {
+        "code": "return cAvailableLocaleList.equals(locale);"
+    },
+    {
+        "code": "if (!cAvailableLocaleList.contains(locale) )return false;\nreturn true;"
+    },
+    {
+        "code": "return localeLookupList(locale,locale).contains(\"\");"
+    },
+    {
+        "code": "return localeLookupList(locale,locale).contains(\"0\");"
+    },
+    {
+        "code": "return localeLookupList(locale,locale).contains(\"\\0\");"
+    },
+    {
+        "code": "return localeLookupList(locale,locale).contains(\"\\\\0\");"
+    },
+    {
+        "code": "return localeLookupList(locale,locale).contains(\"\\\\000\");"
+    },
+    {
+        "code": "return localeLookupList(locale,locale).contains(\">;\");"
+    },
+    {
+        "code": "return localeLookupList(locale,locale).contains(\"th\");"
+    },
+    {
+        "code": "return localeLookupList(locale,locale).contains(\"null\");"
+    },
+    {
+        "code": "return localeLookupList(locale,locale).contains(locale);"
+    },
+    {
+        "code": "localeLookupList(locale,locale);\nreturn false;"
+    },
+    {
+        "code": "return availableLocaleSet().contains(cAvailableLocaleSet.toString());"
+    },
+    {
+        "code": "return availableLocaleSet().contains(cAvailableLocaleSet.iterator());"
+    },
+    {
+        "code": "if (!cAvailableLocaleList.contains(locale) )return true;\nreturn false;"
+    },
+    {
+        "code": "if (cAvailableLocaleList.contains(locale) )return false;\nreturn true;"
+    },
+    {
+        "code": "if (cAvailableLocaleList.contains(locale) )return true;\nreturn false;"
+    },
+    {
+        "code": "return LocaleUtils.localeLookupList(locale).contains(locale);"
+    }
+]

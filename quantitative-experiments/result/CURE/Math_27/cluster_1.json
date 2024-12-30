@@ -1,0 +1,28 @@
+{
+    "cluster_1": [
+        {
+            "code": "return 100.0*doubleValue( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return 100.0*this.doubleValue( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(100.0) *doubleValue( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return 100.0*floatValue( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return doubleValue( ) *100.0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return 100*doubleValue( ) ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

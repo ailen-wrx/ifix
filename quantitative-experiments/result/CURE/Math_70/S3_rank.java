@@ -1,0 +1,12 @@
+4.001374571096476: return solve( f , min , max ) ;
+5.001374571096476: return solve( f , initial , max ) ;
+5.004129405114178: return this.solve( f , min , max ) ;
+5.01941932430908: return solve( f ,1, max ) ;
+5.01941932430908: return solve( f ,2, max ) ;
+6.0102506733502015: return( solve( f , min , max ) ) ;
+6.01941932430908: return solve( f , min ,6) ;
+6.01941932430908: return solve( f , initial ,6) ;
+7.017664630375341: return solve( f ,( double ) min , max ) ;
+7.017664630375341: return( double ) solve( f , min , max ) ;
+9.020929072203241: return solve( f , min , max + max ) ;
+9.020929072203241: return solve( f , min , max + initial ) ;

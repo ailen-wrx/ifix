@@ -1,0 +1,24 @@
+{
+    "cluster_1": [
+        {
+            "code": "if (fnType!= null && fnType.isConstructor()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fnType!= null && fnType.isConstructor()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fnType!= null && type.isConstructor()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fnType!= null && type.isConstructor()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fnType!= null &&!type.isEmptyType()) {",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "cluster_1": [
+        {
+            "code": "pos += Character.charCount( Character.codePointAt( input , pos - pos ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "pos += Character.charCount( Character.codePointAt( input ,0) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "pos += Character.charCount( Character.codePointAt( input , pt ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "pos += Character.charCount( Character.codePointAt( input , pos &1) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "pos += Character.charCount( Character.codePointAt( input , pos /2) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "pos += Character.charCount( Character.codePointAt( input , pos /3) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "pos += Character.charCount( Character.codePointAt( input ,0) ) ; ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

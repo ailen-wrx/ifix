@@ -1,0 +1,14 @@
+Precision.compareTo(entry,0d,epsilon) > epsilon
+Precision.compareTo(entry,0d,epsilon) > 0
+Precision.compareTo(entry,0,epsilon) > 0
+Precision.compareTo(entry,epsilon,maxUlps) > 0
+Precision.compareTo(entry,0,epsilon) > 0
+Precision.compareTo(entry,0.5,maxUlps) > 0
+Precision.compareTo(entry,epsilon,epsilon) > 0
+Precision.compareTo(entry,0,epsilon) > 0
+Precision.compareTo(entry,epsilon,0d) > 0
+Precision.compareTo(entry,0.5,maxUlps) >= 0
+Precision.compareTo(entry,0d,epsilon) > 0
+Precision.compareTo(entry,epsilon,0) > 0
+Precision.compareTo(entry,0.5,epsilon) > 0
+Precision.compareTo(entry,0d,0.5) > 0

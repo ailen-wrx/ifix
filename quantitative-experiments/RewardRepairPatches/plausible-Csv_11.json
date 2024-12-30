@@ -1,0 +1,50 @@
+[
+    {
+        "patch": "boolean emptyHeader = header == null || header.trim().isEmpty();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final boolean emptyHeader = header == null || header.trim().isEmpty();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean emptyHeader = header!= null? header.trim().isEmpty() : true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean emptyHeader = header == null? true : header.trim().isEmpty();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean emptyHeader = (header == null) || header.trim().isEmpty();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean emptyHeader = header == null || header.trim().length() == 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean emptyHeader = header==null || header.trim().isEmpty();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean emptyHeader = hdrMap.containsKey(header);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean emptyHeader = containsHeader;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean emptyHeader = true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final boolean emptyHeader = true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean emptyHeader = true;",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "patch": "if (getName().endsWith(File.pathSeparator)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().endsWith(File.pathSeparator)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().equals(File.separator)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (linkFlag == LF_DIR || linkFlag == LF_DIR) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().equals(File.separator)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (linkFlag == LF_DIR || linkFlag == LF_DIR) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().isEmpty()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().isEmpty()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (linkFlag == LF_DIR) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (linkFlag == LF_DIR) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().length() == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().trim().isEmpty()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().length() == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().equals('/')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName().equals('/')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName() == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (file!= null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (getName() == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (file!= null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false) {",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,3 @@
+if( ! result.isNumber( ) ) {
+if( ! result.isConstructor( ) ) {
+if( result != null && ! result.isConstructor( ) ) {

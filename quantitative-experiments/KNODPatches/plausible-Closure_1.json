@@ -1,0 +1,8 @@
+[
+    {
+        "code": "if (!removeGlobals ){\nreturn;\n}"
+    },
+    {
+        "code": "if (!removeGlobals )return;"
+    }
+]

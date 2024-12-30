@@ -1,0 +1,208 @@
+{
+    "cluster_8": [
+        {
+            "code": "return (cAvailableLocaleSet!= null) && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Locale locale; return locale!= null && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Locale locale = Locale.US; return locale!= null && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (cAvailableLocaleSet == null) || cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleSet!= null) return cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (cAvailableLocaleSet!= null && cAvailableLocaleSet.contains(locale));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Locale locale; return locale == null? false : cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Locale locale = Locale.ENGLISH; return locale!=null && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if(locale!= null) return false; return cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale instanceof Locale) return false; return cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if(locale==null) return false; return cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale!= null) return true; return cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return locale == null && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_9": [
+        {
+            "code": "if (locale.equals(locale)) return false; return cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_12": [
+        {
+            "code": "return this.locale.equals(locale) && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_5": [
+        {
+            "code": "if(cAvailableLocaleSet == null) return false; return cAvailableLocaleSet == null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleSet == null) return true; return cAvailableLocaleSet == null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale == null) return false; return false;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_10": [
+        {
+            "code": "Locale locale = Locale.getDefault(); return cAvailableLocaleSet.contains(locale.getLocale());",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "boolean atLeastOnce = cAvailableLocaleSet.contains(locale); return atLeastOnce;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "boolean isAvailableLocale = locale!= null; return isAvailableLocale;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isAvailableLocale = false; return isAvailableLocale;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isAvailableLocale = (locale == null); return isAvailableLocale;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isAvailableLocale = true; return isAvailableLocale;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean hasAvailableLocale = false; return hasAvailableLocale;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Locale.setDefault(locale); return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "this.locale = locale; return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "locale = locale; return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Locale locale = locale; return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "locale = locale; return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Locale locale; return locale;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_13": [
+        {
+            "code": "try { return cAvailableLocaleSet.contains(locale); } catch (Exception e) { return false; }",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "if (!cAvailableLocaleSet.contains(locale)) return true; return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!cAvailableLocaleSet.contains(locale)) return false;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_7": [
+        {
+            "code": "locale = Locale.ENGLISH; return cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "locale = Locale.getDefault(); return cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Locale locale = locale.getDefault(); return locale.contains(locale);",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_6": [
+        {
+            "code": "return locale.equals(cAvailableLocaleSet);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return locale.equals(cAvailableLocaleSet);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getClass().isAvailableLocale(locale);",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_11": [
+        {
+            "code": "Locale locale = (Locale) locale; return locale!= null;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "Locale locale = locale.getLocale(); return true;",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,418 @@
+[
+    {
+        "patch": "static String nullString = String.valueOf('/');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf((char)0x0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(':');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(false);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x1000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf((String) null);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0xFFFF);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf('$');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf('-');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0.0f);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x5000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0xFF0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x8000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0xf0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x10000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x10000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x2000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(',');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x00FF);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x0f0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x070000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x0FF);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(-1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf('n');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "float nullString = Float.valueOf(0x0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x100000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x0FF0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x0FFFF);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x01000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(1.0f);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x00f0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x05000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x00FF0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x07000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(10000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf('_');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x20);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0xff0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x20000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x50000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0xFF000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(Object.class);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x10f0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x800000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0xf000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x100000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x00FFFF);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x80000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x110000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x010000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x200000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf((char)0x000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf(0x5000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0.000001);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0xFF00);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x000f);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf(0x1000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x1f0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(true);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x10);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(100);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x0f000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x990000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x0400);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x30000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0xC00);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf(0xFFFF);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x0FFFFFF);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf(0xFF0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(20);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf(0x8000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x10FF);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0.0);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(1000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(';');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x0000 - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(10);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf('#');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x0000F);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0xc00);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf('/');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf(0xf0000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf(0x2000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf(0x00FF);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(255);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(60);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(50);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0x800);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(1.0);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(128);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0.000000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(-1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(0.00001);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = String.valueOf(0.0f);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = String.valueOf(80);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char[] nullString = { } ;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "char[] nullString = { } ;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString = new String();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "float nullString = 0x0000;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean nullString = false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static String nullString;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String nullString;",
+        "correctness": "plausible"
+    }
+]

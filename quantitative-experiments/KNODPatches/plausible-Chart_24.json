@@ -1,0 +1,35 @@
+[
+    {
+        "code": "int g = (int) ((v - this.lowerBound - this.lowerBound) * 255.0);"
+    },
+    {
+        "code": "int g = (int) ((v - this.lowerBound) / (this.upperBound - this.lowerBound) * 255.0);"
+    },
+    {
+        "code": "long g = (int) ((value - this.lowerBound) * (this.upperBound - this.lowerBound));"
+    },
+    {
+        "code": "int g = (int) ((v - lowerBound - this.lowerBound) * 255.0);"
+    },
+    {
+        "code": "int g = (int) ((int) (value - this.lowerBound) * 255.0);"
+    },
+    {
+        "code": "float g = (int) ((value - this.lowerBound) / 255.0 * 255.0);"
+    },
+    {
+        "code": "long g = (int) ((value - this.lowerBound) / 255.0 * 255.0);"
+    },
+    {
+        "code": "long g = (int) ((value - this.lowerBound) * this.upperBound);"
+    },
+    {
+        "code": "int g = (int) ((long) (value - this.lowerBound) * 255.0);"
+    },
+    {
+        "code": "int g = (int) (v * 255.0);"
+    },
+    {
+        "code": "int g = (int) ((v - this.lowerBound) * 255.0);"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "code": "defineSlot(astParameter,functionNode,jsDocParameter.getJSType(),false);"
+    },
+    {
+        "code": "defineSlot(astParameter,functionNode,jsDocParameter.getJSType(),functionType.isConstructor());"
+    },
+    {
+        "code": "defineSlot(astParameter,functionNode,jsDocParameter.getJSType(),functionType.isInterface());"
+    },
+    {
+        "code": "defineSlot(astParameter,functionNode,jsDocParameter.getJSType(),functionType.isInstanceType());"
+    },
+    {
+        "code": "defineSlot(astParameter,jsDocParameters,jsDocParameter.getJSType(),false);"
+    },
+    {
+        "code": "defineSlot(astParameter,astParameters,jsDocParameter.getJSType(),false);"
+    }
+]

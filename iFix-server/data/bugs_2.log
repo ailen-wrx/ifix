@@ -1,0 +1,120 @@
+bug id: Lang_26
+file_name: FastDateFormat.java
+buggy line: Calendar c = new GregorianCalendar(mTimeZone);
+correct patch: Calendar c = new GregorianCalendar(mTimeZone, mLocale);
+---------------------------------------
+bug id: Math_34
+file_name: ListPopulation.java
+buggy line: return chromosomes.iterator();
+correct patch: return getChromosomes().iterator();
+---------------------------------------
+bug id: Closure_104
+file_name: UnionType.java
+buggy line: if (result != null) {
+correct patch: if (!result.isNoType()) {
+---------------------------------------
+bug id: Lang_33
+file_name: ClassUtils.java
+buggy line: classes[i] = array[i].getClass();
+correct patch: classes[i] = array[i] == null ? null : array[i].getClass();
+---------------------------------------
+bug id: Lang_59
+file_name: StrBuilder.java
+buggy line: str.getChars(0, strLen, buffer, size);
+correct patch: str.getChars(0, width, buffer, size);
+---------------------------------------
+bug id: Time_4
+file_name: Partial.java
+buggy line: Partial newPartial = new Partial(iChronology, newTypes, newValues);
+correct patch: Partial newPartial = new Partial(newTypes, newValues, iChronology);
+---------------------------------------
+bug id: Closure_71
+file_name: CheckAccessControls.java
+buggy line: boolean isOverride = t.inGlobalScope() &&
+correct patch:  boolean isOverride = parent.getJSDocInfo() != null &&
+---------------------------------------
+bug id: Math_27
+file_name: Fraction.java
+buggy line: return multiply(100).doubleValue();
+correct patch: return 100 * doubleValue();
+---------------------------------------
+bug id: Math_58
+file_name: GaussianFitter.java
+buggy line: return fit(new Gaussian.Parametric(), guess);
+correct patch: return fit(guess);
+---------------------------------------
+bug id: Mockito_5
+file_name: VerificationOverTimeImpl.java
+buggy line: catch (org.mockito.exceptions.verification.junit.ArgumentsAreDifferent e) {
+correct patch: catch (AssertionError e) {
+---------------------------------------
+bug id: Chart_11
+file_name: ShapeUtilities.java
+buggy line: PathIterator iterator2 = p1.getPathIterator(null);
+correct patch: PathIterator iterator2 = p2.getPathIterator(null);
+---------------------------------------
+bug id: Lang_6
+file_name: CharSequenceTranslator.java
+buggy line: pos += Character.charCount(Character.codePointAt(input, pos));
+correct patch: pos += Character.charCount(Character.codePointAt(input, pt));
+---------------------------------------
+bug id: Math_33
+file_name: SimplexTableau.java
+buggy line: if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
+correct patch: if (Precision.compareTo(entry, 0d, epsilon) > 0) {
+---------------------------------------
+bug id: Math_94
+file_name: MathUtils.java
+buggy line: if (u * v == 0) {
+correct patch: if ((u == 0) || (v == 0)) {
+---------------------------------------
+bug id: Chart_24
+file_name: GrayPaintScale.java
+buggy line: int g = (int) ((value - this.lowerBound) / (this.upperBound 
+correct patch: int g = (int) ((v - this.lowerBound) / (this.upperBound 
+---------------------------------------
+bug id: Math_2
+file_name: HypergeometricDistribution.java
+buggy line: return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
+correct patch: return getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize());
+---------------------------------------
+bug id: Math_63
+file_name: MathUtils.java
+buggy line: return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
+correct patch: return equals(x, y, 1);
+---------------------------------------
+bug id: Math_32
+file_name: PolygonsSet.java
+buggy line: if ((Boolean) tree.getAttribute()) {
+correct patch: if (tree.getCut() == null && (Boolean) tree.getAttribute()) {
+---------------------------------------
+bug id: Time_19
+file_name: DateTimeZone.java
+buggy line: } else if (offsetLocal > 0) {
+correct patch: } else if (offsetLocal >= 0) {
+---------------------------------------
+bug id: Chart_13
+file_name: BorderArrangement.java
+buggy line: new Range(0.0, constraint.getWidth() - w[2]),
+correct patch: new Range(0.0, Math.max(constraint.getWidth() - w[2], 0.0)),
+---------------------------------------
+bug id: Closure_62
+file_name: LightweightMessageFormatter.java
+buggy line: && 0 <= charno && charno < sourceExcerpt.length()) {
+correct patch: && 0 <= charno && charno <= sourceExcerpt.length()) {
+---------------------------------------
+bug id: Lang_57
+file_name: LocaleUtils.java
+buggy line: return cAvailableLocaleSet.contains(locale);
+correct patch: return availableLocaleList().contains(locale);
+---------------------------------------
+bug id: Math_85
+file_name: UnivariateRealSolverUtils.java
+buggy line: if (fa * fb >= 0.0 ) {
+correct patch: if (fa * fb > 0.0 ) {
+---------------------------------------
+bug id: Math_80
+file_name: EigenDecompositionImpl.java
+buggy line: int j = 4 * n - 1;
+correct patch: int j = 4 * (n - 1);
+---------------------------------------

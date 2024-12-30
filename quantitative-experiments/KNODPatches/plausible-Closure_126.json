@@ -1,0 +1,377 @@
+[
+    {
+        "code": ""
+    },
+    {
+        "code": "if (!NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\ntryMinimizeExits(finallyBlock,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (n.isEmpty() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (n.isName() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (n.isFunction() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (n.isGetProp() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (n.isVar() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (n.isCall() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (n.isString() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (n.isAssign() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (n.isExprResult() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getNext();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getParent();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getProp(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getIntProp(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getBooleanProp(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.setLength(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.setLineno(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.setSourceFileForTesting(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.addSuppression(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.newString(exitType,labelName);\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.getType();\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.toString();\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.getNext();\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.getParent();\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.getJSType();\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.isEmpty();\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.isName();\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.isFunction();\n}"
+    },
+    {
+        "code": "Node finallyBlock = null;\nif (NodeUtil.hasFinally(n) ){\nfinallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (n.isIf() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.newString(exitType,labelName);\n}"
+    },
+    {
+        "code": "if (n.isLabel() ){\ntryMinimizeExits(n,exitType,labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.mayHaveSideEffects(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.mayBeString(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isFunctionDeclaration(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isGet(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isBooleanResult(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isNumericResult(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isAssignmentOp(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isForIn(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isFunctionExpression(n) ){\n  Node finallyBlock = n.getLastChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getType();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.toString();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getNext();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getParent();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getJSType();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.isEmpty();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.isName();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.isFunction();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isFunctionDeclaration(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(exitType,labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isGet(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(exitType,labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isBooleanResult(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(exitType,labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isNumericResult(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(exitType,labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isAssignmentOp(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(exitType,labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isForIn(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(exitType,labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isFunctionExpression(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(exitType,labelName);\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.setSourceFileForTesting(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.addSuppression(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.mayHaveSideEffects(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getProp(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isFunctionDeclaration(n) ){\n  Node finallyBlock = n.getLastChild();\nn.setType(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.mayHaveSideEffects(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getIntProp(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isGet(n) ){\n  Node finallyBlock = n.getLastChild();\nn.setType(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isBooleanResult(n) ){\n  Node finallyBlock = n.getLastChild();\nn.setType(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isNumericResult(n) ){\n  Node finallyBlock = n.getLastChild();\nn.setType(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.mayHaveSideEffects(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getBooleanProp(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getProp(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getIntProp(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getBooleanProp(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.setLength(exitType);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.setLineno(exitType);\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getFirstChild();"
+    },
+    {
+        "code": "Node finallyBlock = n.getNext();"
+    },
+    {
+        "code": "Node finallyBlock = n.getParent();"
+    },
+    {
+        "code": "if (NodeUtil.isFunctionDeclaration(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isGet(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isBooleanResult(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isNumericResult(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isAssignmentOp(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isForIn(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.isFunctionExpression(n) ){\n  Node finallyBlock = n.getLastChild();\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "Node finallyBlock = (Node)n.getLastChild();"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.srcref(finallyBlock);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.isEquivalentTo(finallyBlock);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.copyInformationFromForTree(finallyBlock);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.copyInformationFrom(finallyBlock);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.checkTreeEquals(finallyBlock);\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.newString(labelName);\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.setSourceFileForTesting(labelName);\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild();\nif (NodeUtil.hasFinally(n) ){\nn.addSuppression(labelName);\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getType();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\nn.toString();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getNext();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getParent();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getJSType();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\nn.isEmpty();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\nn.isName();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getLastChild();\nn.isFunction();\n}"
+    },
+    {
+        "code": "if (NodeUtil.mayHaveSideEffects(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.mayBeString(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isFunctionDeclaration(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isGet(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isBooleanResult(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isNumericResult(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isAssignmentOp(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isForIn(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.isFunctionExpression(n) ){\n  Node finallyBlock = n.getLastChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "Node finallyBlock = n.getLastChild().getNext();"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.newString(labelName);\nreturn;\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.setSourceFileForTesting(labelName);\nreturn;\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.addSuppression(labelName);\nreturn;\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getType();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.toString();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getNext();\nn.getFirstChild();\n}"
+    },
+    {
+        "code": "if (NodeUtil.hasFinally(n) ){\n  Node finallyBlock = n.getFirstChild();\nn.getNext();\n}"
+    },
+    {
+        "code": "Node finallyBlock = (Node)n;"
+    }
+]

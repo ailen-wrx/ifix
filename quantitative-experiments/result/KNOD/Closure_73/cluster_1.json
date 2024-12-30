@@ -1,0 +1,16 @@
+{
+    "cluster_1": [
+        {
+            "code": "c > 0x1f && c < 0x7f",
+            "test_case": "0/0"
+        },
+        {
+            "code": "c >= 0x1f && c < 0x7f",
+            "test_case": "0/0"
+        },
+        {
+            "code": "c > 18 && c < 0x7f",
+            "test_case": "0/0"
+        }
+    ]
+}

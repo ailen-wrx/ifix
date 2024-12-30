@@ -1,0 +1,17 @@
+[
+    {
+        "code": "if (arg == null ){\nreturn false;\n}"
+    },
+    {
+        "code": "return StringDescription.toString(m).equals(String.valueOf(arg));"
+    },
+    {
+        "code": "return StringDescription.toString(m).equals(\"\" + arg);"
+    },
+    {
+        "code": "if (arg == null )return false;"
+    },
+    {
+        "code": "if (null == arg ){\nreturn false;\n}"
+    }
+]

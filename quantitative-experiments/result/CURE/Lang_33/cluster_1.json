@@ -1,0 +1,16 @@
+{
+    "cluster_1": [
+        {
+            "code": "classes [ i ] = array [ i ] == null ? null : array [ i ].getClass( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "classes [ i ] = array [ i ] != null ? array [ i ].getClass( ) : null ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( array [ i ] != null ) classes [ i ] = array [ i ].getClass( ) ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

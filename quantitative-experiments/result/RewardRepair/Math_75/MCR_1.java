@@ -1,0 +1,11 @@
+cluster_1: return getPct((Comparable <?>) v);
+cluster_1: return getPct( (Comparable <?>) v);
+cluster_1: return getPct((Comparable <? >) v);
+cluster_1: return getPct((Comparable <?>)v);
+cluster_1: return getCumPct((Comparable <?>) v) / 2;
+cluster_1: return getCumPct((Comparable <?>) v) / 2.0;
+cluster_1: return getPct((Comparable < Integer>) v);
+cluster_1: return getPct((Comparable < Object>) v);
+cluster_1: return getPct((Comparable <? extends Object>) v);
+cluster_1: return getPct(((Comparable <?>) v));
+cluster_1: return getPct((Comparable) v);

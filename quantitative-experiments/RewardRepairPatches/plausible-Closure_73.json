@@ -1,0 +1,30 @@
+[
+    {
+        "patch": "if (c > 0x1f && c < 0x7f) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (c > 0x1f && c < 0x7f) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (c >= 0x1f && c < 0x7f) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (c >= 0x1f && c < 0x7f) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( c > 0x1f && c < 0x7f ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( c > 0x1f && c < 0x7f) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (c > 0x1f && c < 0x7f ) {",
+        "correctness": "plausible"
+    }
+]

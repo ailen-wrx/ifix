@@ -1,0 +1,3 @@
+cluster_3: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( a ) ) ;
+cluster_2: return( a > b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;
+cluster_1: return( a <= b ) ? b :( Float.isNaN( b + b ) ? b : a ) ;

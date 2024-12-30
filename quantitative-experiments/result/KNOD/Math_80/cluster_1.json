@@ -1,0 +1,394 @@
+{
+    "cluster_2": [
+        {
+            "code": "int j = 4 * n - 4;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * n - 4;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * pingPong - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 5 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 0 * n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * 1 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 / n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 3 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 2 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n * pingPong - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 5 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * n & 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - n + 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 2 * pingPong - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * n % 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = (4 >>> n) - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = pingPong * n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 3 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 5 * pingPong - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 2 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = (int)n - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * n & 2;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - n - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = (4 >> n) - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = (int) (4 - n);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * 1 - step;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 1 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 6 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n * 1 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 1 * pingPong - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = (int)4 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - n);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - n * 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 0 * n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 3 * pingPong - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * n - 100;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n / n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n * n / 2;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 5 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n * pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 / n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 3 - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 2 * 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = main.length - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = realEigenvalues.length - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = secondary.length - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 8 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 8 * pingPong - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = step * 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 5 * 1 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * secondary.length;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n - work.length;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 0 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * n & 3;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = Integer.MIN_VALUE * 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - work.length;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 5 / n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * n & 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 5 - n + 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 1 - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - n - step;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 2 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = goodStep(4 * n,0);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 10 * pingPong - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 6 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - 2;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 3 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * pingPong - 2;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 >> n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n % 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 10 - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n * 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 2 * n % 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = '\\0' * n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - step;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n - n - 1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 1 * n - n;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "if (n > 0 ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n >= 0 ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (step > 0 ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (step >= 0 ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n > 0 )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n > 0 ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (pingPong == 0 ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (step > 0 )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n >= 0 ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (pingPong == 0 )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n >= 0 )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (step >= 0 )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n > 0 )return true;",
+            "test_case": "0/0"
+        }
+    ]
+}

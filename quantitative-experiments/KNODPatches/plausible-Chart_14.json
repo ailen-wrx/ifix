@@ -1,0 +1,38 @@
+[
+    {
+        "code": "if (markers == null ){\nreturn false;\n}"
+    },
+    {
+        "code": "boolean removed = Collections.emptyList().remove(marker);"
+    },
+    {
+        "code": "boolean removed = Collections.emptySet().remove(marker);"
+    },
+    {
+        "code": "if (markers == null )return false;"
+    },
+    {
+        "code": "boolean removed = Collections.emptyList().remove(markers);"
+    },
+    {
+        "code": "boolean removed = Collections.emptySet().remove(markers);"
+    },
+    {
+        "code": "boolean removed = false;"
+    },
+    {
+        "code": "final boolean removed = getAnnotations().remove(marker);"
+    },
+    {
+        "code": "boolean removed = orientation.equals(marker);"
+    },
+    {
+        "code": "boolean removed = localizationResources.equals(marker);"
+    },
+    {
+        "code": "boolean removed = datasets.equals(marker);"
+    },
+    {
+        "code": "boolean removed = rangeAxes.equals(marker);"
+    }
+]

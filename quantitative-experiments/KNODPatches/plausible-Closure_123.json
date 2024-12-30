@@ -1,0 +1,14 @@
+[
+    {
+        "code": "Context rhsContext = getContextForNoInOperator(context);"
+    },
+    {
+        "code": "final Context rhsContext = Context.IN_FOR_INIT_CLAUSE;"
+    },
+    {
+        "code": "Context rhsContext = context.IN_FOR_INIT_CLAUSE;"
+    },
+    {
+        "code": "Context rhsContext = Context.IN_FOR_INIT_CLAUSE;"
+    }
+]

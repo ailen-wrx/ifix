@@ -1,0 +1,7 @@
+cluster_1: if( dataset == null ) {
+cluster_5: if( SortOrder.ASCENDING != SortOrder.ASCENDING ) {
+cluster_7: if( dataset == null ) { result.add( null ) ;
+cluster_4: if( dataset == null && SortOrder.ASCENDING.equals( SortOrder.ASCENDING ) ) {
+cluster_3: if(( index <0) ||( index <0) ) {
+cluster_2: if( ! dataset.equals( this.plot.getDataset( index ) ) ) {
+cluster_6: if(( index == -1) ||( index == -1) ) {

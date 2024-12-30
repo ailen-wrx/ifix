@@ -1,0 +1,64 @@
+{
+    "cluster_1": [
+        {
+            "code": "pos += Character.charCount(Character.codePointAt(input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos+= Character.charCount(Character.codePointAt(input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount(Character.codePointAt(input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "; pos += Character.charCount(Character.codePointAt(input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount(Character.codePointAt( input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount(Character.codePointAt (input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount (Character.codePointAt(input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount(Character.codePointAt( input, pt ));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount( Character.codePointAt(input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount( Character.codePointAt(input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount(Character. codePointAt(input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount(Character.codePointAt(input, pt/2));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount(Character.codePointAt( input, pt));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount(Character.codePointAt( input, pt) );",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pos += Character.charCount(Character.codePointAt(input, pt) );",
+            "test_case": "0/0"
+        }
+    ]
+}

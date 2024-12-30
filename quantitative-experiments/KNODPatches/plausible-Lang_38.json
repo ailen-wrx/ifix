@@ -1,0 +1,35 @@
+[
+    {
+        "code": "calendar.getTime().toString();"
+    },
+    {
+        "code": "calendar.get(FULL);"
+    },
+    {
+        "code": "calendar.get(SHORT);"
+    },
+    {
+        "code": "calendar.get(LONG);"
+    },
+    {
+        "code": "calendar.get(MEDIUM);"
+    },
+    {
+        "code": "DateUtils.isSameDay(calendar,calendar);"
+    },
+    {
+        "code": "DateUtils.isSameInstant(calendar,calendar);"
+    },
+    {
+        "code": "DateUtils.isSameLocalTime(calendar,calendar);"
+    },
+    {
+        "code": "calendar.getTime();"
+    },
+    {
+        "code": "calendar.getWeekYear();"
+    },
+    {
+        "code": "getInstance().format(calendar);"
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "patch": "if (x < 1 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 1 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < Integer.MAX_VALUE && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x == x && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x!= '-' && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 2 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x == x && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x!= -1 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < (10) && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 10 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < + 1 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 2 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 1.0 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < (10) && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 3 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 0.01 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < prev && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < (1) && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 100 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 10 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 1000 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 0.5 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 4 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 5 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < + 1 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 1.0 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 3 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 1000 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 4 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 100 && prev == '-') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (x < 5 && prev == '-') {",
+        "correctness": "plausible"
+    }
+]

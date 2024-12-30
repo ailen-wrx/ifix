@@ -1,0 +1,16 @@
+{
+    "cluster_1": [
+        {
+            "code": "if (!NodeUtil.hasFinally(n)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (n.isLabel()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "while (n.isLabel()) {",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "cluster_1": [
+        {
+            "code": "return getPct((Comparable <?>) v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getCumPct((Comparable <?>) v) / 2;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable <? extends Object>) v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct(((Comparable <?>) v));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getCumPct((Comparable <?>) v) / 2.0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable < Integer>) v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct( (Comparable <?>) v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable <? >) v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable < Object>) v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable <?>)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable) v);",
+            "test_case": "0/0"
+        }
+    ]
+}

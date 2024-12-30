@@ -1,0 +1,9 @@
+d4j-repo/
+iFix-server/__pycache__
+quantitative-experiments/__pycache__
+quantitative-experiments/test/
+quantitative-experiments/patched_context/
+quantitative-experiments/gumtree-3.0.0/
+quantitative-experiments/result/
+quantitative-experiments/experiment/__pycache__/
+quantitative-experiments/utils/__pycache__/

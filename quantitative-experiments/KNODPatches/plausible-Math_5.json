@@ -1,0 +1,35 @@
+[
+    {
+        "code": "return INF;"
+    },
+    {
+        "code": "return isInfinite ? NaN : INF;"
+    },
+    {
+        "code": "return isNaN ? NaN : INF;"
+    },
+    {
+        "code": "return Complex.INF;"
+    },
+    {
+        "code": "if (real == 0 ){\nreturn INF;\n}"
+    },
+    {
+        "code": "return ZERO.INF;"
+    },
+    {
+        "code": "if (imaginary == 0 ){\nreturn INF;\n}"
+    },
+    {
+        "code": "return (Complex)INF;"
+    },
+    {
+        "code": "if (ZERO != null ){\nreturn INF;\n}"
+    },
+    {
+        "code": "abs();\nreturn INF;"
+    },
+    {
+        "code": "return isInfinite ? NaN : Complex.INF;"
+    }
+]

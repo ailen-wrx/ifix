@@ -1,0 +1,446 @@
+{
+    "cluster_1": [
+        {
+            "code": "return cAvailableLocaleList.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleList().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleSet().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList != null && cAvailableLocaleList.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return locale == null && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains(availableLocaleSet());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.contains(locale) || cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cLanguagesByCountry.containsKey(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cCountriesByLanguage.containsKey(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.contains(locale) || cAvailableLocaleList.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return LocaleUtils.availableLocaleList().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return LocaleUtils.availableLocaleSet().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return Collections.emptyList().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return Collections.emptySet().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.contains(locale) && cAvailableLocaleList.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return null != cAvailableLocaleSet && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null && !cAvailableLocaleSet.isEmpty();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cLanguagesByCountry.keySet().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cCountriesByLanguage.keySet().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null && isAvailableLocale(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale).contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cLanguagesByCountry.get(locale) == locale;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cCountriesByLanguage.get(locale) == locale;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.contains(locale) || cAvailableLocaleList.equals(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cAvailableLocaleList.contains(locale);\nreturn cAvailableLocaleList.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "availableLocaleSet().contains(locale);\nreturn cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.contains(locale) && !cAvailableLocaleList.isEmpty();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cLanguagesByCountry.equals(locale) && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cCountriesByLanguage.equals(locale) && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.equals(locale) && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleList().contains(locale.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleSet().contains(locale.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleList().contains(locale.clone());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleSet().contains(locale.clone());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleList().contains(locale.getDefault());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleSet().contains(locale.getDefault());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleList().contains(locale.getVariant());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleList().contains(locale.getCountry());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.isEmpty() && cAvailableLocaleSet.contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "availableLocaleSet();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleList().contains(availableLocaleList());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleList().contains(availableLocaleSet());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleSet().contains(availableLocaleList());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleSet().contains(availableLocaleSet());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.contains(cAvailableLocaleSet);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return !availableLocaleList().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return !availableLocaleSet().contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cLanguagesByCountry.get(locale) != null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cCountriesByLanguage.get(locale) != null;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cLanguagesByCountry.equals(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cCountriesByLanguage.equals(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.equals(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale,locale).contains(\"\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale,locale).contains(\"0\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale,locale).contains(\"\\0\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale,locale).contains(\"\\\\0\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale,locale).contains(\"\\\\000\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale,locale).contains(\">;\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale,locale).contains(\"th\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale,locale).contains(\"null\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return localeLookupList(locale,locale).contains(locale);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleSet().contains(cAvailableLocaleSet.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return availableLocaleSet().contains(cAvailableLocaleSet.iterator());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return LocaleUtils.localeLookupList(locale).contains(locale);",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "if (cAvailableLocaleSet == null ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleSet == null )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleSet == null ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleSet == null )return true;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale != null ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cLanguagesByCountry != null ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cCountriesByLanguage != null ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleList != null ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale != null ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (null == cAvailableLocaleSet ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale == locale ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (null != locale ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleSet == null )return false;\nelse return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cLanguagesByCountry != null ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cCountriesByLanguage != null ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleList != null ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale != null )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale.equals(locale) ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale == locale ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale == locale )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (null == cAvailableLocaleSet ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale == null )return false;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (null != locale ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleSet == null )return false;\nelse return true;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale == null )return false;\nelse return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!cAvailableLocaleList.contains(locale) )return false;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (null == cAvailableLocaleSet )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale != null )return true;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (null != locale )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleSet == null )return false;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (locale.equals(locale) ){\nreturn true;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!locale.hasExtensions() ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleSet == null )return true;\nelse return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleList.contains(locale) )return false;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cLanguagesByCountry.containsKey(locale) )return false;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cCountriesByLanguage.containsKey(locale) )return false;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cLanguagesByCountry == null )return false;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cCountriesByLanguage == null )return false;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleList == null )return false;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!cAvailableLocaleList.contains(locale) )return false;\nreturn true;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "localeLookupList(locale,locale);\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (!cAvailableLocaleList.contains(locale) )return true;\nreturn false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleList.contains(locale) )return false;\nreturn true;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (cAvailableLocaleList.contains(locale) )return true;\nreturn false;",
+            "test_case": "0/0"
+        }
+    ]
+}

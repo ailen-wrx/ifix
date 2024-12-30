@@ -1,0 +1,8 @@
+if( Precision.compareTo( entry ,0.1, maxUlps ) >0) {
+if( Precision.compareTo( entry ,0.2, maxUlps ) >0) {
+if( Precision.compareTo( entry ,0.1369660067587938365, maxUlps ) >0) {
+if( Precision.compareTo( entry ,0.10, maxUlps ) >0) {
+if( Precision.compareTo( entry ,0.3, maxUlps ) >0) {
+if( Precision.compareTo( entry ,0.4, maxUlps ) >0) {
+if( Precision.compareTo( entry ,0.1,0.0) >0) {
+if( Precision.compareTo( entry ,0.1,0.0) >0.0) {

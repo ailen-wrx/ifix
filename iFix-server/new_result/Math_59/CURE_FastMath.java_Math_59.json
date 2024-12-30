@@ -1,0 +1,67 @@
+[
+    {
+        "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;",
+        "score": 99.74348530016448,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;",
+        "score": 99.73598780776516,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( float ) a ) ;",
+        "score": 99.72038438585069,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : new Float( a ) ) ;",
+        "score": 99.69970703125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;",
+        "score": 99.69156044407895,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( a ) ) ;",
+        "score": 99.68005719866072,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;",
+        "score": 99.67828184185606,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a > b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;",
+        "score": 99.66645951704545,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a >= b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;",
+        "score": 99.66637813683712,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return(( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ) ;",
+        "score": 99.64867466517858,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return a <= b ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;",
+        "score": 99.62364541330645,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a <= b ) ? b :( Float.isNaN( b + b ) ? b : a ) ;",
+        "score": 99.61532698006465,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( a <= b ) ? b :( Float.isNaN( b ) ? b : a ) ;",
+        "score": 99.60191514756944,
+        "test_case": "0/1/0"
+    }
+]

@@ -1,0 +1,7 @@
+cluster_1: if (c > 0x1f && c < 0x7f) {
+cluster_1: if (c > 0x1f && c < 0x7f) {
+cluster_1: if ( c > 0x1f && c < 0x7f ) {
+cluster_1: if ( c > 0x1f && c < 0x7f) {
+cluster_1: if (c > 0x1f && c < 0x7f ) {
+cluster_1: if (c >= 0x1f && c < 0x7f) {
+cluster_1: if (c >= 0x1f && c < 0x7f) {

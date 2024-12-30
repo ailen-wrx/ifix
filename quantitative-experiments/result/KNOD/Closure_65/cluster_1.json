@@ -1,0 +1,36 @@
+{
+    "cluster_1": [
+        {
+            "code": "case '\\0': sb.append(\"\\\\000\");\nbreak;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case '\\0': if (s != null )sb.append(\"\\\\000\");\nbreak;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case '\\0': {\nsb.append(\"\\\\000\");\nbreak;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case 0: sb.append(\"\\\\000\");\nbreak;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case '\\0': sb.append(\"\\\\000\");\nbreak;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case 0: sb.append(\"\\\\000\");\nbreak;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case '\\0': {\nsb.append(\"\\\\000\");\n}\nbreak;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case 0: sb.append(\"\\\\000\");\nbreak;",
+            "test_case": "0/0"
+        }
+    ]
+}

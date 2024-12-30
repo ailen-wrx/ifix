@@ -1,0 +1,217 @@
+[
+    {
+        "code": "return getPct(( Comparable < ? > ) v ) ;",
+        "score": 99.75563151041666,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < ? > )(( Comparable < ? > ) v ) ) ;",
+        "score": 99.71372919497283,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( v == null ) return 0; return getPct(( Comparable < ? > ) v ) ;",
+        "score": 99.71120198567708,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( v == null ) { return 0; } return getPct(( Comparable ) v ) ;",
+        "score": 99.69706394361413,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( v == null ) return 0; return getPct(( Comparable ) v ) ;",
+        "score": 99.67940848214286,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( v == null ) return 0; else return getPct(( Comparable ) v ) ;",
+        "score": 99.66825727982955,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable ) v ) ;",
+        "score": 99.66770426432292,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getCumPct( v ) *getPct(( Comparable < ? > ) v ) ;",
+        "score": 99.62465413411458,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < ? > )( Comparable < ? > ) v ) ;",
+        "score": 99.61436244419643,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return v == null ? null : getPct(( Comparable < ? > ) v ) ;",
+        "score": 99.59065755208333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "synchronized( v ) { return getPct(( Comparable < ? > ) v ) ; }",
+        "score": 99.57275390625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( v != null ) return getPct(( Comparable ) v ) ; else return 0;",
+        "score": 99.55165793678977,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct( v == null ? null :( Comparable < ? > ) v ) ;",
+        "score": 99.54069010416667,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( v instanceof Comparable ) return getPct(( Comparable ) v ) ; else return 0;",
+        "score": 99.52913041548295,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < ? > )(( Object ) v ) ) ;",
+        "score": 99.52636108398437,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return this.getPct(( Comparable < ? > ) v ) ;",
+        "score": 99.51418887867646,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getCumPct(( Comparable < ? > ) v ) /2;",
+        "score": 99.51155170641448,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getCumPct(( Comparable < ? > ) v ) /2.0;",
+        "score": 99.47024972098214,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable )(( Comparable < ? > ) v ) ) ;",
+        "score": 99.468994140625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( double ) getPct(( Comparable < ? > ) v ) ;",
+        "score": 99.46152072482639,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getCumPct( v ) *getPct(( Comparable ) v ) ;",
+        "score": 99.45635695684524,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( float ) getPct(( Comparable < ? > ) v ) ;",
+        "score": 99.4503173828125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < ? extends Comparable > ) v ) ;",
+        "score": 99.43072150735294,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( getPct(( Comparable < ? > ) v ) ) ;",
+        "score": 99.42392865349265,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < ? > )( v ) ) ;",
+        "score": 99.42122156479779,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < ? extends Comparable < ? >> ) v ) ;",
+        "score": 99.39878443667763,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( double ) getPct(( Comparable ) v ) ;",
+        "score": 99.39220377604167,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( float ) getPct(( Comparable ) v ) ;",
+        "score": 99.39070638020833,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getCumPct( v ) /2.0;",
+        "score": 99.37449544270834,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable )( v ) ) ;",
+        "score": 99.37184361049107,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "synchronized( v ) { return getPct(( Comparable ) v ) ; }",
+        "score": 99.36737738715277,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < Comparable > ) v ) ;",
+        "score": 99.36410319010416,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getCumPct( v ) /2;",
+        "score": 99.35848294771634,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < ? extends Integer > ) v ) ;",
+        "score": 99.34507841222427,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < ? extends Object > ) v ) ;",
+        "score": 99.34356330422794,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct( v == null ? null :( Comparable ) v ) ;",
+        "score": 99.33830430772569,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < Object > ) v ) ;",
+        "score": 99.32327473958334,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return this.getPct(( Comparable ) v ) ;",
+        "score": 99.31248256138393,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < Comparable < ? >> ) v ) ;",
+        "score": 99.30412741268383,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < ? > ) v ) +0;",
+        "score": 99.29867733226104,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( getPct(( Comparable ) v ) ) ;",
+        "score": 99.28295026506696,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Comparable < String > ) v ) ;",
+        "score": 99.27742513020833,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return getPct(( Integer ) v ) ;",
+        "score": 99.22743733723958,
+        "test_case": "0/1/0"
+    }
+]

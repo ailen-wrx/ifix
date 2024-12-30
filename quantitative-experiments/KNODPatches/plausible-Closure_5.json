@@ -1,0 +1,5 @@
+[
+    {
+        "code": "if (gramps.isDelProp() ){\nreturn false;\n}"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "code": "!(result instanceof FunctionType)"
+    },
+    {
+        "code": "!result.isConstructor()"
+    },
+    {
+        "code": "!result.canBeCalled()"
+    },
+    {
+        "code": "!result.isNoType()"
+    }
+]

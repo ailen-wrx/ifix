@@ -1,0 +1,14 @@
+[
+    {
+        "patch": "if (element == search)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (element == search)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "element = element; if (element == search)",
+        "correctness": "plausible"
+    }
+]

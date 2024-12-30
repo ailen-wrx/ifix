@@ -1,0 +1,182 @@
+[
+    {
+        "patch": "return (cAvailableLocaleSet!= null) && cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale; return locale!= null && cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale = Locale.US; return locale!= null && cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (cAvailableLocaleSet == null) || cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (cAvailableLocaleSet!= null) return cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (cAvailableLocaleSet!= null && cAvailableLocaleSet.contains(locale));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale; return locale == null? false : cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (cAvailableLocaleSet == null || cAvailableLocaleSet.contains(locale));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale = Locale.ENGLISH; return locale!=null && cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (locale.equals(locale)) return false; return cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return this.locale.equals(locale) && cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(cAvailableLocaleSet == null) return false; return cAvailableLocaleSet == null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale = Locale.getDefault(); return cAvailableLocaleSet.contains(locale.getLocale());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(locale!= null) return false; return cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (cAvailableLocaleSet == null) return true; return cAvailableLocaleSet == null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (locale instanceof Locale) return false; return cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(locale==null) return false; return cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (locale!= null) return true; return cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean atLeastOnce = cAvailableLocaleSet.contains(locale); return atLeastOnce;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isAvailableLocale = locale!= null; return isAvailableLocale;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "try { return cAvailableLocaleSet.contains(locale); } catch (Exception e) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!cAvailableLocaleSet.contains(locale)) return true; return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isAvailableLocale = false; return isAvailableLocale;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "locale = Locale.ENGLISH; return cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isAvailableLocale = (locale == null); return isAvailableLocale;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "locale = Locale.getDefault(); return cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isAvailableLocale = true; return isAvailableLocale;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return locale == null && cAvailableLocaleSet.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean hasAvailableLocale = false; return hasAvailableLocale;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!cAvailableLocaleSet.contains(locale)) return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return locale.equals(cAvailableLocaleSet);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale = (Locale) locale; return locale!= null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return cAvailableLocaleList.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale = locale.getDefault(); return locale.contains(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return locale.equals(cAvailableLocaleSet);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getClass().isAvailableLocale(locale);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (locale == null) return false; return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale = locale.getLocale(); return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale.setDefault(locale); return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "this.locale = locale; return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "locale = locale; return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale = locale; return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "locale = locale; return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Locale locale; return locale;",
+        "correctness": "plausible"
+    }
+]

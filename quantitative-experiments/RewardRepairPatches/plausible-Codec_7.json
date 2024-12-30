@@ -1,0 +1,38 @@
+[
+    {
+        "patch": "return StringUtils.newStringUtf8(encodeBase64(binaryData, false));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringUtils.newStringUtf8(encodeBase64(binaryData));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringUtils.newStringUtf8(encodeBase64(binaryData, false, false));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringUtils.newStringUtf8(encodeBase64(binaryData,false));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; return StringUtils.newStringUtf8(encodeBase64(binaryData, false));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringUtils. newStringUtf8(encodeBase64(binaryData, false));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringUtils.newStringUtf8(encodeBase64 (binaryData, false));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return new String(encodeBase64(binaryData, false));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return new String(encodeBase64(binaryData));",
+        "correctness": "plausible"
+    }
+]

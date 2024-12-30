@@ -1,0 +1,8 @@
+[
+    {
+        "code": "\" title=\\\"\" + ImageMapUtilities.htmlEscape(toolTipText)"
+    },
+    {
+        "code": "toolTipText = ImageMapUtilities.htmlEscape(toolTipText);"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "patch": "return (double) (getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize()));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "double sampleSize = getSampleSize(); return (sampleSize * getNumberOfSuccesses()) / (double) getPopulationSize();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Double sampleSize = (double) getSampleSize() * getNumberOfSuccesses(); return sampleSize / (double) getPopulationSize();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (double) getSampleSize() * getNumberOfSuccesses() / (double) getPopulationSize();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (double) getSampleSize() * getNumberOfSuccesses() / getPopulationSize();",
+        "correctness": "plausible"
+    }
+]

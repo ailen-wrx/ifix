@@ -1,0 +1,140 @@
+[
+    {
+        "code": "MathUtils.compareTo(entry,0,epsilon) > 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,0) >= 0"
+    },
+    {
+        "code": "if (entry < 0 ){\ncontinue  ;\n}"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,DEFAULT_EPSILON) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,epsilon) >= 0"
+    },
+    {
+        "code": "if (entry <= 0 ){\ncontinue  ;\n}"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,epsilon) > 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,epsilon) >= DEFAULT_EPSILON"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,0) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,DEFAULT_EPSILON,epsilon) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,0) > 0"
+    },
+    {
+        "code": "if (entry < 0 )continue  ;"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,epsilon) >= 1"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,0) > 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,epsilon) >= DEFAULT_EPSILON"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,epsilon) >= epsilon"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,(int)epsilon) >= 0"
+    },
+    {
+        "code": "if (entry == 0 ){\nreturn minRatioPos;\n}"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,DEFAULT_EPSILON,DEFAULT_EPSILON) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,entry) == 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,0) >= epsilon"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,entry) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,0) >= 1"
+    },
+    {
+        "code": "if (entry <= 0 )continue  ;"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,MathUtils.hash(epsilon)) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,epsilon) > DEFAULT_EPSILON"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,0) >= DEFAULT_EPSILON"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,DEFAULT_EPSILON,0) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,(long)epsilon) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,epsilon) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,epsilon) > DEFAULT_EPSILON"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,DEFAULT_EPSILON) > 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,(int)0) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,DEFAULT_EPSILON) > 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,epsilon) > epsilon"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,epsilon) >= 1"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,0L) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,0) >= DEFAULT_EPSILON"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,DEFAULT_EPSILON) >= DEFAULT_EPSILON"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,0.0) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,DEFAULT_EPSILON,epsilon) > 0"
+    },
+    {
+        "code": "entry >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,0,epsilon) >= Double.MIN_VALUE"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,MathUtils.SAFE_MIN) >= 0"
+    },
+    {
+        "code": "MathUtils.compareTo(entry,epsilon,MathUtils.EPSILON) >= 0"
+    },
+    {
+        "code": "entry >= DEFAULT_EPSILON"
+    }
+]

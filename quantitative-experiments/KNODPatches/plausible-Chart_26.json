@@ -1,0 +1,14 @@
+[
+    {
+        "code": "if (owner == null ){\nreturn state;\n}"
+    },
+    {
+        "code": "EntityCollection entities = null;"
+    },
+    {
+        "code": "if (owner == null )return state;"
+    },
+    {
+        "code": "if (this.labelURL == null ){\nreturn state;\n}"
+    }
+]

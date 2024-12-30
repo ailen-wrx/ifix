@@ -1,0 +1,34 @@
+[
+    {
+        "patch": "if (recurse) { return mayBeStringHelper(n); } return recurse;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (recurse) { return mayBeStringHelper(n); } return mayBeStringHelper(n);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (recurse) { return mayBeStringHelper(n); } return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (recurse) { return mayBeStringHelper(n); } return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return anyResultsMatch(n, MAY_BE_STRING_PREDICATE);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "recurse = true; return mayBeStringHelper(n);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "recurse = false; return mayBeStringHelper(n);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return mayBeStringHelper(n);",
+        "correctness": "plausible"
+    }
+]

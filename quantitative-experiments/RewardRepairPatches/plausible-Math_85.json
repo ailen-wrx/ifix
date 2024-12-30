@@ -1,0 +1,702 @@
+[
+    {
+        "patch": "if ((fa * fb > 0.0) && (b < upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa * fb > 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (b < upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a < upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (numIterations > maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (b > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (numIterations>0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (numIterations>0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a * fb > 0.0) && (numIterations> maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a > lowerBound) && (fa * fb > 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (numIterations == maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a > lowerBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a > lowerBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (numIterations > maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (b > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a > lowerBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0)&& (numIterations > maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a > maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (b > upperBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((b * fb > 0.0) && (numIterations > maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a * fb > 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a < lowerBound) && (fa * fb >= 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb >= 0.0) && (a > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (b > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a > lowerBound) && (fa * fb > 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a > lowerBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a * fb > 1.0) && (numIterations < maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (0 < maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (b < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a > maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb >= 0.0) && (a > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a * fb > 1.0) && (numIterations > maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb >= 0.0 && (numIterations > maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a < upperBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a > lowerBound) && (fa * fb >= 0.0 )) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa * fb > 1.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (numIterations>0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (b > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (numIterations < maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (((fa * fb > 0.0) && (b < upperBound))) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (b < upperBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a > lowerBound) && (fa * fb >= 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (initial > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a > upperBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0)|| (fa * fb > 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && numIterations > maximumIterations) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a < lowerBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (a > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a > upperBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (a > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && numIterations > maximumIterations) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (numIterations>0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (0 < maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (a > upperBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (numIterations==0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (b < upperBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa * fb > 1) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb >= 0.0 && a > lowerBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa == 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa > upperBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) &&(a * fb > 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (numIterations==0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a > upperBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a * fb > 0.0) && (b < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb >= 0.0) && (a > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (b < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a > lowerBound) && (fa * fb >= 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (numIterations < maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a < upperBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (b == upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a * fb > 0.0) && (b > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a * fb > 0.0) && (fa * fb > 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa == 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (initial > maximumIterations)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (b > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a < lowerBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a == lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( (fa * fb > 0.0) && (a > lowerBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0)||(fa * fb > 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb >= 0.0 && numIterations > maximumIterations) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (a == upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && ( a > lowerBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (b > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && a > lowerBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa > 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && a > lowerBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (a > upperBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) && (b < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a > upperBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (a > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a > 0.0) && (fa * fb >= 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb >= 0.0 && a > lowerBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb >= 0.0) && (a < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa == 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 &&!(a == lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (a > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 &&!(a < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a < maximumIterations) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 &&!(a > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && numIterations > maximumIterations ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a * fb > 1.0) && (b < upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a * fb > 0.0) && (b > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((a * fb > 0.0) && (b < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (b < lowerBound) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) &&(a > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa > 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (fa > 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb >= 0.0 && (a > lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (a < lowerBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (b < 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (a > upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && 0 < maximumIterations) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && (a < upperBound)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a > maximumIterations) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb >= 0.0 && a < lowerBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) || (b < 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb >= 0.0 && a > upperBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a < maximumIterations) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a!= 0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a == 0.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a!= 0.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && b < upperBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a == 0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 || a > upperBound) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 && a == 1.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( fa * fb > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa / fb) >= 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( fa * fb > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Math.abs(fa * fb) < 0.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 1.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa / fb) >= 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa - 1.0 * fb >= 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * (fb + 1) >= 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 1.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa / fb >= 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * maximumIterations) >= 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb) > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb) > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb) > 0.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * maximumIterations) >= 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa / fb >= 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * (fb + 1) > 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb > 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa / fb) > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa / fb) >= 0.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( (fa * fb > 0.0) ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa * fb) > 0.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa / fb) > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa / fb > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa / fb > 0.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((fa / fb) > 0.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb >= 1.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.0 + 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (a * fb > 1.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb >= 1.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (a * fb > 1.0 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.5 ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 1.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (numIterations > maximumIterations) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fa * fb > 0.00 ) {",
+        "correctness": "plausible"
+    }
+]

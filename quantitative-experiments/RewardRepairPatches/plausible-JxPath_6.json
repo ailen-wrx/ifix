@@ -1,0 +1,18 @@
+[
+    {
+        "patch": "if (r instanceof InitialContext || l instanceof SelfContext) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (r instanceof InitialContext || l instanceof SelfContext) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (l instanceof SelfContext) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (l instanceof SelfContext) {",
+        "correctness": "plausible"
+    }
+]

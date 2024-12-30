@@ -1,0 +1,170 @@
+[
+    {
+        "patch": "if (option.hasArg() && (option.getArgName() == null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName()!= null) &&!required)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName().length() > 0))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName() == null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!required && option.hasArg() && (option.getArgName()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "\"if (option.hasArg() &&!option.getArgName().equals( \"\" \"\"))\"",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName().length()!= 0))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&!(option.getArgName()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&!option.getArgName().equals(option.getArgName()))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && options.getArgName()!= null)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!required && option.hasArg() && (option.getArgName()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName().length() > 0))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName().trim().length()!= 0))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&!option.getArgName().isEmpty())",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (!option.getArgName().isEmpty()))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && option.getArgName().length()!= 0)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName().length()!= 0))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false && option.hasArg() && (option.getArgName()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&!(option.getArgName() instanceof String))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasOptionalArg() && (option.getArgName()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&! (option.getArgName()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getName()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&!(option.getArgName().isEmpty()))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getValue()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&!required)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&!(option.getArgName()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName()!= null) == false)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getLongOpt()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName()!= null) && false)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (null == option.getArgName()))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && option.getArgName().length()!= 0)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getValue()!= null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName()==null))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&!(option.getArgName() instanceof String))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && option.getArgName().length() > 0)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && option.getArgName() == null)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (option.getArgName().length() > 1))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() &&!required)",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (!required))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (false))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (option.hasArg() && (!required))",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false)",
+        "correctness": "plausible"
+    }
+]

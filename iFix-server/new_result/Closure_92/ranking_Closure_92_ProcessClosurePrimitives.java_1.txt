@@ -1,0 +1,6 @@
+cluster_3: int indexOfDot = namespace.indexOf( '.'+ '.') ;
+cluster_5: int index = namespace.indexOf( '.') ; int indexOfDot = -1;
+cluster_4: int indexOfDot = namespace.indexOf( '.'+ namespace.substring(0,1) ) ;
+cluster_1: int indexOfDot = namespace.indexOf(0) ; if( indexOfDot == -1)
+cluster_6: int indexOfDot = namespace.length( ) - namespace.length( ) -1;
+cluster_2: int indexOfDot = -1; if( indexOfDot == -1)

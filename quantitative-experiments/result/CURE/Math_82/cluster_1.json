@@ -1,0 +1,592 @@
+{
+    "cluster_1": [
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0,0) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry , epsilon , epsilon ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >= epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& MathUtils.compareTo( entry ,0, epsilon ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=0&& entry >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon -1) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=0&& entry >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( MathUtils.compareTo( entry ,0, epsilon ) >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, -0) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry , epsilon ,0) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >0&& MathUtils.compareTo( entry ,0, epsilon ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0.0) >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon / entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, -1) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) ==1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=0.1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0,0) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( MathUtils.compareTo( entry ,0,0) >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( MathUtils.compareTo( entry ,0, entry ) >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=0+ epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry , epsilon , epsilon ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0.6) >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0.2) >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, entry ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0,0) >=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( epsilon , entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, entry -1) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( MathUtils.compareTo( entry ,0, epsilon ) >=1) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry , -0, entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon - epsilon ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry , epsilon , epsilon ) >=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0.0) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >= - -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, entry /1) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0,0) >= epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min(0, entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, rhs / entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.max( entry ,0.0) >0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, rhs -1) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry , epsilon , entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry , epsilon ) >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, entry -0) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry , epsilon ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( MathUtils.compareTo( entry ,0, epsilon ) <=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0.0) ==0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry , -0,0) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) > epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( MathUtils.compareTo( entry , epsilon , epsilon ) >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon -1) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0.0f ) >=0.0f ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >= - entry ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( epsilon , entry ) >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0,0.0) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo(0, entry , epsilon ) <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0.6) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0.2) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0,0) >= -0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, entry /6) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, entry /2) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon -6) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon -2) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, entry ) >= -0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) > -0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,1.0) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.max( entry , new Double( entry ) ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon - epsilon ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo(0, entry ,0) <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.max(0, entry ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.floor( entry ) >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo(0, epsilon , entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry , -0, epsilon ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon -0) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.compareTo( entry ,0, epsilon ) >=( epsilon ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.max( entry ,0.0) >= epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.max( entry , entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( MathUtils.equals( entry ,0, entry ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.max( entry ,0.0) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.max( entry ,0) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry , entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,0) >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( entry >=0) &&( entry >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0.0&& entry >0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0.0&& entry >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( entry >=0) &&( entry >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& Math.abs( entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry , entry ) >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( entry >=0) ||( entry >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0.0|| entry >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0.0|| entry >0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( entry >=0) ||( entry >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& entry >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( tableau.getEntry( i , col ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( entry >0) &&( entry >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0.0&& epsilon >0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( epsilon , entry ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( entry >0) &&( entry >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry ,1) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& entry >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&&( entry >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0|| entry >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.max( entry , -1) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&&( entry >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0|| entry >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& epsilon >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry !=0&& entry >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >0&& entry >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.max( entry ,0) >= epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& entry !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >0&& entry >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry !=0&& entry >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry , epsilon ) >= epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& epsilon >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& epsilon !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.floor( entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min(0, entry ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0|| epsilon <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( entry <0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0|| entry ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.ceil( entry ) >=0.6) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.ceil( entry ) >=0.2) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&&0< epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& epsilon >= epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& epsilon < minRatio ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.ceil( entry ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >0|| entry >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry ==0|| entry >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& epsilon == epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if((( double ) entry ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >0|| entry >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0|| entry >= epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry ==0|| entry >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( double ) entry >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( !( entry <=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Math.min( entry , entry ) >= epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >0&& epsilon >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >0&& epsilon >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry <0) { } else {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >=0&& entry >= epsilon ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( entry >0) {",
+            "test_case": "0/1/0"
+        }
+    ]
+}

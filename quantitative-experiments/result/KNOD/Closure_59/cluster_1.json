@@ -1,0 +1,12 @@
+{
+    "cluster_1": [
+        {
+            "code": "options.checkGlobalThisLevel.isOn() && !isTypeCheckingEnabled()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!isTypeCheckingEnabled() && options.checkGlobalThisLevel.isOn()",
+            "test_case": "0/0"
+        }
+    ]
+}

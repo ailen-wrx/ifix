@@ -1,0 +1,82 @@
+[
+    {
+        "patch": "if (full.startsWith(PREFIX_STRING) &&!(raw instanceof Class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_cfgIllegalClassNames.contains(full) || _cfgIllegalClassNames.contains(full)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full.startsWith(PREFIX_STRING) &&!(raw instanceof Class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full.startsWith(PREFIX_STRING) &&!(raw instanceof Class <?>)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!(full.startsWith(PREFIX_STRING)) &&!(raw instanceof Class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!(full.startsWith(PREFIX_STRING)) &&!(raw instanceof Class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full.startsWith(PREFIX_STRING) &&!(raw instanceof Class <?>)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full.startsWith(PREFIX_STRING) &&!(raw!= Object.class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_cfgIllegalClassNames.contains(full)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!full.startsWith(PREFIX_STRING) &&!(raw instanceof Class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full.equals(PREFIX_STRING)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (_cfgIllegalClassNames.contains(full)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full.equals(PREFIX_STRING)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full.matches(PREFIX_STRING)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full == PREFIX_STRING) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full.isEmpty()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (full == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (equals(full)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!(raw instanceof Class)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false) {",
+        "correctness": "plausible"
+    }
+]

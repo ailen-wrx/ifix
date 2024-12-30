@@ -1,0 +1,154 @@
+[
+    {
+        "patch": "if (!hasUncompressedSize && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!hasUncompressedSize && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (hasRelativeHeaderOffset && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (hasRelativeHeaderOffset && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!hasUncompressedSize &&rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!hasUncompressedSize &&rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (hasDiskStart && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (hasDiskStart && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (expectedLength == 0 && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (expectedLength == 0 && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (! hasUncompressedSize && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (! hasUncompressedSize && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((!hasUncompressedSize) && (rawCentralDirectoryData.length!= expectedLength)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false && rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (rawCentralDirectoryData.length!= expectedLength &&!hasUncompressedSize) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (rawCentralDirectoryData.length!= expectedLength &&!hasUncompressedSize) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!hasUncompressedSize && (rawCentralDirectoryData.length!= expectedLength)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (rawCentralDirectoryData.length!= expectedLength && hasRelativeHeaderOffset) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((rawCentralDirectoryData.length!= expectedLength) &&!hasUncompressedSize) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!hasUncompressedSize && (rawCentralDirectoryData.length!= expectedLength)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (rawCentralDirectoryData.length!= expectedLength && hasRelativeHeaderOffset) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((rawCentralDirectoryData.length!= expectedLength) &&!hasUncompressedSize) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((!hasUncompressedSize && rawCentralDirectoryData.length!= expectedLength)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((!hasUncompressedSize && rawCentralDirectoryData.length!= expectedLength)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!hasUncompressedSize && rawCentralDirectoryData.length > expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!hasUncompressedSize && rawCentralDirectoryData.length > expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!hasUncompressedSize && rawCentralDirectoryData.length!= expectedLength ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (rawCentralDirectoryData.length!= expectedLength && hasDiskStart) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!hasUncompressedSize && rawCentralDirectoryData.length!= expectedLength ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false &&rawCentralDirectoryData.length!= expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (rawCentralDirectoryData.length!= expectedLength && hasDiskStart) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (rawCentralDirectoryData.length < expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (rawCentralDirectoryData.length < expectedLength) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (expectedLength == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (expectedLength == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (expectedLength < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (expectedLength < 0) {",
+        "correctness": "plausible"
+    }
+]

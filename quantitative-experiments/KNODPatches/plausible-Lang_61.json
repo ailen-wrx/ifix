@@ -1,0 +1,26 @@
+[
+    {
+        "code": "int len = size + strLen - strLen;"
+    },
+    {
+        "code": "int len = strLen - strLen + size;"
+    },
+    {
+        "code": "int len = size + 1 - strLen;"
+    },
+    {
+        "code": "int len = thisBuf.length - startIndex - startIndex;"
+    },
+    {
+        "code": "int len = validateRange(strLen,thisBuf.length);"
+    },
+    {
+        "code": "int len = CAPACITY - startIndex;"
+    },
+    {
+        "code": "int len = size;"
+    },
+    {
+        "code": "int len = thisBuf.length - startIndex - startIndex;"
+    }
+]

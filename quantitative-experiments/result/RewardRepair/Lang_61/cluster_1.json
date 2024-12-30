@@ -1,0 +1,12 @@
+{
+    "cluster_1": [
+        {
+            "code": "int len = thisBuf.length - strLen * startIndex;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int len = thisBuf.length - strLen * 10;",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "patch": "pos = findWrapPos(text, width - padding.length(), nextLineTabStop);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos = findWrapPos(text, width, 0);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos = findWrapPos(text, width, -1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos = findWrapPos(text, width, 1);",
+        "correctness": "plausible"
+    }
+]

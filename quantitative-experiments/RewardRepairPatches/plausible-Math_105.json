@@ -1,0 +1,22 @@
+[
+    {
+        "patch": "return Math.abs(sumYY - sumXY * sumXY / sumXX);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return Math.abs(sumYY - sumXY * sumXY / sumXX);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return Math.max(0, sumYY - sumXY * sumXY / sumXX);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return Math.abs( sumYY - sumXY * sumXY / sumXX);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return Math.abs(this.sumYY - sumXY * sumXY / sumXX);",
+        "correctness": "plausible"
+    }
+]

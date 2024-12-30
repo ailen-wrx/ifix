@@ -1,0 +1,56 @@
+{
+    "cluster_1": [
+        {
+            "code": "if ((u == 0) || (v == 0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((v == 0) || (u == 0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( (u == 0) || (v == 0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (u == 0 || v == 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((u == 0)||(v == 0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (u == 0 || v == 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((u==0) || (v == 0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((u==0) || (v == 0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((u == 0) ||(v == 0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((double) u * v == 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (v == 0 || u == 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (v == 0 || u == 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((double) u * v == 0) {",
+            "test_case": "0/0"
+        }
+    ]
+}

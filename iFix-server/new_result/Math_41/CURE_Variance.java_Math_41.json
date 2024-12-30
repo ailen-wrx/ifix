@@ -1,0 +1,82 @@
+[
+    {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) {",
+        "score": 99.79395209418402,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) { var = values [ i ] ;",
+        "score": 99.7853125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) { dev = values [ i ] - mean ;",
+        "score": 99.78090639467592,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) { var = values [ i ] - mean ;",
+        "score": 99.74486400462963,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) { dev = values [ i ] ;",
+        "score": 99.679873046875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) { var =0.0;",
+        "score": 99.66727701822917,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin - length + length ; i < begin + length ; i ++ ) {",
+        "score": 99.64272238991477,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin +0; i < begin + length ; i ++ ) {",
+        "score": 99.64114990234376,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) { if( isBiasCorrected )",
+        "score": 99.63498159555289,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin + length - length ; i < begin + length ; i ++ ) {",
+        "score": 99.61607776988636,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin -0; i < begin + length ; i ++ ) {",
+        "score": 99.54383544921875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i =0+ begin ; i < begin + length ; i ++ ) {",
+        "score": 99.46473999023438,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i <( begin + length ) ; i ++ ) {",
+        "score": 99.4501220703125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i != begin + length ; i ++ ) {",
+        "score": 99.44155544704861,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i < begin + length ; ++ i ) {",
+        "score": 99.40603298611111,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) { ;",
+        "score": 99.34659616570724,
+        "test_case": "0/1/0"
+    }
+]

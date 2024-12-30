@@ -1,0 +1,62 @@
+[
+    {
+        "code": "return solve( f , min , max ) ;",
+        "score": 99.5558194247159,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return solve( f ,( double ) min , max ) ;",
+        "score": 99.51320103236607,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( double ) solve( f , min , max ) ;",
+        "score": 99.47071184430804,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return solve( f , initial , max ) ;",
+        "score": 99.33699174360795,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return( solve( f , min , max ) ) ;",
+        "score": 99.31259390024039,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return this.solve( f , min , max ) ;",
+        "score": 99.1561748798077,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return solve( f ,1, max ) ;",
+        "score": 99.15299849076705,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return solve( f , min , max + max ) ;",
+        "score": 99.14340444711539,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return solve( f , min , max + initial ) ;",
+        "score": 99.13893479567308,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return solve( f , min ,6) ;",
+        "score": 99.11243785511364,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return solve( f , initial ,6) ;",
+        "score": 99.0549649325284,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "return solve( f ,2, max ) ;",
+        "score": 99.01305042613636,
+        "test_case": "0/1/0"
+    }
+]

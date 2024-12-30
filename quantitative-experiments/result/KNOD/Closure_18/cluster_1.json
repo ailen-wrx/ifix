@@ -1,0 +1,120 @@
+{
+    "cluster_2": [
+        {
+            "code": "options.dependencyOptions.needsManagement()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() || options.closurePass",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && hasRegExpGlobalReferences()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && precheck()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && !hasErrors()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && !options.transformAMDToCJSModules",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.needsManagement() && precheck()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && !acceptConstKeyword()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && !hasHaltingErrors()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && !isInliningForbidden()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && !acceptEcmaScript5()",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.needsManagement()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.needsManagement() != false",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.toString() != null",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions != null && options.dependencyOptions.needsManagement()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.hashCode() != 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && options.dependencyOptions.needsManagement() && hasRegExpGlobalReferences()",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() || options.closurePass",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || isIdeMode())",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || acceptConstKeyword())",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || hasHaltingErrors())",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || isInliningForbidden())",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || hasRegExpGlobalReferences())",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || acceptEcmaScript5())",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || precheck())",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && (options.dependencyOptions.needsManagement() || isTypeCheckingEnabled())",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "options.dependencyOptions.needsManagement() && (hasRegExpGlobalReferences() || options.closurePass)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.dependencyOptions.needsManagement() && (precheck() || options.closurePass)",
+            "test_case": "0/0"
+        }
+    ]
+}

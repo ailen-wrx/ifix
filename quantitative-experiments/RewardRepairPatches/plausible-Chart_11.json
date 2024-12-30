@@ -1,0 +1,14 @@
+[
+    {
+        "patch": "PathIterator iterator2 = p2.getPathIterator(null);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "PathIterator iterator2 = p2.getPathIterator(null);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "PathIterator iterator2 = p2.getPathIterator( null);",
+        "correctness": "plausible"
+    }
+]

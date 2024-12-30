@@ -1,0 +1,284 @@
+[
+    {
+        "BUG_ID": "Closure_40",
+        "FILE_NAME": "NameAnalyzer.java",
+        "BUGGY_LINE": "JsName name = getName(ns.name, false);",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_123",
+        "FILE_NAME": "CodeGenerator.java",
+        "BUGGY_LINE": "Context rhsContext = Context.OTHER;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_98",
+        "FILE_NAME": "BigMatrixImpl.java",
+        "BUGGY_LINE": "final BigDecimal[] out = new BigDecimal[v.length];",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_8",
+        "FILE_NAME": "Week.java",
+        "BUGGY_LINE": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_9",
+        "FILE_NAME": "TimeSeries.java",
+        "BUGGY_LINE": "if (endIndex < 0) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_12",
+        "FILE_NAME": "MultiplePiePlot.java",
+        "BUGGY_LINE": "this.dataset = dataset;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_24",
+        "FILE_NAME": "GrayPaintScale.java",
+        "BUGGY_LINE": "int g = (int) ((value - this.lowerBound) / (this.upperBound - this.lowerBound) * 255.0; ",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_10",
+        "FILE_NAME": "NodeUtil.java",
+        "BUGGY_LINE": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_14",
+        "FILE_NAME": "ControlFlowAnalysis.java",
+        "BUGGY_LINE": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_18",
+        "FILE_NAME": "Compiler.java",
+        "BUGGY_LINE": "if (options.dependencyOptions.needsManagement() && options.closurePass) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_38",
+        "FILE_NAME": "CodeConsumer.java",
+        "BUGGY_LINE": "if (x < 0 && prev == '-') {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_59",
+        "FILE_NAME": "Compiler.java",
+        "BUGGY_LINE": "if (options.checkGlobalThisLevel.isOn()) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_62",
+        "FILE_NAME": "LightweightMessageFormatter.java",
+        "BUGGY_LINE": "&& 0 <= charno && charno < sourceExcerpt.length()) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_65",
+        "FILE_NAME": "CodeGenerator.java",
+        "BUGGY_LINE": "case '\\0': sb.append(\"\\\\0\"); break;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_70",
+        "FILE_NAME": "TypedScopeCreator.java",
+        "BUGGY_LINE": "jsDocParameter.getJSType(), true);",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_73",
+        "FILE_NAME": "CodeGenerator.java",
+        "BUGGY_LINE": "if (c > 0x1f && c <= 0x7f) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_86",
+        "FILE_NAME": "NodeUtil.java",
+        "BUGGY_LINE": "return true;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_92",
+        "FILE_NAME": "ProcessClosurePrimitives.java",
+        "BUGGY_LINE": "int indexOfDot = namespace.indexOf('.');",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_104",
+        "FILE_NAME": "UnionType.java",
+        "BUGGY_LINE": "result != null",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_125",
+        "FILE_NAME": "TypeCheck.java",
+        "BUGGY_LINE": "if (fnType != null) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_130",
+        "FILE_NAME": "CollapseProperties.java",
+        "BUGGY_LINE": "if (name.globalSets == 1 && name.localSets == 0 &&",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_6",
+        "FILE_NAME": "CharSequenceTranslator.java",
+        "BUGGY_LINE": "pos += Character.charCount(Character.codePointAt(input, pos));",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_21",
+        "FILE_NAME": "DateUtils.java",
+        "BUGGY_LINE": "cal1.get(Calendar.HOUR) == cal2.get(Calendar.HOUR) &&",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_26",
+        "FILE_NAME": "FastDateFormat.java",
+        "BUGGY_LINE": "Calendar c = new GregorianCalendar(mTimeZone);",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_57",
+        "FILE_NAME": "LocaleUtils.java",
+        "BUGGY_LINE": "return cAvailableLocaleSet.contains(locale);",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_59",
+        "FILE_NAME": "StrBuilder.java",
+        "BUGGY_LINE": "str.getChars(0, strLen, buffer, size);",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_61",
+        "FILE_NAME": "StrBuilder.java",
+        "BUGGY_LINE": "int len = thisBuf.length - strLen;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_2",
+        "FILE_NAME": "HypergeometricDistribution.java",
+        "BUGGY_LINE": "return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_5",
+        "FILE_NAME": "Complex.java",
+        "BUGGY_LINE": "return NaN;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_30",
+        "FILE_NAME": "MannWhitneyUTest.java",
+        "BUGGY_LINE": "final int n1n2prod = n1 * n2;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_32",
+        "FILE_NAME": "PolygonsSet.java",
+        "BUGGY_LINE": "if ((Boolean) tree.getAttribute()) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_33",
+        "FILE_NAME": "SimplexTableau.java",
+        "BUGGY_LINE": "if (Precision.compareTo(entry, 0d, maxUlps) > 0) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_34",
+        "FILE_NAME": "ListPopulation.java",
+        "BUGGY_LINE": "return chromosomes.iterator();",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_41",
+        "FILE_NAME": "Variance.java",
+        "BUGGY_LINE": "for (int i = 0; i < weights.length; i++) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_57",
+        "FILE_NAME": "KMeansPlusPlusClusterer.java",
+        "BUGGY_LINE": "int sum = 0;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_63",
+        "FILE_NAME": "MathUtils.java",
+        "BUGGY_LINE": "return (Double.isNaN(x) && Double.isNaN(y)) || x == y;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_75",
+        "FILE_NAME": "Frequency.java",
+        "BUGGY_LINE": "return getCumPct((Comparable<?>) v);",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_80",
+        "FILE_NAME": "EigenDecompositionImpl.java",
+        "BUGGY_LINE": "int j = 4 * n - 1;",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_82",
+        "FILE_NAME": "SimplexSolver.java",
+        "BUGGY_LINE": "MathUtils.compareTo(entry, 0, epsilon) >= 0)",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_85",
+        "FILE_NAME": "UnivariateRealSolverUtils.java",
+        "BUGGY_LINE": "if (fa * fb >= 0.0 ) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_94",
+        "FILE_NAME": "MathUtils.java",
+        "BUGGY_LINE": "if (u * v == 0) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_5",
+        "FILE_NAME": "VerificationOverTimeImpl.java",
+        "BUGGY_LINE": "catch (org.mockito.exceptions.verification.junit.ArgumentsAreDifferent e) {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_8",
+        "FILE_NAME": "GenericMetadataSupport.java",
+        "BUGGY_LINE": "} else {",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_29",
+        "FILE_NAME": "Same.java",
+        "BUGGY_LINE": "description.appendText(wanted.toString());",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_38",
+        "FILE_NAME": "ArgumentMatchingTool.java",
+        "BUGGY_LINE": "return StringDescription.toString(m).equals(arg.toString());",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Time_4",
+        "FILE_NAME": "Partial.java",
+        "BUGGY_LINE": "Partial newPartial = new Partial(iChronology, newTypes, newValues);",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Time_19",
+        "FILE_NAME": "DateTimeZone.java",
+        "BUGGY_LINE": "} else if (offsetLocal > 0) {",
+        "LINE_NUMBER": 0
+    }
+]

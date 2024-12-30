@@ -1,0 +1,11 @@
+[
+    {
+        "code": "strLen = width;"
+    },
+    {
+        "code": "str.getChars(0,width,buffer,size);"
+    },
+    {
+        "code": "str.getChars(0,width,buffer,size);"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "patch": "if (in.peek()!= JsonToken.STRING && in.nextString()!= null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (in.peek()!= JsonToken.STRING && in.nextString().length() > 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((in.peek()!= JsonToken.STRING) && (in.nextString()!= null)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((in.peek()!= JsonToken.STRING) && (in.nextString().length() > 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (in.peek()!= JsonToken.STRING && in.nextString().trim().length() > 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (in.peek()!= JsonToken.STRING && in.nextString()!= null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (in.peek()!= JsonToken.STRING && in.nextString().length() > 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (in.peek()!= JsonToken.STRING && String.valueOf(in.nextString())!= null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (in.peek()!= JsonToken.STRING &&!in.hasNext()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (in.peek()!= JsonToken.STRING && in.nextInt() > 0) {",
+        "correctness": "plausible"
+    }
+]

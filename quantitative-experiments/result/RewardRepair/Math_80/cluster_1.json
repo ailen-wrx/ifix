@@ -1,0 +1,128 @@
+{
+    "cluster_1": [
+        {
+            "code": "int j = 4 * (n - 1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - 1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 *(n - 1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4*(n - 1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 *(n - 1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n-1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4* (n - 1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Integer j = 4 * (n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n -1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j =4 * (n - 1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4*(n - 1) + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - 1) * pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * n - 4 + pingPong;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - 1 + pingPong);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = n - 4 * n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * n - 4;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - 1) + 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Integer j = 4 * (n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Integer j = 4 * (n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 *(n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "; int j = 4 * (n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4*(n - 1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 * (n >> 4);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 4 - n;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int j = -1;",
+            "test_case": "0/0"
+        }
+    ]
+}

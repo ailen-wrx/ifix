@@ -1,0 +1,18 @@
+[
+    {
+        "patch": "found = key.equalsIgnoreCase(prop.getName());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "found = key.equalsIgnoreCase(prop.getName());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String name = prop.getName(); found = key.equalsIgnoreCase(name);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (key.equalsIgnoreCase(prop.getName())) found = true;",
+        "correctness": "plausible"
+    }
+]

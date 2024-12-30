@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "this(time, TimeZone.getDefault(), Locale.getDefault());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "this(time, TimeZone.getDefault(), Locale.getDefault());",
+        "correctness": "plausible"
+    }
+]

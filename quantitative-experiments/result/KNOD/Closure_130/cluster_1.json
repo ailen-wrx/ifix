@@ -1,0 +1,20 @@
+{
+    "cluster_1": [
+        {
+            "code": "if (!name.canCollapse() ){\ncontinue  ;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (name.inExterns ){\ncontinue  ;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (namespace.hasExternsRoot() ){\ncontinue  ;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (collapsePropertiesOnExternTypes ){\ncontinue  ;\n}",
+            "test_case": "0/0"
+        }
+    ]
+}

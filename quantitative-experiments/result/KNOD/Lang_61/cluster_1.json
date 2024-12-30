@@ -1,0 +1,36 @@
+{
+    "cluster_1": [
+        {
+            "code": "int len = size + strLen - strLen;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int len = strLen - strLen + size;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int len = size + 1 - strLen;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int len = thisBuf.length - startIndex - startIndex;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int len = validateRange(strLen,thisBuf.length);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int len = CAPACITY - startIndex;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int len = size;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int len = thisBuf.length - startIndex - startIndex;",
+            "test_case": "0/0"
+        }
+    ]
+}

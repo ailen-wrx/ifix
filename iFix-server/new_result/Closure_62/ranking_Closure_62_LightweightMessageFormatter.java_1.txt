@@ -1,0 +1,9 @@
+cluster_7: &&0<= charno && charno <= sourceExcerpt.length( ) ) {
+cluster_6: && sourceExcerpt.length( ) <= sourceExcerpt.length( ) ) {
+cluster_3: && charno < sourceExcerpt.length( ) || excerpt.equals( LINE ) ) {
+cluster_4: && excerpt.equals( LINE ) && charno <= sourceExcerpt.length( ) ) {
+cluster_5: && ! sourceExcerpt.equals( sourceExcerpt.length( ) ) ) {
+cluster_2: && excerpt.equals( LINE ) && excerpt.equals( LINE ) ) {
+cluster_1: && charno <0) { b.append( '\n') ; } else {
+cluster_9: ) { charno = error.getCharno( ) ;
+cluster_8: && charno < charno && charno < charno && charno < charno ) { } else {

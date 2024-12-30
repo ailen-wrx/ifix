@@ -1,0 +1,40 @@
+{
+    "cluster_1": [
+        {
+            "code": "if( u ==0|| v ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( v ==0|| u ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( u *v *v ==0&& v <52) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( u *v *v ==0&& v <800) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( u *v ==0&& u <52) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( u *v ==0&& u <800) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( u ==0|| u *0== v ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( u *v ==0&& v <52) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( u *v ==0&& v <800) {",
+            "test_case": "0/1/0"
+        }
+    ]
+}

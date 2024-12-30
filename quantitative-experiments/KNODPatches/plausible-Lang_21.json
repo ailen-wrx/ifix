@@ -1,0 +1,53 @@
+[
+    {
+        "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY)"
+    },
+    {
+        "code": "cal1.get(Calendar.AM_PM) == cal2.get(Calendar.AM_PM)"
+    },
+    {
+        "code": "cal1.get(Calendar.AM_PM) == cal2.get(Calendar.HOUR)"
+    },
+    {
+        "code": "cal1.get(cal2.get(Calendar.HOUR)) == cal2.get(RANGE_WEEK_SUNDAY)"
+    },
+    {
+        "code": "cal1.get(cal2.get(Calendar.HOUR)) == cal2.get(MODIFY_ROUND)"
+    },
+    {
+        "code": "cal1.get(MODIFY_TRUNCATE) == cal2.get(Calendar.HOUR)"
+    },
+    {
+        "code": "cal1.get(Calendar.ERA) == cal2.get(Calendar.HOUR)"
+    },
+    {
+        "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(cal2.HOUR_OF_DAY)"
+    },
+    {
+        "code": "cal1.get(Calendar.AM_PM) == cal2.get(cal2.AM_PM)"
+    },
+    {
+        "code": "cal2.get(Calendar.HOUR) == cal2.get(Calendar.AM_PM)"
+    },
+    {
+        "code": "cal1.get(Calendar.HOUR) == cal2.get(cal2.get(RANGE_MONTH_SUNDAY))"
+    },
+    {
+        "code": "cal2.get(Calendar.AM_PM) == cal2.get(Calendar.HOUR)"
+    },
+    {
+        "code": "cal1.get(Calendar.HOUR) <= cal2.get(Calendar.AM_PM)"
+    },
+    {
+        "code": "cal1.get(0) == cal2.get(Calendar.HOUR)"
+    },
+    {
+        "code": "cal1.get(Calendar.HOUR) == cal2.compareTo(cal1)"
+    },
+    {
+        "code": "cal2.get(MODIFY_TRUNCATE) == cal2.get(Calendar.HOUR)"
+    },
+    {
+        "code": "cal1.get(MODIFY_TRUNCATE) == cal2.get(Calendar.HOUR)"
+    }
+]

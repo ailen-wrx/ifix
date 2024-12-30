@@ -1,0 +1,28 @@
+{
+    "cluster_1": [
+        {
+            "code": "if( guess == null ) { return null ; } return fit( guess ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double [ ] ) fit(( double [ ] ) guess ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return fit(( double [ ] ) guess ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double [ ] ) fit( guess ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "synchronized( this ) { return fit( guess ) ; }",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return fit( guess ) ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

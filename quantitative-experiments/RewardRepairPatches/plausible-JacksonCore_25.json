@@ -1,0 +1,394 @@
+[
+    {
+        "patch": "if (i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i > 0 && i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0 || maxCode < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < _inputEnd) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == 0 && i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0 || i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i > maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == 0 && i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i!= 0 && i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i > 0 && i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0 || (maxCode < 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { i++;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == 0 || i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode && _loadMore()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0 || i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == 0 || i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < (maxCode & 0xFFFF)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < _inputEnd) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i >= 0 && i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0 && maxCode < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode || _loadMore()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode || i > maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { codes[i] = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((int) maxCode < _inputEnd) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < _inputPtr + maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0 && i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0 || maxCode < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i >= 0 && i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode && c!= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0 || (maxCode < 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode && i >= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i > maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0 || i > maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode || i == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { codes[i] = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { _loadMore();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < (maxCode & 0xff)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; if (i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < (maxCode & 0xFFFF)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode || i > maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode || i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { i--;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { ++i;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i + maxCode < _inputEnd) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i + 1 < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode && c >= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i!= maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i >= maxCode) { i--;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode || i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { i = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { i--;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < + maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < (maxCode - 1)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < maxCode) { ++i;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i + 1 < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < codes.length) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((int) maxCode < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i!= maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < _inputPtr) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "i++; if (i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < (maxCode - 1)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((i + 1) < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < + maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i + maxCode < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < codes.length) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ((i+1) < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i + 2 < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < (maxCode)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i + i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < (maxCode-1)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i+1 < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < (maxCode)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i-- < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i + c < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( i < maxCode ) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i+1 < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < -maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i + 3 < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i++ < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < c) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i == -1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i> maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 256) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(i < maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i>maxCode) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 255) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 2) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 16) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 50) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (i < 45) {",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "int len = thisBuf.length - strLen * startIndex;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int len = thisBuf.length - strLen * 10;",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,92 @@
+{
+    "cluster_1": [
+        {
+            "code": "for (int i = begin; i < begin + length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; ++i) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "; for (int i = begin; i < begin + length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin+length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; (i < begin + length); i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "var = 1.0; for (int i = begin; i < begin + length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; i++ ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for ( int i = begin; i < begin + length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin ; i < begin + length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; i++) { var = 1.0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "/* */ for (int i = begin; i < begin + length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; i++) { var = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length ; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; i++) { var = dev;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; i ++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; ++i) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; i+=1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for(int i = begin; i < begin + length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i= begin; i < begin + length; i++) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for (int i = begin; i < begin + length; i++) { var = 0.0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "for ( int i = begin; i < begin + length; i++ ) {",
+            "test_case": "0/0"
+        }
+    ]
+}

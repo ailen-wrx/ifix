@@ -1,0 +1,227 @@
+[
+    {
+        "code": "return false;"
+    },
+    {
+        "code": "return isObjectLitKey(value,value);"
+    },
+    {
+        "code": "return isLhs(value,value);"
+    },
+    {
+        "code": "return isTryFinallyNode(value,value);"
+    },
+    {
+        "code": "return locals.apply(value);"
+    },
+    {
+        "code": "return REGEXP_METHODS.equals(value.getParent().getNext());"
+    },
+    {
+        "code": "return BUILTIN_FUNCTIONS_WITHOUT_SIDEEFFECTS.equals(value.getParent().getNext());"
+    },
+    {
+        "code": "return CONSTRUCTORS_WITHOUT_SIDE_EFFECTS.equals(value.getParent().getNext());"
+    },
+    {
+        "code": "return OBJECT_METHODS_WITHOUT_SIDEEFFECTS.equals(value.getParent().getNext());"
+    },
+    {
+        "code": "return JSC_PROPERTY_NAME_FN.equals(value.getParent().getNext());"
+    },
+    {
+        "code": "return STRING_REGEXP_METHODS.equals(value.getParent().getNext());"
+    },
+    {
+        "code": "return isFunction(value);"
+    },
+    {
+        "code": "return isName(value);"
+    },
+    {
+        "code": "return mayHaveSideEffects(value);"
+    },
+    {
+        "code": "return isFunctionDeclaration(value);"
+    },
+    {
+        "code": "return isGet(value);"
+    },
+    {
+        "code": "return isGetProp(value);"
+    },
+    {
+        "code": "return isExpressionNode(value);"
+    },
+    {
+        "code": "return isFunctionExpression(value);"
+    },
+    {
+        "code": "return isAssign(value);"
+    },
+    {
+        "code": "return isVar(value);"
+    },
+    {
+        "code": "return isObjectLitKey(value.getParent(),value.getParent());"
+    },
+    {
+        "code": "return isLhs(value.getParent(),value.getParent());"
+    },
+    {
+        "code": "return REGEXP_METHODS.isEmpty();"
+    },
+    {
+        "code": "return BUILTIN_FUNCTIONS_WITHOUT_SIDEEFFECTS.isEmpty();"
+    },
+    {
+        "code": "return CONSTRUCTORS_WITHOUT_SIDE_EFFECTS.isEmpty();"
+    },
+    {
+        "code": "return OBJECT_METHODS_WITHOUT_SIDEEFFECTS.isEmpty();"
+    },
+    {
+        "code": "return JSC_PROPERTY_NAME_FN.isEmpty();"
+    },
+    {
+        "code": "return STRING_REGEXP_METHODS.isEmpty();"
+    },
+    {
+        "code": "return isNameReferenced(value.getParent(),JSC_PROPERTY_NAME_FN);"
+    },
+    {
+        "code": "return has(value,locals,locals);"
+    },
+    {
+        "code": "return locals.apply(value.getParent());"
+    },
+    {
+        "code": "return isObjectLitKey(value,value.getParent());"
+    },
+    {
+        "code": "return isLhs(value,value.getParent());"
+    },
+    {
+        "code": "return locals.apply(value.getLastChild());"
+    },
+    {
+        "code": "return isFunction(value.getParent());"
+    },
+    {
+        "code": "return isName(value.getParent());"
+    },
+    {
+        "code": "return mayHaveSideEffects(value.getParent());"
+    },
+    {
+        "code": "return isFunctionDeclaration(value.getParent());"
+    },
+    {
+        "code": "return isGet(value.getParent());"
+    },
+    {
+        "code": "return isGetProp(value.getParent());"
+    },
+    {
+        "code": "return isExpressionNode(value.getParent());"
+    },
+    {
+        "code": "return isFunctionExpression(value.getParent());"
+    },
+    {
+        "code": "return isAssign(value.getParent());"
+    },
+    {
+        "code": "return isVar(value.getParent());"
+    },
+    {
+        "code": "if (!isFunction(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (!isName(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (!mayHaveSideEffects(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (!isFunctionDeclaration(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (!isGet(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (!isGetProp(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (!isExpressionNode(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (!isFunctionExpression(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (!isAssign(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (!isVar(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (value.isEquivalentTo(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (value.checkTreeEqualsSilent(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (value.checkTreeTypeAwareEqualsSilent(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (mayHaveSideEffects(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "return locals.apply(value.getFirstChild());"
+    },
+    {
+        "code": "if (!value.hasChild(value) ){\nreturn false;\n}"
+    },
+    {
+        "code": "return ControlFlowGraph.isEnteringNewCfgNode(value);"
+    },
+    {
+        "code": "if (Token.printTrees ){\nreturn locals.apply(value);\n}"
+    },
+    {
+        "code": "return REGEXP_METHODS.equals(value.getParent());"
+    },
+    {
+        "code": "return BUILTIN_FUNCTIONS_WITHOUT_SIDEEFFECTS.equals(value.getParent());"
+    },
+    {
+        "code": "return CONSTRUCTORS_WITHOUT_SIDE_EFFECTS.equals(value.getParent());"
+    },
+    {
+        "code": "return OBJECT_METHODS_WITHOUT_SIDEEFFECTS.equals(value.getParent());"
+    },
+    {
+        "code": "return JSC_PROPERTY_NAME_FN.equals(value.getParent());"
+    },
+    {
+        "code": "return STRING_REGEXP_METHODS.equals(value.getParent());"
+    },
+    {
+        "code": "return value.getType() == 0;"
+    },
+    {
+        "code": "if (value.hasChildren() ){\nreturn locals.apply(value);\n}"
+    },
+    {
+        "code": "if (value.hasOneChild() ){\nreturn locals.apply(value);\n}"
+    },
+    {
+        "code": "if (value.hasSideEffects() ){\nreturn locals.apply(value);\n}"
+    },
+    {
+        "code": "if (value != null ){\nreturn false;\n}"
+    },
+    {
+        "code": "return value.getFirstChild() == locals;"
+    }
+]

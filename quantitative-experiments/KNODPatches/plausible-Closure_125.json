@@ -1,0 +1,11 @@
+[
+    {
+        "code": "fnType != null && fnType.hasInstanceType()"
+    },
+    {
+        "code": "fnType != null && fnType.isConstructor()"
+    },
+    {
+        "code": "fnType != null && type.isConstructor()"
+    }
+]

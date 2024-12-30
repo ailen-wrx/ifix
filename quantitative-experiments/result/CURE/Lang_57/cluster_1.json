@@ -1,0 +1,2190 @@
+{
+    "cluster_1": [
+        {
+            "code": "return locale == null ? false : Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? true : cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.containsKey( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) && cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) || cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return getDefault( ).isAvailableLocale( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ? cAvailableLocaleSet.contains( locale ) : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null || locale.equals( Locale.getDefault( ) ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) ? false : locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return false ; } else { return false ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null && ! cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return false ; } return locale.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) ? locale.equals( locale ) : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && Locale.getDefault( ) == Locale.getDefault( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ? locale.equals( Locale.getDefault( ) ) : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) throw new NullPointerException( ) ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ? true ? false : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null && cAvailableLocaleSet.contains( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; else return locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return locale.contains( locale ) ; else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? true : locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( locale ) ) ? false : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( Locale.getDefault( ).equals( locale ) ) return true ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return true ; } else { return false ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null || Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return locale.equals( locale ) ; else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return locale.equals( locale ) ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.contains( locale ) || cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) throw new NullPointerException( ) ; return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && locale.startsWith( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) { return false ; } else { return false ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return cAvailableLocaleSet.contains( locale ) ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale.equals( Locale.getDefault( ) ) ) return true ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ) == Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ? '': null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.contains( locale ) ;",
+            "test_case": "0/11/0"
+        },
+        {
+            "code": "return( locale == null || Locale.getDefault( ).equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return(( locale != null ) || cAvailableLocaleSet.contains( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null || cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet.contains( locale ) ) return false ; return",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale.toString( ).length( ) !=0) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null && cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; return locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null : ! cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return false ; } return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return false ; } else { return true ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return locale.equals( locale ) ; else return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet != null ) { return locale.contains( locale ) ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) { return true ; } else { return false ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! cAvailableLocaleSet.contains( locale ) ; else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null || cAvailableLocaleSet.contains( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return(( locale == null ) || cAvailableLocaleSet.contains( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && Locale.getDefault( ) == locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.get( locale ) ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return(( locale != null ) && cAvailableLocaleSet.contains( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null && locale.equals( Locale.getDefault( ) ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "else if( locale != null ) return cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale.toString( ).length( ) ==0) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) ? true : locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? true : Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ).get( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return false ; } return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) : null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null &&( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null || locale.equals( '') ) { return false ; } return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return locale.equals( locale ) ; return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) && locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return true ; else return locale.equals( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale instanceof Locale ) || cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) || locale.equals( false ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null || locale.equals( locale ) ) return true ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "synchronized( locale ) { return cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; return Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ? '': ''? $STRING$",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! Locale.getDefault( ).equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? false : locale.contains( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? cAvailableLocaleSet.contains( locale ) : true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( locale ) , locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == null || Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return isAvailableLocale( Locale.getValue( '') , locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return null == locale && cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.get( locale ).contains( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? false : locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return true ; else return locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale instanceof Locale ) && cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ).contains( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == locale && Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( new Locale( locale ) ) ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return(( locale == null ) &&( locale == null ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.trim( ).size( ) !=0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && Locale.getDefault( ) == locale.getDefault( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ? cAvailableLocaleSet.contains( locale ) : locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return(( locale == null ) &&( locale != null ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( locale ) || locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) && locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return false ; } return locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( Locale.isEmpty( locale ) ) return true ; else return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return(( locale != null ) &&( locale != null ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! cAvailableLocaleSet.values( ).contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ? locale.equals( Locale.getDefault( ) ) : true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ? true : != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return(( locale != null ) &&( locale == null ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! cAvailableLocaleSet.size( ).contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) || locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return true ; } else { return true ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return cAvailableLocaleSet.contains( locale ) ; else }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { throw new NullPointerException( ) ; } return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( Locale.getDefault( ).equals( locale ) ) return true ; return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null ||( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( '') && cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? cAvailableLocaleSet.contains( locale ) : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ? true : ? false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && locale.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) throw new NullPointerException( ) ; else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && locale.trim( ).length( ) >0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return true ; else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; return locale.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet == null ) { return false ; } return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return isAvailableLocale( locale , '', '', false ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; else return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; return cAvailableLocaleSet.contains( locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return null != locale || cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) || Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) { return locale.equals( locale ) ; } return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == Locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale.equals( locale ) ) { return false ; } else { return false ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return cAvailableLocaleSet.contains( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null || locale.equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ? true : '';",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; else  return( locale.equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) || locale.contains( false ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; return cAvailableLocaleSet != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( locale ) ) ? '': '';",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) throw new NullPointerException( ) ; else return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale.getId( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) && Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && locale.equals( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null || locale.equals( locale ) ) return true ; return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return getProperty( Locale.getDefault( ) ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) && Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( Locale.getDefault( ) ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == null && Locale.getDefault( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) || Locale.matches( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { throw new NullPointerException( ) ; } return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "Locale locale = cAvailableLocaleSet.get( locale ) ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) &&( locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! cAvailableLocaleSet.length( ).contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null || Locale.getDefault( ) == locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( locale ) + '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && Locale.getDefault( ) != Locale.getDefault( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? locale : Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null && Locale.getDefault( ).equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return true ; } return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) ? locale.equals( locale ) : true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( locale ) , '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return cAvailableLocaleSet != null ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return contains( locale ) && isAvailableLocale( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == locale || Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ).contains( this ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( Locale.getDefault( ) ) || locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) { return locale.equals( locale ) ; } return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null && locale.equals( locale ) ) return false ; else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return locale.contains( locale ) ; else return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return false ; return cAvailableLocaleSet == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale.toLocale( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && ! locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return locale.equals( locale ) ; else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null && locale.equals( locale ) ) return true ; else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ).contains( locale )",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null || locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == null || Locale.getDefault( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return super.cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) &&( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale.add( '') ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return true ; return locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "Locale locale = cAvailableLocaleSet.get( locale ) ; return locale == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? false : locale.equals( cAvailableLocaleSet ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null ? locale.contains( locale ) : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return true ; else return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) & locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == locale && Locale.getDefault( ) == locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet == null ) return false ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && ! Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( Locale.get( locale ) ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null && Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return 2? cAvailableLocaleSet.contains( locale ) : -1;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && Locale.getDefault( ) != locale.getDefault( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && locale.startsWith( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == null && Locale.getDefault( ) == locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet.contains( locale ) ) { return 2; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) && ! cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( Locale.getDefault( ) ) && locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return true ; } return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null || cAvailableLocaleSet == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return isAvailableLocale( locale ) ; else return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ) != Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ? locale.equals( locale ) : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( ! isAvailableLocale( locale ) ) { return false ; } return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null || cAvailableLocaleSet != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! cAvailableLocaleList.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ).booleanValue( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) &&( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "try { return cAvailableLocaleSet.contains( locale ) ; } catch( return",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null || Locale.getDefault( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( locale ) + false ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) ; return Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ).contains( false ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.getDefault( ) == null && Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return true ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ? !( locale != null",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return(( Locale ) locale ).equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && Locale.getDefault( ) !=0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) && Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null ? locale.equals( locale ) : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.getDefault( ) != null && locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ? true : ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == locale || Locale.getDefault( ) == locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet.contains( locale ) ) return false ; else ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) ||( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null || Locale.getDefault( ) == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? cAvailableLocaleSet : locale.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null && cAvailableLocaleSet != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale.getParent( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return true ; return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( isAvailableLocale( locale ) ) { return true ; } return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( Locale.getDefault( ) == null ) return false ; return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) ! cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && Locale.getDefault( ) == locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ) ? true : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && Locale.getDefault( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || Locale.getDefault( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return cAvailableLocaleSet ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return false ? cAvailableLocaleSet.contains( locale ) : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.trim( ).contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && cAvailableLocaleSet != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet.contains( locale ) ) { return 1; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || Locale.getDefault( ).equals( Locale.US ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) ? locale.startsWith( '') : locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return false && cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? false : locale.booleanValue( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != null && cAvailableLocaleSet == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale.getModifiers( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.contains( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.toString( ).equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).equals( locale.toString( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( Locale.getDefault( ) ) ? true : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null && isAvailableLocale( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return false ; } else return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) ||( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { return false ; } else return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) ||( locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet == null ) { return true ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? false : locale.equals( Locale.US ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).equals( locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) : null",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return !( Locale.getDefault( ).equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( ! cAvailableLocaleSet.equals( locale ) ) { return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) ||( locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet.equals( locale ) ) { return ) ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null || cAvailableLocaleSet != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.trim( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ? true : locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.indexOf( locale ) != -1;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null && Locale.getDefault( ) != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) &&( locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.Set( locale ).equals( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null && cAvailableLocaleSet != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.get( locale ).size( ) ==1;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null && cAvailableLocaleSet == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) && locale == true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( Locale.getDefault( ) ) ? false : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return cAvailableLocaleSet.contains( locale ) !=",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null && Locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) { return false ; } return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null && locale.equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( locale ) ) false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( ! Locale.getDefault( ).equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) { return true ; } return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null && locale.equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null || Locale.getDefault( ) != locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( Locale != null ) return cAvailableLocaleSet.contains( locale ) ; return",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.getDefault( ).equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null || locale.equals( Locale.US ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && locale.trim( ).equals( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null && cAvailableLocaleSet != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.get( locale ) ).equals( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( ! locale.equals( Locale.getDefault( ) ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) != null : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ) ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ).equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return isAvailableLocale( Locale.toString( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null && locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return isAvailableLocale( isAvailableLocale( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale.equals( locale ) ) return true ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) { return cAvailableLocaleSet.get( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null && Locale.getDefault( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) { throw new NullPointerException( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != Locale.getDefault( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) [2] ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null && cAvailableLocaleSet == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) / false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null || cAvailableLocaleSet != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ?2: false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) && locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Boolean.valueOf( cAvailableLocaleSet.get( locale ) ).",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleList.contains( locale ) ) ;",
+            "test_case": "0/11/0"
+        },
+        {
+            "code": "if( locale.equals( Locale.getDefault( ) ) ) { return false ; }",
+            "test_case": "0/11/0"
+        },
+        {
+            "code": "return locale != null && locale.equals( cAvailableLocaleSet ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return cAvailableLocaleSet.contains( locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.toString( ).length( ) !=0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return getDefault( ).contains( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) || locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet.contains( locale ) ) return true ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == locale.getDefault( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return false ? cAvailableLocaleSet.contains( locale ) : true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.length = locale.equals( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && Locale.getDefault( ) != locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).toString( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return contains( locale ) || locale.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null || locale.equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null || cAvailableLocaleSet == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ).contains( '')",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! locale.equals( Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.get( locale ) !=",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).equals( cAvailableLocaleSet ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.toString( ).length( ) ==0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return getInstance( ).cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).equals( Locale.US ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) && locale == '';",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null || cAvailableLocaleSet != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.size( ) !=0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null || locale.equals( locale ) ) return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null && cAvailableLocaleSet != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "Locale locale = cAvailableLocaleSet.contains( locale false )",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) ? false *0? false",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.getDefault( ).equals( locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet.contains( locale )2) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( cAvailableLocaleSet ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.toString( ).length( ) >0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.toString( ).equals( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || locale.equals( cAvailableLocaleSet ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).getDefault( ) == locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ? locale != null : true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null && locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null || locale.equals( Locale.US ) ) return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null &&( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return locale.trim( ).equals( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.size( ) ==0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) > true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ? locale.equals( locale ) : true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale instanceof Locale ) return cAvailableLocaleSet.contains( locale ) ; return",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null || cAvailableLocaleSet == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) || true ; }",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null && cAvailableLocaleSet == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null || locale.size( ) >0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) ? true : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ) != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale || locale == null )",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null || locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.isDefined( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return true ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale.equals( Locale.getDefault( ) ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) || locale.next( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null && locale == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet.contains( locale ) && locale != null )",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ) == locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale '')",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null && locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet.contains( locale ) ) return null",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null && isAvailableLocale( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) { if( locale == null ) {",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ? locale != null : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return(( Locale ) locale ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return in.cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null && locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null &&( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return isAvailableLocale( locale false ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null &&( locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null || locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.cAvailableLocaleSet( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && ! locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).toString( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return isAvailableLocale( locale ) ? true : true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == null || locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.containsKey( locale ) : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null &&( locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.size( ) <0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.isEmpty( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return true ; return locale.;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ||( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return this.isAvailableLocale( locale , '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale instanceof Locale ) return true ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( cAvailableLocaleSet.equals( locale ) ) { return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return null != cAvailableLocaleSet ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ''.contains( locale.getValue( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ||( locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return null == cAvailableLocaleSet ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "/ *; return cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).getDefault( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleList.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ).equals( Locale.US ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return isAvailableLocale( locale , false , true ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return !( cAvailableLocaleSet != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( isAvailableLocale( locale , null ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.toString( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( Locale )",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale instanceof Locale ) return false ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != cAvailableLocaleSet ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == Locale.isEmpty( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet == cAvailableLocaleSet ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && locale.equalsIgnoreCase( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).equals( Locale.ENGLISH ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null && false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.containsKey( key ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet != null && true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) ? true : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.size( ) ==0) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! Locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale == null ) return ; return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).toString( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return isAvailableLocale( locale + '''') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.getDefault( ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.containsKey( locale.getClass( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) ? true : true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.containsKey( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale instanceof Locale ) ? true : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) ? false : true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale + locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) ? false : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ) == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return valueOf( locale , false ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.getDefault( ).equals( Locale.US ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ) return cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) ? false : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "locale = cAvailableLocaleSet.get( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null && locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( cAvailableLocaleSet == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.getDefault( ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && locale.equals( Locale.US ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.get( locale ) !=2;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if cAvailableLocaleSet.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( locale.toString( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ).size( ) ==2;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || locale.equals( Locale.US ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) return locale.equals( Locale.EMPTY ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null && locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( start ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ''.size( ) !=0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.getDefault( ) == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ''.contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "isAvailableLocale( locale , null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale instanceof Locale ) ? false : false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return contains( locale.getName( ) ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.size( ) >0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && cAvailableLocaleSet != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "Locale locale = null ; if( locale == null ) return false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == Locale.getDefault( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ) == Locale.US ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return contains( Locale.getDefault( ) ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) && locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null || locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && Boolean.TRUE.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.load( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Boolean.TRUE.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null false , '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null || locale == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null || locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "if( locale != null ) { return contains( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale.equals( locale ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null && locale == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! locale.equals( '') ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == Locale.US ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ) != locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >0;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return getDefault( locale ).equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >2;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >4;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >3;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >5;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >6;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return !( locale != null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return ! locale.equals( locale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == locale.getDefault( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) instanceof Locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.iterator( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( Locale.getDefault( ) ) != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) == ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == Locale.getDefault( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return cAvailableLocaleSet.contains( locale ) -",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >=2;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >=4;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >=3;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >=5;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return System.currentTimeMillis( ) >=6;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return null == locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return !( locale == null ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return contains( locale , true ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null && locale == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return Locale.getDefault( ) != locale ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale == null ) ? true : locale.;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return( locale != null ) && false ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( Locale.US ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.contains( Locale.locale( ) ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return true ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.equals( Locale.equals( '') ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale != null || locale == null ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return isAvailableLocale ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return null == Locale.getDefault( ) ;",
+            "test_case": "1/11/0"
+        },
+        {
+            "code": "return locale.isInstance( locale ) ;",
+            "test_case": "1/11/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "Locale locale = Locale.getDefault( ) ; if( locale == null ) {",
+            "test_case": "1/11/0"
+        }
+    ]
+}

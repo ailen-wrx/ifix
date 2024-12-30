@@ -1,0 +1,14 @@
+[
+    {
+        "patch": "/*&& 0 < = charno && charno < sourceExcerpt.length()*/) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": ") {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": ") {",
+        "correctness": "plausible"
+    }
+]

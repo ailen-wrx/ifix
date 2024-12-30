@@ -1,0 +1,35 @@
+[
+    {
+        "code": "if (getConstructor() != null ){\nreturn;\n}"
+    },
+    {
+        "code": "if (getReferenceName() != null ){\nreturn;\n}"
+    },
+    {
+        "code": "if (hasReferenceName() ){\nreturn;\n}"
+    },
+    {
+        "code": "if (matchesStringContext() ){\nreturn;\n}"
+    },
+    {
+        "code": "if (isNativeObjectType() ){\nreturn;\n}"
+    },
+    {
+        "code": "if (nativeType ){\nreturn;\n}"
+    },
+    {
+        "code": "if (!prettyPrint )return;"
+    },
+    {
+        "code": "if (nativeType )return;"
+    },
+    {
+        "code": "if (hasReferenceName() )return;"
+    },
+    {
+        "code": "if (matchesStringContext() )return;"
+    },
+    {
+        "code": "if (isNativeObjectType() )return;"
+    }
+]

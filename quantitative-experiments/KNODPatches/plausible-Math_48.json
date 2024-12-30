@@ -1,0 +1,5 @@
+[
+    {
+        "code": "throw new ConvergenceException(null);"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "patch": "pos += Character.charCount(Character.codePointAt(input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos+= Character.charCount(Character.codePointAt(input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount(Character.codePointAt(input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; pos += Character.charCount(Character.codePointAt(input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount(Character.codePointAt( input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount(Character.codePointAt (input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount (Character.codePointAt(input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount(Character.codePointAt( input, pt ));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount( Character.codePointAt(input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount( Character.codePointAt(input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount(Character. codePointAt(input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount(Character.codePointAt(input, pt/2));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount(Character.codePointAt( input, pt));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount(Character.codePointAt( input, pt) );",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pos += Character.charCount(Character.codePointAt(input, pt) );",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,258 @@
+{
+    "cluster_2": [
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions != null && options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && options.closurePass == options.closurePass ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && true ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.processCommonJSModules || options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.transformAMDToCJSModules || options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options != null && options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass && options.processCommonJSModules ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) || options.processCommonJSModules ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && ! options.closurePass || options.closurePass ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass && options.closurePass ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( options.dependencyOptions.needsManagement( ) ) || options.closurePass ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( Boolean.valueOf( options.dependencyOptions.needsManagement( ) ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.closurePass || options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && ! hasErrors( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { repartitionInputs( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { staleInputs = true ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( true && options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { staleInputs = false ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( options.dependencyOptions.needsManagement( ) || options.closurePass ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( externsRoot != null && options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( getOptions( ).dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && externsRoot != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass || options.closurePass ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( this.options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass || options.processCommonJSModules ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( hasErrors( ) || options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { runSanityCheck( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass != options.closurePass ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && options.tracer != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( options.dependencyOptions.needsManagement( ) ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( false || options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && true && true ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && options != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && ! false ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.sourceMapOutputPath != null || options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass == true ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( jsRoot != null && options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( options.dependencyOptions.needsManagement( ) ) && true ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { tracker = null ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && true || options.closurePass ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( staleInputs || options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( ! ! options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && ! staleInputs ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) == true ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { assert true ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) | options.closurePass ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { assert false ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "if(( options.dependencyOptions ).needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_7": [
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { for( CompilerInput input : inputs ) { }",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "boolean needsManagement = false ; if( options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "boolean needsManagement = true ; if( options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "boolean dependencyOptions = false ; if( options.dependencyOptions.needsManagement( ) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && ! options.tracer.isOn( ) ) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_8": [
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { if( hasErrors( ) ) { return null ; }",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_6": [
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) && System.currentTimeMillis( ) >0) {",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_5": [
+        {
+            "code": "if( options.dependencyOptions.needsManagement( ) ) { if( options.dependencyOptions.needsManagement( ) )",
+            "test_case": "0/1/0"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+[
+    {
+        "patch": "if (!newRecord && (c < '0' || c > '9' && c < 'A' || c > 'Z' && c < 'a' || c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!newRecord && (c < '0' || c > '9' && c < 'A' || c > 'Z' && c < 'a' || c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < '0' || c > '9' && c < 'A' || c > 'Z' && c < 'a' && c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < 0 || c > '9' && c < 0 || c > 'Z' && c < 0 || c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (! newRecord && (c < '0' || c > '9' && c < 'A' || c > 'Z' && c < 'a' || c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!(c < '0' || c > '9' || c < 'A' || c > 'Z' && c < 'a' || c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < '0' && c > '9' && c < 'A' || c > 'Z' && c < 'a' && c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < '0' || c > '9' && c < 'A' || c == 'Z' && c < 'a' || c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < '0' || c > '9' && c < 'A' || c > 'z' && c < 'a' || c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < '0' || c > '9' && c < 'A' && c < 'a' || c > 'z')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < '0' || c > '9' && c < 'A')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < '0')) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < 0)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < 0L)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && c < '0') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (newRecord && (c < COMMENT)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Character.isWhitespace(c)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (c < '0') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (c == '0') {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (c == COMMENT) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (c < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (false) {",
+        "correctness": "plausible"
+    }
+]

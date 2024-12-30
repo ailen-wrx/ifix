@@ -1,0 +1,296 @@
+[
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf('.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\0');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"0\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"\\0\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"\\\\0\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"\\\\000\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\">;\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"th\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"null\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('.','.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(0);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(2);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(1);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('/');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(':');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Node.BOTH);"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf('.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf('\\0');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(3);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\n');"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf('/');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"/\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(namespace.length());"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.NAME);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.STRING);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.BLOCK);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.FUNCTION);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.VAR);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.CALL);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.GETPROP);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.ASSIGN);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.FALSE);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Token.TRUE);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\\\');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(10);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(100);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(0,'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(0);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\r');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(4);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(5);"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(':');"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(\"0\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(\"\\0\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(\"\\\\0\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(\"\\\\000\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(\">;\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(\"th\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(\"null\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('-');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(6);"
+    },
+    {
+        "code": "int indexOfDot = (int)namespace.indexOf('\\0');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(';');"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf('\\n');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(8);"
+    },
+    {
+        "code": "int indexOfDot = PhaseOptimizer.getLoopsRun().indexOf('.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('.','.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\0','.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\"');"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(1);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(namespace.length());"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(compiler.toString());"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\'');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(compiler.toString());"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(9);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(namespace.lastIndexOf('.'));"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(\"/\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"<SPACE>\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"\\n\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"0\",'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"\\0\",'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"\\\\0\",'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"\\\\000\",'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\">;\",'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"th\",'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"null\",'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\0'),moduleGraph;"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\0'),INVALID_ARGUMENT_ERROR;"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\0'),BASE_CLASS_ERROR;"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('\\0'),rewriteNewDateGoogNow;"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(']');"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf('\\\\');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(12);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(Node.BOTH,'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"true\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('0');"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf(Node.BOTH);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(50);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(31);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\";\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(0,0);"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('>');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(1,'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(2,'.');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf('Z');"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\"false\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(\">\");"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(18);"
+    }
+]

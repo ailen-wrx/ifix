@@ -1,0 +1,262 @@
+[
+    {
+        "patch": "int indexOfDot = namespace.lastIndexOf('.');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.lastIndexOf('.');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(':');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Integer indexOfDot = namespace.lastIndexOf('.');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('/');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(',');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('$');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(';');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('[');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(':');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Integer indexOfDot = namespace.lastIndexOf('.');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('-');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('/');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(',');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(' ');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.' -1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.', 10);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.' + 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('_');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('(');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('$');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(';');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('?');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('=');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.', 100);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.lastIndexOf(',');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('#');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.' - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('!');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(0, '.');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot =namespace.lastIndexOf('.');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('>');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.' + '/');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('[');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.lastIndexOf('/');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(-1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('-');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('@');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(-1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.' + -1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.' - 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.' + 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('+');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.', 1000);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.'-1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('*');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.', 12);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('n');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(0, 0);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.' -1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.' + 1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('&');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('.', 10);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(' ');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('%');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('_');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('(');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('0');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf('?');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(']');",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(-1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = -1;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(-1);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = namespace.indexOf(100);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "int indexOfDot = -1;",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "code": "final BigDecimal[] out = new BigDecimal[data.length];"
+    },
+    {
+        "code": "final BigDecimal[] out = new BigDecimal[3];"
+    },
+    {
+        "code": "final BigDecimal[] out = new BigDecimal[nRows];"
+    },
+    {
+        "code": "final BigDecimal[] out = new BigDecimal[data.length];"
+    },
+    {
+        "code": "final BigDecimal[] out = new BigDecimal[getRowDimension()];"
+    },
+    {
+        "code": "BigDecimal[] out = new BigDecimal[data.length];"
+    },
+    {
+        "code": "BigDecimal[] out = new BigDecimal[3];"
+    },
+    {
+        "code": "final BigDecimal[] out = new BigDecimal[getData().length];"
+    },
+    {
+        "code": "BigDecimal[] out = new BigDecimal[nRows];"
+    },
+    {
+        "code": "final BigDecimal[] out = new BigDecimal[data.length];"
+    },
+    {
+        "code": "final BigDecimal[] out = new BigDecimal[this.getRowDimension()];"
+    }
+]

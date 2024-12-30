@@ -1,0 +1,308 @@
+[
+    {
+        "code": "dataset == null"
+    },
+    {
+        "code": "legendItemToolTipGenerator != null"
+    },
+    {
+        "code": "legendItemURLGenerator != null"
+    },
+    {
+        "code": "this.legendItemToolTipGenerator != null"
+    },
+    {
+        "code": "this.legendItemURLGenerator != null"
+    },
+    {
+        "code": "index != 0"
+    },
+    {
+        "code": "dataset instanceof Range"
+    },
+    {
+        "code": "dataset instanceof List"
+    },
+    {
+        "code": "dataset instanceof CategoryPlot"
+    },
+    {
+        "code": "dataset instanceof ValueAxis"
+    },
+    {
+        "code": "dataset instanceof ArrayList"
+    },
+    {
+        "code": "plot == null"
+    },
+    {
+        "code": "!(dataset instanceof PublicCloneable)"
+    },
+    {
+        "code": "this.plot == null"
+    },
+    {
+        "code": "getLegendItemToolTipGenerator() != null"
+    },
+    {
+        "code": "getLegendItemURLGenerator() != null"
+    },
+    {
+        "code": "dataset != dataset"
+    },
+    {
+        "code": "dataset == legendItemLabelGenerator"
+    },
+    {
+        "code": "dataset == legendItemToolTipGenerator"
+    },
+    {
+        "code": "dataset == legendItemURLGenerator"
+    },
+    {
+        "code": "dataset == backgroundAnnotations"
+    },
+    {
+        "code": "dataset == foregroundAnnotations"
+    },
+    {
+        "code": "result == null"
+    },
+    {
+        "code": "!(dataset != null)"
+    },
+    {
+        "code": "dataset instanceof LegendItemCollection"
+    },
+    {
+        "code": "!(dataset instanceof CategoryDataset)"
+    },
+    {
+        "code": "dataset instanceof LegendItem"
+    },
+    {
+        "code": "this.legendItemLabelGenerator == null"
+    },
+    {
+        "code": "this.backgroundAnnotations == null"
+    },
+    {
+        "code": "this.foregroundAnnotations == null"
+    },
+    {
+        "code": "index > 0"
+    },
+    {
+        "code": "legendItemLabelGenerator == null"
+    },
+    {
+        "code": "backgroundAnnotations == null"
+    },
+    {
+        "code": "foregroundAnnotations == null"
+    },
+    {
+        "code": "this.getLegendItemToolTipGenerator() != null"
+    },
+    {
+        "code": "this.getLegendItemURLGenerator() != null"
+    },
+    {
+        "code": "dataset == plot"
+    },
+    {
+        "code": "backgroundAnnotations.size() > 0"
+    },
+    {
+        "code": "foregroundAnnotations.size() > 0"
+    },
+    {
+        "code": "dataset == this.legendItemLabelGenerator"
+    },
+    {
+        "code": "dataset == this.legendItemToolTipGenerator"
+    },
+    {
+        "code": "dataset == this.legendItemURLGenerator"
+    },
+    {
+        "code": "dataset == this.backgroundAnnotations"
+    },
+    {
+        "code": "dataset == this.foregroundAnnotations"
+    },
+    {
+        "code": "plot.getWeight() != 0"
+    },
+    {
+        "code": "serialVersionUID != serialVersionUID"
+    },
+    {
+        "code": "rowCount != rowCount"
+    },
+    {
+        "code": "columnCount != columnCount"
+    },
+    {
+        "code": "legendItemLabelGenerator != legendItemLabelGenerator"
+    },
+    {
+        "code": "legendItemToolTipGenerator != legendItemToolTipGenerator"
+    },
+    {
+        "code": "legendItemURLGenerator != legendItemURLGenerator"
+    },
+    {
+        "code": "backgroundAnnotations != backgroundAnnotations"
+    },
+    {
+        "code": "foregroundAnnotations != foregroundAnnotations"
+    },
+    {
+        "code": "backgroundAnnotations.size() != 0"
+    },
+    {
+        "code": "foregroundAnnotations.size() != 0"
+    },
+    {
+        "code": "DatasetUtilities.isEmptyOrNull(dataset)"
+    },
+    {
+        "code": "plot.getRowRenderingOrder() == null"
+    },
+    {
+        "code": "index == 1"
+    },
+    {
+        "code": "ObjectUtilities.getClassLoader() != null"
+    },
+    {
+        "code": "this.serialVersionUID != serialVersionUID"
+    },
+    {
+        "code": "this.rowCount != rowCount"
+    },
+    {
+        "code": "this.columnCount != columnCount"
+    },
+    {
+        "code": "this.legendItemLabelGenerator != legendItemLabelGenerator"
+    },
+    {
+        "code": "this.legendItemToolTipGenerator != legendItemToolTipGenerator"
+    },
+    {
+        "code": "this.legendItemURLGenerator != legendItemURLGenerator"
+    },
+    {
+        "code": "this.backgroundAnnotations != backgroundAnnotations"
+    },
+    {
+        "code": "this.foregroundAnnotations != foregroundAnnotations"
+    },
+    {
+        "code": "rowCount != 0"
+    },
+    {
+        "code": "columnCount != 0"
+    },
+    {
+        "code": "this == null"
+    },
+    {
+        "code": "dataset == this.getPlot()"
+    },
+    {
+        "code": "dataset == this.getLegendItemToolTipGenerator()"
+    },
+    {
+        "code": "dataset == this.getLegendItemURLGenerator()"
+    },
+    {
+        "code": "dataset == this.getDrawingSupplier()"
+    },
+    {
+        "code": "dataset == this.getLegendItemLabelGenerator()"
+    },
+    {
+        "code": "dataset.getRowCount() == 0"
+    },
+    {
+        "code": "index < 0"
+    },
+    {
+        "code": "dataset == this"
+    },
+    {
+        "code": "this.plot == legendItemLabelGenerator"
+    },
+    {
+        "code": "this.plot == legendItemToolTipGenerator"
+    },
+    {
+        "code": "this.plot == legendItemURLGenerator"
+    },
+    {
+        "code": "this.plot == backgroundAnnotations"
+    },
+    {
+        "code": "this.plot == foregroundAnnotations"
+    },
+    {
+        "code": "!dataset.equals(dataset)"
+    },
+    {
+        "code": "this.rowCount != 0"
+    },
+    {
+        "code": "this.columnCount != 0"
+    },
+    {
+        "code": "this.plot != plot"
+    },
+    {
+        "code": "SortOrder.ASCENDING == null"
+    },
+    {
+        "code": "plot instanceof List"
+    },
+    {
+        "code": "null != legendItemToolTipGenerator"
+    },
+    {
+        "code": "null != legendItemURLGenerator"
+    },
+    {
+        "code": "plot.toString() == null"
+    },
+    {
+        "code": "null != null"
+    },
+    {
+        "code": "plot == legendItemLabelGenerator"
+    },
+    {
+        "code": "plot == legendItemToolTipGenerator"
+    },
+    {
+        "code": "plot == legendItemURLGenerator"
+    },
+    {
+        "code": "plot == backgroundAnnotations"
+    },
+    {
+        "code": "plot == foregroundAnnotations"
+    },
+    {
+        "code": "index > 1"
+    },
+    {
+        "code": "dataset.equals(SortOrder.ASCENDING)"
+    },
+    {
+        "code": "index != rowCount"
+    },
+    {
+        "code": "index != columnCount"
+    }
+]

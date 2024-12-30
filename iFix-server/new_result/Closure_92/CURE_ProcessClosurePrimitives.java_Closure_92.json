@@ -1,0 +1,332 @@
+[
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ namespace.indexOf( '.') ) ;",
+        "score": 99.73595252403847,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ namespace.substring(0,1) ) ;",
+        "score": 99.64908541165866,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ '.') ;",
+        "score": 99.64516730057566,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( namespace.indexOf( '.') ) ;",
+        "score": 99.64198811848958,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(0) ; if( indexOfDot == -1)",
+        "score": 99.64020647321429,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(1) ; if( indexOfDot == -1)",
+        "score": 99.63409423828125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf( '.') ;",
+        "score": 99.62248149671052,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( Integer.toString( namespace.length( ) ) ) ;",
+        "score": 99.61575753348214,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.', '.') ;",
+        "score": 99.60807077508224,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(2) ; if( indexOfDot == -1)",
+        "score": 99.60699462890625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(2006) ; if( indexOfDot == -1)",
+        "score": 99.60699462890625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ '.'+ '.') ;",
+        "score": 99.60423642113095,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.', namespace.length( ) -1) ;",
+        "score": 99.594609375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.toString( ).lastIndexOf( '.') ;",
+        "score": 99.584404296875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int index = namespace.indexOf( '.') ; int indexOfDot = -1;",
+        "score": 99.58427097486413,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int index =0; int indexOfDot = namespace.lastIndexOf( '.') ;",
+        "score": 99.57315063476562,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = -1; if( indexOfDot == -1)",
+        "score": 99.54829545454545,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ '.'+ '.'+ '.') ;",
+        "score": 99.54509171195652,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final int indexOfDot = namespace.indexOf( '.'+ '.'+ '.') ;",
+        "score": 99.54329057173295,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( Token.VAR ) ;",
+        "score": 99.53265059621711,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'-1) ;",
+        "score": 99.5280825966283,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = this.namespace.indexOf( '.', '.') ;",
+        "score": 99.52630905877976,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(1) ;",
+        "score": 99.52272661994485,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.trim( ).lastIndexOf( '.') ;",
+        "score": 99.52114470108695,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.', namespace.length( ) ) ;",
+        "score": 99.51706861413044,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+1) ;",
+        "score": 99.51374897203948,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ '.'+ namespace ) ;",
+        "score": 99.51163736979167,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( namespace , '.') ;",
+        "score": 99.5076904296875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( Node.IS_NAMESPACE , '.') ;",
+        "score": 99.50523310122283,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'- '.') ;",
+        "score": 99.50310315583882,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( Node.IS_NAMESPACE ) ;",
+        "score": 99.5012439546131,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = this.namespace.indexOf( '.'+ '.') ;",
+        "score": 99.4948962983631,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.length( ) - namespace.length( ) -1;",
+        "score": 99.4900235262784,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(2) ;",
+        "score": 99.48790067784927,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(2006) ;",
+        "score": 99.48790067784927,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = -1;",
+        "score": 99.48032448508523,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf(0) ;",
+        "score": 99.47814223345588,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( namespace.length( ) ) ;",
+        "score": 99.46589006696429,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final int indexOfDot = namespace.indexOf( '.', '.') ;",
+        "score": 99.46486206054688,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = this.namespace.lastIndexOf( '.') ;",
+        "score": 99.46134440104167,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final int indexOfDot = namespace.lastIndexOf( '.') ;",
+        "score": 99.45947875976563,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( namespace + '.') ;",
+        "score": 99.45705694901316,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ -1) ;",
+        "score": 99.45534057617188,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = this.namespace.indexOf( namespace , '.') ;",
+        "score": 99.45511300223214,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ '.'+1) ;",
+        "score": 99.45183454241071,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( Integer.toString( '.') ) ;",
+        "score": 99.4495340983073,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ '.'+0) ;",
+        "score": 99.44497535342262,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = this.namespace.indexOf( '.'+1) ;",
+        "score": 99.44368489583333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.', '.'+ '.') ;",
+        "score": 99.4350818452381,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final int indexOfDot = namespace.indexOf( '.'+ '.') ;",
+        "score": 99.42671508789063,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ namespace ) ;",
+        "score": 99.41022049753289,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+2) ;",
+        "score": 99.40838301809211,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( Integer.MAX_VALUE ) ;",
+        "score": 99.40537806919643,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( namespace + '.'+ '.') ;",
+        "score": 99.40027436755952,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = this.namespace.indexOf( '.'- '.') ;",
+        "score": 99.39197358630952,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( Token.NAME ) ;",
+        "score": 99.38445723684211,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot =0; indexOfDot = -1;",
+        "score": 99.3835384971217,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf( '.', '.') ;",
+        "score": 99.3835216703869,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( -1) ;",
+        "score": 99.37807888454861,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( namespace +0) ;",
+        "score": 99.37721653988487,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'+ '.', '.') ;",
+        "score": 99.37339564732143,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.indexOf( '.'-2) ;",
+        "score": 99.37124794407895,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = namespace.lastIndexOf( '.') ; ;",
+        "score": 99.36958618164063,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot = this.namespace.indexOf(1) ;",
+        "score": 99.35404245476974,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int indexOfDot =( int ) -1;",
+        "score": 99.23672921316964,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int index =0; int indexOfDot = -1;",
+        "score": 99.20618438720703,
+        "test_case": "0/1/0"
+    }
+]

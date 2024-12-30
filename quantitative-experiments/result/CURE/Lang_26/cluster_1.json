@@ -1,0 +1,12 @@
+{
+    "cluster_1": [
+        {
+            "code": "Calendar c = new GregorianCalendar( mTimeZone , mLocale ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "Calendar c = new GregorianCalendar( mTimeZone , getLocale( ) ) ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

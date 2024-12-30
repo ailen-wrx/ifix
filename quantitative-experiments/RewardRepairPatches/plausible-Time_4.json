@@ -1,0 +1,14 @@
+[
+    {
+        "patch": "Partial newPartial = new Partial(newTypes, newValues);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Partial newPartial = new Partial(newTypes, newValues);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Partial newPartial = new Partial( newTypes, newValues);",
+        "correctness": "plausible"
+    }
+]

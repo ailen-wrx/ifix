@@ -1,0 +1,14 @@
+[
+    {
+        "patch": "jsDocParameter.getJSType(), false);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "jsDocParameter.getJSType(), false);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "jsDocParameter.getJSType(), false);",
+        "correctness": "plausible"
+    }
+]

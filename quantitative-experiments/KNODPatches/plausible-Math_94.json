@@ -1,0 +1,50 @@
+[
+    {
+        "code": "(long)u * v == 0"
+    },
+    {
+        "code": "u * (long)v == 0"
+    },
+    {
+        "code": "(double)u * v == 0"
+    },
+    {
+        "code": "u * MathUtils.sign(v) == 0"
+    },
+    {
+        "code": "(float)u * v == 0"
+    },
+    {
+        "code": "u == 0 || v == 0"
+    },
+    {
+        "code": "u * sign(v) == 0"
+    },
+    {
+        "code": "u * (double)v == 0"
+    },
+    {
+        "code": "u * SAFE_MIN * v == 0"
+    },
+    {
+        "code": "u * EPSILON * v == 0"
+    },
+    {
+        "code": "u * TWO_PI * v == 0"
+    },
+    {
+        "code": "(long)u * v == ZB"
+    },
+    {
+        "code": "(long)u * v == ZS"
+    },
+    {
+        "code": "u * (long)v == ZB"
+    },
+    {
+        "code": "u * (long)v == ZS"
+    },
+    {
+        "code": "u * (float)v == 0"
+    }
+]

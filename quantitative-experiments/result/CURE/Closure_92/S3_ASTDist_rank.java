@@ -1,0 +1,66 @@
+5: int indexOfDot = namespace.lastIndexOf( '.') ;
+5: int indexOfDot = namespace.indexOf( '.', '.') ;
+5: int indexOfDot = namespace.indexOf( '.', namespace.length( ) ) ;
+5: int indexOfDot = namespace.indexOf( '.', namespace.length( ) -1) ;
+5: int indexOfDot = namespace.indexOf( namespace , '.') ;
+5: int indexOfDot = namespace.indexOf( '.', '.'+ '.') ;
+5: int indexOfDot = namespace.indexOf( Node.IS_NAMESPACE , '.') ;
+6: int index = namespace.indexOf( '.') ; int indexOfDot = -1;
+6: int index =0; int indexOfDot = namespace.lastIndexOf( '.') ;
+6: int indexOfDot = namespace.indexOf(1) ;
+6: int indexOfDot = namespace.indexOf(2) ;
+6: int indexOfDot = namespace.indexOf(2006) ;
+6: int indexOfDot = namespace.indexOf(0) ;
+6: int indexOfDot = -1;
+6: final int indexOfDot = namespace.indexOf( '.', '.') ;
+6: final int indexOfDot = namespace.lastIndexOf( '.') ;
+6: int indexOfDot = namespace.indexOf( namespace.length( ) ) ;
+6: int indexOfDot = namespace.indexOf( Node.IS_NAMESPACE ) ;
+6: int indexOfDot = namespace.indexOf( Token.NAME ) ;
+6: int indexOfDot = namespace.indexOf( Token.VAR ) ;
+6: int indexOfDot = namespace.lastIndexOf( '.', '.') ;
+6: int indexOfDot = namespace.indexOf( namespace +0) ;
+6: int indexOfDot = namespace.indexOf( -1) ;
+6: int indexOfDot = namespace.indexOf( Integer.MAX_VALUE ) ;
+6: int indexOfDot = namespace.lastIndexOf( '.') ; ;
+6: int indexOfDot =( int ) -1;
+7: int indexOfDot =0; indexOfDot = -1;
+7: int index =0; int indexOfDot = -1;
+8: int indexOfDot = namespace.indexOf( '.'+ '.') ;
+8: int indexOfDot = this.namespace.indexOf( '.', '.') ;
+8: int indexOfDot = namespace.indexOf( '.'+1) ;
+8: int indexOfDot = namespace.indexOf( '.'-1) ;
+8: int indexOfDot = namespace.indexOf( '.'- '.') ;
+8: int indexOfDot = this.namespace.lastIndexOf( '.') ;
+8: int indexOfDot = namespace.indexOf( namespace + '.') ;
+8: int indexOfDot = this.namespace.indexOf( namespace , '.') ;
+8: int indexOfDot = namespace.indexOf( '.'+ -1) ;
+8: int indexOfDot = namespace.indexOf( '.'+ namespace.substring(0,1) ) ;
+8: int indexOfDot = namespace.indexOf( '.'+ namespace ) ;
+8: int indexOfDot = namespace.indexOf( '.'+2) ;
+8: int indexOfDot = namespace.indexOf( '.'-2) ;
+9: int indexOfDot = namespace.indexOf( '.'+ '.'+ '.') ;
+9: int indexOfDot = namespace.indexOf( namespace.indexOf( '.') ) ;
+9: int indexOfDot = namespace.indexOf( '.'+ '.'+ namespace ) ;
+9: int indexOfDot = -1; if( indexOfDot == -1)
+9: int indexOfDot = namespace.indexOf( '.'+ '.'+1) ;
+9: final int indexOfDot = namespace.indexOf( '.'+ '.') ;
+9: int indexOfDot = namespace.indexOf( '.'+ '.'+0) ;
+9: int indexOfDot = namespace.indexOf(0) ; if( indexOfDot == -1)
+9: int indexOfDot = namespace.indexOf(1) ; if( indexOfDot == -1)
+9: int indexOfDot = namespace.indexOf(2) ; if( indexOfDot == -1)
+9: int indexOfDot = namespace.indexOf(2006) ; if( indexOfDot == -1)
+9: int indexOfDot = namespace.indexOf( namespace + '.'+ '.') ;
+9: int indexOfDot = namespace.toString( ).lastIndexOf( '.') ;
+9: int indexOfDot = namespace.trim( ).lastIndexOf( '.') ;
+9: int indexOfDot = namespace.indexOf( '.'+ '.', '.') ;
+9: int indexOfDot = namespace.indexOf( Integer.toString( '.') ) ;
+9: int indexOfDot = this.namespace.indexOf(1) ;
+10: final int indexOfDot = namespace.indexOf( '.'+ '.'+ '.') ;
+10: int indexOfDot = namespace.indexOf( '.'+ '.'+ '.'+ '.') ;
+11: int indexOfDot = this.namespace.indexOf( '.'+ '.') ;
+11: int indexOfDot = namespace.indexOf( Integer.toString( namespace.length( ) ) ) ;
+11: int indexOfDot = namespace.length( ) - namespace.length( ) -1;
+11: int indexOfDot = this.namespace.indexOf( '.'+1) ;
+11: int indexOfDot = this.namespace.indexOf( '.'- '.') ;
+12: int indexOfDot = namespace.indexOf( '.'+ namespace.indexOf( '.') ) ;

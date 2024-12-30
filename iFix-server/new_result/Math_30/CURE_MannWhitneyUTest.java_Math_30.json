@@ -1,0 +1,167 @@
+[
+    {
+        "code": "final double n1n2prod = n1*( n1+2+1) /2.0;",
+        "score": 99.752041015625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*( n2+ n2) /2.0;",
+        "score": 99.74169921875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*n2;",
+        "score": 99.70238444010417,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double n1n2prod = n2*( n1+ n2+1) /2.0;",
+        "score": 99.69947265625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n2*( n1+ n2+1) /2;",
+        "score": 99.69415283203125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*( n1+1+1+1) /2;",
+        "score": 99.68123046875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*n2; final double n2n1= n1;",
+        "score": 99.677666015625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*( n2+ n2) /2;",
+        "score": 99.64412064985795,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*( n1+2+1) /2;",
+        "score": 99.6411769701087,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double n1n2prod = n1*( n2+ n2) /2.0;",
+        "score": 99.62428880774456,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final int n1n2prod =2*( n1+ n2+1) ;",
+        "score": 99.53538876488095,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double n1n2prod = n1*n2;",
+        "score": 99.51352364676339,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*2*2.0;",
+        "score": 99.48040771484375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n2*n1;",
+        "score": 99.47189127604166,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*n2*1.0;",
+        "score": 99.43263646175987,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final int n1n2prod = n1*2*2;",
+        "score": 99.43209075927734,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*n2/1.0;",
+        "score": 99.4146792763158,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final long n1n2prod = n1*n2;",
+        "score": 99.41255696614583,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n2*n2+ n2;",
+        "score": 99.40503607855902,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final float n1n2prod = n1*n2;",
+        "score": 99.39564615885416,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*n2*1;",
+        "score": 99.37590475643383,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*n2; ;",
+        "score": 99.37434387207031,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod =( double ) n1*n2;",
+        "score": 99.36463080512152,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*2*2;",
+        "score": 99.36270141601562,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod =( int ) n1*n2;",
+        "score": 99.35176595052083,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final double n1n2prod = n1*n1- n1;",
+        "score": 99.35044352213542,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "float n1n2prod = n1*n2;",
+        "score": 99.33506556919643,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double n1n2prod = n1*n2; ;",
+        "score": 99.24462076822917,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "double n1n2prod = n2*n1;",
+        "score": 99.23182024274554,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final float n1n2prod = n2*n1;",
+        "score": 99.22237955729166,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "long n1n2prod = n1*n2;",
+        "score": 99.22079903738839,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "final long n1n2prod = n2*n1;",
+        "score": 99.21201171875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "int n1n2prod = n1*2*2;",
+        "score": 99.21021321614583,
+        "test_case": "0/1/0"
+    }
+]

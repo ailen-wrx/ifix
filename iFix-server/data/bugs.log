@@ -1,0 +1,85 @@
+bug id: Chart_1
+file name: AbstractCategoryItemRenderer.java
+buggy line: if (dataset != null) {
+correct patch: if (dataset == null) {
+----------------------------------
+bug id: Chart_9
+file name: TimeSeries.java
+buggy line: if (endIndex < 0) {
+correct patch: if ((endIndex < 0)  || (endIndex < startIndex)) {
+----------------------------------
+bug id: Closure_10
+file name: NodeUtil.java
+buggy line: return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
+correct patch: return anyResultsMatch(n, MAY_BE_STRING_PREDICATE);
+----------------------------------
+bug id: Closure_18
+file name: Compiler.java
+buggy line: if (options.dependencyOptions.needsManagement() && options.closurePass) {
+correct patch: if (options.dependencyOptions.needsManagement()) {
+----------------------------------
+bug id: Math_30
+file name: MannWhitneyUTest.java
+buggy line: final int n1n2prod = n1 * n2;
+correct patch: final double n1n2prod = n1 * n2;
+----------------------------------
+bug id: Math_41
+file name: Variance.java
+buggy line: for (int i = 0; i < weights.length; i++) {
+correct patch: for (int i = begin; i < begin + length; i++) {
+----------------------------------
+bug id: Math_59
+file name: FastMath.java
+buggy line: return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
+correct patch: return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : a);
+----------------------------------
+bug id: Math_57
+file name: KMeansPlusPlusClusterer.java
+buggy line: int sum = 0;
+correct patch: double sum = 0;
+----------------------------------
+bug id: Math_70
+file name: BisectionSolver.java
+buggy line: return solve(min, max);
+correct patch: return solve(f, min, max);
+----------------------------------
+bug id: Math_75
+file name: Frequency.java
+buggy line: return getCumPct((Comparable<?>) v);
+correct patch: return getPct((Comparable<?>) v);
+----------------------------------
+bug id: Math_82
+file name: SimplexSolver.java
+buggy line: if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
+correct patch: if (MathUtils.compareTo(entry, 0, epsilon) > 0) {
+----------------------------------
+bug id: Lang_61
+file name: StrBuilder.java
+buggy line: int len = thisBuf.length - strLen;
+correct patch: int len = size - strLen + 1;
+----------------------------------
+bug id: Closure_92
+file name: ProcessClosurePrimitives.java
+buggy line: int indexOfDot = namespace.indexOf('.');
+correct patch: int indexOfDot = namespace.lastIndexOf('.');
+----------------------------------
+bug id: Time_19
+file_name: DateTimeZone.java
+buggy line: } else if (offsetLocal > 0) {
+correct patch: } else if (offsetLocal >= 0) {
+---------------------------------------
+bug id: Math_85
+file_name: UnivariateRealSolverUtils.java
+buggy line: if (fa * fb >= 0.0 ) {
+correct patch: if (fa * fb > 0.0 ) {
+---------------------------------------
+bug id: Math_80
+file_name: EigenDecompositionImpl.java
+buggy line: int j = 4 * n - 1;
+correct patch: int j = 4 * (n - 1);
+---------------------------------------
+bug id: Closure_62
+file_name: LightweightMessageFormatter.java
+buggy line: && 0 <= charno && charno < sourceExcerpt.length()) {
+correct patch: && 0 <= charno && charno <= sourceExcerpt.length()) {
+---------------------------------------

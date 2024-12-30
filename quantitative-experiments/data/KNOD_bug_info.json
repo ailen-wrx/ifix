@@ -1,0 +1,638 @@
+[
+    {
+        "BUG_ID": "Chart_14",
+        "FILE_NAME": "CategoryPlot.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_26",
+        "FILE_NAME": "Axis.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_40",
+        "FILE_NAME": "NameAnalyzer.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_46",
+        "FILE_NAME": "RecordType.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_123",
+        "FILE_NAME": "CodeGenerator.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_10",
+        "FILE_NAME": "FastDateParser.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_24",
+        "FILE_NAME": "NumberUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_38",
+        "FILE_NAME": "FastDateFormat.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_65",
+        "FILE_NAME": "AbstractLeastSquaresOptimizer.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_79",
+        "FILE_NAME": "MathUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_98",
+        "FILE_NAME": "BigMatrixImpl.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_1",
+        "FILE_NAME": "AbstractCategoryItemRenderer.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_3",
+        "FILE_NAME": "TimeSeries.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_8",
+        "FILE_NAME": "Week.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_9",
+        "FILE_NAME": "TimeSeries.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_10",
+        "FILE_NAME": "StandardToolTipTagFragmentGenerator.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_11",
+        "FILE_NAME": "ShapeUtilities.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_12",
+        "FILE_NAME": "MultiplePiePlot.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_17",
+        "FILE_NAME": "TimeSeries.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_20",
+        "FILE_NAME": "ValueMarker.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_24",
+        "FILE_NAME": "GrayPaintScale.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_10",
+        "FILE_NAME": "NodeUtil.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_11",
+        "FILE_NAME": "TypeCheck.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_14",
+        "FILE_NAME": "ControlFlowAnalysis.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_18",
+        "FILE_NAME": "Compiler.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_36",
+        "FILE_NAME": "InlineVariables.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_38",
+        "FILE_NAME": "CodeConsumer.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_52",
+        "FILE_NAME": "CodeGenerator.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_55",
+        "FILE_NAME": "FunctionRewriter.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_57",
+        "FILE_NAME": "ClosureCodingConvention.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_59",
+        "FILE_NAME": "Compiler.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_62",
+        "FILE_NAME": "LightweightMessageFormatter.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_65",
+        "FILE_NAME": "CodeGenerator.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_70",
+        "FILE_NAME": "TypedScopeCreator.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_73",
+        "FILE_NAME": "CodeGenerator.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_83",
+        "FILE_NAME": "CommandLineRunner.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_86",
+        "FILE_NAME": "NodeUtil.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_92",
+        "FILE_NAME": "ProcessClosurePrimitives.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_104",
+        "FILE_NAME": "UnionType.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_111",
+        "FILE_NAME": "ClosureReverseAbstractInterpreter.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_113",
+        "FILE_NAME": "ProcessClosurePrimitives.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_114",
+        "FILE_NAME": "NameAnalyzer.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_120",
+        "FILE_NAME": "ReferenceCollectingCallback.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_125",
+        "FILE_NAME": "TypeCheck.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_126",
+        "FILE_NAME": "MinimizeExitPoints.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_130",
+        "FILE_NAME": "CollapseProperties.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_133",
+        "FILE_NAME": "JsDocInfoParser.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_6",
+        "FILE_NAME": "CharSequenceTranslator.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_21",
+        "FILE_NAME": "DateUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_26",
+        "FILE_NAME": "FastDateFormat.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_29",
+        "FILE_NAME": "SystemUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_33",
+        "FILE_NAME": "ClassUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_43",
+        "FILE_NAME": "ExtendedMessageFormat.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_51",
+        "FILE_NAME": "BooleanUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_57",
+        "FILE_NAME": "LocaleUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_59",
+        "FILE_NAME": "StrBuilder.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_61",
+        "FILE_NAME": "StrBuilder.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_2",
+        "FILE_NAME": "HypergeometricDistribution.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_5",
+        "FILE_NAME": "Complex.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_11",
+        "FILE_NAME": "MultivariateNormalDistribution.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_27",
+        "FILE_NAME": "Fraction.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_30",
+        "FILE_NAME": "MannWhitneyUTest.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_32",
+        "FILE_NAME": "PolygonsSet.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_33",
+        "FILE_NAME": "SimplexTableau.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_34",
+        "FILE_NAME": "ListPopulation.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_41",
+        "FILE_NAME": "Variance.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_48",
+        "FILE_NAME": "BaseSecantSolver.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_50",
+        "FILE_NAME": "BaseSecantSolver.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_53",
+        "FILE_NAME": "Complex.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_56",
+        "FILE_NAME": "MultidimensionalCounter.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_57",
+        "FILE_NAME": "KMeansPlusPlusClusterer.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_58",
+        "FILE_NAME": "GaussianFitter.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_59",
+        "FILE_NAME": "FastMath.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_63",
+        "FILE_NAME": "MathUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_69",
+        "FILE_NAME": "PearsonsCorrelation.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_70",
+        "FILE_NAME": "BisectionSolver.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_75",
+        "FILE_NAME": "Frequency.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_80",
+        "FILE_NAME": "EigenDecompositionImpl.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_82",
+        "FILE_NAME": "SimplexSolver.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_85",
+        "FILE_NAME": "UnivariateRealSolverUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_94",
+        "FILE_NAME": "MathUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_96",
+        "FILE_NAME": "Complex.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_105",
+        "FILE_NAME": "SimpleRegression.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_5",
+        "FILE_NAME": "VerificationOverTimeImpl.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_7",
+        "FILE_NAME": "GenericMetadataSupport.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_8",
+        "FILE_NAME": "GenericMetadataSupport.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_22",
+        "FILE_NAME": "Equality.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_24",
+        "FILE_NAME": "ReturnsEmptyValues.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_29",
+        "FILE_NAME": "Same.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Mockito_38",
+        "FILE_NAME": "ArgumentMatchingTool.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Time_4",
+        "FILE_NAME": "Partial.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Time_15",
+        "FILE_NAME": "FieldUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Time_16",
+        "FILE_NAME": "DateTimeFormatter.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Time_19",
+        "FILE_NAME": "DateTimeZone.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Chart_4",
+        "FILE_NAME": "XYPlot.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_19",
+        "FILE_NAME": "ChainableReverseAbstractInterpreter.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_77",
+        "FILE_NAME": "CodeGenerator.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_119",
+        "FILE_NAME": "GlobalNamespace.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_1",
+        "FILE_NAME": "RemoveUnusedVars.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_5",
+        "FILE_NAME": "InlineObjectLiterals.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_15",
+        "FILE_NAME": "FlowSensitiveInlineVariables.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_33",
+        "FILE_NAME": "PrototypeObjectType.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_118",
+        "FILE_NAME": "DisambiguateProperties.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Closure_129",
+        "FILE_NAME": "PrepareAst.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Lang_45",
+        "FILE_NAME": "WordUtils.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    },
+    {
+        "BUG_ID": "Math_73",
+        "FILE_NAME": "BrentSolver.java",
+        "BUGGY_LINE": "",
+        "LINE_NUMBER": 0
+    }
+]

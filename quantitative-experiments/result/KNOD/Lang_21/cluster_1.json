@@ -1,0 +1,78 @@
+{
+    "cluster_2": [
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.AM_PM) == cal2.get(Calendar.AM_PM)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.AM_PM) == cal2.get(Calendar.HOUR)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(MODIFY_TRUNCATE) == cal2.get(Calendar.HOUR)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.ERA) == cal2.get(Calendar.HOUR)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(cal2.HOUR_OF_DAY)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.AM_PM) == cal2.get(cal2.AM_PM)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal2.get(Calendar.HOUR) == cal2.get(Calendar.AM_PM)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal2.get(Calendar.AM_PM) == cal2.get(Calendar.HOUR)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR) <= cal2.get(Calendar.AM_PM)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(0) == cal2.get(Calendar.HOUR)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal2.get(MODIFY_TRUNCATE) == cal2.get(Calendar.HOUR)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(MODIFY_TRUNCATE) == cal2.get(Calendar.HOUR)",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "cal1.get(cal2.get(Calendar.HOUR)) == cal2.get(RANGE_WEEK_SUNDAY)",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(cal2.get(Calendar.HOUR)) == cal2.get(MODIFY_ROUND)",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "cal1.get(Calendar.HOUR) == cal2.get(cal2.get(RANGE_MONTH_SUNDAY))",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "cal1.get(Calendar.HOUR) == cal2.compareTo(cal1)",
+            "test_case": "0/0"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "cluster_1": [
+        {
+            "code": "endIndex < startIndex",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (startIndex == 1 ){\nreturn null;\n}",
+            "test_case": "0/0"
+        }
+    ]
+}

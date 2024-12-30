@@ -1,0 +1,326 @@
+[
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 < charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno || charno < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && charno <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) || charno < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && charno > 0"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno <= charno && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 < charno && charno <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno <= charno && charno <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && !sourceExcerpt.equals(sourceExcerpt.length())"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 < charno && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno < b.length()"
+    },
+    {
+        "code": "excerpt != null && excerpt.equals(LINE) && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && error.lineNumber < charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && sourceExcerpt.length() > 0"
+    },
+    {
+        "code": "LINE != null && excerpt.equals(LINE) && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && charno < source.hashCode()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt != null && excerpt.equals(LINE) && charno <= charno"
+    },
+    {
+        "code": "excerpt != null && excerpt.equals(LINE) && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && charno >= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 1 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 1 <= charno && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= sourceExcerpt.length() && charno > 0"
+    },
+    {
+        "code": "excerpt != null && excerpt.equals(LINE) && 0 < charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno <= charno && charno > 1"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno < charno * sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno || charno < charno"
+    },
+    {
+        "code": "LINE != null && excerpt.equals(LINE) && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && !sourceExcerpt.equals(charno)"
+    },
+    {
+        "code": "LINE != null && excerpt.equals(LINE) && charno <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && charno > 1"
+    },
+    {
+        "code": "excerpt.equals(LINE) && (0 & charno) < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 < charno && 0 < charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno >= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && charno == charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) || charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "LINE != null && excerpt.equals(LINE) && 0 < charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && sourceExcerpt.length() <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= sourceExcerpt.length() - sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) || 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && !sourceExcerpt.isEmpty()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno == charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 1 < charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno <= charno && charno > 0"
+    },
+    {
+        "code": "LINE != null && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "charno <= charno && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && 0 < charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 * charno < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 * sourceExcerpt.length() < sourceExcerpt.length()"
+    },
+    {
+        "code": "LINE != null && charno <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 < b.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) || charno < charno"
+    },
+    {
+        "code": "0 <= charno && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) || 0 < charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno < charno + 1"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 != sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && !warning"
+    },
+    {
+        "code": "charno <= charno && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt != null && excerpt.equals(LINE) && 0 <= charno"
+    },
+    {
+        "code": "0 <= charno && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno <= b.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno < AliasKeywords.estimateMinOccurrencesRequriedToAlias()"
+    },
+    {
+        "code": "charno <= charno && 0 <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno && !termSupportsColor(sourceExcerpt)"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= 0 * sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && charno < source.hashCode()"
+    },
+    {
+        "code": "LINE.equals(LINE) && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt != null && charno <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= charno + sourceExcerpt.length()"
+    },
+    {
+        "code": "charno == charno && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt != null && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "LINE.equals(LINE) && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "0 <= charno && 0 <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt != null && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && error.lineNumber < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) || charno >= sourceExcerpt.length()"
+    },
+    {
+        "code": "charno == charno && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE)"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 * charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(excerpt) && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 != charno"
+    },
+    {
+        "code": "excerpt.equals(excerpt) && charno <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 1 <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt != null && 0 <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) || charno < b.length()"
+    },
+    {
+        "code": "LINE != null && 0 <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && error.lineNumber < sourceExcerpt.length()"
+    },
+    {
+        "code": "0 <= charno && charno <= charno"
+    },
+    {
+        "code": "LINE.equals(LINE) && 0 < charno"
+    },
+    {
+        "code": "0 != charno && 0 <= sourceExcerpt.length()"
+    },
+    {
+        "code": "LINE != null && 0 <= sourceExcerpt.length()"
+    },
+    {
+        "code": "LINE != null && 0 < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 0 <= 0 * charno"
+    },
+    {
+        "code": "0 <= charno && error.lineNumber < sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && !sourceExcerpt.equals(charno)"
+    },
+    {
+        "code": "excerpt != null && 0 <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) || 0 <= sourceExcerpt.length()"
+    },
+    {
+        "code": "excerpt.equals(LINE) && error.lineNumber < charno"
+    },
+    {
+        "code": "excerpt != null && 0 < charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) || 0 <= charno"
+    },
+    {
+        "code": "excerpt.equals(LINE) && 1 <= charno"
+    },
+    {
+        "code": "charno != 0 && 0 <= charno"
+    },
+    {
+        "code": "excerpt.equals(excerpt) && 0 < charno"
+    }
+]

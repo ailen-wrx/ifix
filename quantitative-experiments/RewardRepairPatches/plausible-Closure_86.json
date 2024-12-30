@@ -1,0 +1,158 @@
+[
+    {
+        "patch": "return isToStringMethodCall(value);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return locals.apply(value);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "n: return isToStringMethodCall(value);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "n: return locals.apply(value);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "case Token.CONST: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nativeSyntaxError: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "needsRegexp: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "necessaryParameters: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "necessaryStatement: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "AssertionError: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "case Token.NULL: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "necessarySyntax: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "necessaryFunctions: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "necessaryRegexp: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "necessaryError: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "result: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "case Token.NOT: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "necessaryDecl: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "NeighborDecl: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "n: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "illegalArgumentException: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nativeSyntaxException: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "neitherStatement: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nsSupports: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nativeReference: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "neitherWrapper: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nsStatement: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nativeScope: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "necessary: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "REGEXP: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "blend: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "ne: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Debug: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "reverse: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "nl: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "pun: return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "parent: return false;",
+        "correctness": "plausible"
+    }
+]

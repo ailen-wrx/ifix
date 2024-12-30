@@ -1,0 +1,20 @@
+[
+    {
+        "code": "Calendar c = new GregorianCalendar(mTimeZone,mLocale);"
+    },
+    {
+        "code": "GregorianCalendar c = new GregorianCalendar(mTimeZone,mLocale);"
+    },
+    {
+        "code": "Calendar c = new GregorianCalendar(mTimeZone,getLocale());"
+    },
+    {
+        "code": "GregorianCalendar c = new GregorianCalendar(mTimeZone,Locale.GERMANY);"
+    },
+    {
+        "code": "GregorianCalendar c = new GregorianCalendar(mTimeZone,Locale.FRANCE);"
+    },
+    {
+        "code": "GregorianCalendar c = new GregorianCalendar(mTimeZone,getLocale());"
+    }
+]

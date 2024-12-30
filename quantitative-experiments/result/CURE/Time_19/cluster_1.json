@@ -1,0 +1,1564 @@
+{
+    "cluster_1": [
+        {
+            "code": "} else if( offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != nextTransition( instantLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != nextTransition( instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal == offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==0|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <=0|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0&& offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal == offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal - offsetAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0|| offsetLocal <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal <1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal == -1) { return 0; } else {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >0|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <=0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal > -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else { if( offsetLocal >0) { } else { }",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= getOffset( instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > -1|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0-1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal - offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal == getOffset( instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0&& offsetLocal > -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal != offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=00) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0|| offsetLocal <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted - offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal ==0|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=0|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted - offsetAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal - offsetAdjusted !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( nextTransition( instantAdjusted ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal > offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal < instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > -1|| offsetLocal <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==0|| offsetLocal != -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( previousTransition( instantAdjusted ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal > -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal == getOffset( instantLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != nextTransition( offsetAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -0== offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal - offsetAdjusted ) <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=1|| offsetLocal <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted !=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= getOffset( instantLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==0|| offsetLocal > -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=1|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantAdjusted > offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted != nextTransition( instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=0|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != previousTransition( instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > offsetLocal ) { } else {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal - offsetLocal ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantAdjusted > offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal < nextTransition( instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= getOffset( instantLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantAdjusted != offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > -57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > -01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > -1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= getOffset( instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= -0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( nextTransition( instantLocal ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >1|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal ==0|| offsetLocal !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >=0|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal - offsetLocal ) <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted != nextTransition( instantLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != - -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal - offsetAdjusted ) < instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal < instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantLocal > offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= nextTransition( instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal - offsetAdjusted ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >=0|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >0|| offsetLocal <1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else { if( offsetLocal <0) { return offsetLocal ; }",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==0|| offsetLocal !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal &1) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >1|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( previousTransition( instantLocal ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal - offsetLocal !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >=0|| offsetLocal <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >1|| offsetLocal <1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal - offsetAdjusted ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal == offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( instantAdjusted ) < instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantAdjusted != offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( instantLocal ) < instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=1&& offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal >= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >1|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <0) { } else {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != previousTransition( instantLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( instantAdjusted ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted !=57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted !=01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted !=1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal <57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal <01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetLocal <1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > previousTransition( offsetAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal <0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal <1|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal &1) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0||1> offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal ==0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted != -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( instantLocal ) < instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >=0&& offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != nextTransition( offsetLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -0<= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==0|| instantAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=57|| offsetLocal <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=01|| offsetLocal <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=1970|| offsetLocal <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=0|| offsetLocal <1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal ==0|| offsetLocal >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=57|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=01|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=1970|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( offsetLocal ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantAdjusted !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=1|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal < nextTransition( instantLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal <=0|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal !=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted != offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -0!= instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal - offsetAdjusted > offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=0|| instantAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -0<= instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( instantAdjusted ) < instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal - offsetAdjusted >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >1|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <=0|| offsetAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= nextTransition( instantLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal != -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted - offsetLocal !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >57|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >00|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >01|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >1970|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted != instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal < previousTransition( instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <1|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0||0>= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( instantAdjusted ) <= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal >0|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0||0<= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=0-1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted - offsetAdjusted >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >=0|| offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=57|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=00|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=01|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=1970|| offsetLocal ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted < instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -0>= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantAdjusted >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantAdjusted >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal ==00|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > offsetLocal -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > Integer.MIN_VALUE ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted - offsetAdjusted !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal + offsetAdjusted >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal + offsetLocal >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal != offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted != instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted <= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0|| instantAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( instantLocal ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( !( offsetLocal <0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal >= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal - offsetAdjusted != offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != Integer.MAX_VALUE ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal > -1) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==0|| offsetLocal >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted <= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal < Integer.MAX_VALUE ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted <1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal <= offsetAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal - offsetAdjusted >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal - offsetAdjusted ) <1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted - offsetAdjusted ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==0|| instantLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -0>= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != -57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != -01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != -1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal -0>0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( instantLocal ) <= instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal > offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -0!= instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted > offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= Integer.MAX_VALUE ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal -0> offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal == offsetAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted - offsetAdjusted <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >1|| instantAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <= Long.MAX_VALUE ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetAdjusted <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( !( offsetLocal ==1) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal !=57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal !=01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal !=1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted -0<=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal != instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -0<= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -1!= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal < Long.MAX_VALUE ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal <1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( instantLocal ) <= instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted == offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getClass( ) != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal !=1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0<= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0&&0<= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0|| offsetLocal !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal >= -1) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal != instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > Long.MIN_VALUE ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==( offsetLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0|| offsetAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal - instantAdjusted ) <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted - offsetLocal != offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetAdjusted != ')') {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal + offsetAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| instantLocal !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >= -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( nextTransition( offsetAdjusted ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( nextTransition( instantAdjusted ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal +0>= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0|| offsetAdjusted >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted != offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal < instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal ==0||0<= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( getOffset( offsetLocal ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -0>=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( instantLocal != offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0||1>0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal <0|| instantAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted - offsetLocal != offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > ~1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal - offsetLocal ) ==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal +0!= instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - offsetLocal > -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >0|| offsetLocal <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0==0|| offsetLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= - offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0|| offsetAdjusted <0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0||0==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal == offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal +1>0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0-57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0-01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0-1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( nextTransition( instantLocal ) >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted != instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= -57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= -00) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= -01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= -1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if(( offsetLocal - offsetAdjusted ) <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "else { return getOffset( instantAdjusted ) ; } } else {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal >= offsetAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >0||0>=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted >= offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( nextTransition( offsetLocal ) >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >=00) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted > offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal -1!=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal == -1) { } else {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if(( offsetLocal - offsetLocal ) <=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >= Long.MIN_VALUE ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted < instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != Long.MAX_VALUE ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal <= offsetLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal != instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( instantAdjusted >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted >=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal == instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0>=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal == offsetLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted <= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted -0>0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal < instantAdjusted ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != ')') {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else { if( offsetLocal >0) { }",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( instantAdjusted != offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted < instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal !=01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( this != null ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal - instantAdjusted !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetLocal >= offsetLocal ) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0-0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted == offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0-1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >= -0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal == offsetAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal %01<=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal <= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal > -57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal > -01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal > -1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return getOffset( instantAdjusted ) ; } else {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else { assert( offsetLocal >0) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted <= instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0!= instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal >=0.0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0< instantAdjusted ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( offsetLocal >0-1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( -1<0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted >= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( instantLocal >0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted <= instantLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0<=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal != ~1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetLocal > ~0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( instantLocal >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(( offsetAdjusted >=0) ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted !=1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal >57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal >00) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal >01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantLocal >1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0<57) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0<01) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0<1970) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( true ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if(0<1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( offsetAdjusted > -1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( instantLocal !=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else { assert offsetLocal >0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if(0<= offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( instantAdjusted >0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else { assert offsetLocal >=0;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if(0>=0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else if( instantAdjusted >1) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if(0==0) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} if( instantAdjusted != offsetLocal ) {",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "} else { assert false ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

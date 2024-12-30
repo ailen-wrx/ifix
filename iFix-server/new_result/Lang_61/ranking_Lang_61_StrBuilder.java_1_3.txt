@@ -1,0 +1,4 @@
+cluster_2: int len = size ;
+cluster_3: int len = strLen + size - strLen ;
+cluster_4: int len =31- startIndex ;
+cluster_1: int len = size -( strLen - strLen ) ;

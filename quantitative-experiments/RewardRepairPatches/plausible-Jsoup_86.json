@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "if (!doc.children().isEmpty()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (doc.children().size() > 0) {",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "cluster_7": {
+        "code": "return getPct(( Comparable < ? > ) v ) ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_6": {
+        "code": "return getPct(( Comparable )(( Comparable < ? > ) v ) ) ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_2": {
+        "code": "if( v == null ) return 0; return getPct(( Comparable < ? > ) v ) ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_5": {
+        "code": "return v == null ? null : getPct(( Comparable < ? > ) v ) ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_4": {
+        "code": "synchronized( v ) { return getPct(( Comparable < ? > ) v ) ; }",
+        "test_case": "0/1/0"
+    },
+    "cluster_1": {
+        "code": "if( v != null ) return getPct(( Comparable ) v ) ; else return 0;",
+        "test_case": "0/1/0"
+    },
+    "cluster_3": {
+        "code": "return getCumPct( v ) /2.0;",
+        "test_case": "0/1/0"
+    }
+}

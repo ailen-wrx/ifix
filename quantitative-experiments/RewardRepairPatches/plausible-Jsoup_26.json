@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "System.exit(0);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Document dirtyDocument;",
+        "correctness": "plausible"
+    }
+]

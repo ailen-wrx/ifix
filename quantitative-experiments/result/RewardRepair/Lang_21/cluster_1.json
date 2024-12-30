@@ -1,0 +1,104 @@
+{
+    "cluster_1": [
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "(cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY)) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal2.get(Calendar.HOUR_OF_DAY) == cal1.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "(cal1.get(Calendar.HOUR_OF_DAY)) == (cal2.get(Calendar.HOUR_OF_DAY)) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "+ cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "(cal1.get(Calendar.HOUR_OF_DAY)) == cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal2.get(Calendar.HOUR_OF_DAY) == cal1.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "(cal1.get(Calendar.HOUR_OF_DAY)) == (cal2.get(Calendar.HOUR_OF_DAY)) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "(cal1.get(Calendar.HOUR_OF_DAY)) == cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == (cal2.get(Calendar.HOUR_OF_DAY)) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == (cal2.get(Calendar.HOUR_OF_DAY)) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "-cal1.get(Calendar.HOUR_OF_DAY) == -cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY)== cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY ) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "(cal1.get(Calendar.HOUR_OF_DAY)) ==(cal2.get(Calendar.HOUR_OF_DAY)) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get (Calendar.HOUR_OF_DAY) == cal2.get (Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY ) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get (Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY) == cal2.get(Calendar.HOUR_OF_DAY) && +",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY)== cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get(Calendar.HOUR_OF_DAY)==cal2.get(Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get( Calendar.HOUR_OF_DAY) == cal2.get( Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cal1.get( Calendar.HOUR_OF_DAY) == cal2.get( Calendar.HOUR_OF_DAY) &&",
+            "test_case": "0/0"
+        }
+    ]
+}

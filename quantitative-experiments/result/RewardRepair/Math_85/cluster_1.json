@@ -1,0 +1,704 @@
+{
+    "cluster_1": [
+        {
+            "code": "if ((fa * fb > 0.0) && (b < upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa * fb > 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (b < upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a < upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (numIterations > maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (b > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (numIterations>0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (numIterations>0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a * fb > 0.0) && (numIterations> maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a > lowerBound) && (fa * fb > 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (numIterations == maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a > lowerBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a > lowerBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (numIterations > maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (b > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a > lowerBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0)&& (numIterations > maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a > maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (b > upperBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((b * fb > 0.0) && (numIterations > maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a * fb > 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a < lowerBound) && (fa * fb >= 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb >= 0.0) && (a > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (b > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a > lowerBound) && (fa * fb > 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a > lowerBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a * fb > 1.0) && (numIterations < maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (0 < maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (b < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a > maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb >= 0.0) && (a > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a * fb > 1.0) && (numIterations > maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb >= 0.0 && (numIterations > maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a < upperBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a > lowerBound) && (fa * fb >= 0.0 )) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa * fb > 1.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (numIterations>0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (b > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (numIterations < maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (((fa * fb > 0.0) && (b < upperBound))) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (b < upperBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a > lowerBound) && (fa * fb >= 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (initial > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a > upperBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0)|| (fa * fb > 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && numIterations > maximumIterations) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a < lowerBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (a > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a > upperBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (a > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && numIterations > maximumIterations) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (numIterations>0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (0 < maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (a > upperBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (numIterations==0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (b < upperBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa * fb > 1) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb >= 0.0 && a > lowerBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa == 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa > upperBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) &&(a * fb > 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (numIterations==0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a > upperBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a * fb > 0.0) && (b < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb >= 0.0) && (a > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (b < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a > lowerBound) && (fa * fb >= 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (numIterations < maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a < upperBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (b == upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a * fb > 0.0) && (b > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a * fb > 0.0) && (fa * fb > 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa == 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (initial > maximumIterations)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (b > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a < lowerBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a == lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( (fa * fb > 0.0) && (a > lowerBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0)||(fa * fb > 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb >= 0.0 && numIterations > maximumIterations) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (a == upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && ( a > lowerBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (b > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && a > lowerBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa > 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && a > lowerBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (a > upperBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) && (b < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a > upperBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (a > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a > 0.0) && (fa * fb >= 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb >= 0.0 && a > lowerBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb >= 0.0) && (a < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa == 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 &&!(a == lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (a > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 &&!(a < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a < maximumIterations) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 &&!(a > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && numIterations > maximumIterations ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a * fb > 1.0) && (b < upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a * fb > 0.0) && (b > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((a * fb > 0.0) && (b < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (b < lowerBound) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) &&(a > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa > 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (fa > 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb >= 0.0 && (a > lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (a < lowerBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (b < 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (a > upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && 0 < maximumIterations) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && (a < upperBound)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a > maximumIterations) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb >= 0.0 && a < lowerBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) || (b < 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb >= 0.0 && a > upperBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a < maximumIterations) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a!= 0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a == 0.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a!= 0.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && b < upperBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a == 0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 || a > upperBound) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 && a == 1.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( fa * fb > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa / fb) >= 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( fa * fb > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (Math.abs(fa * fb) < 0.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 1.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0)) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa / fb) >= 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa - 1.0 * fb >= 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * (fb + 1) >= 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 1.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa / fb >= 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * maximumIterations) >= 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb) > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb) > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb) > 0.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * maximumIterations) >= 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa / fb >= 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * (fb + 1) > 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb > 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa / fb) > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa / fb) >= 0.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( (fa * fb > 0.0) ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa * fb) > 0.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa / fb) > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa / fb > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa / fb > 0.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ((fa / fb) > 0.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb >= 1.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.0 + 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (a * fb > 1.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb >= 1.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (a * fb > 1.0 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.5 ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 1.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (numIterations > maximumIterations) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (fa * fb > 0.00 ) {",
+            "test_case": "0/0"
+        }
+    ]
+}

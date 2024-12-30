@@ -1,0 +1,11 @@
+cluster_1: return anyResultsMatch( n , MAY_BE_STRING_PREDICATE ) ;
+cluster_1: return mayBeString( n , false ) ;
+cluster_1: return mayBeStringHelper( n ) ;
+cluster_1: return( mayBeStringHelper( n ) ) ;
+cluster_1: return( mayBeString( n , false ) ) ;
+cluster_1: return( mayBeStringHelper( n ) && recurse ) ;
+cluster_1: return mayBeString( n ,( boolean ) false ) ;
+cluster_1: return mayBeStringHelper(( Node ) n ) ;
+cluster_1: return recurse && mayBeStringHelper( n ) ;
+cluster_1: return mayBeStringHelper( n ) ? true : false ;
+cluster_1: return( recurse && mayBeStringHelper( n ) ) ;

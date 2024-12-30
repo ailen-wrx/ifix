@@ -1,0 +1,89 @@
+[
+    {
+        "code": "x <= 0 && prev == '-'"
+    },
+    {
+        "code": "continueProcessing() && prev == '-'"
+    },
+    {
+        "code": "!statementNeedsEnded && prev == '-'"
+    },
+    {
+        "code": "!sawFunction && prev == '-'"
+    },
+    {
+        "code": "x < 1 && prev == '-'"
+    },
+    {
+        "code": "statementStarted && prev == '-'"
+    },
+    {
+        "code": "x < '-' && prev == '-'"
+    },
+    {
+        "code": "x < 2 && prev == '-'"
+    },
+    {
+        "code": "x < 100 && prev == '-'"
+    },
+    {
+        "code": "x < 10 && prev == '-'"
+    },
+    {
+        "code": "x <= x && prev == '-'"
+    },
+    {
+        "code": "x < 3 && prev == '-'"
+    },
+    {
+        "code": "x < prev && prev == '-'"
+    },
+    {
+        "code": "x < 4 && prev == '-'"
+    },
+    {
+        "code": "x < x || prev == '-'"
+    },
+    {
+        "code": "prev == '-'"
+    },
+    {
+        "code": "!shouldPreserveExtraBlocks() && prev == '-'"
+    },
+    {
+        "code": "prev < 0 || prev == '-'"
+    },
+    {
+        "code": "x < 5 && prev == '-'"
+    },
+    {
+        "code": "x < 8 && prev == '-'"
+    },
+    {
+        "code": "statementNeedsEnded || prev == '-'"
+    },
+    {
+        "code": "x <= 1 && prev == '-'"
+    },
+    {
+        "code": "x < 6 && prev == '-'"
+    },
+    {
+        "code": "x >= x && prev == '-'"
+    },
+    {
+        "code": "prev > 0 && prev == '-'"
+    },
+    {
+        "code": "prev >= 0 && prev == '-'"
+    },
+    {
+        "code": "Math.abs(prev) == '-'"
+    },
+    {
+        "code": "(int)prev == '-'"
+    },
+    {
+        "code": "true && prev == '-'"
+    }
+]

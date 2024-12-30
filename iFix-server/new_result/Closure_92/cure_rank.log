@@ -1,0 +1,66 @@
+int indexOfDot = namespace.indexOf( '.'+ namespace.indexOf( '.') ) ;
+int indexOfDot = namespace.indexOf( '.'+ namespace.substring(0,1) ) ;
+int indexOfDot = namespace.indexOf( '.'+ '.') ;
+int indexOfDot = namespace.indexOf( namespace.indexOf( '.') ) ;
+int indexOfDot = namespace.indexOf(0) ; if( indexOfDot == -1)
+int indexOfDot = namespace.indexOf(1) ; if( indexOfDot == -1)
+int indexOfDot = namespace.lastIndexOf( '.') ;
+int indexOfDot = namespace.indexOf( Integer.toString( namespace.length( ) ) ) ;
+int indexOfDot = namespace.indexOf( '.', '.') ;
+int indexOfDot = namespace.indexOf(2) ; if( indexOfDot == -1)
+int indexOfDot = namespace.indexOf(2006) ; if( indexOfDot == -1)
+int indexOfDot = namespace.indexOf( '.'+ '.'+ '.') ;
+int indexOfDot = namespace.indexOf( '.', namespace.length( ) -1) ;
+int indexOfDot = namespace.toString( ).lastIndexOf( '.') ;
+int index = namespace.indexOf( '.') ; int indexOfDot = -1;
+int index =0; int indexOfDot = namespace.lastIndexOf( '.') ;
+int indexOfDot = -1; if( indexOfDot == -1)
+int indexOfDot = namespace.indexOf( '.'+ '.'+ '.'+ '.') ;
+final int indexOfDot = namespace.indexOf( '.'+ '.'+ '.') ;
+int indexOfDot = namespace.indexOf( Token.VAR ) ;
+int indexOfDot = namespace.indexOf( '.'-1) ;
+int indexOfDot = this.namespace.indexOf( '.', '.') ;
+int indexOfDot = namespace.indexOf(1) ;
+int indexOfDot = namespace.trim( ).lastIndexOf( '.') ;
+int indexOfDot = namespace.indexOf( '.', namespace.length( ) ) ;
+int indexOfDot = namespace.indexOf( '.'+1) ;
+int indexOfDot = namespace.indexOf( '.'+ '.'+ namespace ) ;
+int indexOfDot = namespace.indexOf( namespace , '.') ;
+int indexOfDot = namespace.indexOf( Node.IS_NAMESPACE , '.') ;
+int indexOfDot = namespace.indexOf( '.'- '.') ;
+int indexOfDot = namespace.indexOf( Node.IS_NAMESPACE ) ;
+int indexOfDot = this.namespace.indexOf( '.'+ '.') ;
+int indexOfDot = namespace.length( ) - namespace.length( ) -1;
+int indexOfDot = namespace.indexOf(2) ;
+int indexOfDot = namespace.indexOf(2006) ;
+int indexOfDot = -1;
+int indexOfDot = namespace.indexOf(0) ;
+int indexOfDot = namespace.indexOf( namespace.length( ) ) ;
+final int indexOfDot = namespace.indexOf( '.', '.') ;
+int indexOfDot = this.namespace.lastIndexOf( '.') ;
+final int indexOfDot = namespace.lastIndexOf( '.') ;
+int indexOfDot = namespace.indexOf( namespace + '.') ;
+int indexOfDot = namespace.indexOf( '.'+ -1) ;
+int indexOfDot = this.namespace.indexOf( namespace , '.') ;
+int indexOfDot = namespace.indexOf( '.'+ '.'+1) ;
+int indexOfDot = namespace.indexOf( Integer.toString( '.') ) ;
+int indexOfDot = namespace.indexOf( '.'+ '.'+0) ;
+int indexOfDot = this.namespace.indexOf( '.'+1) ;
+int indexOfDot = namespace.indexOf( '.', '.'+ '.') ;
+final int indexOfDot = namespace.indexOf( '.'+ '.') ;
+int indexOfDot = namespace.indexOf( '.'+ namespace ) ;
+int indexOfDot = namespace.indexOf( '.'+2) ;
+int indexOfDot = namespace.indexOf( Integer.MAX_VALUE ) ;
+int indexOfDot = namespace.indexOf( namespace + '.'+ '.') ;
+int indexOfDot = this.namespace.indexOf( '.'- '.') ;
+int indexOfDot = namespace.indexOf( Token.NAME ) ;
+int indexOfDot =0; indexOfDot = -1;
+int indexOfDot = namespace.lastIndexOf( '.', '.') ;
+int indexOfDot = namespace.indexOf( -1) ;
+int indexOfDot = namespace.indexOf( namespace +0) ;
+int indexOfDot = namespace.indexOf( '.'+ '.', '.') ;
+int indexOfDot = namespace.indexOf( '.'-2) ;
+int indexOfDot = namespace.lastIndexOf( '.') ; ;
+int indexOfDot = this.namespace.indexOf(1) ;
+int indexOfDot =( int ) -1;
+int index =0; int indexOfDot = -1;

@@ -1,0 +1,11 @@
+return getPct((Comparable <?>) v);
+return getPct( (Comparable <?>) v);
+return getPct((Comparable <? >) v);
+return getPct((Comparable <?>)v);
+return getCumPct((Comparable <?>) v) / 2;
+return getCumPct((Comparable <?>) v) / 2.0;
+return getPct((Comparable < Integer>) v);
+return getPct((Comparable < Object>) v);
+return getPct((Comparable <? extends Object>) v);
+return getPct(((Comparable <?>) v));
+return getPct((Comparable) v);

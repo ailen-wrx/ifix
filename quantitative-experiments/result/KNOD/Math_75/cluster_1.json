@@ -1,0 +1,52 @@
+{
+    "cluster_1": [
+        {
+            "code": "return getPct((Comparable<?>)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return this.getPct((Comparable<?>)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable<?>)v.hashCode());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable)v.hashCode());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable<MathRuntimeException>)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable<StatUtils>)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable<Iterator>)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable<Frequency>)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable<Comparator>)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable<TreeMap>)v);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getPct((Comparable<NaturalComparator>)v);",
+            "test_case": "0/0"
+        }
+    ]
+}

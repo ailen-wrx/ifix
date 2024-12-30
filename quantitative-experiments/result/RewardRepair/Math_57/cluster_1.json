@@ -1,0 +1,28 @@
+{
+    "cluster_1": [
+        {
+            "code": "int sum = -1;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "float sum = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "double sum = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "double sum = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "float sum = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int sum = -1;",
+            "test_case": "0/0"
+        }
+    ]
+}

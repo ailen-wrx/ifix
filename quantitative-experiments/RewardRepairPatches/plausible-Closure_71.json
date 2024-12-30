@@ -1,0 +1,154 @@
+[
+    {
+        "patch": "boolean isOverride = parent.getType() == Token.ASSIGN &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = t.hasScope() &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = parent.getType() == Token.ASSIGN &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop.getFirstChild()!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = objectType!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = t.hasScope() &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = t instanceof NodeTraversal &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop.getParent()!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = parent.getType() == Token.ASSIGN ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop.getType()!= Token.STRING &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop.getFirstChild()!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = t!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = (t instanceof NodeTraversal) &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop.getType()!= Token.SEMI &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop.getType() == Token.ASSIGN ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = parent.getType()!= Token.STRING &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = t.getScope()!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = parent.getType()!= Token.SEMI &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = parent.getType() == Token.ASSIGN ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop.hasChildren() &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = true &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = (t!= null) &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = parent!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop.getParent()!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = (t.hasScope()) &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = objectType!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = t instanceof NodeTraversal &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = parent.hasChildren() &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = t!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = (t instanceof NodeTraversal) &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = getprop!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = propertyName!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = (t!= null) &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = parent!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride = true &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride =",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "boolean isOverride =",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,48 @@
+{
+    "cluster_1": [
+        {
+            "code": "final BigDecimal[] out = new BigDecimal[data.length];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "final BigDecimal[] out = new BigDecimal[3];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "final BigDecimal[] out = new BigDecimal[nRows];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "final BigDecimal[] out = new BigDecimal[data.length];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "final BigDecimal[] out = new BigDecimal[getRowDimension()];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "BigDecimal[] out = new BigDecimal[data.length];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "BigDecimal[] out = new BigDecimal[3];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "final BigDecimal[] out = new BigDecimal[getData().length];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "BigDecimal[] out = new BigDecimal[nRows];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "final BigDecimal[] out = new BigDecimal[data.length];",
+            "test_case": "0/0"
+        },
+        {
+            "code": "final BigDecimal[] out = new BigDecimal[this.getRowDimension()];",
+            "test_case": "0/0"
+        }
+    ]
+}

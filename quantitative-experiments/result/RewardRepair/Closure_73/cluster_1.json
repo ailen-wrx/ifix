@@ -1,0 +1,32 @@
+{
+    "cluster_1": [
+        {
+            "code": "if (c > 0x1f && c < 0x7f) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (c > 0x1f && c < 0x7f) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (c >= 0x1f && c < 0x7f) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (c >= 0x1f && c < 0x7f) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( c > 0x1f && c < 0x7f ) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( c > 0x1f && c < 0x7f) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (c > 0x1f && c < 0x7f ) {",
+            "test_case": "0/0"
+        }
+    ]
+}

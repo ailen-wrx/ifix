@@ -1,0 +1,106 @@
+[
+    {
+        "patch": "!options.skipAllPasses ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.skipAllPasses ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "!options.skipAllPasses ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.skipAllPasses && options.closurePass ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "!options.transformAMDToCJSModules &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.skipAllPasses || options.closurePass &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "/*!options.skipAllPasses &&*/",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.skipAllPasses || options.closurePass ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "/*!options.skipAllPasses &&*/",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "!options.skipAllPasses || options.closurePass ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.transformAMDToCJSModules ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "!options.transformAMDToCJSModules ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.skipAllPasses == options.closurePass ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "staleInputs && options.skipAllPasses ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.dependencyOptions.needsManagement() &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.skipAllPasses && options.closurePass ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "!options.skipAllPasses||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.skipAllPasses == false ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "!!options.skipAllPasses ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.skipAllPasses ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "! options.skipAllPasses ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options.skipAllPasses||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "!!options.skipAllPasses ||",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "options!= null &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "null!= options &&",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "staleInputs ||",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "patch": "if (!NodeUtil.hasFinally(n)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (n.isLabel()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "while (n.isLabel()) {",
+        "correctness": "plausible"
+    }
+]

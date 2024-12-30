@@ -1,0 +1,20 @@
+{
+    "cluster_1": [
+        {
+            "code": "cfa.createEdge(fromNode,Branch.ON_EX,finallyNode);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cfa.createEdge(fromNode,Branch.UNCOND,node.getFirstChild());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "cfa.createEdge(fromNode,Branch.UNCOND,node.getLastChild());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (mayThrowException(fromNode) ){\nreturn parent;\n}",
+            "test_case": "0/0"
+        }
+    ]
+}

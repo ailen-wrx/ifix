@@ -1,0 +1,60 @@
+{
+    "cluster_3": [
+        {
+            "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( float ) a ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : new Float( a ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( a ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return a <= b ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "return( a > b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( a >= b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "return( a <= b ) ? b :( Float.isNaN( b + b ) ? b : a ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( a <= b ) ? b :( Float.isNaN( b ) ? b : a ) ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "cluster_3": {
+        "code": "double sum =0;",
+        "test_case": "0/1/0"
+    },
+    "cluster_1": {
+        "code": "int sum = -1; if( sum ==0) continue ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_2": {
+        "code": "int start =0; double sum =0;",
+        "test_case": "0/1/0"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "cluster_1": [
+        {
+            "code": "return INF;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isInfinite ? NaN : INF;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isNaN ? NaN : INF;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return Complex.INF;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (real == 0 ){\nreturn INF;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return ZERO.INF;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (imaginary == 0 ){\nreturn INF;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (Complex)INF;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (ZERO != null ){\nreturn INF;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "abs();\nreturn INF;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return isInfinite ? NaN : Complex.INF;",
+            "test_case": "0/0"
+        }
+    ]
+}

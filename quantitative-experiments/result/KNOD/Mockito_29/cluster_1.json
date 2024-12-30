@@ -1,0 +1,24 @@
+{
+    "cluster_1": [
+        {
+            "code": "description.appendText(String.valueOf(wanted));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "description.appendText(\"\" + wanted);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (wanted == null )return;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "description.appendText(wanted + \"\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "description.appendText(\"\" + wanted);",
+            "test_case": "0/0"
+        }
+    ]
+}

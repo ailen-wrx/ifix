@@ -1,0 +1,5 @@
+[
+    {
+        "code": "PathIterator iterator2 = p2.getPathIterator(null);"
+    }
+]

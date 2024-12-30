@@ -1,0 +1,11 @@
+[
+    {
+        "code": "actualTypeArgument != typeParameter"
+    },
+    {
+        "code": "typeParameter != actualTypeArgument"
+    },
+    {
+        "code": "!actualTypeArgument.equals(typeParameter)"
+    }
+]

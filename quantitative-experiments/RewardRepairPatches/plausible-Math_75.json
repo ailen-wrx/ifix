@@ -1,0 +1,46 @@
+[
+    {
+        "patch": "return getPct((Comparable <?>) v);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getCumPct((Comparable <?>) v) / 2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getPct((Comparable <? extends Object>) v);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getPct(((Comparable <?>) v));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getCumPct((Comparable <?>) v) / 2.0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getPct((Comparable < Integer>) v);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getPct( (Comparable <?>) v);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getPct((Comparable <? >) v);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getPct((Comparable < Object>) v);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getPct((Comparable <?>)v);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return getPct((Comparable) v);",
+        "correctness": "plausible"
+    }
+]

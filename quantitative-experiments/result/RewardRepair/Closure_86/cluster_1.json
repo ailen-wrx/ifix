@@ -1,0 +1,160 @@
+{
+    "cluster_1": [
+        {
+            "code": "return isToStringMethodCall(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return locals.apply(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "n: return isToStringMethodCall(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "n: return locals.apply(value);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case Token.CONST: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "nativeSyntaxError: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "needsRegexp: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "necessaryParameters: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "necessaryStatement: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "AssertionError: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case Token.NULL: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "necessarySyntax: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "necessaryFunctions: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "necessaryRegexp: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "necessaryError: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "result: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "case Token.NOT: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "necessaryDecl: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "NeighborDecl: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "n: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "illegalArgumentException: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "nativeSyntaxException: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "neitherStatement: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "nsSupports: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "nativeReference: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "neitherWrapper: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "nsStatement: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "nativeScope: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "necessary: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "REGEXP: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "blend: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "ne: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "Debug: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "reverse: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "nl: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "pun: return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "parent: return false;",
+            "test_case": "0/0"
+        }
+    ]
+}

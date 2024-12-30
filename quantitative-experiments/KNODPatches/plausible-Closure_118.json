@@ -1,0 +1,5 @@
+[
+    {
+        "code": "if (child.isQuotedString() ){\ncontinue  ;\n}"
+    }
+]

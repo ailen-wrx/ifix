@@ -1,0 +1,5 @@
+[
+    {
+        "code": "if (s.startsWith(\"0\") ){\nreturn false;\n}"
+    }
+]

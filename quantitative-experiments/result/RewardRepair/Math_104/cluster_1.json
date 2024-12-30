@@ -1,0 +1,12 @@
+{
+    "cluster_1": [
+        {
+            "code": "static final double DEFAULT_EPSILON = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "static final double DEFAULT_EPSILON = 0.0;",
+            "test_case": "0/0"
+        }
+    ]
+}

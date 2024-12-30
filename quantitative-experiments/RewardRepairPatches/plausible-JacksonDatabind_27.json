@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "if (ext.handlePropertyValue(p, ctxt, propName, null)) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (ext.handlePropertyValue(p, ctxt, propName, null)) {",
+        "correctness": "plausible"
+    }
+]

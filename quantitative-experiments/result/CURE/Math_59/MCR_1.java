@@ -1,0 +1,13 @@
+cluster_1: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;
+cluster_1: return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;
+cluster_1: return( a > b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;
+cluster_1: return( a >= b ) ? a :( Float.isNaN( a + b ) ? Float.NaN : b ) ;
+cluster_1: return(( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ) ;
+cluster_1: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( a ) ) ;
+cluster_1: return a <= b ? b :( Float.isNaN( a + b ) ? Float.NaN : a ) ;
+cluster_1: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN :( float ) a ) ;
+cluster_1: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : new Float( a ) ) ;
+cluster_1: return( a <= b ) ? b :( Float.isNaN( b + b ) ? b : a ) ;
+cluster_1: return( a <= b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;
+cluster_1: return( a <= b ) ? b :( Float.isNaN( b ) ? b : a ) ;
+cluster_1: return( a < b ) ? b :( Float.isNaN( a + b ) ? Float.NaN : Math.abs( a ) ) ;

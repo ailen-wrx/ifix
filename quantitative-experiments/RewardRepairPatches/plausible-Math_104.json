@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "static final double DEFAULT_EPSILON = 0;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "static final double DEFAULT_EPSILON = 0.0;",
+        "correctness": "plausible"
+    }
+]

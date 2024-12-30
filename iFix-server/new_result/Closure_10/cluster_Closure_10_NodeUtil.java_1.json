@@ -1,0 +1,54 @@
+{
+    "cluster_2": [
+        {
+            "code": "return mayBeStringHelper( n ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( mayBeStringHelper( n ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( mayBeStringHelper( n ) && recurse ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( recurse && mayBeStringHelper( n ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return mayBeStringHelper(( Node ) n ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return recurse && mayBeStringHelper( n ) ;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "return anyResultsMatch( n , MAY_BE_STRING_PREDICATE ) ;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "return mayBeString( n , false ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return mayBeString( n ,( boolean ) false ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( mayBeString( n , false ) ) ;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "return mayBeStringHelper( n ) ? true : false ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

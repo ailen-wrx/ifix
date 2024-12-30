@@ -1,0 +1,176 @@
+{
+    "cluster_1": [
+        {
+            "code": "int len =( startIndex <0?0: size ) ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len =( startIndex <0) ?0: size ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len =( startIndex <0?1: size ) ;",
+            "test_case": "1/2/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "int len = thisBuf != null ? size -1: -1;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "int len = thisBuf != null ? size -1: size ;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "int len = thisBuf == null ? -1: size ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = thisBuf != null ? size : thisBuf.length ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = thisBuf == null ?0: size ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = thisBuf != null ? size :0;",
+            "test_case": "1/2/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "int len = thisBuf.length - size - startIndex ;",
+            "test_case": "1/2/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "int len = size -( strLen - strLen ) ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size -( startIndex - strLen ) ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size( ) ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size -( strLen - startIndex ) ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size( ) -1;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "int len = size -( strLen -1) ;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "int len = size - strLen + strLen ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size -1;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "int len = strLen + size - strLen ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size -0;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size - startIndex + strLen ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = this.size( ) ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len =31- startIndex ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size - strLen +1;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "int len = size - startIndex +1;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = size( ) -0;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = startIndex + size ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = this.size ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "int len = length( ) ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "long len = size( ) ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "final int len = size ;",
+            "test_case": "1/2/0"
+        },
+        {
+            "code": "final int len = size -1;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "long len = size ;",
+            "test_case": "1/2/0"
+        }
+    ],
+    "cluster_8": [
+        {
+            "code": "for( int len = size -1; len >=0; len -- )",
+            "test_case": "0/2/0"
+        }
+    ],
+    "cluster_9": [
+        {
+            "code": "for( int len =0; len < size ; len ++ )",
+            "test_case": "0/2/0"
+        }
+    ],
+    "cluster_7": [
+        {
+            "code": "int len = Math.min( thisBuf.length , size ) ;",
+            "test_case": "1/2/0"
+        }
+    ],
+    "cluster_5": [
+        {
+            "code": "int len = size -1; if( thisBuf != null )",
+            "test_case": "0/2/0"
+        }
+    ],
+    "cluster_6": [
+        {
+            "code": "int len = Math.max( size , strLen ) ;",
+            "test_case": "1/2/0"
+        }
+    ]
+}

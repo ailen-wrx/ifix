@@ -1,0 +1,5 @@
+cluster_4: if( MathUtils.compareTo( entry ,0, entry ) >=0) {
+cluster_3: if( entry >=0&& MathUtils.compareTo( entry ,0, epsilon ) >=0) {
+cluster_1: if( MathUtils.compareTo(0, entry , epsilon ) <0) {
+cluster_2: if( entry >=0) {
+cluster_5: if( tableau.getEntry( i , col ) >=0) {

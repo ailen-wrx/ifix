@@ -1,0 +1,274 @@
+{
+    "cluster_2": [
+        {
+            "code": "return( double ) getSampleSize( ) *getNumberOfSuccesses( ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( double )(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )((( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( getSampleSize( ) *( double ) getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double )( getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(( double )(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )(( double ) getSampleSize( ) *( double ) getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( getSampleSize( ) *( double ) getNumberOfSuccesses( ) ) /( double )( getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *( double ) getNumberOfSuccesses( ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )(( float ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )((( float ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) / getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( getSampleSize( ) *( double )( getNumberOfSuccesses( ) ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return getSampleSize( ) *( double ) getNumberOfSuccesses( ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( getSampleSize( ) *( double ) getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /(( double ) getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(( float ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) / getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return Math.abs( getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( getSampleSize( ) *( double )( getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *getNumberOfSuccesses( ) / getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( double ) getSampleSize( ) *getNumberOfSuccesses( ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )(( long ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) Math.abs( getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( float )(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( float ) getSampleSize( ) *getNumberOfSuccesses( ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *getNumberOfSuccesses( ) /( float ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *( getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( Double )(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *( double ) getNumberOfSuccesses( ) / getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( Double )( getSampleSize( ) *( double ) getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return getSampleSize( ) *(( double ) getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *(( double ) getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *getNumberOfSuccesses( ) /( double )( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *getNumberOfSuccesses( ) /( int ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *( double )( getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( short )( getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return Math.abs(( double )( getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *getNumberOfSuccesses( ) /( Integer ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( getSampleSize( ) *( double ) getNumberOfSuccesses( ) ) / getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )(( double ) getNumberOfSuccesses( ) *getSampleSize( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( int )(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return Double.valueOf(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return getSampleSize( ) *( double )( getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( float ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return Math.abs(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( double ) getSampleSize( ) *getNumberOfSuccesses( ) / getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( int )( getSampleSize( ) *( double ) getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(( double ) getSampleSize( ) *( double ) getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )((( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) / getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( double )( getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *getNumberOfSuccesses( ) /(( double ) getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( float )( getSampleSize( ) *( double ) getNumberOfSuccesses( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( getNumberOfSuccesses( ) *( double ) getSampleSize( ) ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) this.getSampleSize( ) *getNumberOfSuccesses( ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return(( double ) getSampleSize( ) *getNumberOfSuccesses( ) ) /( Integer ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )(( float ) getSampleSize( ) *getNumberOfSuccesses( ) ) / getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *this.getNumberOfSuccesses( ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) /( double ) getPopulationSize( ) *getNumberOfSuccesses( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *getNumberOfSuccesses( ) /( double )( getPopulationSize( ) ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *getNumberOfSuccesses( ) /( long ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( long ) getSampleSize( ) *getNumberOfSuccesses( ) /( double ) getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double ) getSampleSize( ) *( getNumberOfSuccesses( ) ) / getPopulationSize( ) ;",
+            "test_case": "0/1/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "return( double )( getSampleSize( ) *2*getNumberOfSuccesses( ) ) /( double )( getPopulationSize( ) *2) ;",
+            "test_case": "0/1/0"
+        },
+        {
+            "code": "return( double )( getSampleSize( ) *2*getNumberOfSuccesses( ) ) /( getPopulationSize( ) *2) ;",
+            "test_case": "0/1/0"
+        }
+    ]
+}

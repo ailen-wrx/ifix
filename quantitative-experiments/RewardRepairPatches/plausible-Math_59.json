@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "return (a < b)? b : (Float.isNaN(a + b)? Float.NaN : a);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (a >= b)? a : (Float.isNaN(a + b)? Float.NaN : b);",
+        "correctness": "plausible"
+    }
+]

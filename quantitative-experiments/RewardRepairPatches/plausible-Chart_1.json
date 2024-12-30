@@ -1,0 +1,202 @@
+[
+    {
+        "patch": "if (dataset == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount()!= 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset == null || dataset.getRowCount() == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() < 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset instanceof LegendItemCollection) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 3) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() < 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount()==0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 2) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getClass() == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() >= 2) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() >= 3) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getColumnCount() > 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset instanceof LegendItem) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset instanceof LegendItemCollection) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 4) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() < 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 100) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 10) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getClass().isArray()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 1.0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 3) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 5) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset.getRowCount() > 2) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset == null && dataset!= null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && result == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset!= null && dataset instanceof List) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset.getRowCount() == 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset instanceof LegendItemCollection) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset==null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset instanceof LegendItem) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset instanceof LegendItemCollection) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (result == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset.getRowCount() > 1) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset.getClass() == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset==null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (result == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (dataset instanceof LegendItem) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (null == dataset) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (this.plot == null) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (null == dataset) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (index!= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (index!= 0) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if ( dataset == null) {",
+        "correctness": "plausible"
+    }
+]

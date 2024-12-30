@@ -1,0 +1,54 @@
+[
+    {
+        "patch": "tokens.copyCurrentStructure(p);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "tokens.copyCurrentStructure(p);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "tokens.copyCurrentStructure(p);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (p == null) { continue; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Thread.currentThread().interrupt();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "t = t; t = t;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "t = t; t = t;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Thread.interrupted();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "t = t;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "t = t;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Thread.currentThread();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "t = null;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "t = null;",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "patch": "return solve(f, min, max);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Double result = solve(f, min, max); return result;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "double result = solve(f, min, max); return result;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "result = solve(f, min, max); return result;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return solve(f, min, max);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "double result = solve(f, min, max); return result;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return solve(f, min,max);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "double value = solve(f, min, max); return value;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "Double value = solve(f, min, max); return value;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return solve(f,min,max);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "; return solve(f, min, max);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "solve(f, min, max); return result;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return solve(f, min,max);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return solve(f,min, max);",
+        "correctness": "plausible"
+    }
+]

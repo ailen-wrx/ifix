@@ -1,0 +1,112 @@
+[
+    {
+        "code": "if( endIndex < -( getIndex( start ) +1) ) {",
+        "score": 99.60999145507813,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex <0|| endIndex < startIndex ) {",
+        "score": 99.59724256727431,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex >= endIndex && endIndex < startIndex ) {",
+        "score": 99.5513427734375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex <=0&& endIndex < startIndex ) {",
+        "score": 99.54937065972223,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex < startIndex ) { endIndex = -1;",
+        "score": 99.5362548828125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex <= startIndex && endIndex < startIndex ) {",
+        "score": 99.53356323242187,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex < startIndex ) {",
+        "score": 99.50679524739583,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex < startIndex && endIndex >= endIndex ) {",
+        "score": 99.4894775390625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( startIndex <0|| endIndex < startIndex ) {",
+        "score": 99.48904079861111,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex < startIndex || endIndex <0) {",
+        "score": 99.48751491970486,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( startIndex >=0&& endIndex < startIndex ) {",
+        "score": 99.45658365885417,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex < startIndex ) { emptyRange = true ;",
+        "score": 99.44626193576389,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( startIndex ==( endIndex +1) ) {",
+        "score": 99.41959381103516,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( startIndex >=( endIndex +1) ) {",
+        "score": 99.34113311767578,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex <0|| startIndex ==1) {",
+        "score": 99.30779266357422,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex == startIndex -1) {",
+        "score": 99.27448381696429,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex +0< startIndex ) {",
+        "score": 99.23577008928571,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex -0< startIndex ) {",
+        "score": 99.23420933314732,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( startIndex == endIndex +1) {",
+        "score": 99.22713797433036,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex +1== startIndex ) {",
+        "score": 99.21415492466518,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( endIndex - startIndex <0) {",
+        "score": 99.18115234375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( startIndex > endIndex ) {",
+        "score": 99.15191650390625,
+        "test_case": "0/1/0"
+    }
+]

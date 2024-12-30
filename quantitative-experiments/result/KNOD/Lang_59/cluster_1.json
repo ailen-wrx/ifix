@@ -1,0 +1,16 @@
+{
+    "cluster_1": [
+        {
+            "code": "strLen = width;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "str.getChars(0,width,buffer,size);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "str.getChars(0,width,buffer,size);",
+            "test_case": "0/0"
+        }
+    ]
+}

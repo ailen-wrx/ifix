@@ -1,0 +1,44 @@
+[
+    {
+        "code": "count += 1;"
+    },
+    {
+        "code": "count = count + 1;"
+    },
+    {
+        "code": "count += idx / idx;"
+    },
+    {
+        "code": "count++;"
+    },
+    {
+        "code": "count += last - 1;"
+    },
+    {
+        "code": "++count;"
+    },
+    {
+        "code": "count += MathUtils.sign(idx);"
+    },
+    {
+        "code": "count += MathUtils.indicator(idx);"
+    },
+    {
+        "code": "count += Math.min(idx,1);"
+    },
+    {
+        "code": "count += Math.min(1,idx);"
+    },
+    {
+        "code": "count += Math.pow(1,idx);"
+    },
+    {
+        "code": "count += Math.pow(idx,0);"
+    },
+    {
+        "code": "count += Math.min(idx,1);"
+    },
+    {
+        "code": "count = ++count;"
+    }
+]

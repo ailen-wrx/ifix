@@ -1,0 +1,22 @@
+{
+    "cluster_2": {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_1": {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) { var = values [ i ] ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_3": {
+        "code": "for( int i = begin - length + length ; i < begin + length ; i ++ ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_4": {
+        "code": "for( int i = begin + length - length ; i < begin + length ; i ++ ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_5": {
+        "code": "for( int i = begin ; i < begin + length ; i ++ ) { if( isBiasCorrected )",
+        "test_case": "0/1/0"
+    }
+}

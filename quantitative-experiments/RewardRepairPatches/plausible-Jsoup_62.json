@@ -1,0 +1,22 @@
+[
+    {
+        "patch": "String name = t.asEndTag().name();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String name = t.asEndTag().name().toString();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String name = t.asEndTag().asEndTag().name();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String name = t.asEndTag().name();",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "String name = t.asEndTag().name().trim();",
+        "correctness": "plausible"
+    }
+]

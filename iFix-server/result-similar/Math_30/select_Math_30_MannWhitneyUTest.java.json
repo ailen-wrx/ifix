@@ -1,0 +1,22 @@
+{
+    "cluster_3": {
+        "code": "final double n1n2prod = n1*n2;",
+        "test_case": "0/1/0"
+    },
+    "cluster_1": {
+        "code": "final double n1n2prod = n1*( n1+2+1) /2.0;",
+        "test_case": "0/1/0"
+    },
+    "cluster_2": {
+        "code": "final double n1n2prod = n1*( n2+ n2) /2.0;",
+        "test_case": "0/1/0"
+    },
+    "cluster_5": {
+        "code": "final int n1n2prod =2*( n1+ n2+1) ;",
+        "test_case": "0/1/0"
+    },
+    "cluster_4": {
+        "code": "final double n1n2prod = n1*n2; final double n2n1= n1;",
+        "test_case": "0/1/0"
+    }
+}

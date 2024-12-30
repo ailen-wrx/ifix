@@ -1,0 +1,96 @@
+{
+    "cluster_2": [
+        {
+            "code": "return StringDescription.toString(m).equals(arg == null? false : arg.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return StringDescription.toString(m).equals(arg == null? true : arg.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return StringDescription.toString(m).equals(arg==null?true:arg.toString());",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_4": [
+        {
+            "code": "if (arg == null) { return false; } return StringDescription.toString(m).equals(arg.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (arg == null) return false; return StringDescription.toString(m).equals(arg.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (arg==null) return false; return StringDescription.toString(m).equals(arg.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if(arg == null) return false; return StringDescription.toString(m).equals(arg.toString());",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_5": [
+        {
+            "code": "if (arg!= null) return StringDescription.toString(m).equals(arg.toString()); else return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (arg!=null) return StringDescription.toString(m).equals(arg.toString()); else return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (arg!=null) return StringDescription.toString(m).equals(arg.toString()); return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if(arg!= null) return StringDescription.toString(m).equals(arg.toString()); else return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if(arg!= null) return StringDescription.toString(m).equals(arg.toString()); return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if(arg!=null) return StringDescription.toString(m).equals(arg.toString()); else return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if(arg!=null) return StringDescription.toString(m).equals(arg.toString()); return false;",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_6": [
+        {
+            "code": "return arg!= null && StringDescription.toString(m).equals(arg.toString());",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "try { return StringDescription.toString(m).equals(arg.toString()); } catch (Exception e) { return false; }",
+            "test_case": "0/0"
+        },
+        {
+            "code": "try { return StringDescription.toString(m).equals(arg.toString()); } catch (Exception t) { return false; }",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "return StringDescription.toString(m).equals(arg!= null? arg.toString() : null);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return StringDescription.toString(m).equals(arg!= null? arg.toString() : false);",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_7": [
+        {
+            "code": "return StringDescription.toString(m).equals(String.valueOf(arg));",
+            "test_case": "0/0"
+        }
+    ]
+}

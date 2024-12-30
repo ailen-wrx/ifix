@@ -1,0 +1,50 @@
+[
+    {
+        "patch": "final double n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final long n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "double n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "long n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "float n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "double n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final double n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "float n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final float n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "long n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final long n1n2prod = n1 * n2;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "final double n1n2prod = n2 * n1;",
+        "correctness": "plausible"
+    }
+]

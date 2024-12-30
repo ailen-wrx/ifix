@@ -1,0 +1,18 @@
+[
+    {
+        "patch": "if (!result.isConstructor()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!result.isConstructor()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!result.isNoType()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (!result.isNoType()) {",
+        "correctness": "plausible"
+    }
+]

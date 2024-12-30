@@ -1,0 +1,34 @@
+{
+    "cluster_2": {
+        "code": "if( options.dependencyOptions.needsManagement( ) || options.closurePass ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_3": {
+        "code": "if( options.dependencyOptions.needsManagement( ) && options.dependencyOptions.needsManagement( ) ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_7": {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { for( CompilerInput input : inputs ) { }",
+        "test_case": "0/1/0"
+    },
+    "cluster_1": {
+        "code": "boolean needsManagement = false ; if( options.dependencyOptions.needsManagement( ) ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_4": {
+        "code": "if( options.dependencyOptions.needsManagement( ) && ! options.tracer.isOn( ) ) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_8": {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { if( hasErrors( ) ) { return null ; }",
+        "test_case": "0/1/0"
+    },
+    "cluster_6": {
+        "code": "if( options.dependencyOptions.needsManagement( ) && System.currentTimeMillis( ) >0) {",
+        "test_case": "0/1/0"
+    },
+    "cluster_5": {
+        "code": "if( options.dependencyOptions.needsManagement( ) ) { if( options.dependencyOptions.needsManagement( ) )",
+        "test_case": "0/1/0"
+    }
+}

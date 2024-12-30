@@ -1,0 +1,8 @@
+[
+    {
+        "code": "int i = begin;i < begin + length;i++"
+    },
+    {
+        "code": "int i = begin;i != begin + length;i++"
+    }
+]

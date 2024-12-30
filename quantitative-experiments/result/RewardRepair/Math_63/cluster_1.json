@@ -1,0 +1,28 @@
+{
+    "cluster_1": [
+        {
+            "code": "return (Double.isNaN(x) &&!Double.isNaN(y)) || x == y;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (Double.isNaN(x) && Double.isNaN(y)) return x == y; else return x == y;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return x == y && (Double.isNaN(x) && Double.isNaN(y)) || x == y;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (Double.isNaN(x) && Double.isNaN(y)) return false; else return x == y;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (Double.isInfinite(x) && Double.isNaN(y)) || x == y;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (Double.isNaN(x) && Double.isNaN(y)) return false; return x == y;",
+            "test_case": "0/0"
+        }
+    ]
+}

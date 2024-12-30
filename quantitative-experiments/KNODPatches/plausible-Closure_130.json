@@ -1,0 +1,14 @@
+[
+    {
+        "code": "if (!name.canCollapse() ){\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (name.inExterns ){\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (namespace.hasExternsRoot() ){\ncontinue  ;\n}"
+    },
+    {
+        "code": "if (collapsePropertiesOnExternTypes ){\ncontinue  ;\n}"
+    }
+]

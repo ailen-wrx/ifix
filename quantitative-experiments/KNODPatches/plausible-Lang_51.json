@@ -1,0 +1,59 @@
+[
+    {
+        "code": "return false;"
+    },
+    {
+        "code": "if (str.charAt(0) != '.' ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(0) != '\\0' ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str != null ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str == null || ch != 1 ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(1) != '.' ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(1) != '\\0' ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(0) > '.' ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(0) > '\\0' ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(2) != '.' ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(2) != '\\0' ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(0) != 1 ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(0) >= 0 ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.charAt(1) > 0 ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str.length() > 0 ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (ch > 0 ){\nreturn false;\n}"
+    },
+    {
+        "code": "if (str instanceof String ){\nreturn false;\n}"
+    },
+    {
+        "code": "break;"
+    },
+    {
+        "code": "{\nbreak;\n}"
+    }
+]

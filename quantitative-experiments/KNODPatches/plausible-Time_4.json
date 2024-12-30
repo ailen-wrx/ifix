@@ -1,0 +1,8 @@
+[
+    {
+        "code": "Partial newPartial = new Partial(newTypes,newValues,iChronology);"
+    },
+    {
+        "code": "Partial newPartial = new Partial(newTypes,newValues,null);"
+    }
+]

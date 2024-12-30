@@ -1,0 +1,16 @@
+{
+    "cluster_1": [
+        {
+            "code": "/*&& 0 < = charno && charno < sourceExcerpt.length()*/) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": ") {",
+            "test_case": "0/0"
+        },
+        {
+            "code": ") {",
+            "test_case": "0/0"
+        }
+    ]
+}

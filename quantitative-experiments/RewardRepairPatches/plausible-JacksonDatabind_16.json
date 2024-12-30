@@ -1,0 +1,26 @@
+[
+    {
+        "patch": "return (previous == null) && (previous == null || previous.equals(ann));",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (previous!= null) return (previous!= null) &&!previous.equals(ann); return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (previous!= null) return!previous.equals(ann); return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (previous == null) || (previous == null) && previous.equals(ann);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (previous!= null) return!previous.equals(ann); else return true;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (previous == null || previous.equals(ann));",
+        "correctness": "plausible"
+    }
+]

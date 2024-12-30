@@ -1,0 +1,12 @@
+2: return solve( f , min , max ) ;
+3: return solve( f , initial , max ) ;
+3: return solve( f ,1, max ) ;
+3: return solve( f , min ,6) ;
+3: return solve( f ,2, max ) ;
+4: return this.solve( f , min , max ) ;
+4: return solve( f , min , max + max ) ;
+4: return solve( f , min , max + initial ) ;
+4: return( solve( f , min , max ) ) ;
+4: return solve( f , initial ,6) ;
+5: return solve( f ,( double ) min , max ) ;
+5: return( double ) solve( f , min , max ) ;

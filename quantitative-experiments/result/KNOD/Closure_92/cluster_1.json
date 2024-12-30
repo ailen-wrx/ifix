@@ -1,0 +1,398 @@
+{
+    "cluster_1": [
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf('.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\0');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"0\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"\\0\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"\\\\0\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"\\\\000\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\">;\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"th\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"null\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('.','.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(0);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(2);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('/');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(':');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Node.BOTH);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf('.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf('\\0');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(3);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\n');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf('/');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"/\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(namespace.length());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.NAME);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.STRING);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.BLOCK);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.FUNCTION);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.VAR);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.CALL);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.GETPROP);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.ASSIGN);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.FALSE);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Token.TRUE);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\\\');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(10);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(100);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(0,'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(0);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\r');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(4);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(5);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(':');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(\"0\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(\"\\0\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(\"\\\\0\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(\"\\\\000\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(\">;\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(\"th\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(\"null\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('-');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(6);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = (int)namespace.indexOf('\\0');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(';');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf('\\n');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(8);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('.','.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\0','.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\"');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(1);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(namespace.length());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(compiler.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\'');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(compiler.toString());",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(9);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(namespace.lastIndexOf('.'));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(\"/\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"<SPACE>\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"\\n\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"0\",'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"\\0\",'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"\\\\0\",'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"\\\\000\",'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\">;\",'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"th\",'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"null\",'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\0'),moduleGraph;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\0'),INVALID_ARGUMENT_ERROR;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\0'),BASE_CLASS_ERROR;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('\\0'),rewriteNewDateGoogNow;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(']');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf('\\\\');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(12);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(Node.BOTH,'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"true\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('0');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.lastIndexOf(Node.BOTH);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(50);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(31);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\";\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(0,0);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('>');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(1,'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(2,'.');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf('Z');",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\"false\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(\">\");",
+            "test_case": "0/0"
+        },
+        {
+            "code": "int indexOfDot = namespace.indexOf(18);",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "int indexOfDot = PhaseOptimizer.getLoopsRun().indexOf('.');",
+            "test_case": "0/0"
+        }
+    ]
+}

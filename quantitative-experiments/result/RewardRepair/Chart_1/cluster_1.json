@@ -1,0 +1,204 @@
+{
+    "cluster_1": [
+        {
+            "code": "if (dataset == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount()!= 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset == null || dataset.getRowCount() == 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() < 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset instanceof LegendItemCollection) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 3) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() < 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount()==0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 2) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getClass() == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() >= 2) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() >= 3) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getColumnCount() > 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset instanceof LegendItem) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset instanceof LegendItemCollection) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 4) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() < 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 100) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 10) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getClass().isArray()) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 1.0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 3) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 5) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset.getRowCount() > 2) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset == null && dataset!= null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && result == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset!= null && dataset instanceof List) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset.getRowCount() == 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset instanceof LegendItemCollection) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset==null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset instanceof LegendItem) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset instanceof LegendItemCollection) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (result == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset.getRowCount() > 1) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset.getClass() == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset==null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (result == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (dataset instanceof LegendItem) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (null == dataset) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (this.plot == null) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (null == dataset) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (index!= 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (index!= 0) {",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if ( dataset == null) {",
+            "test_case": "0/0"
+        }
+    ]
+}

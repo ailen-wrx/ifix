@@ -1,0 +1,26 @@
+[
+    {
+        "code": "case '\\0': sb.append(\"\\\\000\");\nbreak;"
+    },
+    {
+        "code": "case '\\0': if (s != null )sb.append(\"\\\\000\");\nbreak;"
+    },
+    {
+        "code": "case '\\0': {\nsb.append(\"\\\\000\");\nbreak;\n}"
+    },
+    {
+        "code": "case 0: sb.append(\"\\\\000\");\nbreak;"
+    },
+    {
+        "code": "case '\\0': sb.append(\"\\\\000\");\nbreak;"
+    },
+    {
+        "code": "case 0: sb.append(\"\\\\000\");\nbreak;"
+    },
+    {
+        "code": "case '\\0': {\nsb.append(\"\\\\000\");\n}\nbreak;"
+    },
+    {
+        "code": "case 0: sb.append(\"\\\\000\");\nbreak;"
+    }
+]

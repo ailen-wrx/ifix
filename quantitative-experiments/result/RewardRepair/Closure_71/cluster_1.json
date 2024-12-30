@@ -1,0 +1,156 @@
+{
+    "cluster_1": [
+        {
+            "code": "boolean isOverride = parent.getType() == Token.ASSIGN &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = t.hasScope() &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = parent.getType() == Token.ASSIGN &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop.getFirstChild()!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = objectType!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = t.hasScope() &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = t instanceof NodeTraversal &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop.getParent()!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = parent.getType() == Token.ASSIGN ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop.getType()!= Token.STRING &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop.getFirstChild()!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = t!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = (t instanceof NodeTraversal) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop.getType()!= Token.SEMI &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop.getType() == Token.ASSIGN ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = parent.getType()!= Token.STRING &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = t.getScope()!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = parent.getType()!= Token.SEMI &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = parent.getType() == Token.ASSIGN ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop.hasChildren() &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = true &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = (t!= null) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = parent!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop.getParent()!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = (t.hasScope()) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = objectType!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = t instanceof NodeTraversal &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = parent.hasChildren() &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = t!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = (t instanceof NodeTraversal) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = getprop!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = propertyName!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = (t!= null) &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = parent!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride = true &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride =",
+            "test_case": "0/0"
+        },
+        {
+            "code": "boolean isOverride =",
+            "test_case": "0/0"
+        }
+    ]
+}

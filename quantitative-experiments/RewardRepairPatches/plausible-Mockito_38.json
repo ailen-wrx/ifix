@@ -1,0 +1,82 @@
+[
+    {
+        "patch": "return StringDescription.toString(m).equals(arg == null? false : arg.toString());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (arg == null) { return false; } return StringDescription.toString(m).equals(arg.toString());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (arg!= null) return StringDescription.toString(m).equals(arg.toString()); else return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringDescription.toString(m).equals(arg == null? true : arg.toString());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringDescription.toString(m).equals(arg==null?true:arg.toString());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (arg == null) return false; return StringDescription.toString(m).equals(arg.toString());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return arg!= null && StringDescription.toString(m).equals(arg.toString());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (arg!=null) return StringDescription.toString(m).equals(arg.toString()); else return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (arg!=null) return StringDescription.toString(m).equals(arg.toString()); return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "try { return StringDescription.toString(m).equals(arg.toString()); } catch (Exception e) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(arg!= null) return StringDescription.toString(m).equals(arg.toString()); else return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "try { return StringDescription.toString(m).equals(arg.toString()); } catch (Exception t) { return false; }",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(arg!= null) return StringDescription.toString(m).equals(arg.toString()); return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (arg==null) return false; return StringDescription.toString(m).equals(arg.toString());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(arg == null) return false; return StringDescription.toString(m).equals(arg.toString());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(arg!=null) return StringDescription.toString(m).equals(arg.toString()); else return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if(arg!=null) return StringDescription.toString(m).equals(arg.toString()); return false;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringDescription.toString(m).equals(arg!= null? arg.toString() : null);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringDescription.toString(m).equals(arg!= null? arg.toString() : false);",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return StringDescription.toString(m).equals(String.valueOf(arg));",
+        "correctness": "plausible"
+    }
+]

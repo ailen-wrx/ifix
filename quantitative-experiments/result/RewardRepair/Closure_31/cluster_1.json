@@ -1,0 +1,110 @@
+{
+    "cluster_1": [
+        {
+            "code": "!options.skipAllPasses ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.skipAllPasses ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!options.skipAllPasses ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.skipAllPasses && options.closurePass ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!options.transformAMDToCJSModules &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.skipAllPasses || options.closurePass &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "/*!options.skipAllPasses &&*/",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.skipAllPasses || options.closurePass ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "/*!options.skipAllPasses &&*/",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!options.skipAllPasses || options.closurePass ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.transformAMDToCJSModules ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!options.transformAMDToCJSModules ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.skipAllPasses == options.closurePass ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "staleInputs && options.skipAllPasses ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.skipAllPasses && options.closurePass ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!options.skipAllPasses||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.skipAllPasses == false ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!!options.skipAllPasses ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.skipAllPasses ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "! options.skipAllPasses ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options.skipAllPasses||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "!!options.skipAllPasses ||",
+            "test_case": "0/0"
+        },
+        {
+            "code": "options!= null &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "null!= options &&",
+            "test_case": "0/0"
+        },
+        {
+            "code": "staleInputs ||",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "options.dependencyOptions.needsManagement() &&",
+            "test_case": "0/0"
+        }
+    ]
+}

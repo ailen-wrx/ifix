@@ -1,0 +1,70 @@
+{
+    "cluster_4": [
+        {
+            "code": "return parseTypeExpression( token ) ;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "return parseTypeExpression(( JsDocToken ) token ) ;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "return this.parseTypeExpression( token ) ;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "return( Node ) parseTypeExpression( token ) ;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "return( parseTypeExpression( token ) ) ;",
+            "test_case": "0/2/0"
+        }
+    ],
+    "cluster_1": [
+        {
+            "code": "Node parse = parseTypeExpression( token ) ; return parse ;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "Node current = parseTypeExpression( token ) ; return current ;",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "Node state = parseTypeExpression( token ) ; return state ;",
+            "test_case": "0/2/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "try { return parseTypeExpression( token ) ; } finally { ; }",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "try { return parseTypeExpression( token ) ; } finally { }",
+            "test_case": "0/2/0"
+        }
+    ],
+    "cluster_3": [
+        {
+            "code": "synchronized( this ) { return parseTypeExpression( token ) ; }",
+            "test_case": "0/2/0"
+        },
+        {
+            "code": "synchronized( token ) { return parseTypeExpression( token ) ; }",
+            "test_case": "0/2/0"
+        }
+    ],
+    "cluster_5": [
+        {
+            "code": "assert token != null ; return parseTypeExpression( token ) ;",
+            "test_case": "0/2/0"
+        }
+    ],
+    "cluster_6": [
+        {
+            "code": "return parseTypeExpression( token == null ? null : token ) ;",
+            "test_case": "0/2/0"
+        }
+    ]
+}

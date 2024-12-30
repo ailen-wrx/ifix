@@ -1,0 +1,26 @@
+[
+    {
+        "patch": "return (Double.isNaN(x) &&!Double.isNaN(y)) || x == y;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Double.isNaN(x) && Double.isNaN(y)) return x == y; else return x == y;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return x == y && (Double.isNaN(x) && Double.isNaN(y)) || x == y;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Double.isNaN(x) && Double.isNaN(y)) return false; else return x == y;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "return (Double.isInfinite(x) && Double.isNaN(y)) || x == y;",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (Double.isNaN(x) && Double.isNaN(y)) return false; return x == y;",
+        "correctness": "plausible"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "code": "endIndex < startIndex"
+    },
+    {
+        "code": "if (startIndex == 1 ){\nreturn null;\n}"
+    }
+]

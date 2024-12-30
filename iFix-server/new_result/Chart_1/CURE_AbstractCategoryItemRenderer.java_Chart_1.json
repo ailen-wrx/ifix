@@ -1,0 +1,1452 @@
+[
+    {
+        "code": "if( dataset != null && dataset.equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.82213070518092,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) ==0) {",
+        "score": 99.78138427734375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&( dataset == null ) ) {",
+        "score": 99.73257446289062,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getRowRenderingOrder( ) != SortOrder.ASCENDING ) {",
+        "score": 99.72531960227273,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset == null ) &&( dataset != null ) ) {",
+        "score": 99.69793701171875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) <0) {",
+        "score": 99.685009765625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) >1) {",
+        "score": 99.67685546875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( index == -1) ||( index == -1) ) {",
+        "score": 99.67106797960069,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) {",
+        "score": 99.66659545898438,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&( dataset.equals( SortOrder.ASCENDING ) ) ) {",
+        "score": 99.65978473165761,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) <=0) {",
+        "score": 99.6511474609375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&( index !=0) ) {",
+        "score": 99.64717102050781,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( ! dataset.equals( this.plot.getDataset( index ) ) ) {",
+        "score": 99.64438011532738,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && !( dataset != null ) ) {",
+        "score": 99.64267578125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && plot.getDataset( index ) == null ) {",
+        "score": 99.64106830797698,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&( index >0) ) {",
+        "score": 99.64030456542969,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null &&( dataset.getRowCount( ) ==0) ) {",
+        "score": 99.6366299715909,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getRowRenderingOrder( ).equals( null ) ) {",
+        "score": 99.63650948660714,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && plot.getIndexOf( this ) >0) {",
+        "score": 99.62639508928571,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&( dataset instanceof LegendItemCollection ) ) {",
+        "score": 99.617041015625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index >= dataset.getRowCount( ) ) {",
+        "score": 99.6162841796875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null &&( dataset == null ) ) {",
+        "score": 99.60793631417411,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) if( dataset.getRowCount( ) ==0) {",
+        "score": 99.60612349076705,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&( index <0) ) {",
+        "score": 99.60501861572266,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&( index == -1) ) {",
+        "score": 99.60337201286765,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && SortOrder.ASCENDING.equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.60179602581522,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.equals( this.plot ) ) {",
+        "score": 99.59306784237133,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getRowRenderingOrder( ) == null ) {",
+        "score": 99.59248860677083,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( dataset == null )",
+        "score": 99.58803013392857,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getRowRenderingOrder( ).equals( \"Null 'hotspot' argument.\") ) {",
+        "score": 99.58610026041667,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) !=1) {",
+        "score": 99.58554077148438,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) == -1) {",
+        "score": 99.58088030133929,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.58086751302083,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) <1) {",
+        "score": 99.5798828125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && result.equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.57882529810855,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && dataset.getRowCount( ) ==0) {",
+        "score": 99.57539672851563,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( plot.getRowRenderingOrder( ) != null ) ) {",
+        "score": 99.57503255208333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null &&( dataset.equals( SortOrder.ASCENDING ) ) ) {",
+        "score": 99.57481166294643,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) ==0) { ;",
+        "score": 99.57239350818452,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && dataset.getRowCount( ) >0) {",
+        "score": 99.57094116210938,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && plot.getDataset( index ) != null ) {",
+        "score": 99.56915604440789,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.equals( this ) ) {",
+        "score": 99.56893717447916,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && SortOrder.ASCENDING.equals( dataset ) ) {",
+        "score": 99.56855211759868,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && !( dataset.equals( dataset ) ) ) {",
+        "score": 99.56742350260417,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && this.plot.getDataset( index ) != null ) {",
+        "score": 99.56441824776786,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot != null && dataset.equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.56097090871711,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset == null ) &&( dataset == null ) ) {",
+        "score": 99.55717468261719,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset == null ) &&( index != -1) ) {",
+        "score": 99.5567267922794,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset instanceof LegendItemCollection ) {",
+        "score": 99.55667114257812,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) ==0) {",
+        "score": 99.55516815185547,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && plot.getIndexOf( this ) !=0) {",
+        "score": 99.55504789806548,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && plot.getRowRenderingOrder( ) == null ) {",
+        "score": 99.55100319602273,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset == null ) {",
+        "score": 99.5476582845052,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && dataset.getRowCount( ) !=0) {",
+        "score": 99.54625854492187,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getRowRenderingOrder( ).equals( this.plot ) ) {",
+        "score": 99.54332965353261,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && plot.getIndexOf( this ) >1) {",
+        "score": 99.54315476190476,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && ! dataset.equals( dataset ) ) {",
+        "score": 99.54283142089844,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null &&( dataset instanceof LegendItemCollection ) ) {",
+        "score": 99.54054090711806,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getColumnCount( ) ==0) {",
+        "score": 99.54019165039062,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getColumnCount( ) >1) {",
+        "score": 99.5372802734375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) >2) {",
+        "score": 99.5353759765625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) >4) {",
+        "score": 99.5353759765625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) >11) {",
+        "score": 99.5353759765625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) >13) {",
+        "score": 99.5353759765625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.getRowCount( ) >3) {",
+        "score": 99.5353759765625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index < getRowCount( ) ) {",
+        "score": 99.52926296657986,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&( index != index ) ) {",
+        "score": 99.5245361328125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null || dataset.equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.52109246504934,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset == null ) &&( index >=0) ) {",
+        "score": 99.51986694335938,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && plot.getDataset( ) == null ) {",
+        "score": 99.51856146918402,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.equals( SortOrder.ASCENDING ) && dataset != null ) {",
+        "score": 99.51710269325658,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( dataset != null && dataset != null ) ) {",
+        "score": 99.51604817708333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( index <0) ||( index <0) ) {",
+        "score": 99.5156478881836,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset.getRowCount( ) -1) !=0) {",
+        "score": 99.51510009765624,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getRowRenderingOrder( ).equals( this ) ) {",
+        "score": 99.51235816592262,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( dataset.getRowCount( ) >0) ) {",
+        "score": 99.51153885690789,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && dataset != null ) {",
+        "score": 99.51148478190105,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null || dataset.getRowCount( ) ==0) {",
+        "score": 99.50947875976563,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset == null ) ||( dataset == null ) ) {",
+        "score": 99.50935363769531,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset == null ) ||( index <0) ) {",
+        "score": 99.50837707519531,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this.plot.getRowRenderingOrder( ).equals( null ) ) {",
+        "score": 99.50803541100544,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getDataset( index ) == null ) {",
+        "score": 99.50652669270833,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( index != -1) &&( index !=0) ) {",
+        "score": 99.50359748391544,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.equals( result ) ) {",
+        "score": 99.49903971354166,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) return null ; if( dataset == null ) {",
+        "score": 99.49657485064338,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null &&( dataset != dataset ) ) {",
+        "score": 99.49149867466518,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getIndexOf( this ) !=0) {",
+        "score": 99.4906364889706,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null &&( index == -1) ) {",
+        "score": 99.48221842447917,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null &&( dataset == null ) ) {",
+        "score": 99.47739955357143,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this.plot.getRowRenderingOrder( ) == null ) {",
+        "score": 99.47711791992188,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getDataset( index ).equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.47705078125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&(0>0) ) {",
+        "score": 99.4769515991211,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getColumnRenderingOrder( ) != SortOrder.ASCENDING ) {",
+        "score": 99.4706698330966,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( dataset.getRowCount( ) ==0)",
+        "score": 99.465576171875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && getRowCount( ) >0) {",
+        "score": 99.46449110243056,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( dataset.equals( SortOrder.ASCENDING ) )",
+        "score": 99.46443684895833,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null || !( dataset != null ) ) {",
+        "score": 99.463720703125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getDataset( index ) instanceof LegendItemCollection ) {",
+        "score": 99.4592220908717,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getRowRenderingOrder( ).equals( dataset ) ) {",
+        "score": 99.4592052641369,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && !( dataset == dataset ) ) {",
+        "score": 99.45454915364583,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index == -1) {",
+        "score": 99.44663649338942,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getIndexOf( this ) == -1) {",
+        "score": 99.44577365451389,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ||( dataset == null ) ) {",
+        "score": 99.43832833426339,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) >1) {",
+        "score": 99.43728637695312,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null &&( index >0) ) {",
+        "score": 99.43533761160714,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getOrientation( ).equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.43526785714286,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.equals( plot ) ) {",
+        "score": 99.43422037760416,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && !( dataset == null ) ) {",
+        "score": 99.43304850260417,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( index <0)",
+        "score": 99.42218889508929,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( index == -1)",
+        "score": 99.421435546875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null &&( dataset != null ) ) {",
+        "score": 99.42129952566964,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && !( dataset != null ) ) {",
+        "score": 99.4172607421875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) if( dataset == null ) {",
+        "score": 99.40787179129464,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.equals( \"Null 'hotspot' argument.\") ) {",
+        "score": 99.406787109375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset instanceof LegendItemCollection ) { if( dataset != null )",
+        "score": 99.40675862630208,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( SortOrder.ASCENDING.equals( dataset ) ) {",
+        "score": 99.40388997395833,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset == null ) && dataset != null ) {",
+        "score": 99.40385219029018,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset.equals( null ) ) {",
+        "score": 99.3980224609375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getIndexOf( this ) >0) {",
+        "score": 99.39787741268383,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) !=1) {",
+        "score": 99.39776611328125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null &&( index <0) ) {",
+        "score": 99.39390345982143,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset instanceof LegendItemCollection ) {",
+        "score": 99.3938980102539,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index < this.rowCount ) {",
+        "score": 99.39389038085938,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null || index == -1) {",
+        "score": 99.39259690504808,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( this.plot == null )",
+        "score": 99.3843994140625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != this.plot.getDataset( index ) ) {",
+        "score": 99.37867647058823,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot != null &&( dataset == null ) ) {",
+        "score": 99.37366594587054,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( dataset instanceof LegendItemCollection )",
+        "score": 99.37212456597223,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) <0) {",
+        "score": 99.37120056152344,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index >0) {",
+        "score": 99.36841837565105,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) if( dataset != null ) {",
+        "score": 99.36638532366071,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getIndexOf( this ) != index ) {",
+        "score": 99.36604578354779,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset.equals( SortOrder.ASCENDING ) ) ) {",
+        "score": 99.36403521369485,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( null == dataset )",
+        "score": 99.36048235212054,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this.plot.getIndexOf( this ) !=0) {",
+        "score": 99.36018451891448,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( index >0)",
+        "score": 99.35844203404018,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset != dataset ) {",
+        "score": 99.35479736328125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) { if( dataset != null ) { }",
+        "score": 99.35388946533203,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( !( dataset != null ) )",
+        "score": 99.3411506204044,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getColumnCount( ) ==0) {",
+        "score": 99.33969116210938,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( ! isSeriesVisibleInLegend( index ) ) {",
+        "score": 99.33229573567708,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getIndexOf( this ) <0) {",
+        "score": 99.32787367876838,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( result.equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.32538248697917,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) &&( false ) ) {",
+        "score": 99.32364327566964,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) <=0) {",
+        "score": 99.3222885131836,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( ! ! !( dataset != null ) ) {",
+        "score": 99.32224684495192,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( ! ! dataset.equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.321533203125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if(( dataset == null ) )",
+        "score": 99.3212890625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this.plot.getDataset( index ) == null ) {",
+        "score": 99.31993192784927,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this.plot == null ) {",
+        "score": 99.31883544921875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( ! !( dataset instanceof LegendItemCollection ) ) {",
+        "score": 99.31768035888672,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) == -1) {",
+        "score": 99.31696633731617,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) && null == dataset ) {",
+        "score": 99.31476702008929,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index <0) {",
+        "score": 99.30918375651042,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( dataset != dataset )",
+        "score": 99.30758231026786,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( index !=0)",
+        "score": 99.30729457310268,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( dataset.equals( null ) )",
+        "score": 99.30294979319854,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot == null ) {",
+        "score": 99.29728698730469,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( dataset != null ) ) {",
+        "score": 99.29728560014205,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( dataset != null ) { } else",
+        "score": 99.29686063878677,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.equals( this.plot ) ) {",
+        "score": 99.28151292067308,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( index >= dataset.getRowCount( ) ) {",
+        "score": 99.27788543701172,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) ==2) {",
+        "score": 99.27734375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) ==4) {",
+        "score": 99.27734375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) ==11) {",
+        "score": 99.27734375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) ==13) {",
+        "score": 99.27734375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) ==3) {",
+        "score": 99.27734375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( SortOrder.ASCENDING != SortOrder.ASCENDING ) {",
+        "score": 99.27703857421875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) <1) {",
+        "score": 99.27620697021484,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( dataset != null ) ) { if( dataset != null )",
+        "score": 99.2736457375919,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( dataset.equals( \"Null 'hotspot' argument.\") )",
+        "score": 99.27006979549633,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset != null ) ) { if( dataset == null )",
+        "score": 99.26911926269531,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getDataset( ) == null ) {",
+        "score": 99.26858956473214,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset instanceof LegendItemCollection && dataset != null ) {",
+        "score": 99.26341247558594,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) >2) {",
+        "score": 99.26176452636719,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) >4) {",
+        "score": 99.26176452636719,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) >11) {",
+        "score": 99.26176452636719,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) >13) {",
+        "score": 99.26176452636719,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getRowCount( ) >3) {",
+        "score": 99.26176452636719,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) { result.add( null ) ;",
+        "score": 99.2607421875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && dataset == null ) {",
+        "score": 99.2604471842448,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && this.plot == null ) {",
+        "score": 99.25678362165179,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getDatasetCount( ) ==0) {",
+        "score": 99.25599670410156,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.getColumnCount( ) >1) {",
+        "score": 99.25592041015625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) { if( dataset == null ) { }",
+        "score": 99.254638671875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index !=0) {",
+        "score": 99.2502950032552,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( plot == null )",
+        "score": 99.24836077008929,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset instanceof LegendItemCollection ) ) {",
+        "score": 99.24478585379464,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) { if( dataset != null )",
+        "score": 99.24428013392857,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) { if( dataset == null )",
+        "score": 99.24326869419643,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != dataset && dataset != null ) {",
+        "score": 99.240234375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( getRowCount( ) >0) {",
+        "score": 99.23046875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.equals( SortOrder.ASCENDING ) ) {",
+        "score": 99.22955729166667,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && this.plot == null ) {",
+        "score": 99.22234235491071,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null || index <0) {",
+        "score": 99.21614583333333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null || dataset == null ) {",
+        "score": 99.21419270833333,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getDataset( index ) != dataset ) {",
+        "score": 99.21341145833334,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( index >=1)",
+        "score": 99.20854840959821,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index >=1) {",
+        "score": 99.2063496907552,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index != index ) {",
+        "score": 99.20250447591145,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset == null ) ) {",
+        "score": 99.19586791992188,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if( result == null )",
+        "score": 99.19500732421875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot.getParent( ) != null ) {",
+        "score": 99.19336809430804,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( index !=0) { if( dataset != null )",
+        "score": 99.18709019252232,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( ! isSeriesVisible( index ) ) {",
+        "score": 99.1849365234375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { while( dataset == null )",
+        "score": 99.18321010044643,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != dataset ) {",
+        "score": 99.1781234741211,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && plot == null ) {",
+        "score": 99.17608642578125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( ! dataset.equals( dataset ) ) {",
+        "score": 99.17392985026042,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && this.plot != null ) {",
+        "score": 99.17381068638393,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(0!=0) {",
+        "score": 99.1731948852539,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && dataset != dataset ) {",
+        "score": 99.17166137695312,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && null == dataset ) {",
+        "score": 99.16964721679688,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset instanceof LegendItemCollection ) { ;",
+        "score": 99.15869140625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( index >0) { if( dataset != null )",
+        "score": 99.15775844029018,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot != null && dataset == null ) {",
+        "score": 99.15626017252605,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( getRowCount( ) !=0) {",
+        "score": 99.15521240234375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.equals( \"Null 'hotspot' argument.\") ) {",
+        "score": 99.1522216796875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( \"Null 'hotspot' argument.\".isEmpty( ) ) {",
+        "score": 99.1498514811198,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && null != dataset ) {",
+        "score": 99.14896647135417,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { while( index >0)",
+        "score": 99.14830671037946,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null || dataset != dataset ) {",
+        "score": 99.14400227864583,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( \"Null 'hotspot' argument.\".equals( dataset ) ) {",
+        "score": 99.14238947088069,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(0!=0&& dataset != null ) {",
+        "score": 99.1370340983073,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this == null ) {",
+        "score": 99.13301086425781,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this == null && dataset != null ) {",
+        "score": 99.13184611002605,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( dataset instanceof CategoryDataset ) ) {",
+        "score": 99.12721604567308,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != dataset && dataset == null ) {",
+        "score": 99.12001546223958,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if(2==0)",
+        "score": 99.11336844308036,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if(4==0)",
+        "score": 99.11336844308036,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if(11==0)",
+        "score": 99.11336844308036,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if(13==0)",
+        "score": 99.11336844308036,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if(3==0)",
+        "score": 99.11336844308036,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( \"Null 'hotspot' argument.\".length( ) ==0) {",
+        "score": 99.11088053385417,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset instanceof LegendItem ) {",
+        "score": 99.10662841796875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.equals( null ) ) {",
+        "score": 99.1050692471591,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && dataset == result ) {",
+        "score": 99.10092163085938,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && dataset == dataset ) {",
+        "score": 99.09774780273438,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && index !=0) {",
+        "score": 99.09767659505208,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this != null ) { if( dataset == null )",
+        "score": 99.09178815569196,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.equals( this ) ) {",
+        "score": 99.08857865767045,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null &&0!=0) {",
+        "score": 99.07828776041667,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(0!=0) { if( dataset != null )",
+        "score": 99.07735770089286,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( this != null && dataset == null ) {",
+        "score": 99.0740458170573,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( index == -1) ) {",
+        "score": 99.07096724076705,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.equals( plot ) ) {",
+        "score": 99.07047895951705,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset.equals( result ) ) {",
+        "score": 99.06487482244319,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( index <0) {",
+        "score": 99.06388854980469,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index >=2) {",
+        "score": 99.06382242838542,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index >=4) {",
+        "score": 99.06382242838542,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index >=11) {",
+        "score": 99.06382242838542,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index >=13) {",
+        "score": 99.06382242838542,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && index >=3) {",
+        "score": 99.06382242838542,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(0!=0) { if( dataset == null )",
+        "score": 99.05990164620536,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { if(0!=0)",
+        "score": 99.05819266183036,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(0!=0&& dataset == null ) {",
+        "score": 99.05355834960938,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( null != dataset && dataset == null ) {",
+        "score": 99.05191040039062,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( ! !( dataset == null ) ) {",
+        "score": 99.04920450846355,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) { dataset = null ;",
+        "score": 99.04805501302083,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( null instanceof LegendItemCollection ) {",
+        "score": 99.04800415039062,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( false && dataset != null ) {",
+        "score": 99.04774169921875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( plot instanceof CategoryDataset ) {",
+        "score": 99.04638061523437,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && result == null ) {",
+        "score": 99.03753662109375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( dataset != null ) ) { ;",
+        "score": 99.02857462565105,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && plot != null ) {",
+        "score": 99.02672322591145,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && result != null ) {",
+        "score": 99.008056640625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) { case0:",
+        "score": 98.9967041015625,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null ) { } else {",
+        "score": 98.9886807528409,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( !( plot != null ) ) {",
+        "score": 98.98833673650569,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null && ! false ) {",
+        "score": 98.94539018110795,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( index !=0) {",
+        "score": 98.94491577148438,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( false && dataset == null ) {",
+        "score": 98.94301147460938,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( null == dataset ) {",
+        "score": 98.94096374511719,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && ! true ) {",
+        "score": 98.93821022727273,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset != null && false ) {",
+        "score": 98.93524780273438,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if((0!=0) ) {",
+        "score": 98.92427978515624,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(1==0) {",
+        "score": 98.911865234375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null ) { case1:",
+        "score": 98.8992587002841,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(2==0) {",
+        "score": 98.88825225830078,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(4==0) {",
+        "score": 98.88825225830078,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(11==0) {",
+        "score": 98.88825225830078,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(13==0) {",
+        "score": 98.88825225830078,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(3==0) {",
+        "score": 98.88825225830078,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if(( dataset ) == null ) {",
+        "score": 98.8856689453125,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( columnCount !=0) {",
+        "score": 98.8736083984375,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( false || dataset == null ) {",
+        "score": 98.8715576171875,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( false ) {",
+        "score": 98.86886596679688,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( index == -1) {",
+        "score": 98.85571967230902,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "if( dataset == null || false ) {",
+        "score": 98.84829711914062,
+        "test_case": "0/1/0"
+    },
+    {
+        "code": "while( dataset == null ) {",
+        "score": 98.80712890625,
+        "test_case": "0/1/0"
+    }
+]

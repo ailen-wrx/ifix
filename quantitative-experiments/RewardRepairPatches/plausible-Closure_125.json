@@ -1,0 +1,22 @@
+[
+    {
+        "patch": "if (fnType!= null && fnType.isConstructor()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fnType!= null && fnType.isConstructor()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fnType!= null && type.isConstructor()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fnType!= null && type.isConstructor()) {",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "if (fnType!= null &&!type.isEmptyType()) {",
+        "correctness": "plausible"
+    }
+]

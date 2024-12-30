@@ -1,0 +1,12 @@
+cluster_1: return solve( f , min , max ) ;
+cluster_1: return solve( f , initial , max ) ;
+cluster_1: return solve( f ,1, max ) ;
+cluster_1: return solve( f , min ,6) ;
+cluster_1: return solve( f ,2, max ) ;
+cluster_1: return this.solve( f , min , max ) ;
+cluster_1: return solve( f , min , max + max ) ;
+cluster_1: return solve( f , min , max + initial ) ;
+cluster_1: return( solve( f , min , max ) ) ;
+cluster_1: return solve( f , initial ,6) ;
+cluster_1: return solve( f ,( double ) min , max ) ;
+cluster_1: return( double ) solve( f , min , max ) ;

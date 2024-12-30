@@ -1,0 +1,164 @@
+[
+    {
+        "code": "return Double.isNaN(x) && !Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && y == y || x == y;"
+    },
+    {
+        "code": "return !Double.isNaN(x) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && x == y || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(SAFE_MIN) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(EPSILON) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(TWO_PI) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(ZB) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(ZS) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(NB) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(NS) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(PB) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(PS) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(SGN_MASK) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(SAFE_MIN) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(EPSILON) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(TWO_PI) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(ZB) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(ZS) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(NB) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(NS) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(PB) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(PS) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(SGN_MASK) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) == Double.isNaN(y) && x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && !Double.isNaN(x) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && y == x || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && Double.isNaN(hash(y)) || x == y;"
+    },
+    {
+        "code": "return x == y && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == x && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && y == 1 || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && y > y || x == y;"
+    },
+    {
+        "code": "return x > x && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && y == 0 || x == y;"
+    },
+    {
+        "code": "return x == 0 && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == SAFE_MIN && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == EPSILON && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == TWO_PI && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == ZB && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == ZS && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == NB && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == NS && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == PB && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == PS && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x == SGN_MASK && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && equals(y,x,x) || x == y;"
+    },
+    {
+        "code": "return !Double.isNaN(x) && x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) != Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(hash(y)) && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x < x && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && equals(y,x,y) || x == y;"
+    },
+    {
+        "code": "return Double.isNaN(x) && y > 1 || x == y;"
+    },
+    {
+        "code": "return x < y && Double.isNaN(y) || x == y;"
+    },
+    {
+        "code": "return x >= x && Double.isNaN(y) || x == y;"
+    }
+]

@@ -1,0 +1,36 @@
+{
+    "cluster_1": [
+        {
+            "code": "return (double) (getSampleSize() * getSupportUpperBound()) / (double)getPopulationSize();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return getSampleSize() * getSupportUpperBound() / (double)getPopulationSize();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (double) (getSampleSize() * getSupportUpperBound()) / getPopulationSize();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (short) (getSampleSize() * getNumberOfSuccesses()) / (double)getPopulationSize();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (double)getSampleSize() / getPopulationSize() * getSupportUpperBound();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (double)getSampleSize() * getNumberOfSuccesses() / (double)getPopulationSize();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (double)getSampleSize() / getPopulationSize() * getNumberOfSuccesses();",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return (double)getSampleSize() * getNumberOfSuccesses() / getPopulationSize();",
+            "test_case": "0/0"
+        }
+    ]
+}

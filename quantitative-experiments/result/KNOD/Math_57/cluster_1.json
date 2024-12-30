@@ -1,0 +1,20 @@
+{
+    "cluster_1": [
+        {
+            "code": "double sum = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "float sum = 0;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "double sum = 0L;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "double sum = 0.0;",
+            "test_case": "0/0"
+        }
+    ]
+}

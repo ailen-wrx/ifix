@@ -1,0 +1,10 @@
+[
+    {
+        "patch": "this.setKey(key.trim());",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "setKey(key.trim());",
+        "correctness": "plausible"
+    }
+]

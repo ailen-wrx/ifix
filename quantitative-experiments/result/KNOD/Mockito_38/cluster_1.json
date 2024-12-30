@@ -1,0 +1,24 @@
+{
+    "cluster_1": [
+        {
+            "code": "if (arg == null ){\nreturn false;\n}",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return StringDescription.toString(m).equals(String.valueOf(arg));",
+            "test_case": "0/0"
+        },
+        {
+            "code": "return StringDescription.toString(m).equals(\"\" + arg);",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (arg == null )return false;",
+            "test_case": "0/0"
+        },
+        {
+            "code": "if (null == arg ){\nreturn false;\n}",
+            "test_case": "0/0"
+        }
+    ]
+}

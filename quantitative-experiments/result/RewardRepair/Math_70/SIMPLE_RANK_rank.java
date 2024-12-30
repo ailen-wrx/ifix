@@ -1,0 +1,14 @@
+return solve(f, min, max);
+return solve(f, min, max);
+return solve(f, min,max);
+return solve(f,min,max);
+return solve(f, min,max);
+return solve(f,min, max);
+; return solve(f, min, max);
+solve(f, min, max); return result;
+result = solve(f, min, max); return result;
+Double result = solve(f, min, max); return result;
+double result = solve(f, min, max); return result;
+double result = solve(f, min, max); return result;
+double value = solve(f, min, max); return value;
+Double value = solve(f, min, max); return value;

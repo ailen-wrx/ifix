@@ -1,0 +1,11 @@
+1: return anyResultsMatch( n , MAY_BE_STRING_PREDICATE ) ;
+2: return mayBeStringHelper( n ) ;
+2: return mayBeString( n , false ) ;
+2: return( mayBeStringHelper( n ) ) ;
+2: return( mayBeStringHelper( n ) && recurse ) ;
+2: return mayBeString( n ,( boolean ) false ) ;
+2: return( mayBeString( n , false ) ) ;
+3: return mayBeStringHelper( n ) ? true : false ;
+3: return( recurse && mayBeStringHelper( n ) ) ;
+3: return mayBeStringHelper(( Node ) n ) ;
+3: return recurse && mayBeStringHelper( n ) ;

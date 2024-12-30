@@ -1,0 +1,642 @@
+[
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "25, 26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "25, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "16, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 26, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "29, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 26, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "24, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "17, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 27, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "11, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 27, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "25, 26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "23, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "25, 27, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 26, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "19, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "7, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "16, 27, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "2, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 29, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "10, 26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 26, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "18, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 23, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "17, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "1, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 26, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "17, 26, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 29, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 28, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "29, 27, 28, 29, 30, 31, 32, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 33,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 28, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 26, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "24, 26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "6, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "24, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 29, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "10, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 30, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 23, 24, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "20, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 64,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "29, 26, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "13, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 20, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "19, 26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "16, 26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "29, 26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 10, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "51, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 30, 31, 33,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 42,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 31, 32, 0,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 28, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "9, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "31, 32, -1, -1,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "30, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "17, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "25, 26, 27, 28, 29, 30, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 30, 30, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 1, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 27, 28, 29, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 21, 22, 23, 24, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 23, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 23, 28, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 28, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 0, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 30, 31, 64,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 1, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 27, 28, 29, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 20, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "25, 26, 27, 28, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 34,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "31, 27, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 23, 22, 23, 24, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 24, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 30, 31, 42,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "9, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "7, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "18, 17, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 10, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 28, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 23, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "7, 26, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 23, 23, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 25, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 28, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 31, 32, 9,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "16, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 26, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "11, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "23, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 31, 32, 28,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 1, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 27, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 2, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 30,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 36,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 22, 23, 24, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 27, 28, 29, 1, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "16, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "2, 28, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 22, 23, 24, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 26, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 30, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 22, 23, 24, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 25, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 31, 32, 8,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 21, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "29, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "24, 28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 24, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 30, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "21, 27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 22, 23, 24, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "22, 23, 24, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 31, 33,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 31, 32",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 27, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 26, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "26, 27, 28, 29, 30, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "28, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 18, 29, 30, 31, 32,",
+        "correctness": "plausible"
+    },
+    {
+        "patch": "27, 28, 29, 30, 31, 64,",
+        "correctness": "plausible"
+    }
+]

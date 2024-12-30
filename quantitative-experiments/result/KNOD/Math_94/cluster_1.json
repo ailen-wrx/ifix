@@ -1,0 +1,22 @@
+{
+    "cluster_1": [
+        {
+            "code": "(long)u * v == 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "u * (long)v == 0",
+            "test_case": "0/0"
+        }
+    ],
+    "cluster_2": [
+        {
+            "code": "(double)u * v == 0",
+            "test_case": "0/0"
+        },
+        {
+            "code": "u * MathUtils.sign(v) == 0",
+            "test_case": "0/0"
+        }
+    ]
+}
